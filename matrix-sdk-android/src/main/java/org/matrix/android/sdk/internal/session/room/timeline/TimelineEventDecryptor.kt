@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.session.room.timeline
+package com.energeek.android.sdk.internal.session.room.timeline
 
 import io.realm.Realm
 import io.realm.RealmConfiguration
-import org.matrix.android.sdk.api.session.crypto.CryptoService
-import org.matrix.android.sdk.api.session.crypto.MXCryptoError
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.internal.crypto.NewSessionListener
-import org.matrix.android.sdk.internal.crypto.model.event.EncryptedEventContent
-import org.matrix.android.sdk.internal.database.model.EventEntity
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.api.session.crypto.CryptoService
+import com.energeek.android.sdk.api.session.crypto.MXCryptoError
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.internal.crypto.NewSessionListener
+import com.energeek.android.sdk.internal.crypto.model.event.EncryptedEventContent
+import com.energeek.android.sdk.internal.database.model.EventEntity
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.SessionDatabase
 import timber.log.Timber
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors

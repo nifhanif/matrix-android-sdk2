@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.cache
+package com.energeek.android.sdk.api.session.cache
 
 /**
  * This interface defines a method to clear the cache. It's implemented at the session level.

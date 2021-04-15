@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.algorithms.olm
+package com.energeek.android.sdk.internal.crypto.algorithms.olm
 
-import org.matrix.android.sdk.api.session.crypto.MXCryptoError
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.util.JSON_DICT_PARAMETERIZED_TYPE
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.crypto.MXEventDecryptionResult
-import org.matrix.android.sdk.internal.crypto.MXOlmDevice
-import org.matrix.android.sdk.internal.crypto.algorithms.IMXDecrypting
-import org.matrix.android.sdk.internal.crypto.model.event.OlmEventContent
-import org.matrix.android.sdk.internal.crypto.model.event.OlmPayloadContent
-import org.matrix.android.sdk.internal.di.MoshiProvider
-import org.matrix.android.sdk.internal.util.convertFromUTF8
+import com.energeek.android.sdk.api.session.crypto.MXCryptoError
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.util.JSON_DICT_PARAMETERIZED_TYPE
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.crypto.MXEventDecryptionResult
+import com.energeek.android.sdk.internal.crypto.MXOlmDevice
+import com.energeek.android.sdk.internal.crypto.algorithms.IMXDecrypting
+import com.energeek.android.sdk.internal.crypto.model.event.OlmEventContent
+import com.energeek.android.sdk.internal.crypto.model.event.OlmPayloadContent
+import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.energeek.android.sdk.internal.util.convertFromUTF8
 import timber.log.Timber
 
 internal class MXOlmDecryption(

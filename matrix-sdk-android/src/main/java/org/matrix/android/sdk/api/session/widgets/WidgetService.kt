@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.widgets
+package com.energeek.android.sdk.api.session.widgets
 
 import androidx.lifecycle.LiveData
-import org.matrix.android.sdk.api.query.QueryStringValue
-import org.matrix.android.sdk.api.session.events.model.Content
-import org.matrix.android.sdk.api.session.widgets.model.Widget
+import com.energeek.android.sdk.api.query.QueryStringValue
+import com.energeek.android.sdk.api.session.events.model.Content
+import com.energeek.android.sdk.api.session.widgets.model.Widget
 
 /**
  * This is the entry point to manage widgets. You can grab an instance of this service through an active session.

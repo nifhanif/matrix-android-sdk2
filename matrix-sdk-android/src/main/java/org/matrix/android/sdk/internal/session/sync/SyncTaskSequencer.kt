@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync
+package com.energeek.android.sdk.internal.session.sync
 
-import org.matrix.android.sdk.internal.session.SessionScope
-import org.matrix.android.sdk.internal.task.SemaphoreCoroutineSequencer
+import com.energeek.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.task.SemaphoreCoroutineSequencer
 import javax.inject.Inject
 
 @SessionScope

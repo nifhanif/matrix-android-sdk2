@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.auth
+package com.energeek.android.sdk.internal.auth
 
 import android.content.Context
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import io.realm.RealmConfiguration
-import org.matrix.android.sdk.api.auth.AuthenticationService
-import org.matrix.android.sdk.api.auth.HomeServerHistoryService
-import org.matrix.android.sdk.api.legacy.LegacySessionImporter
-import org.matrix.android.sdk.internal.auth.db.AuthRealmMigration
-import org.matrix.android.sdk.internal.auth.db.AuthRealmModule
-import org.matrix.android.sdk.internal.auth.db.RealmPendingSessionStore
-import org.matrix.android.sdk.internal.auth.db.RealmSessionParamsStore
-import org.matrix.android.sdk.internal.auth.login.DefaultDirectLoginTask
-import org.matrix.android.sdk.internal.auth.login.DirectLoginTask
-import org.matrix.android.sdk.internal.database.RealmKeysUtils
-import org.matrix.android.sdk.internal.di.AuthDatabase
-import org.matrix.android.sdk.internal.legacy.DefaultLegacySessionImporter
-import org.matrix.android.sdk.internal.wellknown.WellknownModule
+import com.energeek.android.sdk.api.auth.AuthenticationService
+import com.energeek.android.sdk.api.auth.HomeServerHistoryService
+import com.energeek.android.sdk.api.legacy.LegacySessionImporter
+import com.energeek.android.sdk.internal.auth.db.AuthRealmMigration
+import com.energeek.android.sdk.internal.auth.db.AuthRealmModule
+import com.energeek.android.sdk.internal.auth.db.RealmPendingSessionStore
+import com.energeek.android.sdk.internal.auth.db.RealmSessionParamsStore
+import com.energeek.android.sdk.internal.auth.login.DefaultDirectLoginTask
+import com.energeek.android.sdk.internal.auth.login.DirectLoginTask
+import com.energeek.android.sdk.internal.database.RealmKeysUtils
+import com.energeek.android.sdk.internal.di.AuthDatabase
+import com.energeek.android.sdk.internal.legacy.DefaultLegacySessionImporter
+import com.energeek.android.sdk.internal.wellknown.WellknownModule
 import java.io.File
 
 @Module(includes = [WellknownModule::class])

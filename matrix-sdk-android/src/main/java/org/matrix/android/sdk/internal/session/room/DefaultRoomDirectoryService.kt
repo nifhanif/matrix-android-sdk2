@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room
+package com.energeek.android.sdk.internal.session.room
 
-import org.matrix.android.sdk.api.session.room.RoomDirectoryService
-import org.matrix.android.sdk.api.session.room.model.RoomDirectoryVisibility
-import org.matrix.android.sdk.api.session.room.model.roomdirectory.PublicRoomsParams
-import org.matrix.android.sdk.api.session.room.model.roomdirectory.PublicRoomsResponse
-import org.matrix.android.sdk.internal.session.room.directory.GetPublicRoomTask
-import org.matrix.android.sdk.internal.session.room.directory.GetRoomDirectoryVisibilityTask
-import org.matrix.android.sdk.internal.session.room.directory.SetRoomDirectoryVisibilityTask
+import com.energeek.android.sdk.api.session.room.RoomDirectoryService
+import com.energeek.android.sdk.api.session.room.model.RoomDirectoryVisibility
+import com.energeek.android.sdk.api.session.room.model.roomdirectory.PublicRoomsParams
+import com.energeek.android.sdk.api.session.room.model.roomdirectory.PublicRoomsResponse
+import com.energeek.android.sdk.internal.session.room.directory.GetPublicRoomTask
+import com.energeek.android.sdk.internal.session.room.directory.GetRoomDirectoryVisibilityTask
+import com.energeek.android.sdk.internal.session.room.directory.SetRoomDirectoryVisibilityTask
 import javax.inject.Inject
 
 internal class DefaultRoomDirectoryService @Inject constructor(

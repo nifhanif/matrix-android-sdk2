@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.auth
+package com.energeek.android.sdk.internal.auth
 
-import org.matrix.android.sdk.api.auth.data.Credentials
-import org.matrix.android.sdk.api.auth.data.SessionParams
+import com.energeek.android.sdk.api.auth.data.Credentials
+import com.energeek.android.sdk.api.auth.data.SessionParams
 
 internal interface SessionParamsStore {
 

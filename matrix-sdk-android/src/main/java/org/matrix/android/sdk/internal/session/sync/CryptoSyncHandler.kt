@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync
+package com.energeek.android.sdk.internal.session.sync
 
-import org.matrix.android.sdk.api.session.crypto.MXCryptoError
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.model.message.MessageContent
-import org.matrix.android.sdk.internal.crypto.DefaultCryptoService
-import org.matrix.android.sdk.internal.crypto.MXEventDecryptionResult
-import org.matrix.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
-import org.matrix.android.sdk.internal.crypto.model.event.OlmEventContent
-import org.matrix.android.sdk.internal.crypto.verification.DefaultVerificationService
-import org.matrix.android.sdk.internal.session.initsync.ProgressReporter
-import org.matrix.android.sdk.internal.session.sync.model.SyncResponse
-import org.matrix.android.sdk.internal.session.sync.model.ToDeviceSyncResponse
+import com.energeek.android.sdk.api.session.crypto.MXCryptoError
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.model.message.MessageContent
+import com.energeek.android.sdk.internal.crypto.DefaultCryptoService
+import com.energeek.android.sdk.internal.crypto.MXEventDecryptionResult
+import com.energeek.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
+import com.energeek.android.sdk.internal.crypto.model.event.OlmEventContent
+import com.energeek.android.sdk.internal.crypto.verification.DefaultVerificationService
+import com.energeek.android.sdk.internal.session.initsync.ProgressReporter
+import com.energeek.android.sdk.internal.session.sync.model.SyncResponse
+import com.energeek.android.sdk.internal.session.sync.model.ToDeviceSyncResponse
 import timber.log.Timber
 import javax.inject.Inject
 

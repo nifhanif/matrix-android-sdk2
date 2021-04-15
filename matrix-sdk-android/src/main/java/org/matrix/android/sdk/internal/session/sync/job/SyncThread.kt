@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync.job
+package com.energeek.android.sdk.internal.session.sync.job
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import com.squareup.moshi.JsonEncodingException
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.failure.isTokenError
-import org.matrix.android.sdk.api.session.sync.SyncState
-import org.matrix.android.sdk.internal.network.NetworkConnectivityChecker
-import org.matrix.android.sdk.internal.session.sync.SyncTask
-import org.matrix.android.sdk.internal.util.BackgroundDetectionObserver
-import org.matrix.android.sdk.internal.util.Debouncer
-import org.matrix.android.sdk.internal.util.createUIHandler
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.failure.isTokenError
+import com.energeek.android.sdk.api.session.sync.SyncState
+import com.energeek.android.sdk.internal.network.NetworkConnectivityChecker
+import com.energeek.android.sdk.internal.session.sync.SyncTask
+import com.energeek.android.sdk.internal.util.BackgroundDetectionObserver
+import com.energeek.android.sdk.internal.util.Debouncer
+import com.energeek.android.sdk.internal.util.createUIHandler
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -35,9 +35,9 @@ import kotlinx.coroutines.cancelChildren
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
-import org.matrix.android.sdk.api.session.call.MxCall
-import org.matrix.android.sdk.internal.session.call.ActiveCallHandler
-import org.matrix.android.sdk.internal.session.sync.SyncPresence
+import com.energeek.android.sdk.api.session.call.MxCall
+import com.energeek.android.sdk.internal.session.call.ActiveCallHandler
+import com.energeek.android.sdk.internal.session.sync.SyncPresence
 import timber.log.Timber
 import java.net.SocketTimeoutException
 import java.util.Timer

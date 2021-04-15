@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.store.db
+package com.energeek.android.sdk.internal.crypto.store.db
 
 import android.util.Base64
 import io.realm.Realm

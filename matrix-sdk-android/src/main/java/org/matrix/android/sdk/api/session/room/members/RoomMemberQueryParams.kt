@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.members
+package com.energeek.android.sdk.api.session.room.members
 
-import org.matrix.android.sdk.api.query.QueryStringValue
-import org.matrix.android.sdk.api.session.room.model.Membership
+import com.energeek.android.sdk.api.query.QueryStringValue
+import com.energeek.android.sdk.api.session.room.model.Membership
 
 fun roomMemberQueryParams(init: (RoomMemberQueryParams.Builder.() -> Unit) = {}): RoomMemberQueryParams {
     return RoomMemberQueryParams.Builder().apply(init).build()

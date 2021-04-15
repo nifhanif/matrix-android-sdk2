@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.federation
+package com.energeek.android.sdk.api.federation
 
 interface FederationService {
     /**

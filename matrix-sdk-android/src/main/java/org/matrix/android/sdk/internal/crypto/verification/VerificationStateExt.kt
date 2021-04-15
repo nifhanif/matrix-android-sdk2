@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.verification
+package com.energeek.android.sdk.internal.crypto.verification
 
-import org.matrix.android.sdk.api.crypto.VerificationState
-import org.matrix.android.sdk.api.crypto.isCanceled
+import com.energeek.android.sdk.api.crypto.VerificationState
+import com.energeek.android.sdk.api.crypto.isCanceled
 
 // State transition with control
 internal fun VerificationState?.toState(newState: VerificationState): VerificationState {

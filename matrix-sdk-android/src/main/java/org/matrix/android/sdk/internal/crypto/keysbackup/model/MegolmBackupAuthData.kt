@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.keysbackup.model
+package com.energeek.android.sdk.internal.crypto.keysbackup.model
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.di.MoshiProvider
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.di.MoshiProvider
 
 /**
  * Data model for [org.matrix.androidsdk.rest.model.keys.KeysAlgorithmAndData.authData] in case

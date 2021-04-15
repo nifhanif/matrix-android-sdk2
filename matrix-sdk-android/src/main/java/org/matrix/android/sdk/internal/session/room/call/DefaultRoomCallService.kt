@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.call
+package com.energeek.android.sdk.internal.session.room.call
 
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import org.matrix.android.sdk.api.extensions.orFalse
-import org.matrix.android.sdk.api.session.room.call.RoomCallService
-import org.matrix.android.sdk.internal.session.room.RoomGetter
+import com.energeek.android.sdk.api.extensions.orFalse
+import com.energeek.android.sdk.api.session.room.call.RoomCallService
+import com.energeek.android.sdk.internal.session.room.RoomGetter
 
 internal class DefaultRoomCallService @AssistedInject constructor(
         @Assisted private val roomId: String,

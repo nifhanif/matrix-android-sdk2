@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.thirdparty
+package com.energeek.android.sdk.api.session.thirdparty
 
-import org.matrix.android.sdk.api.session.room.model.thirdparty.ThirdPartyProtocol
-import org.matrix.android.sdk.api.session.thirdparty.model.ThirdPartyUser
+import com.energeek.android.sdk.api.session.room.model.thirdparty.ThirdPartyProtocol
+import com.energeek.android.sdk.api.session.thirdparty.model.ThirdPartyUser
 
 /**
  * See https://matrix.org/docs/spec/client_server/r0.4.0.html#get-matrix-client-r0-thirdparty-protocols

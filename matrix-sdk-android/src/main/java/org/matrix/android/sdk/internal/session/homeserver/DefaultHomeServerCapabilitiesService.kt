@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.homeserver
+package com.energeek.android.sdk.internal.session.homeserver
 
 import com.zhuinden.monarchy.Monarchy
 import io.realm.Realm
-import org.matrix.android.sdk.api.session.homeserver.HomeServerCapabilities
-import org.matrix.android.sdk.api.session.homeserver.HomeServerCapabilitiesService
-import org.matrix.android.sdk.internal.database.mapper.HomeServerCapabilitiesMapper
-import org.matrix.android.sdk.internal.database.model.HomeServerCapabilitiesEntity
-import org.matrix.android.sdk.internal.database.query.get
-import org.matrix.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.api.session.homeserver.HomeServerCapabilities
+import com.energeek.android.sdk.api.session.homeserver.HomeServerCapabilitiesService
+import com.energeek.android.sdk.internal.database.mapper.HomeServerCapabilitiesMapper
+import com.energeek.android.sdk.internal.database.model.HomeServerCapabilitiesEntity
+import com.energeek.android.sdk.internal.database.query.get
+import com.energeek.android.sdk.internal.di.SessionDatabase
 import javax.inject.Inject
 
 internal class DefaultHomeServerCapabilitiesService @Inject constructor(

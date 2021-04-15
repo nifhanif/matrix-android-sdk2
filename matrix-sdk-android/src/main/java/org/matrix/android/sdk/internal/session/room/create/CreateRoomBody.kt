@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.create
+package com.energeek.android.sdk.internal.session.room.create
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.room.model.PowerLevelsContent
-import org.matrix.android.sdk.api.session.room.model.RoomDirectoryVisibility
-import org.matrix.android.sdk.api.session.room.model.create.CreateRoomPreset
-import org.matrix.android.sdk.internal.session.room.membership.threepid.ThreePidInviteBody
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.room.model.PowerLevelsContent
+import com.energeek.android.sdk.api.session.room.model.RoomDirectoryVisibility
+import com.energeek.android.sdk.api.session.room.model.create.CreateRoomPreset
+import com.energeek.android.sdk.internal.session.room.membership.threepid.ThreePidInviteBody
 
 /**
  * Parameter to create a room

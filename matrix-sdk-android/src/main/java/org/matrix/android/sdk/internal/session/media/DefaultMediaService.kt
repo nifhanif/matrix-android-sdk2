@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.media
+package com.energeek.android.sdk.internal.session.media
 
 import androidx.collection.LruCache
-import org.matrix.android.sdk.api.cache.CacheStrategy
-import org.matrix.android.sdk.api.session.media.MediaService
-import org.matrix.android.sdk.api.session.media.PreviewUrlData
-import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
-import org.matrix.android.sdk.api.session.room.timeline.getLatestEventId
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.util.getOrPut
+import com.energeek.android.sdk.api.cache.CacheStrategy
+import com.energeek.android.sdk.api.session.media.MediaService
+import com.energeek.android.sdk.api.session.media.PreviewUrlData
+import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
+import com.energeek.android.sdk.api.session.room.timeline.getLatestEventId
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.util.getOrPut
 import javax.inject.Inject
 
 internal class DefaultMediaService @Inject constructor(

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.network.ssl
+package com.energeek.android.sdk.internal.network.ssl
 
-import org.matrix.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
 import okhttp3.ConnectionSpec
 import okhttp3.internal.tls.OkHostnameVerifier
 import timber.log.Timber

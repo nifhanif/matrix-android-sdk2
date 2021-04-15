@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.content
+package com.energeek.android.sdk.api.session.content
 
 /**
  * This interface defines methods for accessing content from the current session.

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.verification
+package com.energeek.android.sdk.internal.crypto.verification
 
 internal interface VerificationInfoMac : VerificationInfo<ValidVerificationInfoMac> {
     /**

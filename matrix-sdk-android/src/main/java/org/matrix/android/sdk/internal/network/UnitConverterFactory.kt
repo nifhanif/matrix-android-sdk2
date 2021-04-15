@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.network
+package com.energeek.android.sdk.internal.network
 
 import okhttp3.ResponseBody
 import retrofit2.Converter

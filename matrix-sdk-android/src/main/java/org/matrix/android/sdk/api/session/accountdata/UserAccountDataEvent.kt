@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.accountdata
+package com.energeek.android.sdk.api.session.accountdata
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.session.events.model.Content
+import com.energeek.android.sdk.api.session.events.model.Content
 
 /**
  * This is a simplified Event with just a type and a content.

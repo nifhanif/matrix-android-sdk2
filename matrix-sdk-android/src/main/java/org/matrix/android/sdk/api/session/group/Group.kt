@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.group
+package com.energeek.android.sdk.api.session.group
 
 /**
  * This interface defines methods to interact within a group.

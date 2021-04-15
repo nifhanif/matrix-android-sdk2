@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.read
+package com.energeek.android.sdk.internal.session.room.read
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
@@ -22,19 +22,19 @@ import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.api.session.room.model.ReadReceipt
-import org.matrix.android.sdk.api.session.room.read.ReadService
-import org.matrix.android.sdk.api.util.Optional
-import org.matrix.android.sdk.api.util.toOptional
-import org.matrix.android.sdk.internal.database.mapper.ReadReceiptsSummaryMapper
-import org.matrix.android.sdk.internal.database.model.ReadMarkerEntity
-import org.matrix.android.sdk.internal.database.model.ReadReceiptEntity
-import org.matrix.android.sdk.internal.database.model.ReadReceiptsSummaryEntity
-import org.matrix.android.sdk.internal.database.query.isEventRead
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.api.session.room.model.ReadReceipt
+import com.energeek.android.sdk.api.session.room.read.ReadService
+import com.energeek.android.sdk.api.util.Optional
+import com.energeek.android.sdk.api.util.toOptional
+import com.energeek.android.sdk.internal.database.mapper.ReadReceiptsSummaryMapper
+import com.energeek.android.sdk.internal.database.model.ReadMarkerEntity
+import com.energeek.android.sdk.internal.database.model.ReadReceiptEntity
+import com.energeek.android.sdk.internal.database.model.ReadReceiptsSummaryEntity
+import com.energeek.android.sdk.internal.database.query.isEventRead
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.task.TaskExecutor
 
 internal class DefaultReadService @AssistedInject constructor(
         @Assisted private val roomId: String,

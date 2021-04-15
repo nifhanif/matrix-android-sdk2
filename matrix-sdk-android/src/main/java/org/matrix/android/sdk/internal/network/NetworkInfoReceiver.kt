@@ -17,7 +17,7 @@
 // This BroadcastReceiver is used only if the build code is below 24.
 @file:Suppress("DEPRECATION")
 
-package org.matrix.android.sdk.internal.network
+package com.energeek.android.sdk.internal.network
 
 import android.content.BroadcastReceiver
 import android.content.Context

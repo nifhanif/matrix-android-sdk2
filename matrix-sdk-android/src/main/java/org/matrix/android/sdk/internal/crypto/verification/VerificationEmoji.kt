@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.verification
+package com.energeek.android.sdk.internal.crypto.verification
 
-import org.matrix.android.sdk.R
-import org.matrix.android.sdk.api.session.crypto.verification.EmojiRepresentation
+import com.energeek.android.sdk.R
+import com.energeek.android.sdk.api.session.crypto.verification.EmojiRepresentation
 
 internal fun getEmojiForCode(code: Int): EmojiRepresentation {
     return when (code % 64) {

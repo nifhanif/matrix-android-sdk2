@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.auth.data
+package com.energeek.android.sdk.api.auth.data
 
 object LoginFlowTypes {
     const val PASSWORD = "m.login.password"

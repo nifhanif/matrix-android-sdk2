@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.send.queue
+package com.energeek.android.sdk.internal.session.room.send.queue
 
-import org.matrix.android.sdk.api.auth.data.SessionParams
+import com.energeek.android.sdk.api.auth.data.SessionParams
 import timber.log.Timber
 import java.io.IOException
 import java.net.InetAddress

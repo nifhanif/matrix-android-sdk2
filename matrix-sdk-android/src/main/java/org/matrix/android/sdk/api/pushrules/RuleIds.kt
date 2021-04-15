@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.pushrules
+package com.energeek.android.sdk.api.pushrules
 
 /**
  * Known rule ids

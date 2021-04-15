@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.call
+package com.energeek.android.sdk.internal.session.call
 
-import org.matrix.android.sdk.api.session.call.CallListener
-import org.matrix.android.sdk.api.session.call.CallState
-import org.matrix.android.sdk.api.session.call.MxCall
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.model.call.CallAnswerContent
-import org.matrix.android.sdk.api.session.room.model.call.CallCandidatesContent
-import org.matrix.android.sdk.api.session.room.model.call.CallCapabilities
-import org.matrix.android.sdk.api.session.room.model.call.CallHangupContent
-import org.matrix.android.sdk.api.session.room.model.call.CallInviteContent
-import org.matrix.android.sdk.api.session.room.model.call.CallNegotiateContent
-import org.matrix.android.sdk.api.session.room.model.call.CallRejectContent
-import org.matrix.android.sdk.api.session.room.model.call.CallSelectAnswerContent
-import org.matrix.android.sdk.api.session.room.model.call.CallSignallingContent
-import org.matrix.android.sdk.api.util.Optional
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.api.session.call.CallListener
+import com.energeek.android.sdk.api.session.call.CallState
+import com.energeek.android.sdk.api.session.call.MxCall
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.model.call.CallAnswerContent
+import com.energeek.android.sdk.api.session.room.model.call.CallCandidatesContent
+import com.energeek.android.sdk.api.session.room.model.call.CallCapabilities
+import com.energeek.android.sdk.api.session.room.model.call.CallHangupContent
+import com.energeek.android.sdk.api.session.room.model.call.CallInviteContent
+import com.energeek.android.sdk.api.session.room.model.call.CallNegotiateContent
+import com.energeek.android.sdk.api.session.room.model.call.CallRejectContent
+import com.energeek.android.sdk.api.session.room.model.call.CallSelectAnswerContent
+import com.energeek.android.sdk.api.session.room.model.call.CallSignallingContent
+import com.energeek.android.sdk.api.util.Optional
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.session.SessionScope
 import timber.log.Timber
 import java.math.BigDecimal
 import javax.inject.Inject

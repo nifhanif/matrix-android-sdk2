@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.model.event
+package com.energeek.android.sdk.internal.crypto.model.event
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.internal.di.MoshiProvider
+import com.energeek.android.sdk.internal.di.MoshiProvider
 
 /**
  * Class representing the OLM payload content

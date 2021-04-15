@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync
+package com.energeek.android.sdk.internal.session.sync
 
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.internal.database.model.SyncEntity
-import org.matrix.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.database.model.SyncEntity
+import com.energeek.android.sdk.internal.di.SessionDatabase
 import io.realm.Realm
 import javax.inject.Inject
 

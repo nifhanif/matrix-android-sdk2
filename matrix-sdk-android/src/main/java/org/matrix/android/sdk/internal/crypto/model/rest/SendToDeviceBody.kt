@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.model.rest
+package com.energeek.android.sdk.internal.crypto.model.rest
 
 import com.squareup.moshi.JsonClass
 

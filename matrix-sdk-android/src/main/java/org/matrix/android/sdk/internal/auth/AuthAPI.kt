@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.auth
+package com.energeek.android.sdk.internal.auth
 
-import org.matrix.android.sdk.api.auth.data.Credentials
-import org.matrix.android.sdk.internal.auth.data.Availability
-import org.matrix.android.sdk.internal.auth.data.LoginFlowResponse
-import org.matrix.android.sdk.internal.auth.data.PasswordLoginParams
-import org.matrix.android.sdk.internal.auth.data.RiotConfig
-import org.matrix.android.sdk.internal.auth.data.TokenLoginParams
-import org.matrix.android.sdk.internal.auth.login.ResetPasswordMailConfirmed
-import org.matrix.android.sdk.internal.auth.registration.AddThreePidRegistrationParams
-import org.matrix.android.sdk.internal.auth.registration.AddThreePidRegistrationResponse
-import org.matrix.android.sdk.internal.auth.registration.RegistrationParams
-import org.matrix.android.sdk.internal.auth.registration.SuccessResult
-import org.matrix.android.sdk.internal.auth.registration.ValidationCodeBody
-import org.matrix.android.sdk.internal.auth.version.Versions
-import org.matrix.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.api.auth.data.Credentials
+import com.energeek.android.sdk.internal.auth.data.Availability
+import com.energeek.android.sdk.internal.auth.data.LoginFlowResponse
+import com.energeek.android.sdk.internal.auth.data.PasswordLoginParams
+import com.energeek.android.sdk.internal.auth.data.RiotConfig
+import com.energeek.android.sdk.internal.auth.data.TokenLoginParams
+import com.energeek.android.sdk.internal.auth.login.ResetPasswordMailConfirmed
+import com.energeek.android.sdk.internal.auth.registration.AddThreePidRegistrationParams
+import com.energeek.android.sdk.internal.auth.registration.AddThreePidRegistrationResponse
+import com.energeek.android.sdk.internal.auth.registration.RegistrationParams
+import com.energeek.android.sdk.internal.auth.registration.SuccessResult
+import com.energeek.android.sdk.internal.auth.registration.ValidationCodeBody
+import com.energeek.android.sdk.internal.auth.version.Versions
+import com.energeek.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.Headers

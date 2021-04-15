@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.query
+package com.energeek.android.sdk.internal.database.query
 
-import org.matrix.android.sdk.internal.database.model.RoomMemberSummaryEntity
-import org.matrix.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
+import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntity
+import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
 import io.realm.Realm
 import io.realm.RealmQuery
 import io.realm.kotlin.where

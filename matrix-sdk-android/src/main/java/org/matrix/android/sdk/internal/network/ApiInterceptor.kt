@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.network
+package com.energeek.android.sdk.internal.network
 
 import okhttp3.Interceptor
 import okhttp3.Response
-import org.matrix.android.sdk.api.extensions.tryOrNull
-import org.matrix.android.sdk.api.network.ApiInterceptorListener
-import org.matrix.android.sdk.api.network.ApiPath
-import org.matrix.android.sdk.internal.di.MatrixScope
+import com.energeek.android.sdk.api.extensions.tryOrNull
+import com.energeek.android.sdk.api.network.ApiInterceptorListener
+import com.energeek.android.sdk.api.network.ApiPath
+import com.energeek.android.sdk.internal.di.MatrixScope
 import timber.log.Timber
 import javax.inject.Inject
 

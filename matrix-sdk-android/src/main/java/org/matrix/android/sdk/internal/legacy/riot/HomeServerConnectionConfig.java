@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.legacy.riot;
+package com.energeek.android.sdk.internal.legacy.riot;
 
 import android.net.Uri;
 import android.text.TextUtils;

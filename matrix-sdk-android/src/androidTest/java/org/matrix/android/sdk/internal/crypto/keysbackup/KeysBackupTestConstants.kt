@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.keysbackup
+package com.energeek.android.sdk.internal.crypto.keysbackup
 
-import org.matrix.android.sdk.common.SessionTestParams
+import com.energeek.android.sdk.common.SessionTestParams
 
 object KeysBackupTestConstants {
     val defaultSessionParams = SessionTestParams(withInitialSync = false)

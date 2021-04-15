@@ -14,34 +14,34 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.timeline
+package com.energeek.android.sdk.internal.session.room.timeline
 
 import com.zhuinden.monarchy.Monarchy
 import io.realm.Realm
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.model.RoomMemberContent
-import org.matrix.android.sdk.api.session.room.send.SendState
-import org.matrix.android.sdk.internal.database.helper.addIfNecessary
-import org.matrix.android.sdk.internal.database.helper.addStateEvent
-import org.matrix.android.sdk.internal.database.helper.addTimelineEvent
-import org.matrix.android.sdk.internal.database.helper.merge
-import org.matrix.android.sdk.internal.database.mapper.toEntity
-import org.matrix.android.sdk.internal.database.model.ChunkEntity
-import org.matrix.android.sdk.internal.database.model.EventInsertType
-import org.matrix.android.sdk.internal.database.model.RoomEntity
-import org.matrix.android.sdk.internal.database.model.RoomSummaryEntity
-import org.matrix.android.sdk.internal.database.model.deleteOnCascade
-import org.matrix.android.sdk.internal.database.query.copyToRealmOrIgnore
-import org.matrix.android.sdk.internal.database.query.create
-import org.matrix.android.sdk.internal.database.query.find
-import org.matrix.android.sdk.internal.database.query.findAllIncludingEvents
-import org.matrix.android.sdk.internal.database.query.findLastForwardChunkOfRoom
-import org.matrix.android.sdk.internal.database.query.getOrCreate
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.session.room.summary.RoomSummaryEventsHelper
-import org.matrix.android.sdk.internal.util.awaitTransaction
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.model.RoomMemberContent
+import com.energeek.android.sdk.api.session.room.send.SendState
+import com.energeek.android.sdk.internal.database.helper.addIfNecessary
+import com.energeek.android.sdk.internal.database.helper.addStateEvent
+import com.energeek.android.sdk.internal.database.helper.addTimelineEvent
+import com.energeek.android.sdk.internal.database.helper.merge
+import com.energeek.android.sdk.internal.database.mapper.toEntity
+import com.energeek.android.sdk.internal.database.model.ChunkEntity
+import com.energeek.android.sdk.internal.database.model.EventInsertType
+import com.energeek.android.sdk.internal.database.model.RoomEntity
+import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
+import com.energeek.android.sdk.internal.database.model.deleteOnCascade
+import com.energeek.android.sdk.internal.database.query.copyToRealmOrIgnore
+import com.energeek.android.sdk.internal.database.query.create
+import com.energeek.android.sdk.internal.database.query.find
+import com.energeek.android.sdk.internal.database.query.findAllIncludingEvents
+import com.energeek.android.sdk.internal.database.query.findLastForwardChunkOfRoom
+import com.energeek.android.sdk.internal.database.query.getOrCreate
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.session.room.summary.RoomSummaryEventsHelper
+import com.energeek.android.sdk.internal.util.awaitTransaction
 import timber.log.Timber
 import javax.inject.Inject
 

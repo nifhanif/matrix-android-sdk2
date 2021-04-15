@@ -14,33 +14,33 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.create
+package com.energeek.android.sdk.internal.session.room.create
 
 import com.zhuinden.monarchy.Monarchy
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import kotlinx.coroutines.TimeoutCancellationException
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.failure.MatrixError
-import org.matrix.android.sdk.api.session.room.alias.RoomAliasError
-import org.matrix.android.sdk.api.session.room.failure.CreateRoomFailure
-import org.matrix.android.sdk.api.session.room.model.Membership
-import org.matrix.android.sdk.api.session.room.model.create.CreateRoomParams
-import org.matrix.android.sdk.api.session.room.model.create.CreateRoomPreset
-import org.matrix.android.sdk.internal.database.awaitNotEmptyResult
-import org.matrix.android.sdk.internal.database.model.RoomSummaryEntity
-import org.matrix.android.sdk.internal.database.model.RoomSummaryEntityFields
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.room.RoomAPI
-import org.matrix.android.sdk.internal.session.room.alias.RoomAliasAvailabilityChecker
-import org.matrix.android.sdk.internal.session.room.read.SetReadMarkersTask
-import org.matrix.android.sdk.internal.session.user.accountdata.DirectChatsHelper
-import org.matrix.android.sdk.internal.session.user.accountdata.UpdateUserAccountDataTask
-import org.matrix.android.sdk.internal.task.Task
-import org.matrix.android.sdk.internal.util.awaitTransaction
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.failure.MatrixError
+import com.energeek.android.sdk.api.session.room.alias.RoomAliasError
+import com.energeek.android.sdk.api.session.room.failure.CreateRoomFailure
+import com.energeek.android.sdk.api.session.room.model.Membership
+import com.energeek.android.sdk.api.session.room.model.create.CreateRoomParams
+import com.energeek.android.sdk.api.session.room.model.create.CreateRoomPreset
+import com.energeek.android.sdk.internal.database.awaitNotEmptyResult
+import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
+import com.energeek.android.sdk.internal.database.model.RoomSummaryEntityFields
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.room.RoomAPI
+import com.energeek.android.sdk.internal.session.room.alias.RoomAliasAvailabilityChecker
+import com.energeek.android.sdk.internal.session.room.read.SetReadMarkersTask
+import com.energeek.android.sdk.internal.session.user.accountdata.DirectChatsHelper
+import com.energeek.android.sdk.internal.session.user.accountdata.UpdateUserAccountDataTask
+import com.energeek.android.sdk.internal.task.Task
+import com.energeek.android.sdk.internal.util.awaitTransaction
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 

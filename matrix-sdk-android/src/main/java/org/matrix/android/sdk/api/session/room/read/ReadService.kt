@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.read
+package com.energeek.android.sdk.api.session.room.read
 
 import androidx.lifecycle.LiveData
-import org.matrix.android.sdk.api.session.room.model.ReadReceipt
-import org.matrix.android.sdk.api.util.Optional
+import com.energeek.android.sdk.api.session.room.model.ReadReceipt
+import com.energeek.android.sdk.api.util.Optional
 
 /**
  * This interface defines methods to handle read receipts and read marker in a room. It's implemented at the room level.

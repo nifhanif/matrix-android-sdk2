@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.model.rest
+package com.energeek.android.sdk.internal.crypto.model.rest
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.api.util.JsonDict
 
 /**
  * Ref: https://matrix.org/docs/spec/client_server/r0.6.1#post-matrix-client-r0-keys-upload

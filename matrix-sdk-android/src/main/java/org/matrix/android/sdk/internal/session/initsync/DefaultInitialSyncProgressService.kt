@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.session.initsync
+package com.energeek.android.sdk.internal.session.initsync
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import org.matrix.android.sdk.api.session.initsync.InitSyncStep
-import org.matrix.android.sdk.api.session.initsync.InitialSyncProgressService
-import org.matrix.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.api.session.initsync.InitSyncStep
+import com.energeek.android.sdk.api.session.initsync.InitialSyncProgressService
+import com.energeek.android.sdk.internal.session.SessionScope
 import javax.inject.Inject
 
 @SessionScope

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto
+package com.energeek.android.sdk.internal.crypto
 
 // TODO Update comment
 internal object MXCryptoAlgorithms {

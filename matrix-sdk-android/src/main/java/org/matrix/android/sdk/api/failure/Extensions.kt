@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.failure
+package com.energeek.android.sdk.api.failure
 
-import org.matrix.android.sdk.api.auth.registration.RegistrationFlowResponse
-import org.matrix.android.sdk.api.extensions.tryOrNull
-import org.matrix.android.sdk.internal.di.MoshiProvider
+import com.energeek.android.sdk.api.auth.registration.RegistrationFlowResponse
+import com.energeek.android.sdk.api.extensions.tryOrNull
+import com.energeek.android.sdk.internal.di.MoshiProvider
 import java.io.IOException
 import javax.net.ssl.HttpsURLConnection
 

@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.terms
+package com.energeek.android.sdk.internal.session.terms
 
 import dagger.Lazy
 import okhttp3.OkHttpClient
-import org.matrix.android.sdk.api.session.accountdata.UserAccountDataTypes
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.terms.GetTermsResponse
-import org.matrix.android.sdk.api.session.terms.TermsService
-import org.matrix.android.sdk.internal.di.UnauthenticatedWithCertificate
-import org.matrix.android.sdk.internal.network.NetworkConstants
-import org.matrix.android.sdk.internal.network.RetrofitFactory
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.identity.IdentityAuthAPI
-import org.matrix.android.sdk.internal.session.identity.IdentityRegisterTask
-import org.matrix.android.sdk.internal.session.openid.GetOpenIdTokenTask
-import org.matrix.android.sdk.internal.session.sync.model.accountdata.AcceptedTermsContent
-import org.matrix.android.sdk.internal.session.user.accountdata.AccountDataDataSource
-import org.matrix.android.sdk.internal.session.user.accountdata.UpdateUserAccountDataTask
-import org.matrix.android.sdk.internal.util.ensureTrailingSlash
+import com.energeek.android.sdk.api.session.accountdata.UserAccountDataTypes
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.terms.GetTermsResponse
+import com.energeek.android.sdk.api.session.terms.TermsService
+import com.energeek.android.sdk.internal.di.UnauthenticatedWithCertificate
+import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.internal.network.RetrofitFactory
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.identity.IdentityAuthAPI
+import com.energeek.android.sdk.internal.session.identity.IdentityRegisterTask
+import com.energeek.android.sdk.internal.session.openid.GetOpenIdTokenTask
+import com.energeek.android.sdk.internal.session.sync.model.accountdata.AcceptedTermsContent
+import com.energeek.android.sdk.internal.session.user.accountdata.AccountDataDataSource
+import com.energeek.android.sdk.internal.session.user.accountdata.UpdateUserAccountDataTask
+import com.energeek.android.sdk.internal.util.ensureTrailingSlash
 import javax.inject.Inject
 
 internal class DefaultTermsService @Inject constructor(

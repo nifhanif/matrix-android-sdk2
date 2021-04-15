@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.util
+package com.energeek.android.sdk.internal.util
 
-import org.matrix.android.sdk.api.util.Cancelable
+import com.energeek.android.sdk.api.util.Cancelable
 import kotlinx.coroutines.Job
 
 internal fun Job.toCancelable(): Cancelable {

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.search
+package com.energeek.android.sdk.internal.session.search
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import org.matrix.android.sdk.api.session.search.SearchService
-import org.matrix.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.api.session.search.SearchService
+import com.energeek.android.sdk.internal.session.SessionScope
 import retrofit2.Retrofit
 
 @Module

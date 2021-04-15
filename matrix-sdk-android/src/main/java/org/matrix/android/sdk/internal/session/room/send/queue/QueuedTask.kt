@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.send.queue
+package com.energeek.android.sdk.internal.session.room.send.queue
 
-import org.matrix.android.sdk.api.util.Cancelable
+import com.energeek.android.sdk.api.util.Cancelable
 import timber.log.Timber
 import java.util.concurrent.atomic.AtomicInteger
 

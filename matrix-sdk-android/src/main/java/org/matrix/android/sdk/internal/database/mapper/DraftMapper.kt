@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.mapper
+package com.energeek.android.sdk.internal.database.mapper
 
-import org.matrix.android.sdk.api.session.room.send.UserDraft
-import org.matrix.android.sdk.internal.database.model.DraftEntity
+import com.energeek.android.sdk.api.session.room.send.UserDraft
+import com.energeek.android.sdk.internal.database.model.DraftEntity
 
 /**
  * DraftEntity <-> UserDraft

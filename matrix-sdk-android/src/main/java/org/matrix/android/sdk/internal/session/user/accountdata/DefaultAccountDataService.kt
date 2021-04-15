@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.user.accountdata
+package com.energeek.android.sdk.internal.session.user.accountdata
 
 import androidx.lifecycle.LiveData
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.api.session.accountdata.AccountDataService
-import org.matrix.android.sdk.api.session.events.model.Content
-import org.matrix.android.sdk.api.util.Optional
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.session.sync.UserAccountDataSyncHandler
-import org.matrix.android.sdk.api.session.accountdata.UserAccountDataEvent
-import org.matrix.android.sdk.internal.task.TaskExecutor
-import org.matrix.android.sdk.internal.task.configureWith
-import org.matrix.android.sdk.internal.util.awaitCallback
+import com.energeek.android.sdk.api.session.accountdata.AccountDataService
+import com.energeek.android.sdk.api.session.events.model.Content
+import com.energeek.android.sdk.api.util.Optional
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.session.sync.UserAccountDataSyncHandler
+import com.energeek.android.sdk.api.session.accountdata.UserAccountDataEvent
+import com.energeek.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.internal.task.configureWith
+import com.energeek.android.sdk.internal.util.awaitCallback
 import javax.inject.Inject
 
 internal class DefaultAccountDataService @Inject constructor(

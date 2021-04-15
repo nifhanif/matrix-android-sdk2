@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.extensions
+package com.energeek.android.sdk.internal.extensions
 
 import arrow.core.Failure
 import arrow.core.Success

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.group
+package com.energeek.android.sdk.internal.session.group
 
-import org.matrix.android.sdk.internal.network.NetworkConstants
-import org.matrix.android.sdk.internal.session.group.model.GroupRooms
-import org.matrix.android.sdk.internal.session.group.model.GroupSummaryResponse
-import org.matrix.android.sdk.internal.session.group.model.GroupUsers
+import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.internal.session.group.model.GroupRooms
+import com.energeek.android.sdk.internal.session.group.model.GroupSummaryResponse
+import com.energeek.android.sdk.internal.session.group.model.GroupUsers
 import retrofit2.http.GET
 import retrofit2.http.Path
 

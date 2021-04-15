@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room
+package com.energeek.android.sdk.api.session.room
 
-import org.matrix.android.sdk.api.session.room.model.RoomDirectoryVisibility
-import org.matrix.android.sdk.api.session.room.model.roomdirectory.PublicRoomsParams
-import org.matrix.android.sdk.api.session.room.model.roomdirectory.PublicRoomsResponse
+import com.energeek.android.sdk.api.session.room.model.RoomDirectoryVisibility
+import com.energeek.android.sdk.api.session.room.model.roomdirectory.PublicRoomsParams
+import com.energeek.android.sdk.api.session.room.model.roomdirectory.PublicRoomsResponse
 
 /**
  * This interface defines methods to get and join public rooms. It's implemented at the session level.

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.reporting
+package com.energeek.android.sdk.internal.session.room.reporting
 
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import org.matrix.android.sdk.api.session.room.reporting.ReportingService
+import com.energeek.android.sdk.api.session.room.reporting.ReportingService
 
 internal class DefaultReportingService @AssistedInject constructor(@Assisted private val roomId: String,
                                                                    private val reportContentTask: ReportContentTask

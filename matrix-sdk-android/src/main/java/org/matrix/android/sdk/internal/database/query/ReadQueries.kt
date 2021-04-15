@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.database.query
+package com.energeek.android.sdk.internal.database.query
 
-import org.matrix.android.sdk.api.session.events.model.LocalEcho
-import org.matrix.android.sdk.internal.database.model.ChunkEntity
-import org.matrix.android.sdk.internal.database.model.ReadMarkerEntity
-import org.matrix.android.sdk.internal.database.model.ReadReceiptEntity
-import org.matrix.android.sdk.internal.database.model.TimelineEventEntity
+import com.energeek.android.sdk.api.session.events.model.LocalEcho
+import com.energeek.android.sdk.internal.database.model.ChunkEntity
+import com.energeek.android.sdk.internal.database.model.ReadMarkerEntity
+import com.energeek.android.sdk.internal.database.model.ReadReceiptEntity
+import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
 import io.realm.Realm
 import io.realm.RealmConfiguration
 

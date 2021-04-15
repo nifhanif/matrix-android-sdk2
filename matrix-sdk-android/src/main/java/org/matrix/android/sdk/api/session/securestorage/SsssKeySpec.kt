@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.securestorage
+package com.energeek.android.sdk.api.session.securestorage
 
-import org.matrix.android.sdk.api.listeners.ProgressListener
-import org.matrix.android.sdk.internal.crypto.keysbackup.deriveKey
-import org.matrix.android.sdk.internal.crypto.keysbackup.util.extractCurveKeyFromRecoveryKey
+import com.energeek.android.sdk.api.listeners.ProgressListener
+import com.energeek.android.sdk.internal.crypto.keysbackup.deriveKey
+import com.energeek.android.sdk.internal.crypto.keysbackup.util.extractCurveKeyFromRecoveryKey
 
 /** Tag class */
 interface SsssKeySpec

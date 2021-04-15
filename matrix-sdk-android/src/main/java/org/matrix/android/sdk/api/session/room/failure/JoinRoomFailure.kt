@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.failure
+package com.energeek.android.sdk.api.session.room.failure
 
-import org.matrix.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.failure.Failure
 
 sealed class JoinRoomFailure : Failure.FeatureFailure() {
 

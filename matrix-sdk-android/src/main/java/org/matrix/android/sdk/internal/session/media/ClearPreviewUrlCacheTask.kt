@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.media
+package com.energeek.android.sdk.internal.session.media
 
 import com.zhuinden.monarchy.Monarchy
 import io.realm.kotlin.where
-import org.matrix.android.sdk.internal.database.model.PreviewUrlCacheEntity
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.task.Task
-import org.matrix.android.sdk.internal.util.awaitTransaction
+import com.energeek.android.sdk.internal.database.model.PreviewUrlCacheEntity
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.task.Task
+import com.energeek.android.sdk.internal.util.awaitTransaction
 import javax.inject.Inject
 
 internal interface ClearPreviewUrlCacheTask : Task<Unit, Unit>

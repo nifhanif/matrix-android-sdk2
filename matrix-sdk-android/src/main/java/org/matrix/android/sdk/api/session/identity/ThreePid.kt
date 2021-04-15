@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.identity
+package com.energeek.android.sdk.api.session.identity
 
 import com.google.i18n.phonenumbers.NumberParseException
 import com.google.i18n.phonenumbers.PhoneNumberUtil
-import org.matrix.android.sdk.internal.session.profile.ThirdPartyIdentifier
+import com.energeek.android.sdk.internal.session.profile.ThirdPartyIdentifier
 
 sealed class ThreePid(open val value: String) {
     data class Email(val email: String) : ThreePid(email)

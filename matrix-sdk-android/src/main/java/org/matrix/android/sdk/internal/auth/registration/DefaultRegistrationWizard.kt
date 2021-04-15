@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.auth.registration
+package com.energeek.android.sdk.internal.auth.registration
 
 import kotlinx.coroutines.delay
-import org.matrix.android.sdk.api.auth.data.LoginFlowTypes
-import org.matrix.android.sdk.api.auth.registration.RegisterThreePid
-import org.matrix.android.sdk.api.auth.registration.RegistrationAvailability
-import org.matrix.android.sdk.api.auth.registration.RegistrationResult
-import org.matrix.android.sdk.api.auth.registration.RegistrationWizard
-import org.matrix.android.sdk.api.auth.registration.toFlowResult
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.failure.Failure.RegistrationFlowError
-import org.matrix.android.sdk.internal.auth.AuthAPI
-import org.matrix.android.sdk.internal.auth.PendingSessionStore
-import org.matrix.android.sdk.internal.auth.SessionCreator
-import org.matrix.android.sdk.internal.auth.db.PendingSessionData
+import com.energeek.android.sdk.api.auth.data.LoginFlowTypes
+import com.energeek.android.sdk.api.auth.registration.RegisterThreePid
+import com.energeek.android.sdk.api.auth.registration.RegistrationAvailability
+import com.energeek.android.sdk.api.auth.registration.RegistrationResult
+import com.energeek.android.sdk.api.auth.registration.RegistrationWizard
+import com.energeek.android.sdk.api.auth.registration.toFlowResult
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.failure.Failure.RegistrationFlowError
+import com.energeek.android.sdk.internal.auth.AuthAPI
+import com.energeek.android.sdk.internal.auth.PendingSessionStore
+import com.energeek.android.sdk.internal.auth.SessionCreator
+import com.energeek.android.sdk.internal.auth.db.PendingSessionData
 
 /**
  * This class execute the registration request and is responsible to keep the session of interactive authentication

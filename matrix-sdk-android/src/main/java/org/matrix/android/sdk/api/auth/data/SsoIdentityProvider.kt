@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.auth.data
+package com.energeek.android.sdk.api.auth.data
 
 import android.os.Parcelable
 import com.squareup.moshi.Json

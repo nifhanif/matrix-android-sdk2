@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.membership.leaving
+package com.energeek.android.sdk.internal.session.room.membership.leaving
 
-import org.matrix.android.sdk.api.query.QueryStringValue
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.members.ChangeMembershipState
-import org.matrix.android.sdk.api.session.room.model.create.RoomCreateContent
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.room.RoomAPI
-import org.matrix.android.sdk.internal.session.room.membership.RoomChangeMembershipStateDataSource
-import org.matrix.android.sdk.internal.session.room.state.StateEventDataSource
-import org.matrix.android.sdk.internal.session.room.summary.RoomSummaryDataSource
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.query.QueryStringValue
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.members.ChangeMembershipState
+import com.energeek.android.sdk.api.session.room.model.create.RoomCreateContent
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.room.RoomAPI
+import com.energeek.android.sdk.internal.session.room.membership.RoomChangeMembershipStateDataSource
+import com.energeek.android.sdk.internal.session.room.state.StateEventDataSource
+import com.energeek.android.sdk.internal.session.room.summary.RoomSummaryDataSource
+import com.energeek.android.sdk.internal.task.Task
 import timber.log.Timber
 import javax.inject.Inject
 

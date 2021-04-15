@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.search
+package com.energeek.android.sdk.internal.session.search
 
-import org.matrix.android.sdk.internal.network.NetworkConstants
-import org.matrix.android.sdk.internal.session.search.request.SearchRequestBody
-import org.matrix.android.sdk.internal.session.search.response.SearchResponse
+import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.internal.session.search.request.SearchRequestBody
+import com.energeek.android.sdk.internal.session.search.response.SearchResponse
 import retrofit2.http.Body
 import retrofit2.http.POST
 import retrofit2.http.Query

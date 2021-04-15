@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto
+package com.energeek.android.sdk.internal.crypto
 
 import androidx.work.BackoffPolicy
 import androidx.work.Data
 import androidx.work.ExistingWorkPolicy
 import androidx.work.ListenableWorker
 import androidx.work.OneTimeWorkRequest
-import org.matrix.android.sdk.api.util.Cancelable
-import org.matrix.android.sdk.internal.di.WorkManagerProvider
-import org.matrix.android.sdk.internal.session.SessionScope
-import org.matrix.android.sdk.internal.util.CancelableWork
-import org.matrix.android.sdk.internal.worker.startChain
+import com.energeek.android.sdk.api.util.Cancelable
+import com.energeek.android.sdk.internal.di.WorkManagerProvider
+import com.energeek.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.util.CancelableWork
+import com.energeek.android.sdk.internal.worker.startChain
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 

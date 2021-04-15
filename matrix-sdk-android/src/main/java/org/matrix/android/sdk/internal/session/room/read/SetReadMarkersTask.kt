@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.read
+package com.energeek.android.sdk.internal.session.room.read
 
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.api.session.events.model.LocalEcho
-import org.matrix.android.sdk.internal.database.model.RoomSummaryEntity
-import org.matrix.android.sdk.internal.database.model.TimelineEventEntity
-import org.matrix.android.sdk.internal.database.query.isEventRead
-import org.matrix.android.sdk.internal.database.query.isReadMarkerMoreRecent
-import org.matrix.android.sdk.internal.database.query.latestEvent
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.room.RoomAPI
-import org.matrix.android.sdk.internal.session.sync.ReadReceiptHandler
-import org.matrix.android.sdk.internal.session.sync.RoomFullyReadHandler
-import org.matrix.android.sdk.internal.task.Task
-import org.matrix.android.sdk.internal.util.awaitTransaction
+import com.energeek.android.sdk.api.session.events.model.LocalEcho
+import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
+import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
+import com.energeek.android.sdk.internal.database.query.isEventRead
+import com.energeek.android.sdk.internal.database.query.isReadMarkerMoreRecent
+import com.energeek.android.sdk.internal.database.query.latestEvent
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.room.RoomAPI
+import com.energeek.android.sdk.internal.session.sync.ReadReceiptHandler
+import com.energeek.android.sdk.internal.session.sync.RoomFullyReadHandler
+import com.energeek.android.sdk.internal.task.Task
+import com.energeek.android.sdk.internal.util.awaitTransaction
 import io.realm.Realm
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
 import timber.log.Timber
 import javax.inject.Inject
 import kotlin.collections.set

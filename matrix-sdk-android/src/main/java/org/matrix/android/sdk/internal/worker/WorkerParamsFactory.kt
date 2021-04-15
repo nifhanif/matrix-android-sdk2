@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.worker
+package com.energeek.android.sdk.internal.worker
 
 import androidx.work.Data
 import com.squareup.moshi.Moshi
-import org.matrix.android.sdk.api.extensions.tryOrNull
-import org.matrix.android.sdk.internal.di.MoshiProvider
-import org.matrix.android.sdk.internal.network.parsing.CheckNumberType
+import com.energeek.android.sdk.api.extensions.tryOrNull
+import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.energeek.android.sdk.internal.network.parsing.CheckNumberType
 
 internal object WorkerParamsFactory {
 

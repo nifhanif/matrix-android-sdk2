@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.peeking
+package com.energeek.android.sdk.internal.session.room.peeking
 
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.room.RoomAPI
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.room.RoomAPI
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface ResolveRoomStateTask : Task<ResolveRoomStateTask.Params, List<Event>> {

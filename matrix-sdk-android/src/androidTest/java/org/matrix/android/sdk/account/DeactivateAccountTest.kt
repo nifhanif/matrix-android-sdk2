@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.account
+package com.energeek.android.sdk.account
 
 import org.junit.Assert.assertTrue
 import org.junit.FixMethodOrder
@@ -22,16 +22,16 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
 import org.junit.runners.MethodSorters
-import org.matrix.android.sdk.InstrumentedTest
-import org.matrix.android.sdk.api.auth.UIABaseAuth
-import org.matrix.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import org.matrix.android.sdk.api.auth.UserPasswordAuth
-import org.matrix.android.sdk.api.auth.registration.RegistrationFlowResponse
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.failure.MatrixError
-import org.matrix.android.sdk.common.CommonTestHelper
-import org.matrix.android.sdk.common.SessionTestParams
-import org.matrix.android.sdk.common.TestConstants
+import com.energeek.android.sdk.InstrumentedTest
+import com.energeek.android.sdk.api.auth.UIABaseAuth
+import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.energeek.android.sdk.api.auth.UserPasswordAuth
+import com.energeek.android.sdk.api.auth.registration.RegistrationFlowResponse
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.failure.MatrixError
+import com.energeek.android.sdk.common.CommonTestHelper
+import com.energeek.android.sdk.common.SessionTestParams
+import com.energeek.android.sdk.common.TestConstants
 import kotlin.coroutines.Continuation
 import kotlin.coroutines.resume
 

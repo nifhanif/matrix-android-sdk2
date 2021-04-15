@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.store.db.model
+package com.energeek.android.sdk.internal.crypto.store.db.model
 
 import io.realm.RealmObject
-import org.matrix.android.sdk.internal.crypto.store.db.deserializeFromRealm
-import org.matrix.android.sdk.internal.crypto.store.db.serializeForRealm
+import com.energeek.android.sdk.internal.crypto.store.db.deserializeFromRealm
+import com.energeek.android.sdk.internal.crypto.store.db.serializeForRealm
 import org.matrix.olm.OlmOutboundGroupSession
 import timber.log.Timber
 

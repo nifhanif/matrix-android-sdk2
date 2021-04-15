@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.query
+package com.energeek.android.sdk.internal.database.query
 
-import org.matrix.android.sdk.internal.database.model.ReadMarkerEntity
-import org.matrix.android.sdk.internal.database.model.ReadMarkerEntityFields
+import com.energeek.android.sdk.internal.database.model.ReadMarkerEntity
+import com.energeek.android.sdk.internal.database.model.ReadMarkerEntityFields
 import io.realm.Realm
 import io.realm.RealmQuery
 import io.realm.kotlin.createObject

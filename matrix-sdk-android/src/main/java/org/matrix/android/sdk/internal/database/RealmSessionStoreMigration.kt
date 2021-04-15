@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database
+package com.energeek.android.sdk.internal.database
 
 import io.realm.DynamicRealm
 import io.realm.FieldAttribute
 import io.realm.RealmMigration
-import org.matrix.android.sdk.api.session.room.model.tag.RoomTag
-import org.matrix.android.sdk.internal.database.model.EditAggregatedSummaryEntityFields
-import org.matrix.android.sdk.internal.database.model.EditionOfEventFields
-import org.matrix.android.sdk.internal.database.model.EventEntityFields
-import org.matrix.android.sdk.internal.database.model.HomeServerCapabilitiesEntityFields
-import org.matrix.android.sdk.internal.database.model.PendingThreePidEntityFields
-import org.matrix.android.sdk.internal.database.model.PreviewUrlCacheEntityFields
-import org.matrix.android.sdk.internal.database.model.RoomEntityFields
-import org.matrix.android.sdk.internal.database.model.RoomMembersLoadStatusType
-import org.matrix.android.sdk.internal.database.model.RoomSummaryEntityFields
-import org.matrix.android.sdk.internal.database.model.RoomTagEntityFields
-import org.matrix.android.sdk.internal.database.model.TimelineEventEntityFields
+import com.energeek.android.sdk.api.session.room.model.tag.RoomTag
+import com.energeek.android.sdk.internal.database.model.EditAggregatedSummaryEntityFields
+import com.energeek.android.sdk.internal.database.model.EditionOfEventFields
+import com.energeek.android.sdk.internal.database.model.EventEntityFields
+import com.energeek.android.sdk.internal.database.model.HomeServerCapabilitiesEntityFields
+import com.energeek.android.sdk.internal.database.model.PendingThreePidEntityFields
+import com.energeek.android.sdk.internal.database.model.PreviewUrlCacheEntityFields
+import com.energeek.android.sdk.internal.database.model.RoomEntityFields
+import com.energeek.android.sdk.internal.database.model.RoomMembersLoadStatusType
+import com.energeek.android.sdk.internal.database.model.RoomSummaryEntityFields
+import com.energeek.android.sdk.internal.database.model.RoomTagEntityFields
+import com.energeek.android.sdk.internal.database.model.TimelineEventEntityFields
 import timber.log.Timber
 import javax.inject.Inject
 

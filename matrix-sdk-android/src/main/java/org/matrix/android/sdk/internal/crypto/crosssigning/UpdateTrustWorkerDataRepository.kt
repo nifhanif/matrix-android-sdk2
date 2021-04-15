@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.crosssigning
+package com.energeek.android.sdk.internal.crypto.crosssigning
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.extensions.tryOrNull
-import org.matrix.android.sdk.internal.di.MoshiProvider
-import org.matrix.android.sdk.internal.di.SessionFilesDirectory
+import com.energeek.android.sdk.api.extensions.tryOrNull
+import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.energeek.android.sdk.internal.di.SessionFilesDirectory
 import java.io.File
 import java.util.UUID
 import javax.inject.Inject

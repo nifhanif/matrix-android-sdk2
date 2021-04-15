@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.query
+package com.energeek.android.sdk.api.query
 
 enum class RoomCategoryFilter {
     ONLY_DM,

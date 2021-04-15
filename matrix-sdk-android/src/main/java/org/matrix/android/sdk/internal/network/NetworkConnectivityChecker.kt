@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.network
+package com.energeek.android.sdk.internal.network
 
 import androidx.annotation.WorkerThread
-import org.matrix.android.sdk.internal.session.SessionScope
-import org.matrix.android.sdk.internal.session.homeserver.HomeServerPinger
-import org.matrix.android.sdk.internal.util.BackgroundDetectionObserver
+import com.energeek.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.session.homeserver.HomeServerPinger
+import com.energeek.android.sdk.internal.util.BackgroundDetectionObserver
 import kotlinx.coroutines.runBlocking
 import java.util.Collections
 import java.util.concurrent.atomic.AtomicBoolean

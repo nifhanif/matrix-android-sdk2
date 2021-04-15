@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync
+package com.energeek.android.sdk.internal.session.sync
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import org.matrix.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.session.SessionScope
 import retrofit2.Retrofit
 
 @Module

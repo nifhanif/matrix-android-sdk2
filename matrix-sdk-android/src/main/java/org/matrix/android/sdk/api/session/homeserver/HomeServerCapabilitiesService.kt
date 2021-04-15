@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.homeserver
+package com.energeek.android.sdk.api.session.homeserver
 
 /**
  * This interface defines a method to retrieve the homeserver capabilities.

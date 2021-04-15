@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.keysbackup
+package com.energeek.android.sdk.internal.crypto.keysbackup
 
-import org.matrix.android.sdk.api.session.crypto.keysbackup.KeysBackupService
-import org.matrix.android.sdk.api.session.crypto.keysbackup.KeysBackupState
-import org.matrix.android.sdk.api.session.crypto.keysbackup.KeysBackupStateListener
+import com.energeek.android.sdk.api.session.crypto.keysbackup.KeysBackupService
+import com.energeek.android.sdk.api.session.crypto.keysbackup.KeysBackupState
+import com.energeek.android.sdk.api.session.crypto.keysbackup.KeysBackupStateListener
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull
 import java.util.concurrent.CountDownLatch

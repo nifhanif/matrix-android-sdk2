@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.pushers
+package com.energeek.android.sdk.internal.session.pushers
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import org.matrix.android.sdk.api.pushrules.ConditionResolver
-import org.matrix.android.sdk.api.pushrules.PushRuleService
-import org.matrix.android.sdk.api.session.pushers.PushersService
-import org.matrix.android.sdk.internal.session.notification.DefaultProcessEventForPushTask
-import org.matrix.android.sdk.internal.session.notification.DefaultPushRuleService
-import org.matrix.android.sdk.internal.session.notification.ProcessEventForPushTask
-import org.matrix.android.sdk.internal.session.pushers.gateway.DefaultPushGatewayNotifyTask
-import org.matrix.android.sdk.internal.session.pushers.gateway.PushGatewayNotifyTask
-import org.matrix.android.sdk.internal.session.room.notification.DefaultSetRoomNotificationStateTask
-import org.matrix.android.sdk.internal.session.room.notification.SetRoomNotificationStateTask
+import com.energeek.android.sdk.api.pushrules.ConditionResolver
+import com.energeek.android.sdk.api.pushrules.PushRuleService
+import com.energeek.android.sdk.api.session.pushers.PushersService
+import com.energeek.android.sdk.internal.session.notification.DefaultProcessEventForPushTask
+import com.energeek.android.sdk.internal.session.notification.DefaultPushRuleService
+import com.energeek.android.sdk.internal.session.notification.ProcessEventForPushTask
+import com.energeek.android.sdk.internal.session.pushers.gateway.DefaultPushGatewayNotifyTask
+import com.energeek.android.sdk.internal.session.pushers.gateway.PushGatewayNotifyTask
+import com.energeek.android.sdk.internal.session.room.notification.DefaultSetRoomNotificationStateTask
+import com.energeek.android.sdk.internal.session.room.notification.SetRoomNotificationStateTask
 import retrofit2.Retrofit
 
 @Module

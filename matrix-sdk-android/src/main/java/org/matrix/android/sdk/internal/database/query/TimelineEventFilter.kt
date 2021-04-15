@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.query
+package com.energeek.android.sdk.internal.database.query
 
 /**
  * Query strings used to filter the timeline events regarding the Json raw string of the Event

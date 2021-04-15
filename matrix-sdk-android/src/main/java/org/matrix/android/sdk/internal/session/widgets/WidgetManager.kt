@@ -14,33 +14,33 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.widgets
+package com.energeek.android.sdk.internal.session.widgets
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LifecycleRegistry
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
-import org.matrix.android.sdk.api.query.QueryStringValue
-import org.matrix.android.sdk.api.session.accountdata.UserAccountDataEvent
-import org.matrix.android.sdk.api.session.accountdata.UserAccountDataTypes
-import org.matrix.android.sdk.api.session.events.model.Content
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.integrationmanager.IntegrationManagerService
-import org.matrix.android.sdk.api.session.room.model.PowerLevelsContent
-import org.matrix.android.sdk.api.session.room.powerlevels.PowerLevelsHelper
-import org.matrix.android.sdk.api.session.widgets.WidgetManagementFailure
-import org.matrix.android.sdk.api.session.widgets.model.Widget
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.session.SessionLifecycleObserver
-import org.matrix.android.sdk.internal.session.SessionScope
-import org.matrix.android.sdk.internal.session.integrationmanager.IntegrationManager
-import org.matrix.android.sdk.internal.session.room.state.StateEventDataSource
-import org.matrix.android.sdk.internal.session.user.accountdata.AccountDataDataSource
-import org.matrix.android.sdk.internal.session.widgets.helper.WidgetFactory
-import org.matrix.android.sdk.internal.session.widgets.helper.extractWidgetSequence
+import com.energeek.android.sdk.api.query.QueryStringValue
+import com.energeek.android.sdk.api.session.accountdata.UserAccountDataEvent
+import com.energeek.android.sdk.api.session.accountdata.UserAccountDataTypes
+import com.energeek.android.sdk.api.session.events.model.Content
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.integrationmanager.IntegrationManagerService
+import com.energeek.android.sdk.api.session.room.model.PowerLevelsContent
+import com.energeek.android.sdk.api.session.room.powerlevels.PowerLevelsHelper
+import com.energeek.android.sdk.api.session.widgets.WidgetManagementFailure
+import com.energeek.android.sdk.api.session.widgets.model.Widget
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.session.SessionLifecycleObserver
+import com.energeek.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.session.integrationmanager.IntegrationManager
+import com.energeek.android.sdk.internal.session.room.state.StateEventDataSource
+import com.energeek.android.sdk.internal.session.user.accountdata.AccountDataDataSource
+import com.energeek.android.sdk.internal.session.widgets.helper.WidgetFactory
+import com.energeek.android.sdk.internal.session.widgets.helper.extractWidgetSequence
 import java.util.HashMap
 import javax.inject.Inject
 

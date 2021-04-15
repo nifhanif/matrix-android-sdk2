@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.openid
+package com.energeek.android.sdk.internal.session.openid
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass

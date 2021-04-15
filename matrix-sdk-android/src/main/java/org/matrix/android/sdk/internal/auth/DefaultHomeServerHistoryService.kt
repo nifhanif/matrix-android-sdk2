@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.auth
+package com.energeek.android.sdk.internal.auth
 
 import com.zhuinden.monarchy.Monarchy
 import io.realm.kotlin.where
-import org.matrix.android.sdk.api.auth.HomeServerHistoryService
-import org.matrix.android.sdk.internal.database.model.KnownServerUrlEntity
-import org.matrix.android.sdk.internal.di.GlobalDatabase
+import com.energeek.android.sdk.api.auth.HomeServerHistoryService
+import com.energeek.android.sdk.internal.database.model.KnownServerUrlEntity
+import com.energeek.android.sdk.internal.di.GlobalDatabase
 import javax.inject.Inject
 
 class DefaultHomeServerHistoryService @Inject constructor(

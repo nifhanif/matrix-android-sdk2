@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session
+package com.energeek.android.sdk.internal.session
 
 import javax.inject.Scope
 

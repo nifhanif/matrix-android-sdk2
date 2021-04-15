@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.send
+package com.energeek.android.sdk.internal.session.room.send
 
 import com.squareup.moshi.JsonClass
 

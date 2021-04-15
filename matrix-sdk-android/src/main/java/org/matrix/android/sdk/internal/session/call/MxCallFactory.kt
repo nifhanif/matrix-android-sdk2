@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.call
+package com.energeek.android.sdk.internal.session.call
 
-import org.matrix.android.sdk.api.MatrixConfiguration
-import org.matrix.android.sdk.api.session.call.MxCall
-import org.matrix.android.sdk.api.session.room.model.call.CallCapabilities
-import org.matrix.android.sdk.api.session.room.model.call.CallInviteContent
-import org.matrix.android.sdk.api.util.Optional
-import org.matrix.android.sdk.internal.di.DeviceId
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.session.call.model.MxCallImpl
-import org.matrix.android.sdk.internal.session.profile.GetProfileInfoTask
-import org.matrix.android.sdk.internal.session.room.send.LocalEchoEventFactory
-import org.matrix.android.sdk.internal.session.room.send.queue.EventSenderProcessor
+import com.energeek.android.sdk.api.MatrixConfiguration
+import com.energeek.android.sdk.api.session.call.MxCall
+import com.energeek.android.sdk.api.session.room.model.call.CallCapabilities
+import com.energeek.android.sdk.api.session.room.model.call.CallInviteContent
+import com.energeek.android.sdk.api.util.Optional
+import com.energeek.android.sdk.internal.di.DeviceId
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.session.call.model.MxCallImpl
+import com.energeek.android.sdk.internal.session.profile.GetProfileInfoTask
+import com.energeek.android.sdk.internal.session.room.send.LocalEchoEventFactory
+import com.energeek.android.sdk.internal.session.room.send.queue.EventSenderProcessor
 import java.math.BigDecimal
 import java.util.UUID
 import javax.inject.Inject

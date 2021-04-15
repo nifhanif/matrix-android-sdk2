@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.model.message
+package com.energeek.android.sdk.api.session.room.model.message
 
-import org.matrix.android.sdk.internal.crypto.model.rest.EncryptedFileInfo
+import com.energeek.android.sdk.internal.crypto.model.rest.EncryptedFileInfo
 
 /**
  * Interface for message which can contains an encrypted file

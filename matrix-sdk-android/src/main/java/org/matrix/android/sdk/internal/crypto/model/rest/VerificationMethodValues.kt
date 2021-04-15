@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.model.rest
+package com.energeek.android.sdk.internal.crypto.model.rest
 
-import org.matrix.android.sdk.api.session.crypto.verification.VerificationMethod
+import com.energeek.android.sdk.api.session.crypto.verification.VerificationMethod
 
 internal const val VERIFICATION_METHOD_SAS = "m.sas.v1"
 

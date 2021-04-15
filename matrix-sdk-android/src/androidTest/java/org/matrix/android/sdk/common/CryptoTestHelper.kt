@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.common
+package com.energeek.android.sdk.common
 
 import android.os.SystemClock
 import android.util.Log
@@ -27,27 +27,27 @@ import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
-import org.matrix.android.sdk.api.auth.UIABaseAuth
-import org.matrix.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import org.matrix.android.sdk.api.auth.UserPasswordAuth
-import org.matrix.android.sdk.api.auth.registration.RegistrationFlowResponse
-import org.matrix.android.sdk.api.session.Session
-import org.matrix.android.sdk.api.session.crypto.verification.IncomingSasVerificationTransaction
-import org.matrix.android.sdk.api.session.crypto.verification.OutgoingSasVerificationTransaction
-import org.matrix.android.sdk.api.session.crypto.verification.VerificationMethod
-import org.matrix.android.sdk.api.session.crypto.verification.VerificationTxState
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.toContent
-import org.matrix.android.sdk.api.session.room.Room
-import org.matrix.android.sdk.api.session.room.model.Membership
-import org.matrix.android.sdk.api.session.room.model.RoomSummary
-import org.matrix.android.sdk.api.session.room.model.create.CreateRoomParams
-import org.matrix.android.sdk.api.session.room.roomSummaryQueryParams
-import org.matrix.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
-import org.matrix.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP
-import org.matrix.android.sdk.internal.crypto.keysbackup.model.MegolmBackupAuthData
-import org.matrix.android.sdk.internal.crypto.keysbackup.model.MegolmBackupCreationInfo
+import com.energeek.android.sdk.api.auth.UIABaseAuth
+import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.energeek.android.sdk.api.auth.UserPasswordAuth
+import com.energeek.android.sdk.api.auth.registration.RegistrationFlowResponse
+import com.energeek.android.sdk.api.session.Session
+import com.energeek.android.sdk.api.session.crypto.verification.IncomingSasVerificationTransaction
+import com.energeek.android.sdk.api.session.crypto.verification.OutgoingSasVerificationTransaction
+import com.energeek.android.sdk.api.session.crypto.verification.VerificationMethod
+import com.energeek.android.sdk.api.session.crypto.verification.VerificationTxState
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.toContent
+import com.energeek.android.sdk.api.session.room.Room
+import com.energeek.android.sdk.api.session.room.model.Membership
+import com.energeek.android.sdk.api.session.room.model.RoomSummary
+import com.energeek.android.sdk.api.session.room.model.create.CreateRoomParams
+import com.energeek.android.sdk.api.session.room.roomSummaryQueryParams
+import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
+import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP
+import com.energeek.android.sdk.internal.crypto.keysbackup.model.MegolmBackupAuthData
+import com.energeek.android.sdk.internal.crypto.keysbackup.model.MegolmBackupCreationInfo
 import java.util.UUID
 import java.util.concurrent.CountDownLatch
 import kotlin.coroutines.Continuation

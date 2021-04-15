@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.algorithms
+package com.energeek.android.sdk.internal.crypto.algorithms
 
-import org.matrix.android.sdk.api.session.events.model.Content
+import com.energeek.android.sdk.api.session.events.model.Content
 
 /**
  * An interface for encrypting data

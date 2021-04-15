@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.widgets
+package com.energeek.android.sdk.internal.session.widgets
 
 import dagger.Lazy
-import org.matrix.android.sdk.internal.di.Unauthenticated
-import org.matrix.android.sdk.internal.network.RetrofitFactory
-import org.matrix.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.di.Unauthenticated
+import com.energeek.android.sdk.internal.network.RetrofitFactory
+import com.energeek.android.sdk.internal.session.SessionScope
 import okhttp3.OkHttpClient
 import javax.inject.Inject
 

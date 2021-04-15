@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.crypto.keyshare
+package com.energeek.android.sdk.api.session.crypto.keyshare
 
-import org.matrix.android.sdk.internal.crypto.IncomingRoomKeyRequest
-import org.matrix.android.sdk.internal.crypto.IncomingRequestCancellation
-import org.matrix.android.sdk.internal.crypto.IncomingSecretShareRequest
+import com.energeek.android.sdk.internal.crypto.IncomingRoomKeyRequest
+import com.energeek.android.sdk.internal.crypto.IncomingRequestCancellation
+import com.energeek.android.sdk.internal.crypto.IncomingSecretShareRequest
 
 /**
  * Room keys events listener

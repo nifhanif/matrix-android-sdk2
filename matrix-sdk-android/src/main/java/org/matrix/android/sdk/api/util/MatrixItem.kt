@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.util
+package com.energeek.android.sdk.api.util
 
-import org.matrix.android.sdk.BuildConfig
-import org.matrix.android.sdk.api.session.group.model.GroupSummary
-import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary
-import org.matrix.android.sdk.api.session.room.model.RoomSummary
-import org.matrix.android.sdk.api.session.room.model.roomdirectory.PublicRoom
-import org.matrix.android.sdk.api.session.room.sender.SenderInfo
-import org.matrix.android.sdk.api.session.user.model.User
+import com.energeek.android.sdk.BuildConfig
+import com.energeek.android.sdk.api.session.group.model.GroupSummary
+import com.energeek.android.sdk.api.session.room.model.RoomMemberSummary
+import com.energeek.android.sdk.api.session.room.model.RoomSummary
+import com.energeek.android.sdk.api.session.room.model.roomdirectory.PublicRoom
+import com.energeek.android.sdk.api.session.room.sender.SenderInfo
+import com.energeek.android.sdk.api.session.user.model.User
 import java.util.Locale
 
 sealed class MatrixItem(

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.model
+package com.energeek.android.sdk.internal.crypto.model
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.crypto.model.rest.DeviceKeys
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.crypto.model.rest.DeviceKeys
 import java.io.Serializable
 
 @JsonClass(generateAdapter = true)

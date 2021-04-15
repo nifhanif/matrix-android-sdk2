@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.permalinks
+package com.energeek.android.sdk.api.session.permalinks
 
-import org.matrix.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.Event
 
 /**
  * Useful methods to create Matrix permalink (matrix.to links).

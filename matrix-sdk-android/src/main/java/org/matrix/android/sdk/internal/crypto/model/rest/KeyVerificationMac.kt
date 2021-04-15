@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.model.rest
+package com.energeek.android.sdk.internal.crypto.model.rest
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.internal.crypto.verification.VerificationInfoMac
-import org.matrix.android.sdk.internal.crypto.verification.VerificationInfoMacFactory
+import com.energeek.android.sdk.internal.crypto.verification.VerificationInfoMac
+import com.energeek.android.sdk.internal.crypto.verification.VerificationInfoMacFactory
 
 /**
  * Sent by both devices to send the MAC of their device key to the other device.

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.keysbackup.model.rest
+package com.energeek.android.sdk.internal.crypto.keysbackup.model.rest
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.network.parsing.ForceToBoolean
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.network.parsing.ForceToBoolean
 
 /**
  * Backup data for one key.

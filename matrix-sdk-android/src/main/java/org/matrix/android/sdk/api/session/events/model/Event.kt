@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.events.model
+package com.energeek.android.sdk.api.session.events.model
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.session.crypto.MXCryptoError
-import org.matrix.android.sdk.api.session.room.model.message.MessageContent
-import org.matrix.android.sdk.api.session.room.model.message.MessageType
-import org.matrix.android.sdk.api.session.room.model.relation.RelationDefaultContent
-import org.matrix.android.sdk.api.session.room.send.SendState
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
-import org.matrix.android.sdk.internal.crypto.model.event.EncryptedEventContent
-import org.matrix.android.sdk.internal.di.MoshiProvider
+import com.energeek.android.sdk.api.session.crypto.MXCryptoError
+import com.energeek.android.sdk.api.session.room.model.message.MessageContent
+import com.energeek.android.sdk.api.session.room.model.message.MessageType
+import com.energeek.android.sdk.api.session.room.model.relation.RelationDefaultContent
+import com.energeek.android.sdk.api.session.room.send.SendState
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
+import com.energeek.android.sdk.internal.crypto.model.event.EncryptedEventContent
+import com.energeek.android.sdk.internal.di.MoshiProvider
 import org.json.JSONObject
 import timber.log.Timber
 

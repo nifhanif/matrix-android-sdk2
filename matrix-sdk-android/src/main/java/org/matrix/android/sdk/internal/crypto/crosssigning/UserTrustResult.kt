@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.crosssigning
+package com.energeek.android.sdk.internal.crypto.crosssigning
 
-import org.matrix.android.sdk.api.session.crypto.crosssigning.MXCrossSigningInfo
-import org.matrix.android.sdk.internal.crypto.model.CryptoCrossSigningKey
+import com.energeek.android.sdk.api.session.crypto.crosssigning.MXCrossSigningInfo
+import com.energeek.android.sdk.internal.crypto.model.CryptoCrossSigningKey
 
 sealed class UserTrustResult {
     object Success : UserTrustResult()

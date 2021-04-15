@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.alias
+package com.energeek.android.sdk.internal.session.room.alias
 
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.directory.DirectoryAPI
-import org.matrix.android.sdk.internal.session.room.alias.RoomAliasAvailabilityChecker.Companion.toFullLocalAlias
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.directory.DirectoryAPI
+import com.energeek.android.sdk.internal.session.room.alias.RoomAliasAvailabilityChecker.Companion.toFullLocalAlias
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface AddRoomAliasTask : Task<AddRoomAliasTask.Params, Unit> {

@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.verification
+package com.energeek.android.sdk.internal.crypto.verification
 
-import org.matrix.android.sdk.api.extensions.orFalse
-import org.matrix.android.sdk.api.session.crypto.crosssigning.CrossSigningService
-import org.matrix.android.sdk.api.session.crypto.verification.CancelCode
-import org.matrix.android.sdk.api.session.crypto.verification.EmojiRepresentation
-import org.matrix.android.sdk.api.session.crypto.verification.SasMode
-import org.matrix.android.sdk.api.session.crypto.verification.SasVerificationTransaction
-import org.matrix.android.sdk.api.session.crypto.verification.VerificationTxState
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.internal.crypto.IncomingGossipingRequestManager
-import org.matrix.android.sdk.internal.crypto.OutgoingGossipingRequestManager
-import org.matrix.android.sdk.internal.crypto.actions.SetDeviceVerificationAction
-import org.matrix.android.sdk.internal.crypto.store.IMXCryptoStore
-import org.matrix.android.sdk.internal.extensions.toUnsignedInt
+import com.energeek.android.sdk.api.extensions.orFalse
+import com.energeek.android.sdk.api.session.crypto.crosssigning.CrossSigningService
+import com.energeek.android.sdk.api.session.crypto.verification.CancelCode
+import com.energeek.android.sdk.api.session.crypto.verification.EmojiRepresentation
+import com.energeek.android.sdk.api.session.crypto.verification.SasMode
+import com.energeek.android.sdk.api.session.crypto.verification.SasVerificationTransaction
+import com.energeek.android.sdk.api.session.crypto.verification.VerificationTxState
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.internal.crypto.IncomingGossipingRequestManager
+import com.energeek.android.sdk.internal.crypto.OutgoingGossipingRequestManager
+import com.energeek.android.sdk.internal.crypto.actions.SetDeviceVerificationAction
+import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.energeek.android.sdk.internal.extensions.toUnsignedInt
 import org.matrix.olm.OlmSAS
 import org.matrix.olm.OlmUtility
 import timber.log.Timber

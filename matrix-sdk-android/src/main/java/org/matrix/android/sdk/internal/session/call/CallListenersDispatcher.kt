@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.call
+package com.energeek.android.sdk.internal.session.call
 
-import org.matrix.android.sdk.api.extensions.tryOrNull
-import org.matrix.android.sdk.api.session.call.CallListener
-import org.matrix.android.sdk.api.session.call.MxCall
-import org.matrix.android.sdk.api.session.room.model.call.CallAnswerContent
-import org.matrix.android.sdk.api.session.room.model.call.CallCandidatesContent
-import org.matrix.android.sdk.api.session.room.model.call.CallHangupContent
-import org.matrix.android.sdk.api.session.room.model.call.CallInviteContent
-import org.matrix.android.sdk.api.session.room.model.call.CallNegotiateContent
-import org.matrix.android.sdk.api.session.room.model.call.CallRejectContent
-import org.matrix.android.sdk.api.session.room.model.call.CallSelectAnswerContent
+import com.energeek.android.sdk.api.extensions.tryOrNull
+import com.energeek.android.sdk.api.session.call.CallListener
+import com.energeek.android.sdk.api.session.call.MxCall
+import com.energeek.android.sdk.api.session.room.model.call.CallAnswerContent
+import com.energeek.android.sdk.api.session.room.model.call.CallCandidatesContent
+import com.energeek.android.sdk.api.session.room.model.call.CallHangupContent
+import com.energeek.android.sdk.api.session.room.model.call.CallInviteContent
+import com.energeek.android.sdk.api.session.room.model.call.CallNegotiateContent
+import com.energeek.android.sdk.api.session.room.model.call.CallRejectContent
+import com.energeek.android.sdk.api.session.room.model.call.CallSelectAnswerContent
 
 /**
  * Dispatch each method safely to all listeners.

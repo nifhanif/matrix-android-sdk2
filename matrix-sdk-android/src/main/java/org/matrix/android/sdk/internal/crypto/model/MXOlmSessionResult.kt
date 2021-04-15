@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.model
+package com.energeek.android.sdk.internal.crypto.model
 
 import java.io.Serializable
 

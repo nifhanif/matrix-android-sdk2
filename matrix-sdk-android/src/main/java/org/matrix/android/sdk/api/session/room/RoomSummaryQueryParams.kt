@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room
+package com.energeek.android.sdk.api.session.room
 
-import org.matrix.android.sdk.api.query.QueryStringValue
-import org.matrix.android.sdk.api.query.RoomCategoryFilter
-import org.matrix.android.sdk.api.query.RoomTagQueryFilter
-import org.matrix.android.sdk.api.session.room.model.Membership
+import com.energeek.android.sdk.api.query.QueryStringValue
+import com.energeek.android.sdk.api.query.RoomCategoryFilter
+import com.energeek.android.sdk.api.query.RoomTagQueryFilter
+import com.energeek.android.sdk.api.session.room.model.Membership
 
 fun roomSummaryQueryParams(init: (RoomSummaryQueryParams.Builder.() -> Unit) = {}): RoomSummaryQueryParams {
     return RoomSummaryQueryParams.Builder().apply(init).build()
@@ -27,7 +27,7 @@ fun roomSummaryQueryParams(init: (RoomSummaryQueryParams.Builder.() -> Unit) = {
 
 /**
  * This class can be used to filter room summaries to use with:
- * [org.matrix.android.sdk.api.session.room.Room] and [org.matrix.android.sdk.api.session.room.RoomService]
+ * [com.energeek.android.sdk.api.session.room.Room] and [com.energeek.android.sdk.api.session.room.RoomService]
  */
 data class RoomSummaryQueryParams(
         val roomId: QueryStringValue,

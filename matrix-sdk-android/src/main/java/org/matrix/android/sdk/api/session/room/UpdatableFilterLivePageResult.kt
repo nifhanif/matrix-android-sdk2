@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room
+package com.energeek.android.sdk.api.session.room
 
 import androidx.lifecycle.LiveData
 import androidx.paging.PagedList
-import org.matrix.android.sdk.api.session.room.model.RoomSummary
+import com.energeek.android.sdk.api.session.room.model.RoomSummary
 
 interface UpdatableFilterLivePageResult {
     val livePagedList: LiveData<PagedList<RoomSummary>>

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.comparators
+package com.energeek.android.sdk.api.comparators
 
-import org.matrix.android.sdk.api.interfaces.DatedObject
+import com.energeek.android.sdk.api.interfaces.DatedObject
 
 object DatedObjectComparators {
 

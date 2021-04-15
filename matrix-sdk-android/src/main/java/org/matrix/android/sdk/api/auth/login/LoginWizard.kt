@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.auth.login
+package com.energeek.android.sdk.api.auth.login
 
-import org.matrix.android.sdk.api.session.Session
-import org.matrix.android.sdk.api.util.Cancelable
+import com.energeek.android.sdk.api.session.Session
+import com.energeek.android.sdk.api.util.Cancelable
 
 interface LoginWizard {
 

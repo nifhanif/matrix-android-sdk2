@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.sender
+package com.energeek.android.sdk.api.session.room.sender
 
-import org.matrix.android.sdk.internal.util.replaceSpaceChars
+import com.energeek.android.sdk.internal.util.replaceSpaceChars
 
 data class SenderInfo(
         val userId: String,

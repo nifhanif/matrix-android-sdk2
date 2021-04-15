@@ -15,27 +15,27 @@
  *
  */
 
-package org.matrix.android.sdk.internal.session.profile
+package com.energeek.android.sdk.internal.session.profile
 
 import android.net.Uri
 import androidx.lifecycle.LiveData
 import com.zhuinden.monarchy.Monarchy
 import io.realm.kotlin.where
 import kotlinx.coroutines.withContext
-import org.matrix.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import org.matrix.android.sdk.api.session.identity.ThreePid
-import org.matrix.android.sdk.api.session.profile.ProfileService
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.api.util.MimeTypes
-import org.matrix.android.sdk.api.util.Optional
-import org.matrix.android.sdk.internal.database.model.PendingThreePidEntity
-import org.matrix.android.sdk.internal.database.model.UserThreePidEntity
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.session.content.FileUploader
-import org.matrix.android.sdk.internal.session.user.UserStore
-import org.matrix.android.sdk.internal.task.TaskExecutor
-import org.matrix.android.sdk.internal.task.configureWith
-import org.matrix.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.energeek.android.sdk.api.session.identity.ThreePid
+import com.energeek.android.sdk.api.session.profile.ProfileService
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.api.util.MimeTypes
+import com.energeek.android.sdk.api.util.Optional
+import com.energeek.android.sdk.internal.database.model.PendingThreePidEntity
+import com.energeek.android.sdk.internal.database.model.UserThreePidEntity
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.session.content.FileUploader
+import com.energeek.android.sdk.internal.session.user.UserStore
+import com.energeek.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.internal.task.configureWith
+import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
 import javax.inject.Inject
 
 internal class DefaultProfileService @Inject constructor(private val taskExecutor: TaskExecutor,

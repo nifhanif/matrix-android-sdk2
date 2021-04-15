@@ -13,28 +13,28 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.verification
+package com.energeek.android.sdk.internal.crypto.verification
 
-import org.matrix.android.sdk.api.MatrixCallback
-import org.matrix.android.sdk.api.session.crypto.verification.CancelCode
-import org.matrix.android.sdk.api.session.crypto.verification.ValidVerificationInfoRequest
-import org.matrix.android.sdk.api.session.crypto.verification.VerificationTxState
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.room.model.message.MessageType
-import org.matrix.android.sdk.internal.crypto.model.MXUsersDevicesMap
-import org.matrix.android.sdk.internal.crypto.model.rest.KeyVerificationAccept
-import org.matrix.android.sdk.internal.crypto.model.rest.KeyVerificationCancel
-import org.matrix.android.sdk.internal.crypto.model.rest.KeyVerificationDone
-import org.matrix.android.sdk.internal.crypto.model.rest.KeyVerificationKey
-import org.matrix.android.sdk.internal.crypto.model.rest.KeyVerificationMac
-import org.matrix.android.sdk.internal.crypto.model.rest.KeyVerificationReady
-import org.matrix.android.sdk.internal.crypto.model.rest.KeyVerificationRequest
-import org.matrix.android.sdk.internal.crypto.model.rest.KeyVerificationStart
-import org.matrix.android.sdk.internal.crypto.model.rest.VERIFICATION_METHOD_RECIPROCATE
-import org.matrix.android.sdk.internal.crypto.model.rest.VERIFICATION_METHOD_SAS
-import org.matrix.android.sdk.internal.crypto.tasks.SendToDeviceTask
-import org.matrix.android.sdk.internal.task.TaskExecutor
-import org.matrix.android.sdk.internal.task.configureWith
+import com.energeek.android.sdk.api.MatrixCallback
+import com.energeek.android.sdk.api.session.crypto.verification.CancelCode
+import com.energeek.android.sdk.api.session.crypto.verification.ValidVerificationInfoRequest
+import com.energeek.android.sdk.api.session.crypto.verification.VerificationTxState
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.room.model.message.MessageType
+import com.energeek.android.sdk.internal.crypto.model.MXUsersDevicesMap
+import com.energeek.android.sdk.internal.crypto.model.rest.KeyVerificationAccept
+import com.energeek.android.sdk.internal.crypto.model.rest.KeyVerificationCancel
+import com.energeek.android.sdk.internal.crypto.model.rest.KeyVerificationDone
+import com.energeek.android.sdk.internal.crypto.model.rest.KeyVerificationKey
+import com.energeek.android.sdk.internal.crypto.model.rest.KeyVerificationMac
+import com.energeek.android.sdk.internal.crypto.model.rest.KeyVerificationReady
+import com.energeek.android.sdk.internal.crypto.model.rest.KeyVerificationRequest
+import com.energeek.android.sdk.internal.crypto.model.rest.KeyVerificationStart
+import com.energeek.android.sdk.internal.crypto.model.rest.VERIFICATION_METHOD_RECIPROCATE
+import com.energeek.android.sdk.internal.crypto.model.rest.VERIFICATION_METHOD_SAS
+import com.energeek.android.sdk.internal.crypto.tasks.SendToDeviceTask
+import com.energeek.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.internal.task.configureWith
 import timber.log.Timber
 
 internal class VerificationTransportToDevice(

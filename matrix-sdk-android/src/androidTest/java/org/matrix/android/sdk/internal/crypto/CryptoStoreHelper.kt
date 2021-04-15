@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto
+package com.energeek.android.sdk.internal.crypto
 
-import org.matrix.android.sdk.internal.crypto.store.IMXCryptoStore
-import org.matrix.android.sdk.internal.crypto.store.db.RealmCryptoStore
-import org.matrix.android.sdk.internal.crypto.store.db.RealmCryptoStoreModule
-import org.matrix.android.sdk.internal.crypto.store.db.mapper.CrossSigningKeysMapper
-import org.matrix.android.sdk.internal.di.MoshiProvider
+import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.energeek.android.sdk.internal.crypto.store.db.RealmCryptoStore
+import com.energeek.android.sdk.internal.crypto.store.db.RealmCryptoStoreModule
+import com.energeek.android.sdk.internal.crypto.store.db.mapper.CrossSigningKeysMapper
+import com.energeek.android.sdk.internal.di.MoshiProvider
 import io.realm.RealmConfiguration
 import kotlin.random.Random
 

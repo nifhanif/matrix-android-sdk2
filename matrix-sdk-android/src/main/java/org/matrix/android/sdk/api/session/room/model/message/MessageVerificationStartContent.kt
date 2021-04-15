@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.api.session.room.model.message
+package com.energeek.android.sdk.api.session.room.model.message
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.session.events.model.toContent
-import org.matrix.android.sdk.api.session.room.model.relation.RelationDefaultContent
-import org.matrix.android.sdk.internal.crypto.verification.VerificationInfoStart
-import org.matrix.android.sdk.internal.util.JsonCanonicalizer
+import com.energeek.android.sdk.api.session.events.model.toContent
+import com.energeek.android.sdk.api.session.room.model.relation.RelationDefaultContent
+import com.energeek.android.sdk.internal.crypto.verification.VerificationInfoStart
+import com.energeek.android.sdk.internal.util.JsonCanonicalizer
 
 @JsonClass(generateAdapter = true)
 internal data class MessageVerificationStartContent(

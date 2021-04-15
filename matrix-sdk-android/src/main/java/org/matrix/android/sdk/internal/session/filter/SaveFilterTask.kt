@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.filter
+package com.energeek.android.sdk.internal.session.filter
 
-import org.matrix.android.sdk.api.session.sync.FilterService
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.session.sync.FilterService
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 /**

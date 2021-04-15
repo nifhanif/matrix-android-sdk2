@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.content
+package com.energeek.android.sdk.internal.session.content
 
 import android.content.Context
 import android.net.Uri
@@ -30,13 +30,13 @@ import okhttp3.RequestBody
 import okhttp3.RequestBody.Companion.toRequestBody
 import okio.BufferedSink
 import okio.source
-import org.matrix.android.sdk.api.extensions.tryOrNull
-import org.matrix.android.sdk.api.session.content.ContentUrlResolver
-import org.matrix.android.sdk.internal.di.Authenticated
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.ProgressRequestBody
-import org.matrix.android.sdk.internal.network.awaitResponse
-import org.matrix.android.sdk.internal.network.toFailure
+import com.energeek.android.sdk.api.extensions.tryOrNull
+import com.energeek.android.sdk.api.session.content.ContentUrlResolver
+import com.energeek.android.sdk.internal.di.Authenticated
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.ProgressRequestBody
+import com.energeek.android.sdk.internal.network.awaitResponse
+import com.energeek.android.sdk.internal.network.toFailure
 import java.io.File
 import java.io.FileNotFoundException
 import java.io.IOException

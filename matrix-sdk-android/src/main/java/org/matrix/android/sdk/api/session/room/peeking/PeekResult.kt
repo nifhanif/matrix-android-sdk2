@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.peeking
+package com.energeek.android.sdk.api.session.room.peeking
 
 sealed class PeekResult {
     data class Success(

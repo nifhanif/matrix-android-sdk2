@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.di
+package com.energeek.android.sdk.internal.di
 
 import com.facebook.stetho.okhttp3.StethoInterceptor
 import com.squareup.moshi.Moshi
 import dagger.Module
 import dagger.Provides
-import org.matrix.android.sdk.BuildConfig
-import org.matrix.android.sdk.api.MatrixConfiguration
-import org.matrix.android.sdk.internal.network.TimeOutInterceptor
-import org.matrix.android.sdk.internal.network.UserAgentInterceptor
-import org.matrix.android.sdk.internal.network.interceptors.CurlLoggingInterceptor
-import org.matrix.android.sdk.internal.network.interceptors.FormattedJsonHttpLogger
+import com.energeek.android.sdk.BuildConfig
+import com.energeek.android.sdk.api.MatrixConfiguration
+import com.energeek.android.sdk.internal.network.TimeOutInterceptor
+import com.energeek.android.sdk.internal.network.UserAgentInterceptor
+import com.energeek.android.sdk.internal.network.interceptors.CurlLoggingInterceptor
+import com.energeek.android.sdk.internal.network.interceptors.FormattedJsonHttpLogger
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
-import org.matrix.android.sdk.internal.network.ApiInterceptor
+import com.energeek.android.sdk.internal.network.ApiInterceptor
 import java.util.concurrent.TimeUnit
 
 @Module

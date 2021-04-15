@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.worker
+package com.energeek.android.sdk.internal.worker
 
 import android.content.Context
 import androidx.annotation.CallSuper
@@ -22,7 +22,7 @@ import androidx.work.CoroutineWorker
 import androidx.work.Data
 import androidx.work.WorkerParameters
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.internal.session.SessionComponent
+import com.energeek.android.sdk.internal.session.SessionComponent
 import timber.log.Timber
 
 /**

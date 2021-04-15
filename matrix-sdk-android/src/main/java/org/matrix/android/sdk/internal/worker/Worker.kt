@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.worker
+package com.energeek.android.sdk.internal.worker
 
 import androidx.work.ListenableWorker
-import org.matrix.android.sdk.api.Matrix
-import org.matrix.android.sdk.internal.session.SessionComponent
+import com.energeek.android.sdk.api.Matrix
+import com.energeek.android.sdk.internal.session.SessionComponent
 
 internal fun ListenableWorker.getSessionComponent(sessionId: String): SessionComponent? {
     return Matrix.getInstance(applicationContext).sessionManager.getSessionComponent(sessionId)

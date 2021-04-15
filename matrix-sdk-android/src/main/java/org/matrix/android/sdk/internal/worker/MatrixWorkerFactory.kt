@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.worker
+package com.energeek.android.sdk.internal.worker
 
 import android.content.Context
 import androidx.work.ListenableWorker

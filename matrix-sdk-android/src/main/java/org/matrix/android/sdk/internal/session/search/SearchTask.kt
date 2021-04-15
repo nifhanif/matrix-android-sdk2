@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.search
+package com.energeek.android.sdk.internal.session.search
 
-import org.matrix.android.sdk.api.session.search.EventAndSender
-import org.matrix.android.sdk.api.session.search.SearchResult
-import org.matrix.android.sdk.api.util.MatrixItem
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.search.request.SearchRequestBody
-import org.matrix.android.sdk.internal.session.search.request.SearchRequestCategories
-import org.matrix.android.sdk.internal.session.search.request.SearchRequestEventContext
-import org.matrix.android.sdk.internal.session.search.request.SearchRequestFilter
-import org.matrix.android.sdk.internal.session.search.request.SearchRequestOrder
-import org.matrix.android.sdk.internal.session.search.request.SearchRequestRoomEvents
-import org.matrix.android.sdk.internal.session.search.response.SearchResponse
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.session.search.EventAndSender
+import com.energeek.android.sdk.api.session.search.SearchResult
+import com.energeek.android.sdk.api.util.MatrixItem
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.search.request.SearchRequestBody
+import com.energeek.android.sdk.internal.session.search.request.SearchRequestCategories
+import com.energeek.android.sdk.internal.session.search.request.SearchRequestEventContext
+import com.energeek.android.sdk.internal.session.search.request.SearchRequestFilter
+import com.energeek.android.sdk.internal.session.search.request.SearchRequestOrder
+import com.energeek.android.sdk.internal.session.search.request.SearchRequestRoomEvents
+import com.energeek.android.sdk.internal.session.search.response.SearchResponse
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface SearchTask : Task<SearchTask.Params, SearchResult> {

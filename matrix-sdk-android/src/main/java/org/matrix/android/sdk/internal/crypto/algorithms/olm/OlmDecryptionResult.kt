@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.algorithms.olm
+package com.energeek.android.sdk.internal.crypto.algorithms.olm
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.api.util.JsonDict
 
 /**
  * This class represents the decryption result.

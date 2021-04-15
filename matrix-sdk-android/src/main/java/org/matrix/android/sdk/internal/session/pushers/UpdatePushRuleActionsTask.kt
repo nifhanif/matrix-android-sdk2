@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.session.pushers
+package com.energeek.android.sdk.internal.session.pushers
 
-import org.matrix.android.sdk.api.pushrules.RuleKind
-import org.matrix.android.sdk.api.pushrules.rest.PushRule
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.pushrules.RuleKind
+import com.energeek.android.sdk.api.pushrules.rest.PushRule
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface UpdatePushRuleActionsTask : Task<UpdatePushRuleActionsTask.Params, Unit> {

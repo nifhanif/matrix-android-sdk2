@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.membership.joining
+package com.energeek.android.sdk.internal.session.room.membership.joining
 
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import kotlinx.coroutines.TimeoutCancellationException
-import org.matrix.android.sdk.api.session.room.failure.JoinRoomFailure
-import org.matrix.android.sdk.api.session.room.members.ChangeMembershipState
-import org.matrix.android.sdk.api.session.room.model.Membership
-import org.matrix.android.sdk.internal.database.awaitNotEmptyResult
-import org.matrix.android.sdk.internal.database.model.RoomSummaryEntity
-import org.matrix.android.sdk.internal.database.model.RoomSummaryEntityFields
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.room.RoomAPI
-import org.matrix.android.sdk.internal.session.room.membership.RoomChangeMembershipStateDataSource
-import org.matrix.android.sdk.internal.session.room.read.SetReadMarkersTask
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.session.room.failure.JoinRoomFailure
+import com.energeek.android.sdk.api.session.room.members.ChangeMembershipState
+import com.energeek.android.sdk.api.session.room.model.Membership
+import com.energeek.android.sdk.internal.database.awaitNotEmptyResult
+import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
+import com.energeek.android.sdk.internal.database.model.RoomSummaryEntityFields
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.room.RoomAPI
+import com.energeek.android.sdk.internal.session.room.membership.RoomChangeMembershipStateDataSource
+import com.energeek.android.sdk.internal.session.room.read.SetReadMarkersTask
+import com.energeek.android.sdk.internal.task.Task
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 

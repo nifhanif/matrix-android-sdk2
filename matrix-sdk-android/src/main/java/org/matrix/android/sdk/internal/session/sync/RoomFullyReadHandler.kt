@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync
+package com.energeek.android.sdk.internal.session.sync
 
-import org.matrix.android.sdk.internal.database.model.ReadMarkerEntity
-import org.matrix.android.sdk.internal.database.model.RoomSummaryEntity
-import org.matrix.android.sdk.internal.database.query.getOrCreate
-import org.matrix.android.sdk.internal.session.room.read.FullyReadContent
+import com.energeek.android.sdk.internal.database.model.ReadMarkerEntity
+import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
+import com.energeek.android.sdk.internal.database.query.getOrCreate
+import com.energeek.android.sdk.internal.session.room.read.FullyReadContent
 import io.realm.Realm
 import timber.log.Timber
 import javax.inject.Inject

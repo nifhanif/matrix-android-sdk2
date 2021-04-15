@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.model.tag
+package com.energeek.android.sdk.api.session.room.model.tag
 
 data class RoomTag(
         val name: String,

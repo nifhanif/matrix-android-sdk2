@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.membership
+package com.energeek.android.sdk.internal.session.room.membership
 
 import io.realm.Realm
 import io.realm.RealmQuery
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.room.model.Membership
-import org.matrix.android.sdk.internal.database.model.CurrentStateEventEntity
-import org.matrix.android.sdk.internal.database.model.EventEntity
-import org.matrix.android.sdk.internal.database.model.RoomMemberSummaryEntity
-import org.matrix.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
-import org.matrix.android.sdk.internal.database.model.RoomSummaryEntity
-import org.matrix.android.sdk.internal.database.query.getOrNull
-import org.matrix.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.room.model.Membership
+import com.energeek.android.sdk.internal.database.model.CurrentStateEventEntity
+import com.energeek.android.sdk.internal.database.model.EventEntity
+import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntity
+import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
+import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
+import com.energeek.android.sdk.internal.database.query.getOrNull
+import com.energeek.android.sdk.internal.database.query.where
 
 /**
  * This class is an helper around STATE_ROOM_MEMBER events.

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.read
+package com.energeek.android.sdk.internal.session.room.read
 
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface MarkAllRoomsReadTask : Task<MarkAllRoomsReadTask.Params, Unit> {

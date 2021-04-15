@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.model
+package com.energeek.android.sdk.api.session.room.model
 
 data class ReactionAggregatedSummary(
         val key: String,                // "👍"

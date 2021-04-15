@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.session.room.relation
+package com.energeek.android.sdk.internal.session.room.relation
 
 import android.content.Context
 import androidx.work.WorkerParameters
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.model.relation.ReactionContent
-import org.matrix.android.sdk.api.session.room.model.relation.ReactionInfo
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.SessionComponent
-import org.matrix.android.sdk.internal.session.room.RoomAPI
-import org.matrix.android.sdk.internal.session.room.send.LocalEchoRepository
-import org.matrix.android.sdk.internal.worker.SessionSafeCoroutineWorker
-import org.matrix.android.sdk.internal.worker.SessionWorkerParams
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.model.relation.ReactionContent
+import com.energeek.android.sdk.api.session.room.model.relation.ReactionInfo
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.SessionComponent
+import com.energeek.android.sdk.internal.session.room.RoomAPI
+import com.energeek.android.sdk.internal.session.room.send.LocalEchoRepository
+import com.energeek.android.sdk.internal.worker.SessionSafeCoroutineWorker
+import com.energeek.android.sdk.internal.worker.SessionWorkerParams
 import javax.inject.Inject
 
 // TODO This is not used. Delete?

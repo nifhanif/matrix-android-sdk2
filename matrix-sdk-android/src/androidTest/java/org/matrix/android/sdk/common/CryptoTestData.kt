@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.common
+package com.energeek.android.sdk.common
 
-import org.matrix.android.sdk.api.session.Session
+import com.energeek.android.sdk.api.session.Session
 
 data class CryptoTestData(val roomId: String,
                           val sessions: List<Session>) {

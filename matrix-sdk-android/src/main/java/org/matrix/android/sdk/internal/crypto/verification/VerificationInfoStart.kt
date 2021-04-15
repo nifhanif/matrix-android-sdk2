@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.verification
+package com.energeek.android.sdk.internal.crypto.verification
 
-import org.matrix.android.sdk.api.session.crypto.verification.SasMode
-import org.matrix.android.sdk.internal.crypto.model.rest.VERIFICATION_METHOD_RECIPROCATE
-import org.matrix.android.sdk.internal.crypto.model.rest.VERIFICATION_METHOD_SAS
+import com.energeek.android.sdk.api.session.crypto.verification.SasMode
+import com.energeek.android.sdk.internal.crypto.model.rest.VERIFICATION_METHOD_RECIPROCATE
+import com.energeek.android.sdk.internal.crypto.model.rest.VERIFICATION_METHOD_SAS
 
 internal interface VerificationInfoStart : VerificationInfo<ValidVerificationInfoStart> {
 

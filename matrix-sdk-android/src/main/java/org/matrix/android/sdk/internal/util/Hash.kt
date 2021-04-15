@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.util
+package com.energeek.android.sdk.internal.util
 
 import java.security.MessageDigest
 import java.util.Locale

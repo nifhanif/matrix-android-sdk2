@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.widgets.token
+package com.energeek.android.sdk.internal.session.widgets.token
 
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.internal.database.model.ScalarTokenEntity
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.util.awaitTransaction
-import org.matrix.android.sdk.internal.util.fetchCopyMap
+import com.energeek.android.sdk.internal.database.model.ScalarTokenEntity
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.util.awaitTransaction
+import com.energeek.android.sdk.internal.util.fetchCopyMap
 import javax.inject.Inject
 
 internal class ScalarTokenStore @Inject constructor(@SessionDatabase private val monarchy: Monarchy) {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.query
+package com.energeek.android.sdk.api.query
 
 data class RoomTagQueryFilter(
         val isFavorite: Boolean?,

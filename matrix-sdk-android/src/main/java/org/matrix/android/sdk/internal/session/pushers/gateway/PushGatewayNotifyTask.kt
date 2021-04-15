@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.session.pushers.gateway
+package com.energeek.android.sdk.internal.session.pushers.gateway
 
 import okhttp3.OkHttpClient
-import org.matrix.android.sdk.api.session.pushers.PushGatewayFailure
-import org.matrix.android.sdk.internal.di.Unauthenticated
-import org.matrix.android.sdk.internal.network.NetworkConstants
-import org.matrix.android.sdk.internal.network.RetrofitFactory
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.session.pushers.PushGatewayFailure
+import com.energeek.android.sdk.internal.di.Unauthenticated
+import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.internal.network.RetrofitFactory
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface PushGatewayNotifyTask : Task<PushGatewayNotifyTask.Params, Unit> {

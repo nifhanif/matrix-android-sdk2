@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.store.db
+package com.energeek.android.sdk.internal.crypto.store.db
 
-import org.matrix.android.sdk.internal.crypto.store.db.model.CrossSigningInfoEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.CryptoMetadataEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.CryptoRoomEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.DeviceInfoEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.GossipingEventEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.IncomingGossipingRequestEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.KeyInfoEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.KeysBackupDataEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.MyDeviceLastSeenInfoEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.OlmInboundGroupSessionEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.OlmSessionEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.OutgoingGossipingRequestEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.SharedSessionEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.TrustLevelEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.UserEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.WithHeldSessionEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.CrossSigningInfoEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.CryptoMetadataEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.CryptoRoomEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.DeviceInfoEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.GossipingEventEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.IncomingGossipingRequestEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.KeyInfoEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.KeysBackupDataEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.MyDeviceLastSeenInfoEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.OlmInboundGroupSessionEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.OlmSessionEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.OutgoingGossipingRequestEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.SharedSessionEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.TrustLevelEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.UserEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.WithHeldSessionEntity
 import io.realm.annotations.RealmModule
-import org.matrix.android.sdk.internal.crypto.store.db.model.OutboundGroupSessionInfoEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.OutboundGroupSessionInfoEntity
 
 /**
  * Realm module for Crypto store classes

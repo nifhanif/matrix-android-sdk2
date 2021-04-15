@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.mapper
+package com.energeek.android.sdk.internal.database.mapper
 
-import org.matrix.android.sdk.api.session.group.model.GroupSummary
-import org.matrix.android.sdk.internal.database.model.GroupSummaryEntity
+import com.energeek.android.sdk.api.session.group.model.GroupSummary
+import com.energeek.android.sdk.internal.database.model.GroupSummaryEntity
 
 internal object GroupSummaryMapper {
 

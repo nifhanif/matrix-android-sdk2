@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.pushrules
+package com.energeek.android.sdk.api.pushrules
 
 import io.mockk.every
 import io.mockk.mockk
@@ -22,14 +22,14 @@ import org.amshove.kluent.shouldBe
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
-import org.matrix.android.sdk.MatrixTest
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.toContent
-import org.matrix.android.sdk.api.session.room.Room
-import org.matrix.android.sdk.api.session.room.model.Membership
-import org.matrix.android.sdk.api.session.room.model.RoomMemberContent
-import org.matrix.android.sdk.api.session.room.model.message.MessageTextContent
-import org.matrix.android.sdk.internal.session.room.RoomGetter
+import com.energeek.android.sdk.MatrixTest
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.toContent
+import com.energeek.android.sdk.api.session.room.Room
+import com.energeek.android.sdk.api.session.room.model.Membership
+import com.energeek.android.sdk.api.session.room.model.RoomMemberContent
+import com.energeek.android.sdk.api.session.room.model.message.MessageTextContent
+import com.energeek.android.sdk.internal.session.room.RoomGetter
 
 class PushRulesConditionTest : MatrixTest {
 

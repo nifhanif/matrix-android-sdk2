@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.tools
+package com.energeek.android.sdk.internal.database.tools
 
 import io.realm.Realm
 import io.realm.RealmConfiguration
-import org.matrix.android.sdk.BuildConfig
+import com.energeek.android.sdk.BuildConfig
 import timber.log.Timber
 
 internal class RealmDebugTools(

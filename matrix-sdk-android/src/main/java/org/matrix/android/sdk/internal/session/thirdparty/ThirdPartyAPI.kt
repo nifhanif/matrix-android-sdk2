@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.thirdparty
+package com.energeek.android.sdk.internal.session.thirdparty
 
-import org.matrix.android.sdk.api.session.room.model.thirdparty.ThirdPartyProtocol
-import org.matrix.android.sdk.api.session.thirdparty.model.ThirdPartyUser
-import org.matrix.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.api.session.room.model.thirdparty.ThirdPartyProtocol
+import com.energeek.android.sdk.api.session.thirdparty.model.ThirdPartyUser
+import com.energeek.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.QueryMap

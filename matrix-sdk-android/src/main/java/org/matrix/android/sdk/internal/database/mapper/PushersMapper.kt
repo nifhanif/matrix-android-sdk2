@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.database.mapper
+package com.energeek.android.sdk.internal.database.mapper
 
-import org.matrix.android.sdk.api.session.pushers.Pusher
-import org.matrix.android.sdk.api.session.pushers.PusherData
-import org.matrix.android.sdk.internal.database.model.PusherDataEntity
-import org.matrix.android.sdk.internal.database.model.PusherEntity
-import org.matrix.android.sdk.internal.session.pushers.JsonPusher
+import com.energeek.android.sdk.api.session.pushers.Pusher
+import com.energeek.android.sdk.api.session.pushers.PusherData
+import com.energeek.android.sdk.internal.database.model.PusherDataEntity
+import com.energeek.android.sdk.internal.database.model.PusherEntity
+import com.energeek.android.sdk.internal.session.pushers.JsonPusher
 
 internal object PushersMapper {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.timeline
+package com.energeek.android.sdk.internal.session.room.timeline
 
 internal enum class PaginationDirection(val value: String) {
     /**

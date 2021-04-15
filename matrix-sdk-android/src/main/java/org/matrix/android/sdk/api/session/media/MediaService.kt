@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.media
+package com.energeek.android.sdk.api.session.media
 
-import org.matrix.android.sdk.api.cache.CacheStrategy
-import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
-import org.matrix.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.api.cache.CacheStrategy
+import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
+import com.energeek.android.sdk.api.util.JsonDict
 
 interface MediaService {
     /**

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.model
+package com.energeek.android.sdk.internal.crypto.model
 
-import org.matrix.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.api.util.JsonDict
 import timber.log.Timber
 
 data class MXKey(

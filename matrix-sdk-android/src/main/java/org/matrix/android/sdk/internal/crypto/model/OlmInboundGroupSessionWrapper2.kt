@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.model
+package com.energeek.android.sdk.internal.crypto.model
 
-import org.matrix.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
-import org.matrix.android.sdk.internal.crypto.MegolmSessionData
+import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
+import com.energeek.android.sdk.internal.crypto.MegolmSessionData
 import org.matrix.olm.OlmInboundGroupSession
 import timber.log.Timber
 import java.io.Serializable

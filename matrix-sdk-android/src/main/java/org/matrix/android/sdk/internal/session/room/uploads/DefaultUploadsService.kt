@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.uploads
+package com.energeek.android.sdk.internal.session.room.uploads
 
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import org.matrix.android.sdk.api.session.crypto.CryptoService
-import org.matrix.android.sdk.api.session.room.uploads.GetUploadsResult
-import org.matrix.android.sdk.api.session.room.uploads.UploadsService
+import com.energeek.android.sdk.api.session.crypto.CryptoService
+import com.energeek.android.sdk.api.session.room.uploads.GetUploadsResult
+import com.energeek.android.sdk.api.session.room.uploads.UploadsService
 
 internal class DefaultUploadsService @AssistedInject constructor(
         @Assisted private val roomId: String,

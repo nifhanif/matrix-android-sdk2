@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.store.db.query
+package com.energeek.android.sdk.internal.crypto.store.db.query
 
-import org.matrix.android.sdk.internal.crypto.store.db.model.DeviceInfoEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.DeviceInfoEntityFields
-import org.matrix.android.sdk.internal.crypto.store.db.model.createPrimaryKey
+import com.energeek.android.sdk.internal.crypto.store.db.model.DeviceInfoEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.DeviceInfoEntityFields
+import com.energeek.android.sdk.internal.crypto.store.db.model.createPrimaryKey
 import io.realm.Realm
 import io.realm.kotlin.createObject
 import io.realm.kotlin.where

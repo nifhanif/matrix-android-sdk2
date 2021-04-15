@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.session.room.timeline
+package com.energeek.android.sdk.session.room.timeline
 
-import org.matrix.android.sdk.internal.session.room.timeline.PaginationTask
-import org.matrix.android.sdk.internal.session.room.timeline.TokenChunkEventPersistor
+import com.energeek.android.sdk.internal.session.room.timeline.PaginationTask
+import com.energeek.android.sdk.internal.session.room.timeline.TokenChunkEventPersistor
 import javax.inject.Inject
 import kotlin.random.Random
 

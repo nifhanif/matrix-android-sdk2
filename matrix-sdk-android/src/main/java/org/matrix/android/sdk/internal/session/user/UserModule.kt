@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.user
+package com.energeek.android.sdk.internal.session.user
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import org.matrix.android.sdk.api.session.user.UserService
-import org.matrix.android.sdk.internal.session.SessionScope
-import org.matrix.android.sdk.internal.session.user.accountdata.DefaultSaveIgnoredUsersTask
-import org.matrix.android.sdk.internal.session.user.accountdata.DefaultUpdateIgnoredUserIdsTask
-import org.matrix.android.sdk.internal.session.user.accountdata.SaveIgnoredUsersTask
-import org.matrix.android.sdk.internal.session.user.accountdata.UpdateIgnoredUserIdsTask
-import org.matrix.android.sdk.internal.session.user.model.DefaultSearchUserTask
-import org.matrix.android.sdk.internal.session.user.model.SearchUserTask
+import com.energeek.android.sdk.api.session.user.UserService
+import com.energeek.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.session.user.accountdata.DefaultSaveIgnoredUsersTask
+import com.energeek.android.sdk.internal.session.user.accountdata.DefaultUpdateIgnoredUserIdsTask
+import com.energeek.android.sdk.internal.session.user.accountdata.SaveIgnoredUsersTask
+import com.energeek.android.sdk.internal.session.user.accountdata.UpdateIgnoredUserIdsTask
+import com.energeek.android.sdk.internal.session.user.model.DefaultSearchUserTask
+import com.energeek.android.sdk.internal.session.user.model.SearchUserTask
 import retrofit2.Retrofit
 
 @Module

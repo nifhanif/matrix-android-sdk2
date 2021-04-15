@@ -14,30 +14,30 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room
+package com.energeek.android.sdk.internal.session.room
 
-import org.matrix.android.sdk.api.session.events.model.Content
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.room.model.Membership
-import org.matrix.android.sdk.api.session.room.model.roomdirectory.PublicRoomsParams
-import org.matrix.android.sdk.api.session.room.model.roomdirectory.PublicRoomsResponse
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.network.NetworkConstants
-import org.matrix.android.sdk.internal.session.room.alias.GetAliasesResponse
-import org.matrix.android.sdk.internal.session.room.create.CreateRoomBody
-import org.matrix.android.sdk.internal.session.room.create.CreateRoomResponse
-import org.matrix.android.sdk.internal.session.room.create.JoinRoomResponse
-import org.matrix.android.sdk.internal.session.room.membership.RoomMembersResponse
-import org.matrix.android.sdk.internal.session.room.membership.admin.UserIdAndReason
-import org.matrix.android.sdk.internal.session.room.membership.joining.InviteBody
-import org.matrix.android.sdk.internal.session.room.membership.threepid.ThreePidInviteBody
-import org.matrix.android.sdk.internal.session.room.relation.RelationsResponse
-import org.matrix.android.sdk.internal.session.room.reporting.ReportContentBody
-import org.matrix.android.sdk.internal.session.room.send.SendResponse
-import org.matrix.android.sdk.internal.session.room.tags.TagBody
-import org.matrix.android.sdk.internal.session.room.timeline.EventContextResponse
-import org.matrix.android.sdk.internal.session.room.timeline.PaginationResponse
-import org.matrix.android.sdk.internal.session.room.typing.TypingBody
+import com.energeek.android.sdk.api.session.events.model.Content
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.room.model.Membership
+import com.energeek.android.sdk.api.session.room.model.roomdirectory.PublicRoomsParams
+import com.energeek.android.sdk.api.session.room.model.roomdirectory.PublicRoomsResponse
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.internal.session.room.alias.GetAliasesResponse
+import com.energeek.android.sdk.internal.session.room.create.CreateRoomBody
+import com.energeek.android.sdk.internal.session.room.create.CreateRoomResponse
+import com.energeek.android.sdk.internal.session.room.create.JoinRoomResponse
+import com.energeek.android.sdk.internal.session.room.membership.RoomMembersResponse
+import com.energeek.android.sdk.internal.session.room.membership.admin.UserIdAndReason
+import com.energeek.android.sdk.internal.session.room.membership.joining.InviteBody
+import com.energeek.android.sdk.internal.session.room.membership.threepid.ThreePidInviteBody
+import com.energeek.android.sdk.internal.session.room.relation.RelationsResponse
+import com.energeek.android.sdk.internal.session.room.reporting.ReportContentBody
+import com.energeek.android.sdk.internal.session.room.send.SendResponse
+import com.energeek.android.sdk.internal.session.room.tags.TagBody
+import com.energeek.android.sdk.internal.session.room.timeline.EventContextResponse
+import com.energeek.android.sdk.internal.session.room.timeline.PaginationResponse
+import com.energeek.android.sdk.internal.session.room.typing.TypingBody
 import retrofit2.http.Body
 import retrofit2.http.DELETE
 import retrofit2.http.GET

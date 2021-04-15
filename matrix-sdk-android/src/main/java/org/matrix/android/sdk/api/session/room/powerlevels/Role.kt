@@ -15,7 +15,7 @@
  *
  */
 
-package org.matrix.android.sdk.api.session.room.powerlevels
+package com.energeek.android.sdk.api.session.room.powerlevels
 
 sealed class Role(open val value: Int) : Comparable<Role> {
     object Admin : Role(100)

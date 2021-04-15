@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.session.room.send
+package com.energeek.android.sdk.internal.session.room.send
 
 import android.content.Context
 import androidx.work.WorkerParameters
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.SessionComponent
-import org.matrix.android.sdk.internal.session.room.RoomAPI
-import org.matrix.android.sdk.internal.worker.SessionSafeCoroutineWorker
-import org.matrix.android.sdk.internal.worker.SessionWorkerParams
-import org.matrix.android.sdk.internal.worker.WorkerParamsFactory
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.SessionComponent
+import com.energeek.android.sdk.internal.session.room.RoomAPI
+import com.energeek.android.sdk.internal.worker.SessionSafeCoroutineWorker
+import com.energeek.android.sdk.internal.worker.SessionWorkerParams
+import com.energeek.android.sdk.internal.worker.WorkerParamsFactory
 import javax.inject.Inject
 
 /**

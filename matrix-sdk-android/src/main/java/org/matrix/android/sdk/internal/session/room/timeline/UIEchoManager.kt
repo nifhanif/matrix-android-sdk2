@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.timeline
+package com.energeek.android.sdk.internal.session.room.timeline
 
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.RelationType
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.model.EventAnnotationsSummary
-import org.matrix.android.sdk.api.session.room.model.ReactionAggregatedSummary
-import org.matrix.android.sdk.api.session.room.model.relation.ReactionContent
-import org.matrix.android.sdk.api.session.room.send.SendState
-import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
-import org.matrix.android.sdk.api.session.room.timeline.TimelineSettings
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.RelationType
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.model.EventAnnotationsSummary
+import com.energeek.android.sdk.api.session.room.model.ReactionAggregatedSummary
+import com.energeek.android.sdk.api.session.room.model.relation.ReactionContent
+import com.energeek.android.sdk.api.session.room.send.SendState
+import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
+import com.energeek.android.sdk.api.session.room.timeline.TimelineSettings
 import timber.log.Timber
 import java.util.Collections
 

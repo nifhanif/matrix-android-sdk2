@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.common
+package com.energeek.android.sdk.common
 
 import android.os.Debug
 

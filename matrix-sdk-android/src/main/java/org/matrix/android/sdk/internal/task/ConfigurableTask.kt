@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.task
+package com.energeek.android.sdk.internal.task
 
-import org.matrix.android.sdk.api.MatrixCallback
-import org.matrix.android.sdk.api.NoOpMatrixCallback
-import org.matrix.android.sdk.api.util.Cancelable
+import com.energeek.android.sdk.api.MatrixCallback
+import com.energeek.android.sdk.api.NoOpMatrixCallback
+import com.energeek.android.sdk.api.util.Cancelable
 import java.util.UUID
 
 internal fun <PARAMS, RESULT> Task<PARAMS, RESULT>.configureWith(params: PARAMS,

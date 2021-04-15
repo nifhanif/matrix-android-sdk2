@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.identity
+package com.energeek.android.sdk.internal.session.identity
 
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.identity.model.IdentityRegisterResponse
-import org.matrix.android.sdk.internal.session.openid.RequestOpenIdTokenResponse
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.identity.model.IdentityRegisterResponse
+import com.energeek.android.sdk.internal.session.openid.RequestOpenIdTokenResponse
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface IdentityRegisterTask : Task<IdentityRegisterTask.Params, IdentityRegisterResponse> {

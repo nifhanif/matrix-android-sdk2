@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.cache
+package com.energeek.android.sdk.internal.session.cache
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import org.matrix.android.sdk.api.session.cache.CacheService
-import org.matrix.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.api.session.cache.CacheService
+import com.energeek.android.sdk.internal.di.SessionDatabase
 import io.realm.RealmConfiguration
 
 @Module

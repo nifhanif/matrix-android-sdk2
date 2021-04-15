@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.network.interceptors
+package com.energeek.android.sdk.internal.network.interceptors
 
 import androidx.annotation.NonNull
 import okhttp3.logging.HttpLoggingInterceptor

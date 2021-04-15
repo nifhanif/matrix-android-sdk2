@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.call
+package com.energeek.android.sdk.api.session.call
 
-import org.matrix.android.sdk.api.session.room.model.call.CallCandidate
-import org.matrix.android.sdk.api.session.room.model.call.CallCapabilities
-import org.matrix.android.sdk.api.session.room.model.call.CallHangupContent
-import org.matrix.android.sdk.api.session.room.model.call.SdpType
-import org.matrix.android.sdk.api.util.Optional
+import com.energeek.android.sdk.api.session.room.model.call.CallCandidate
+import com.energeek.android.sdk.api.session.room.model.call.CallCapabilities
+import com.energeek.android.sdk.api.session.room.model.call.CallHangupContent
+import com.energeek.android.sdk.api.session.room.model.call.SdpType
+import com.energeek.android.sdk.api.util.Optional
 
 interface MxCallDetail {
     val callId: String

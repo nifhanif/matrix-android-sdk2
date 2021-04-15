@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.model
+package com.energeek.android.sdk.internal.database.model
 
 import io.realm.RealmObject
 import io.realm.RealmResults
 import io.realm.annotations.Index
 import io.realm.annotations.LinkingObjects
-import org.matrix.android.sdk.internal.extensions.assertIsManaged
+import com.energeek.android.sdk.internal.extensions.assertIsManaged
 
 internal open class TimelineEventEntity(var localId: Long = 0,
                                         @Index var eventId: String = "",

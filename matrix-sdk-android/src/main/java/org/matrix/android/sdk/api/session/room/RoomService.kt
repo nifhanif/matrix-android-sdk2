@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room
+package com.energeek.android.sdk.api.session.room
 
 import androidx.lifecycle.LiveData
 import androidx.paging.PagedList
-import org.matrix.android.sdk.api.MatrixCallback
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.room.members.ChangeMembershipState
-import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary
-import org.matrix.android.sdk.api.session.room.model.RoomSummary
-import org.matrix.android.sdk.api.session.room.model.create.CreateRoomParams
-import org.matrix.android.sdk.api.session.room.peeking.PeekResult
-import org.matrix.android.sdk.api.session.room.summary.RoomAggregateNotificationCount
-import org.matrix.android.sdk.api.util.Cancelable
-import org.matrix.android.sdk.api.util.Optional
-import org.matrix.android.sdk.internal.session.room.alias.RoomAliasDescription
+import com.energeek.android.sdk.api.MatrixCallback
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.room.members.ChangeMembershipState
+import com.energeek.android.sdk.api.session.room.model.RoomMemberSummary
+import com.energeek.android.sdk.api.session.room.model.RoomSummary
+import com.energeek.android.sdk.api.session.room.model.create.CreateRoomParams
+import com.energeek.android.sdk.api.session.room.peeking.PeekResult
+import com.energeek.android.sdk.api.session.room.summary.RoomAggregateNotificationCount
+import com.energeek.android.sdk.api.util.Cancelable
+import com.energeek.android.sdk.api.util.Optional
+import com.energeek.android.sdk.internal.session.room.alias.RoomAliasDescription
 
 /**
  * This interface defines methods to get rooms. It's implemented at the session level.

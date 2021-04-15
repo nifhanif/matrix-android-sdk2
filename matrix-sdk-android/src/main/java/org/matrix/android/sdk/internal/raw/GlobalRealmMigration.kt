@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.raw
+package com.energeek.android.sdk.internal.raw
 
 import io.realm.DynamicRealm
 import io.realm.RealmMigration
-import org.matrix.android.sdk.internal.database.model.KnownServerUrlEntityFields
+import com.energeek.android.sdk.internal.database.model.KnownServerUrlEntityFields
 import timber.log.Timber
 
 internal object GlobalRealmMigration : RealmMigration {

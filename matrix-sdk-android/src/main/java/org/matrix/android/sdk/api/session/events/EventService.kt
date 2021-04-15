@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.events
+package com.energeek.android.sdk.api.session.events
 
-import org.matrix.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.Event
 
 interface EventService {
 

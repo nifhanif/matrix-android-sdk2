@@ -14,37 +14,37 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.auth
+package com.energeek.android.sdk.internal.auth
 
 import android.net.Uri
 import dagger.Lazy
 import okhttp3.OkHttpClient
-import org.matrix.android.sdk.api.auth.AuthenticationService
-import org.matrix.android.sdk.api.auth.data.Credentials
-import org.matrix.android.sdk.api.auth.data.HomeServerConnectionConfig
-import org.matrix.android.sdk.api.auth.data.LoginFlowResult
-import org.matrix.android.sdk.api.auth.data.LoginFlowTypes
-import org.matrix.android.sdk.api.auth.login.LoginWizard
-import org.matrix.android.sdk.api.auth.registration.RegistrationWizard
-import org.matrix.android.sdk.api.auth.wellknown.WellknownResult
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.session.Session
-import org.matrix.android.sdk.api.util.appendParamToUrl
-import org.matrix.android.sdk.internal.SessionManager
-import org.matrix.android.sdk.internal.auth.data.RiotConfig
-import org.matrix.android.sdk.internal.auth.db.PendingSessionData
-import org.matrix.android.sdk.internal.auth.login.DefaultLoginWizard
-import org.matrix.android.sdk.internal.auth.login.DirectLoginTask
-import org.matrix.android.sdk.internal.auth.registration.DefaultRegistrationWizard
-import org.matrix.android.sdk.internal.auth.version.Versions
-import org.matrix.android.sdk.internal.auth.version.isLoginAndRegistrationSupportedBySdk
-import org.matrix.android.sdk.internal.auth.version.isSupportedBySdk
-import org.matrix.android.sdk.internal.di.Unauthenticated
-import org.matrix.android.sdk.internal.network.RetrofitFactory
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.network.httpclient.addSocketFactory
-import org.matrix.android.sdk.internal.network.ssl.UnrecognizedCertificateException
-import org.matrix.android.sdk.internal.wellknown.GetWellknownTask
+import com.energeek.android.sdk.api.auth.AuthenticationService
+import com.energeek.android.sdk.api.auth.data.Credentials
+import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.energeek.android.sdk.api.auth.data.LoginFlowResult
+import com.energeek.android.sdk.api.auth.data.LoginFlowTypes
+import com.energeek.android.sdk.api.auth.login.LoginWizard
+import com.energeek.android.sdk.api.auth.registration.RegistrationWizard
+import com.energeek.android.sdk.api.auth.wellknown.WellknownResult
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.session.Session
+import com.energeek.android.sdk.api.util.appendParamToUrl
+import com.energeek.android.sdk.internal.SessionManager
+import com.energeek.android.sdk.internal.auth.data.RiotConfig
+import com.energeek.android.sdk.internal.auth.db.PendingSessionData
+import com.energeek.android.sdk.internal.auth.login.DefaultLoginWizard
+import com.energeek.android.sdk.internal.auth.login.DirectLoginTask
+import com.energeek.android.sdk.internal.auth.registration.DefaultRegistrationWizard
+import com.energeek.android.sdk.internal.auth.version.Versions
+import com.energeek.android.sdk.internal.auth.version.isLoginAndRegistrationSupportedBySdk
+import com.energeek.android.sdk.internal.auth.version.isSupportedBySdk
+import com.energeek.android.sdk.internal.di.Unauthenticated
+import com.energeek.android.sdk.internal.network.RetrofitFactory
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.network.httpclient.addSocketFactory
+import com.energeek.android.sdk.internal.network.ssl.UnrecognizedCertificateException
+import com.energeek.android.sdk.internal.wellknown.GetWellknownTask
 import javax.inject.Inject
 import javax.net.ssl.HttpsURLConnection
 

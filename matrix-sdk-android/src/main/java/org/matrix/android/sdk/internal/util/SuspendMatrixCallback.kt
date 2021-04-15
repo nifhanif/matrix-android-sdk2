@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.util
+package com.energeek.android.sdk.internal.util
 
-import org.matrix.android.sdk.api.MatrixCallback
+import com.energeek.android.sdk.api.MatrixCallback
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 import kotlin.coroutines.suspendCoroutine

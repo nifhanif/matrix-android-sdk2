@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.mapper
+package com.energeek.android.sdk.internal.database.mapper
 
-import org.matrix.android.sdk.api.pushrules.rest.PushCondition
-import org.matrix.android.sdk.internal.database.model.PushConditionEntity
+import com.energeek.android.sdk.api.pushrules.rest.PushCondition
+import com.energeek.android.sdk.internal.database.model.PushConditionEntity
 
 internal object PushConditionMapper {
 

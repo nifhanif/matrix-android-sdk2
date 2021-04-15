@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.mapper
+package com.energeek.android.sdk.internal.database.mapper
 
-import org.matrix.android.sdk.api.session.room.model.EditAggregatedSummary
-import org.matrix.android.sdk.api.session.room.model.EventAnnotationsSummary
-import org.matrix.android.sdk.api.session.room.model.ReactionAggregatedSummary
-import org.matrix.android.sdk.api.session.room.model.ReferencesAggregatedSummary
-import org.matrix.android.sdk.internal.database.model.EventAnnotationsSummaryEntity
+import com.energeek.android.sdk.api.session.room.model.EditAggregatedSummary
+import com.energeek.android.sdk.api.session.room.model.EventAnnotationsSummary
+import com.energeek.android.sdk.api.session.room.model.ReactionAggregatedSummary
+import com.energeek.android.sdk.api.session.room.model.ReferencesAggregatedSummary
+import com.energeek.android.sdk.internal.database.model.EventAnnotationsSummaryEntity
 
 internal object EventAnnotationsSummaryMapper {
     fun map(annotationsSummary: EventAnnotationsSummaryEntity): EventAnnotationsSummary {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.query
+package com.energeek.android.sdk.internal.query
 
 import io.realm.RealmObject
 import io.realm.RealmQuery

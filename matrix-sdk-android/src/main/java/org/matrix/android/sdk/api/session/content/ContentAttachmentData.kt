@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.content
+package com.energeek.android.sdk.api.session.content
 
 import android.net.Uri
 import android.os.Parcelable
 import androidx.exifinterface.media.ExifInterface
 import com.squareup.moshi.JsonClass
 import kotlinx.parcelize.Parcelize
-import org.matrix.android.sdk.api.util.MimeTypes.normalizeMimeType
+import com.energeek.android.sdk.api.util.MimeTypes.normalizeMimeType
 
 @Parcelize
 @JsonClass(generateAdapter = true)

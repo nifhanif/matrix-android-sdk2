@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.failure
+package com.energeek.android.sdk.api.failure
 
-import org.matrix.android.sdk.api.auth.registration.RegistrationFlowResponse
-import org.matrix.android.sdk.api.session.crypto.MXCryptoError
-import org.matrix.android.sdk.internal.network.ssl.Fingerprint
+import com.energeek.android.sdk.api.auth.registration.RegistrationFlowResponse
+import com.energeek.android.sdk.api.session.crypto.MXCryptoError
+import com.energeek.android.sdk.internal.network.ssl.Fingerprint
 import java.io.IOException
 
 /**

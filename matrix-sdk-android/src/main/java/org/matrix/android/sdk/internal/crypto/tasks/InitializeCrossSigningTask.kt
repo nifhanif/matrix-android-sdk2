@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.tasks
+package com.energeek.android.sdk.internal.crypto.tasks
 
 import dagger.Lazy
-import org.matrix.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import org.matrix.android.sdk.internal.auth.registration.handleUIA
-import org.matrix.android.sdk.internal.crypto.MXOlmDevice
-import org.matrix.android.sdk.internal.crypto.MyDeviceInfoHolder
-import org.matrix.android.sdk.internal.crypto.crosssigning.canonicalSignable
-import org.matrix.android.sdk.internal.crypto.crosssigning.toBase64NoPadding
-import org.matrix.android.sdk.internal.crypto.model.CryptoCrossSigningKey
-import org.matrix.android.sdk.internal.crypto.model.KeyUsage
-import org.matrix.android.sdk.internal.crypto.model.rest.UploadSignatureQueryBuilder
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.task.Task
-import org.matrix.android.sdk.internal.util.JsonCanonicalizer
+import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.energeek.android.sdk.internal.auth.registration.handleUIA
+import com.energeek.android.sdk.internal.crypto.MXOlmDevice
+import com.energeek.android.sdk.internal.crypto.MyDeviceInfoHolder
+import com.energeek.android.sdk.internal.crypto.crosssigning.canonicalSignable
+import com.energeek.android.sdk.internal.crypto.crosssigning.toBase64NoPadding
+import com.energeek.android.sdk.internal.crypto.model.CryptoCrossSigningKey
+import com.energeek.android.sdk.internal.crypto.model.KeyUsage
+import com.energeek.android.sdk.internal.crypto.model.rest.UploadSignatureQueryBuilder
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.task.Task
+import com.energeek.android.sdk.internal.util.JsonCanonicalizer
 import org.matrix.olm.OlmPkSigning
 import timber.log.Timber
 import javax.inject.Inject

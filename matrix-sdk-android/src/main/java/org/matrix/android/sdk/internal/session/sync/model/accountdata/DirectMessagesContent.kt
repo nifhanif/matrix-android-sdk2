@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync.model.accountdata
+package com.energeek.android.sdk.internal.session.sync.model.accountdata
 
 /**
  * Keys are userIds, values are list of roomIds

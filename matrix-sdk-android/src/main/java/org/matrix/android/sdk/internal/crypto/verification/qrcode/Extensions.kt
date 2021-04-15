@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.verification.qrcode
+package com.energeek.android.sdk.internal.crypto.verification.qrcode
 
-import org.matrix.android.sdk.internal.crypto.crosssigning.fromBase64
-import org.matrix.android.sdk.internal.crypto.crosssigning.toBase64NoPadding
-import org.matrix.android.sdk.internal.extensions.toUnsignedInt
+import com.energeek.android.sdk.internal.crypto.crosssigning.fromBase64
+import com.energeek.android.sdk.internal.crypto.crosssigning.toBase64NoPadding
+import com.energeek.android.sdk.internal.extensions.toUnsignedInt
 
 // MATRIX
 private val prefix = "MATRIX".toByteArray(Charsets.ISO_8859_1)

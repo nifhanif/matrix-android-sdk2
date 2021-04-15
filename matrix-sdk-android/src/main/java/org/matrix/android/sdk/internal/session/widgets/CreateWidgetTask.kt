@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.widgets
+package com.energeek.android.sdk.internal.session.widgets
 
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.api.session.events.model.Content
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.internal.database.awaitNotEmptyResult
-import org.matrix.android.sdk.internal.database.model.CurrentStateEventEntity
-import org.matrix.android.sdk.internal.database.model.CurrentStateEventEntityFields
-import org.matrix.android.sdk.internal.database.query.whereStateKey
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.room.RoomAPI
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.session.events.model.Content
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.internal.database.awaitNotEmptyResult
+import com.energeek.android.sdk.internal.database.model.CurrentStateEventEntity
+import com.energeek.android.sdk.internal.database.model.CurrentStateEventEntityFields
+import com.energeek.android.sdk.internal.database.query.whereStateKey
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.room.RoomAPI
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface CreateWidgetTask : Task<CreateWidgetTask.Params, Unit> {

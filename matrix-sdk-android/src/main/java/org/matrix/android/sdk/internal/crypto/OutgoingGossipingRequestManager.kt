@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto
+package com.energeek.android.sdk.internal.crypto
 
-import org.matrix.android.sdk.api.session.events.model.LocalEcho
-import org.matrix.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
-import org.matrix.android.sdk.internal.crypto.store.IMXCryptoStore
-import org.matrix.android.sdk.internal.di.SessionId
-import org.matrix.android.sdk.internal.session.SessionScope
-import org.matrix.android.sdk.internal.util.MatrixCoroutineDispatchers
-import org.matrix.android.sdk.internal.worker.WorkerParamsFactory
+import com.energeek.android.sdk.api.session.events.model.LocalEcho
+import com.energeek.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
+import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.energeek.android.sdk.internal.di.SessionId
+import com.energeek.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.energeek.android.sdk.internal.worker.WorkerParamsFactory
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

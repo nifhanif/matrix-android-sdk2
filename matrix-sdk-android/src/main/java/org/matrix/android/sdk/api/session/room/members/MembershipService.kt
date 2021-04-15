@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.members
+package com.energeek.android.sdk.api.session.room.members
 
 import androidx.lifecycle.LiveData
-import org.matrix.android.sdk.api.session.identity.ThreePid
-import org.matrix.android.sdk.api.session.room.model.RoomMemberSummary
+import com.energeek.android.sdk.api.session.identity.ThreePid
+import com.energeek.android.sdk.api.session.room.model.RoomMemberSummary
 
 /**
  * This interface defines methods to handling membership. It's implemented at the room level.

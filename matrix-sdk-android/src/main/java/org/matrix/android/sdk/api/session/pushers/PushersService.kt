@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.api.session.pushers
+package com.energeek.android.sdk.api.session.pushers
 
 import androidx.lifecycle.LiveData
 import java.util.UUID

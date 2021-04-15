@@ -15,12 +15,12 @@
  *
  */
 
-package org.matrix.android.sdk.internal.session.profile
+package com.energeek.android.sdk.internal.session.profile
 
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.auth.registration.SuccessResult
-import org.matrix.android.sdk.internal.auth.registration.ValidationCodeBody
-import org.matrix.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.auth.registration.SuccessResult
+import com.energeek.android.sdk.internal.auth.registration.ValidationCodeBody
+import com.energeek.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST

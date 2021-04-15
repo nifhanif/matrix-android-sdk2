@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.session.room.timeline
+package com.energeek.android.sdk.session.room.timeline
 
-import org.matrix.android.sdk.InstrumentedTest
-import org.matrix.android.sdk.api.extensions.orFalse
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.model.message.MessageContent
-import org.matrix.android.sdk.api.session.room.timeline.Timeline
-import org.matrix.android.sdk.api.session.room.timeline.TimelineSettings
-import org.matrix.android.sdk.common.CommonTestHelper
-import org.matrix.android.sdk.common.CryptoTestHelper
-import org.matrix.android.sdk.common.checkSendOrder
+import com.energeek.android.sdk.InstrumentedTest
+import com.energeek.android.sdk.api.extensions.orFalse
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.model.message.MessageContent
+import com.energeek.android.sdk.api.session.room.timeline.Timeline
+import com.energeek.android.sdk.api.session.room.timeline.TimelineSettings
+import com.energeek.android.sdk.common.CommonTestHelper
+import com.energeek.android.sdk.common.CryptoTestHelper
+import com.energeek.android.sdk.common.checkSendOrder
 import org.amshove.kluent.shouldBeFalse
 import org.amshove.kluent.shouldBeTrue
 import org.junit.Assert.assertTrue

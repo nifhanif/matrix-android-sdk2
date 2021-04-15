@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.crosssigning
+package com.energeek.android.sdk.internal.crypto.crosssigning
 
 import android.util.Base64
-import org.matrix.android.sdk.internal.crypto.model.CryptoCrossSigningKey
-import org.matrix.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import org.matrix.android.sdk.internal.util.JsonCanonicalizer
+import com.energeek.android.sdk.internal.crypto.model.CryptoCrossSigningKey
+import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.energeek.android.sdk.internal.util.JsonCanonicalizer
 import timber.log.Timber
 
 internal fun CryptoDeviceInfo.canonicalSignable(): String {

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.mapper
+package com.energeek.android.sdk.internal.database.mapper
 
-import org.matrix.android.sdk.api.session.events.model.toContent
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.model.PollResponseAggregatedSummary
-import org.matrix.android.sdk.internal.database.model.PollResponseAggregatedSummaryEntity
+import com.energeek.android.sdk.api.session.events.model.toContent
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.model.PollResponseAggregatedSummary
+import com.energeek.android.sdk.internal.database.model.PollResponseAggregatedSummaryEntity
 import io.realm.RealmList
 
 internal object PollResponseAggregatedSummaryEntityMapper {

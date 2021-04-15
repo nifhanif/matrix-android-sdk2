@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.typing
+package com.energeek.android.sdk.api.session.typing
 
-import org.matrix.android.sdk.api.session.room.sender.SenderInfo
+import com.energeek.android.sdk.api.session.room.sender.SenderInfo
 
 /**
  * Responsible for tracking typing users from each room.

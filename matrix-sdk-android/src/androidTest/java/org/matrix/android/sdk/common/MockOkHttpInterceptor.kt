@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.common
+package com.energeek.android.sdk.common
 
-import org.matrix.android.sdk.internal.session.TestInterceptor
+import com.energeek.android.sdk.internal.session.TestInterceptor
 import okhttp3.Interceptor
 import okhttp3.Protocol
 import okhttp3.Request

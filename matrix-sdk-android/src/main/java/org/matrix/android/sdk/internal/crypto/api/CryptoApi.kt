@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.api
+package com.energeek.android.sdk.internal.crypto.api
 
-import org.matrix.android.sdk.internal.crypto.model.rest.DeleteDeviceParams
-import org.matrix.android.sdk.internal.crypto.model.rest.DeviceInfo
-import org.matrix.android.sdk.internal.crypto.model.rest.DevicesListResponse
-import org.matrix.android.sdk.internal.crypto.model.rest.KeyChangesResponse
-import org.matrix.android.sdk.internal.crypto.model.rest.KeysClaimBody
-import org.matrix.android.sdk.internal.crypto.model.rest.KeysClaimResponse
-import org.matrix.android.sdk.internal.crypto.model.rest.KeysQueryBody
-import org.matrix.android.sdk.internal.crypto.model.rest.KeysQueryResponse
-import org.matrix.android.sdk.internal.crypto.model.rest.KeysUploadBody
-import org.matrix.android.sdk.internal.crypto.model.rest.KeysUploadResponse
-import org.matrix.android.sdk.internal.crypto.model.rest.SendToDeviceBody
-import org.matrix.android.sdk.internal.crypto.model.rest.SignatureUploadResponse
-import org.matrix.android.sdk.internal.crypto.model.rest.UpdateDeviceInfoBody
-import org.matrix.android.sdk.internal.crypto.model.rest.UploadSigningKeysBody
-import org.matrix.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.internal.crypto.model.rest.DeleteDeviceParams
+import com.energeek.android.sdk.internal.crypto.model.rest.DeviceInfo
+import com.energeek.android.sdk.internal.crypto.model.rest.DevicesListResponse
+import com.energeek.android.sdk.internal.crypto.model.rest.KeyChangesResponse
+import com.energeek.android.sdk.internal.crypto.model.rest.KeysClaimBody
+import com.energeek.android.sdk.internal.crypto.model.rest.KeysClaimResponse
+import com.energeek.android.sdk.internal.crypto.model.rest.KeysQueryBody
+import com.energeek.android.sdk.internal.crypto.model.rest.KeysQueryResponse
+import com.energeek.android.sdk.internal.crypto.model.rest.KeysUploadBody
+import com.energeek.android.sdk.internal.crypto.model.rest.KeysUploadResponse
+import com.energeek.android.sdk.internal.crypto.model.rest.SendToDeviceBody
+import com.energeek.android.sdk.internal.crypto.model.rest.SignatureUploadResponse
+import com.energeek.android.sdk.internal.crypto.model.rest.UpdateDeviceInfoBody
+import com.energeek.android.sdk.internal.crypto.model.rest.UploadSigningKeysBody
+import com.energeek.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.HTTP

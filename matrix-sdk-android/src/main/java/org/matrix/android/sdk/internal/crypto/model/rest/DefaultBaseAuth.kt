@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.model.rest
+package com.energeek.android.sdk.internal.crypto.model.rest
 
-import org.matrix.android.sdk.api.auth.UIABaseAuth
+import com.energeek.android.sdk.api.auth.UIABaseAuth
 
 data class DefaultBaseAuth(
         /**

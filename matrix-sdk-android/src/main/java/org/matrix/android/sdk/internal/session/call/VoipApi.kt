@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.call
+package com.energeek.android.sdk.internal.session.call
 
-import org.matrix.android.sdk.api.session.call.TurnServerResponse
-import org.matrix.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.api.session.call.TurnServerResponse
+import com.energeek.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.GET
 
 internal interface VoipApi {

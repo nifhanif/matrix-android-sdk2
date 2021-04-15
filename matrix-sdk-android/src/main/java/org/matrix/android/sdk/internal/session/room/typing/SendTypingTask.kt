@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.typing
+package com.energeek.android.sdk.internal.session.room.typing
 
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.room.RoomAPI
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.room.RoomAPI
+import com.energeek.android.sdk.internal.task.Task
 import kotlinx.coroutines.delay
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
 import javax.inject.Inject
 
 internal interface SendTypingTask : Task<SendTypingTask.Params, Unit> {

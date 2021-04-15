@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto
+package com.energeek.android.sdk.internal.crypto
 
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
-import org.matrix.android.sdk.internal.crypto.model.rest.RoomKeyShareRequest
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
+import com.energeek.android.sdk.internal.crypto.model.rest.RoomKeyShareRequest
 
 /**
  * IncomingRoomKeyRequest class defines the incoming room keys request.

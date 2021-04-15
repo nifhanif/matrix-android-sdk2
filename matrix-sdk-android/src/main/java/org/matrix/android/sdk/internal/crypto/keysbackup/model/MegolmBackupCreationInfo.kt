@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.keysbackup.model
+package com.energeek.android.sdk.internal.crypto.keysbackup.model
 
 /**
  * Data retrieved from Olm library. algorithm and authData will be send to the homeserver, and recoveryKey will be displayed to the user

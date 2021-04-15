@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.network
+package com.energeek.android.sdk.internal.network
 
 import com.squareup.moshi.Moshi
 import dagger.Lazy
 import okhttp3.Call
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import org.matrix.android.sdk.internal.util.ensureTrailingSlash
+import com.energeek.android.sdk.internal.util.ensureTrailingSlash
 import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 import javax.inject.Inject

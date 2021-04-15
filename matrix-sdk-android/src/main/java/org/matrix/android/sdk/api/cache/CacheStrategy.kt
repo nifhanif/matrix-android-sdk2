@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.cache
+package com.energeek.android.sdk.api.cache
 
 sealed class CacheStrategy {
     // Data is always fetched from the server

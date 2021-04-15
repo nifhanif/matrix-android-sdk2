@@ -14,47 +14,47 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session
+package com.energeek.android.sdk.api.session
 
 import androidx.annotation.MainThread
 import androidx.lifecycle.LiveData
 import okhttp3.OkHttpClient
-import org.matrix.android.sdk.api.auth.data.SessionParams
-import org.matrix.android.sdk.api.failure.GlobalError
-import org.matrix.android.sdk.api.federation.FederationService
-import org.matrix.android.sdk.api.pushrules.PushRuleService
-import org.matrix.android.sdk.api.session.account.AccountService
-import org.matrix.android.sdk.api.session.accountdata.AccountDataService
-import org.matrix.android.sdk.api.session.cache.CacheService
-import org.matrix.android.sdk.api.session.call.CallSignalingService
-import org.matrix.android.sdk.api.session.content.ContentUploadStateTracker
-import org.matrix.android.sdk.api.session.content.ContentUrlResolver
-import org.matrix.android.sdk.api.session.crypto.CryptoService
-import org.matrix.android.sdk.api.session.events.EventService
-import org.matrix.android.sdk.api.session.file.ContentDownloadStateTracker
-import org.matrix.android.sdk.api.session.file.FileService
-import org.matrix.android.sdk.api.session.group.GroupService
-import org.matrix.android.sdk.api.session.homeserver.HomeServerCapabilitiesService
-import org.matrix.android.sdk.api.session.identity.IdentityService
-import org.matrix.android.sdk.api.session.initsync.InitialSyncProgressService
-import org.matrix.android.sdk.api.session.integrationmanager.IntegrationManagerService
-import org.matrix.android.sdk.api.session.media.MediaService
-import org.matrix.android.sdk.api.session.permalinks.PermalinkService
-import org.matrix.android.sdk.api.session.profile.ProfileService
-import org.matrix.android.sdk.api.session.pushers.PushersService
-import org.matrix.android.sdk.api.session.room.RoomDirectoryService
-import org.matrix.android.sdk.api.session.room.RoomService
-import org.matrix.android.sdk.api.session.search.SearchService
-import org.matrix.android.sdk.api.session.securestorage.SecureStorageService
-import org.matrix.android.sdk.api.session.securestorage.SharedSecretStorageService
-import org.matrix.android.sdk.api.session.signout.SignOutService
-import org.matrix.android.sdk.api.session.sync.FilterService
-import org.matrix.android.sdk.api.session.sync.SyncState
-import org.matrix.android.sdk.api.session.terms.TermsService
-import org.matrix.android.sdk.api.session.thirdparty.ThirdPartyService
-import org.matrix.android.sdk.api.session.typing.TypingUsersTracker
-import org.matrix.android.sdk.api.session.user.UserService
-import org.matrix.android.sdk.api.session.widgets.WidgetService
+import com.energeek.android.sdk.api.auth.data.SessionParams
+import com.energeek.android.sdk.api.failure.GlobalError
+import com.energeek.android.sdk.api.federation.FederationService
+import com.energeek.android.sdk.api.pushrules.PushRuleService
+import com.energeek.android.sdk.api.session.account.AccountService
+import com.energeek.android.sdk.api.session.accountdata.AccountDataService
+import com.energeek.android.sdk.api.session.cache.CacheService
+import com.energeek.android.sdk.api.session.call.CallSignalingService
+import com.energeek.android.sdk.api.session.content.ContentUploadStateTracker
+import com.energeek.android.sdk.api.session.content.ContentUrlResolver
+import com.energeek.android.sdk.api.session.crypto.CryptoService
+import com.energeek.android.sdk.api.session.events.EventService
+import com.energeek.android.sdk.api.session.file.ContentDownloadStateTracker
+import com.energeek.android.sdk.api.session.file.FileService
+import com.energeek.android.sdk.api.session.group.GroupService
+import com.energeek.android.sdk.api.session.homeserver.HomeServerCapabilitiesService
+import com.energeek.android.sdk.api.session.identity.IdentityService
+import com.energeek.android.sdk.api.session.initsync.InitialSyncProgressService
+import com.energeek.android.sdk.api.session.integrationmanager.IntegrationManagerService
+import com.energeek.android.sdk.api.session.media.MediaService
+import com.energeek.android.sdk.api.session.permalinks.PermalinkService
+import com.energeek.android.sdk.api.session.profile.ProfileService
+import com.energeek.android.sdk.api.session.pushers.PushersService
+import com.energeek.android.sdk.api.session.room.RoomDirectoryService
+import com.energeek.android.sdk.api.session.room.RoomService
+import com.energeek.android.sdk.api.session.search.SearchService
+import com.energeek.android.sdk.api.session.securestorage.SecureStorageService
+import com.energeek.android.sdk.api.session.securestorage.SharedSecretStorageService
+import com.energeek.android.sdk.api.session.signout.SignOutService
+import com.energeek.android.sdk.api.session.sync.FilterService
+import com.energeek.android.sdk.api.session.sync.SyncState
+import com.energeek.android.sdk.api.session.terms.TermsService
+import com.energeek.android.sdk.api.session.thirdparty.ThirdPartyService
+import com.energeek.android.sdk.api.session.typing.TypingUsersTracker
+import com.energeek.android.sdk.api.session.user.UserService
+import com.energeek.android.sdk.api.session.widgets.WidgetService
 
 /**
  * This interface defines interactions with a session.

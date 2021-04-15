@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.download
+package com.energeek.android.sdk.internal.session.download
 
 import okhttp3.MediaType
 import okhttp3.ResponseBody

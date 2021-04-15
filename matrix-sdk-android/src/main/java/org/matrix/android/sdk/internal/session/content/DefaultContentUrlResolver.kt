@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.content
+package com.energeek.android.sdk.internal.session.content
 
-import org.matrix.android.sdk.api.auth.data.HomeServerConnectionConfig
-import org.matrix.android.sdk.api.session.content.ContentUrlResolver
-import org.matrix.android.sdk.internal.network.NetworkConstants
-import org.matrix.android.sdk.internal.util.ensureTrailingSlash
+import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.energeek.android.sdk.api.session.content.ContentUrlResolver
+import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.internal.util.ensureTrailingSlash
 import javax.inject.Inject
 
 private const val MATRIX_CONTENT_URI_SCHEME = "mxc://"

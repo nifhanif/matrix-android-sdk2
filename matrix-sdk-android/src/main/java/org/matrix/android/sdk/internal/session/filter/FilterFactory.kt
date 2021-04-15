@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.filter
+package com.energeek.android.sdk.internal.session.filter
 
-import org.matrix.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.EventType
 
 internal object FilterFactory {
 

@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.helper
+package com.energeek.android.sdk.internal.database.helper
 
-import org.matrix.android.sdk.api.session.room.model.RoomMemberContent
-import org.matrix.android.sdk.internal.database.model.ChunkEntity
-import org.matrix.android.sdk.internal.database.model.CurrentStateEventEntityFields
-import org.matrix.android.sdk.internal.database.model.EventAnnotationsSummaryEntity
-import org.matrix.android.sdk.internal.database.model.EventEntity
-import org.matrix.android.sdk.internal.database.model.EventEntityFields
-import org.matrix.android.sdk.internal.database.model.ReadReceiptEntity
-import org.matrix.android.sdk.internal.database.model.ReadReceiptsSummaryEntity
-import org.matrix.android.sdk.internal.database.model.RoomMemberSummaryEntity
-import org.matrix.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
-import org.matrix.android.sdk.internal.database.model.TimelineEventEntity
-import org.matrix.android.sdk.internal.database.model.TimelineEventEntityFields
-import org.matrix.android.sdk.internal.database.query.find
-import org.matrix.android.sdk.internal.database.query.getOrCreate
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.extensions.assertIsManaged
-import org.matrix.android.sdk.internal.session.room.timeline.PaginationDirection
+import com.energeek.android.sdk.api.session.room.model.RoomMemberContent
+import com.energeek.android.sdk.internal.database.model.ChunkEntity
+import com.energeek.android.sdk.internal.database.model.CurrentStateEventEntityFields
+import com.energeek.android.sdk.internal.database.model.EventAnnotationsSummaryEntity
+import com.energeek.android.sdk.internal.database.model.EventEntity
+import com.energeek.android.sdk.internal.database.model.EventEntityFields
+import com.energeek.android.sdk.internal.database.model.ReadReceiptEntity
+import com.energeek.android.sdk.internal.database.model.ReadReceiptsSummaryEntity
+import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntity
+import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
+import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
+import com.energeek.android.sdk.internal.database.model.TimelineEventEntityFields
+import com.energeek.android.sdk.internal.database.query.find
+import com.energeek.android.sdk.internal.database.query.getOrCreate
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.extensions.assertIsManaged
+import com.energeek.android.sdk.internal.session.room.timeline.PaginationDirection
 import io.realm.Realm
 import io.realm.Sort
 import io.realm.kotlin.createObject

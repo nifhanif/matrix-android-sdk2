@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.network
+package com.energeek.android.sdk.internal.network
 
-import org.matrix.android.sdk.api.failure.GlobalError
-import org.matrix.android.sdk.internal.auth.SessionParamsStore
-import org.matrix.android.sdk.internal.di.SessionId
-import org.matrix.android.sdk.internal.session.SessionScope
-import org.matrix.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.api.failure.GlobalError
+import com.energeek.android.sdk.internal.auth.SessionParamsStore
+import com.energeek.android.sdk.internal.di.SessionId
+import com.energeek.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.task.TaskExecutor
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import timber.log.Timber

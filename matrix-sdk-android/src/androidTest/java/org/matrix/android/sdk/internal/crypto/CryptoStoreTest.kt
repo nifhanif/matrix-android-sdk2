@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto
+package com.energeek.android.sdk.internal.crypto
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import org.matrix.android.sdk.InstrumentedTest
-import org.matrix.android.sdk.internal.crypto.model.OlmSessionWrapper
-import org.matrix.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.energeek.android.sdk.InstrumentedTest
+import com.energeek.android.sdk.internal.crypto.model.OlmSessionWrapper
+import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
 import io.realm.Realm
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotEquals

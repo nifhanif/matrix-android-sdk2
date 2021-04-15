@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database
+package com.energeek.android.sdk.internal.database
 
 import io.realm.Realm
 import java.io.Closeable

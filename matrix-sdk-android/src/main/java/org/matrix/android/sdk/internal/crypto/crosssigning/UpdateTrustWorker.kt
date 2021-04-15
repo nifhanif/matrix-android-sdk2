@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.crosssigning
+package com.energeek.android.sdk.internal.crypto.crosssigning
 
 import android.content.Context
 import androidx.work.WorkerParameters
@@ -22,31 +22,31 @@ import com.squareup.moshi.JsonClass
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import io.realm.kotlin.where
-import org.matrix.android.sdk.api.crypto.RoomEncryptionTrustLevel
-import org.matrix.android.sdk.api.extensions.orFalse
-import org.matrix.android.sdk.api.session.crypto.crosssigning.MXCrossSigningInfo
-import org.matrix.android.sdk.internal.crypto.store.IMXCryptoStore
-import org.matrix.android.sdk.internal.crypto.store.db.mapper.CrossSigningKeysMapper
-import org.matrix.android.sdk.internal.crypto.store.db.model.CrossSigningInfoEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.CrossSigningInfoEntityFields
-import org.matrix.android.sdk.internal.crypto.store.db.model.CryptoMapper
-import org.matrix.android.sdk.internal.crypto.store.db.model.TrustLevelEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.UserEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.UserEntityFields
-import org.matrix.android.sdk.internal.database.awaitTransaction
-import org.matrix.android.sdk.internal.database.model.RoomMemberSummaryEntity
-import org.matrix.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
-import org.matrix.android.sdk.internal.database.model.RoomSummaryEntity
-import org.matrix.android.sdk.internal.database.model.RoomSummaryEntityFields
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.CryptoDatabase
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.session.SessionComponent
-import org.matrix.android.sdk.internal.session.room.membership.RoomMemberHelper
-import org.matrix.android.sdk.internal.util.logLimit
-import org.matrix.android.sdk.internal.worker.SessionSafeCoroutineWorker
-import org.matrix.android.sdk.internal.worker.SessionWorkerParams
+import com.energeek.android.sdk.api.crypto.RoomEncryptionTrustLevel
+import com.energeek.android.sdk.api.extensions.orFalse
+import com.energeek.android.sdk.api.session.crypto.crosssigning.MXCrossSigningInfo
+import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.energeek.android.sdk.internal.crypto.store.db.mapper.CrossSigningKeysMapper
+import com.energeek.android.sdk.internal.crypto.store.db.model.CrossSigningInfoEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.CrossSigningInfoEntityFields
+import com.energeek.android.sdk.internal.crypto.store.db.model.CryptoMapper
+import com.energeek.android.sdk.internal.crypto.store.db.model.TrustLevelEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.UserEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.UserEntityFields
+import com.energeek.android.sdk.internal.database.awaitTransaction
+import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntity
+import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
+import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
+import com.energeek.android.sdk.internal.database.model.RoomSummaryEntityFields
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.CryptoDatabase
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.session.SessionComponent
+import com.energeek.android.sdk.internal.session.room.membership.RoomMemberHelper
+import com.energeek.android.sdk.internal.util.logLimit
+import com.energeek.android.sdk.internal.worker.SessionSafeCoroutineWorker
+import com.energeek.android.sdk.internal.worker.SessionWorkerParams
 import timber.log.Timber
 import javax.inject.Inject
 

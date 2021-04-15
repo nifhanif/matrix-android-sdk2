@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.query
+package com.energeek.android.sdk.internal.database.query
 
-import org.matrix.android.sdk.internal.database.model.EventEntity
-import org.matrix.android.sdk.internal.database.model.EventEntityFields
-import org.matrix.android.sdk.internal.database.model.EventInsertEntity
-import org.matrix.android.sdk.internal.database.model.EventInsertType
+import com.energeek.android.sdk.internal.database.model.EventEntity
+import com.energeek.android.sdk.internal.database.model.EventEntityFields
+import com.energeek.android.sdk.internal.database.model.EventInsertEntity
+import com.energeek.android.sdk.internal.database.model.EventInsertType
 import io.realm.Realm
 import io.realm.RealmList
 import io.realm.RealmQuery

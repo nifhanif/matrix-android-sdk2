@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.events
+package com.energeek.android.sdk.internal.session.events
 
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.model.RoomMemberContent
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.model.RoomMemberContent
 
 internal fun Event.getFixedRoomMemberContent(): RoomMemberContent? {
     val content = content.toModel<RoomMemberContent>()

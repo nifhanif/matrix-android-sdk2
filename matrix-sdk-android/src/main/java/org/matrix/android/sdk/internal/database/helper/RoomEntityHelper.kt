@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.helper
+package com.energeek.android.sdk.internal.database.helper
 
-import org.matrix.android.sdk.internal.database.model.ChunkEntity
-import org.matrix.android.sdk.internal.database.model.RoomEntity
+import com.energeek.android.sdk.internal.database.model.ChunkEntity
+import com.energeek.android.sdk.internal.database.model.RoomEntity
 
 internal fun RoomEntity.addIfNecessary(chunkEntity: ChunkEntity) {
     if (!chunks.contains(chunkEntity)) {

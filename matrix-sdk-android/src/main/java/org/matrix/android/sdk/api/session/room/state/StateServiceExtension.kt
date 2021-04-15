@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.state
+package com.energeek.android.sdk.api.session.room.state
 
-import org.matrix.android.sdk.api.query.QueryStringValue
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.model.RoomJoinRules
-import org.matrix.android.sdk.api.session.room.model.RoomJoinRulesContent
+import com.energeek.android.sdk.api.query.QueryStringValue
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.model.RoomJoinRules
+import com.energeek.android.sdk.api.session.room.model.RoomJoinRulesContent
 
 /**
  * Return true if a room can be joined by anyone (RoomJoinRules.PUBLIC)

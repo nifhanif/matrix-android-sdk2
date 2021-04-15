@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.identity.data
+package com.energeek.android.sdk.internal.session.identity.data
 
-import org.matrix.android.sdk.api.session.identity.ThreePid
-import org.matrix.android.sdk.internal.session.identity.model.IdentityHashDetailResponse
+import com.energeek.android.sdk.api.session.identity.ThreePid
+import com.energeek.android.sdk.internal.session.identity.model.IdentityHashDetailResponse
 
 internal interface IdentityStore {
 

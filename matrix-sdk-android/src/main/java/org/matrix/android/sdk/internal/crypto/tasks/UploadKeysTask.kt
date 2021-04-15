@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.tasks
+package com.energeek.android.sdk.internal.crypto.tasks
 
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.crypto.api.CryptoApi
-import org.matrix.android.sdk.internal.crypto.model.rest.DeviceKeys
-import org.matrix.android.sdk.internal.crypto.model.rest.KeysUploadBody
-import org.matrix.android.sdk.internal.crypto.model.rest.KeysUploadResponse
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.crypto.api.CryptoApi
+import com.energeek.android.sdk.internal.crypto.model.rest.DeviceKeys
+import com.energeek.android.sdk.internal.crypto.model.rest.KeysUploadBody
+import com.energeek.android.sdk.internal.crypto.model.rest.KeysUploadResponse
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.task.Task
 import timber.log.Timber
 import javax.inject.Inject
 

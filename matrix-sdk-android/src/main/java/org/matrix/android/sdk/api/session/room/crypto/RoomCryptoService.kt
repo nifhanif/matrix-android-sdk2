@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.crypto
+package com.energeek.android.sdk.api.session.room.crypto
 
-import org.matrix.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
+import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
 
 interface RoomCryptoService {
 

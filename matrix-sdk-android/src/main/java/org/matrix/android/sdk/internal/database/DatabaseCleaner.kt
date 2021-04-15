@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database
+package com.energeek.android.sdk.internal.database
 
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import org.matrix.android.sdk.internal.database.helper.nextDisplayIndex
-import org.matrix.android.sdk.internal.database.model.ChunkEntity
-import org.matrix.android.sdk.internal.database.model.ChunkEntityFields
-import org.matrix.android.sdk.internal.database.model.EventEntity
-import org.matrix.android.sdk.internal.database.model.RoomEntity
-import org.matrix.android.sdk.internal.database.model.TimelineEventEntity
-import org.matrix.android.sdk.internal.database.model.TimelineEventEntityFields
-import org.matrix.android.sdk.internal.database.model.deleteOnCascade
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.session.SessionLifecycleObserver
-import org.matrix.android.sdk.internal.session.room.timeline.PaginationDirection
-import org.matrix.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.internal.database.helper.nextDisplayIndex
+import com.energeek.android.sdk.internal.database.model.ChunkEntity
+import com.energeek.android.sdk.internal.database.model.ChunkEntityFields
+import com.energeek.android.sdk.internal.database.model.EventEntity
+import com.energeek.android.sdk.internal.database.model.RoomEntity
+import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
+import com.energeek.android.sdk.internal.database.model.TimelineEventEntityFields
+import com.energeek.android.sdk.internal.database.model.deleteOnCascade
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.session.SessionLifecycleObserver
+import com.energeek.android.sdk.internal.session.room.timeline.PaginationDirection
+import com.energeek.android.sdk.internal.task.TaskExecutor
 import timber.log.Timber
 import javax.inject.Inject
 

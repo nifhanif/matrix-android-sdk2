@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.legacy
+package com.energeek.android.sdk.api.legacy
 
 interface LegacySessionImporter {
 

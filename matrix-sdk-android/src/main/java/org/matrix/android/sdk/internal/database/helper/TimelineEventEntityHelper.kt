@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.helper
+package com.energeek.android.sdk.internal.database.helper
 
-import org.matrix.android.sdk.internal.database.model.TimelineEventEntity
-import org.matrix.android.sdk.internal.database.model.TimelineEventEntityFields
+import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
+import com.energeek.android.sdk.internal.database.model.TimelineEventEntityFields
 import io.realm.Realm
 
 internal fun TimelineEventEntity.Companion.nextId(realm: Realm): Long {

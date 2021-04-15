@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.auth
+package com.energeek.android.sdk.internal.auth
 
 import android.net.Uri
-import org.matrix.android.sdk.api.auth.data.Credentials
-import org.matrix.android.sdk.api.auth.data.HomeServerConnectionConfig
-import org.matrix.android.sdk.api.auth.data.SessionParams
-import org.matrix.android.sdk.api.extensions.tryOrNull
-import org.matrix.android.sdk.api.session.Session
-import org.matrix.android.sdk.internal.SessionManager
+import com.energeek.android.sdk.api.auth.data.Credentials
+import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.energeek.android.sdk.api.auth.data.SessionParams
+import com.energeek.android.sdk.api.extensions.tryOrNull
+import com.energeek.android.sdk.api.session.Session
+import com.energeek.android.sdk.internal.SessionManager
 import timber.log.Timber
 import javax.inject.Inject
 

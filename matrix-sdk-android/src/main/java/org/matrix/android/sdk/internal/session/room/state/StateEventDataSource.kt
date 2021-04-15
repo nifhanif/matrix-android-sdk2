@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.state
+package com.energeek.android.sdk.internal.session.room.state
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
@@ -22,16 +22,16 @@ import com.zhuinden.monarchy.Monarchy
 import io.realm.Realm
 import io.realm.RealmQuery
 import io.realm.kotlin.where
-import org.matrix.android.sdk.api.query.QueryStringValue
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.util.Optional
-import org.matrix.android.sdk.api.util.toOptional
-import org.matrix.android.sdk.internal.database.RealmSessionProvider
-import org.matrix.android.sdk.internal.database.mapper.asDomain
-import org.matrix.android.sdk.internal.database.model.CurrentStateEventEntity
-import org.matrix.android.sdk.internal.database.model.CurrentStateEventEntityFields
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.query.process
+import com.energeek.android.sdk.api.query.QueryStringValue
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.util.Optional
+import com.energeek.android.sdk.api.util.toOptional
+import com.energeek.android.sdk.internal.database.RealmSessionProvider
+import com.energeek.android.sdk.internal.database.mapper.asDomain
+import com.energeek.android.sdk.internal.database.model.CurrentStateEventEntity
+import com.energeek.android.sdk.internal.database.model.CurrentStateEventEntityFields
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.query.process
 import javax.inject.Inject
 
 internal class StateEventDataSource @Inject constructor(@SessionDatabase private val monarchy: Monarchy,

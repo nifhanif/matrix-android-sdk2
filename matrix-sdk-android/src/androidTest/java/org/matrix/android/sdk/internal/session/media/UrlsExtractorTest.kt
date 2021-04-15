@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.media
+package com.energeek.android.sdk.internal.session.media
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.matrix.android.sdk.InstrumentedTest
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.toContent
-import org.matrix.android.sdk.api.session.room.model.message.MessageTextContent
-import org.matrix.android.sdk.api.session.room.model.message.MessageType
-import org.matrix.android.sdk.api.session.room.sender.SenderInfo
-import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
+import com.energeek.android.sdk.InstrumentedTest
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.toContent
+import com.energeek.android.sdk.api.session.room.model.message.MessageTextContent
+import com.energeek.android.sdk.api.session.room.model.message.MessageType
+import com.energeek.android.sdk.api.session.room.sender.SenderInfo
+import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
 
 @RunWith(AndroidJUnit4::class)
 internal class UrlsExtractorTest : InstrumentedTest {

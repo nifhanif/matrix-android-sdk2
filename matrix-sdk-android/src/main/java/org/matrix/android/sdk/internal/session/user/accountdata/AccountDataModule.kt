@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.user.accountdata
+package com.energeek.android.sdk.internal.session.user.accountdata
 
 import dagger.Binds
 import dagger.Module

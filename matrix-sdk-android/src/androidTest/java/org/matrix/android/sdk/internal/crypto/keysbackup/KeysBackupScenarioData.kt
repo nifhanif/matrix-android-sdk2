@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.keysbackup
+package com.energeek.android.sdk.internal.crypto.keysbackup
 
-import org.matrix.android.sdk.api.session.Session
-import org.matrix.android.sdk.common.CommonTestHelper
-import org.matrix.android.sdk.common.CryptoTestData
-import org.matrix.android.sdk.internal.crypto.model.OlmInboundGroupSessionWrapper2
+import com.energeek.android.sdk.api.session.Session
+import com.energeek.android.sdk.common.CommonTestHelper
+import com.energeek.android.sdk.common.CryptoTestData
+import com.energeek.android.sdk.internal.crypto.model.OlmInboundGroupSessionWrapper2
 
 /**
  * Data class to store result of [KeysBackupTestHelper.createKeysBackupScenarioWithPassword]

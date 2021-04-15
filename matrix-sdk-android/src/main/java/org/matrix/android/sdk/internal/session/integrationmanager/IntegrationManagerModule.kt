@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.integrationmanager
+package com.energeek.android.sdk.internal.session.integrationmanager
 
 import dagger.Binds
 import dagger.Module
-import org.matrix.android.sdk.api.session.integrationmanager.IntegrationManagerService
+import com.energeek.android.sdk.api.session.integrationmanager.IntegrationManagerService
 
 @Module
 internal abstract class IntegrationManagerModule {

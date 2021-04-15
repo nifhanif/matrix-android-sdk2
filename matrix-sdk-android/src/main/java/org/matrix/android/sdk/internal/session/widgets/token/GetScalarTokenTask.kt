@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.widgets.token
+package com.energeek.android.sdk.internal.session.widgets.token
 
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.failure.MatrixError
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.openid.GetOpenIdTokenTask
-import org.matrix.android.sdk.api.session.widgets.WidgetManagementFailure
-import org.matrix.android.sdk.internal.session.widgets.WidgetsAPI
-import org.matrix.android.sdk.internal.session.widgets.WidgetsAPIProvider
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.failure.MatrixError
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.openid.GetOpenIdTokenTask
+import com.energeek.android.sdk.api.session.widgets.WidgetManagementFailure
+import com.energeek.android.sdk.internal.session.widgets.WidgetsAPI
+import com.energeek.android.sdk.internal.session.widgets.WidgetsAPIProvider
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 import javax.net.ssl.HttpsURLConnection
 

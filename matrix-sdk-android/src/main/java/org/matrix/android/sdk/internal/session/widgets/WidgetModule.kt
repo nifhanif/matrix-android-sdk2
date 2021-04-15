@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.widgets
+package com.energeek.android.sdk.internal.session.widgets
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import org.matrix.android.sdk.api.session.widgets.WidgetPostAPIMediator
-import org.matrix.android.sdk.api.session.widgets.WidgetService
-import org.matrix.android.sdk.api.session.widgets.WidgetURLFormatter
-import org.matrix.android.sdk.internal.session.widgets.token.DefaultGetScalarTokenTask
-import org.matrix.android.sdk.internal.session.widgets.token.GetScalarTokenTask
+import com.energeek.android.sdk.api.session.widgets.WidgetPostAPIMediator
+import com.energeek.android.sdk.api.session.widgets.WidgetService
+import com.energeek.android.sdk.api.session.widgets.WidgetURLFormatter
+import com.energeek.android.sdk.internal.session.widgets.token.DefaultGetScalarTokenTask
+import com.energeek.android.sdk.internal.session.widgets.token.GetScalarTokenTask
 import retrofit2.Retrofit
 
 @Module

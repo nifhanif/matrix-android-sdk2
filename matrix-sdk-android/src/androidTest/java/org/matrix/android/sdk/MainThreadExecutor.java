@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk;
+package com.energeek.android.sdk;
 
 import android.os.Handler;
 import android.os.Looper;

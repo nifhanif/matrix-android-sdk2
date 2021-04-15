@@ -13,30 +13,30 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.session.notification
+package com.energeek.android.sdk.internal.session.notification
 
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.api.pushrules.Action
-import org.matrix.android.sdk.api.pushrules.PushRuleService
-import org.matrix.android.sdk.api.pushrules.RuleKind
-import org.matrix.android.sdk.api.pushrules.RuleScope
-import org.matrix.android.sdk.api.pushrules.RuleSetKey
-import org.matrix.android.sdk.api.pushrules.getActions
-import org.matrix.android.sdk.api.pushrules.rest.PushRule
-import org.matrix.android.sdk.api.pushrules.rest.RuleSet
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.internal.database.mapper.PushRulesMapper
-import org.matrix.android.sdk.internal.database.model.PushRulesEntity
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.session.SessionScope
-import org.matrix.android.sdk.internal.session.pushers.AddPushRuleTask
-import org.matrix.android.sdk.internal.session.pushers.GetPushRulesTask
-import org.matrix.android.sdk.internal.session.pushers.RemovePushRuleTask
-import org.matrix.android.sdk.internal.session.pushers.UpdatePushRuleActionsTask
-import org.matrix.android.sdk.internal.session.pushers.UpdatePushRuleEnableStatusTask
-import org.matrix.android.sdk.internal.task.TaskExecutor
-import org.matrix.android.sdk.internal.task.configureWith
+import com.energeek.android.sdk.api.pushrules.Action
+import com.energeek.android.sdk.api.pushrules.PushRuleService
+import com.energeek.android.sdk.api.pushrules.RuleKind
+import com.energeek.android.sdk.api.pushrules.RuleScope
+import com.energeek.android.sdk.api.pushrules.RuleSetKey
+import com.energeek.android.sdk.api.pushrules.getActions
+import com.energeek.android.sdk.api.pushrules.rest.PushRule
+import com.energeek.android.sdk.api.pushrules.rest.RuleSet
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.internal.database.mapper.PushRulesMapper
+import com.energeek.android.sdk.internal.database.model.PushRulesEntity
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.session.pushers.AddPushRuleTask
+import com.energeek.android.sdk.internal.session.pushers.GetPushRulesTask
+import com.energeek.android.sdk.internal.session.pushers.RemovePushRuleTask
+import com.energeek.android.sdk.internal.session.pushers.UpdatePushRuleActionsTask
+import com.energeek.android.sdk.internal.session.pushers.UpdatePushRuleEnableStatusTask
+import com.energeek.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.internal.task.configureWith
 import timber.log.Timber
 import javax.inject.Inject
 

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.homeserver
+package com.energeek.android.sdk.internal.session.homeserver
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import org.matrix.android.sdk.internal.session.SessionScope
-import org.matrix.android.sdk.internal.wellknown.WellknownModule
+import com.energeek.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.wellknown.WellknownModule
 import retrofit2.Retrofit
 
 @Module(includes = [WellknownModule::class])

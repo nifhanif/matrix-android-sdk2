@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.auth.registration
+package com.energeek.android.sdk.api.auth.registration
 
-import org.matrix.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.failure.Failure
 
 sealed class RegistrationAvailability {
     object Available : RegistrationAvailability()

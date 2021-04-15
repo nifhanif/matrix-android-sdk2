@@ -15,17 +15,17 @@
  *
  */
 
-package org.matrix.android.sdk.internal.federation
+package com.energeek.android.sdk.internal.federation
 
 import dagger.Binds
 import dagger.Lazy
 import dagger.Module
 import dagger.Provides
 import okhttp3.OkHttpClient
-import org.matrix.android.sdk.api.auth.data.SessionParams
-import org.matrix.android.sdk.api.federation.FederationService
-import org.matrix.android.sdk.internal.di.Unauthenticated
-import org.matrix.android.sdk.internal.network.RetrofitFactory
+import com.energeek.android.sdk.api.auth.data.SessionParams
+import com.energeek.android.sdk.api.federation.FederationService
+import com.energeek.android.sdk.internal.di.Unauthenticated
+import com.energeek.android.sdk.internal.network.RetrofitFactory
 
 @Module
 internal abstract class FederationModule {

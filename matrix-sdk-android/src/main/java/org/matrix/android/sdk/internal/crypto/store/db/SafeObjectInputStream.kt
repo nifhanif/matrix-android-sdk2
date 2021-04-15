@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.store.db
+package com.energeek.android.sdk.internal.crypto.store.db
 
 import java.io.IOException
 import java.io.InputStream
@@ -22,7 +22,7 @@ import java.io.ObjectInputStream
 import java.io.ObjectStreamClass
 
 /**
- * Package has been renamed from `im.vector.matrix.android` to `org.matrix.android.sdk`
+ * Package has been renamed from `im.vector.matrix.android` to `com.energeek.android.sdk`
  * so ensure deserialization of previously stored objects still works
  *
  * Ref: https://stackoverflow.com/questions/3884492/how-can-i-change-package-for-a-bunch-of-java-serializable-classes
@@ -37,7 +37,7 @@ internal class SafeObjectInputStream(inputStream: InputStream) : ObjectInputStre
     override fun readClassDescriptor(): ObjectStreamClass {
         val read = super.readClassDescriptor()
         if (read.name.startsWith("im.vector.matrix.android.")) {
-            return ObjectStreamClass.lookup(Class.forName(read.name.replace("im.vector.matrix.android.", "org.matrix.android.sdk.")))
+            return ObjectStreamClass.lookup(Class.forName(read.name.replace("im.vector.matrix.android.", "com.energeek.android.sdk.")))
         }
         return read
     }

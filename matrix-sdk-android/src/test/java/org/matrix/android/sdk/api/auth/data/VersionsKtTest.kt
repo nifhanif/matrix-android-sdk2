@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.auth.data
+package com.energeek.android.sdk.api.auth.data
 
-import org.matrix.android.sdk.internal.auth.version.Versions
-import org.matrix.android.sdk.internal.auth.version.isSupportedBySdk
+import com.energeek.android.sdk.internal.auth.version.Versions
+import com.energeek.android.sdk.internal.auth.version.isSupportedBySdk
 import org.amshove.kluent.shouldBe
 import org.junit.Test
 

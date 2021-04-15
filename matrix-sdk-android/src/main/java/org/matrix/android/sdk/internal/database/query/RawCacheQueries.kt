@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.query
+package com.energeek.android.sdk.internal.database.query
 
 import io.realm.Realm
 import io.realm.kotlin.createObject
 import io.realm.kotlin.where
-import org.matrix.android.sdk.internal.database.model.RawCacheEntity
-import org.matrix.android.sdk.internal.database.model.RawCacheEntityFields
+import com.energeek.android.sdk.internal.database.model.RawCacheEntity
+import com.energeek.android.sdk.internal.database.model.RawCacheEntityFields
 
 /**
  * Get the current RawCacheEntity, return null if it does not exist

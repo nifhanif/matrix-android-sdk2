@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.user.accountdata
+package com.energeek.android.sdk.internal.session.user.accountdata
 
-import org.matrix.android.sdk.internal.database.model.RoomSummaryEntity
-import org.matrix.android.sdk.internal.database.query.getDirectRooms
-import org.matrix.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
+import com.energeek.android.sdk.internal.database.query.getDirectRooms
+import com.energeek.android.sdk.internal.di.SessionDatabase
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import javax.inject.Inject

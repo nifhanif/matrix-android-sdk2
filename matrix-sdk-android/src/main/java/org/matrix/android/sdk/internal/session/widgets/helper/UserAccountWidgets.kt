@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.widgets.helper
+package com.energeek.android.sdk.internal.session.widgets.helper
 
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.api.session.accountdata.UserAccountDataEvent
-import org.matrix.android.sdk.api.session.widgets.model.Widget
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.api.session.accountdata.UserAccountDataEvent
+import com.energeek.android.sdk.api.session.widgets.model.Widget
 
 internal fun UserAccountDataEvent.extractWidgetSequence(widgetFactory: WidgetFactory): Sequence<Widget> {
     return content.asSequence()

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.auth
+package com.energeek.android.sdk.api.auth
 
 /**
  * A simple service to remember homeservers you already connected to.

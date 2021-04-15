@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.send
+package com.energeek.android.sdk.internal.session.room.send
 
 import android.content.Context
 import androidx.work.OneTimeWorkRequest
 import androidx.work.WorkerParameters
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.session.room.send.SendState
-import org.matrix.android.sdk.internal.di.WorkManagerProvider
-import org.matrix.android.sdk.internal.session.SessionComponent
-import org.matrix.android.sdk.internal.session.content.UploadContentWorker
-import org.matrix.android.sdk.internal.session.room.timeline.TimelineSendEventWorkCommon
-import org.matrix.android.sdk.internal.worker.SessionSafeCoroutineWorker
-import org.matrix.android.sdk.internal.worker.SessionWorkerParams
-import org.matrix.android.sdk.internal.worker.WorkerParamsFactory
-import org.matrix.android.sdk.internal.worker.startChain
+import com.energeek.android.sdk.api.session.room.send.SendState
+import com.energeek.android.sdk.internal.di.WorkManagerProvider
+import com.energeek.android.sdk.internal.session.SessionComponent
+import com.energeek.android.sdk.internal.session.content.UploadContentWorker
+import com.energeek.android.sdk.internal.session.room.timeline.TimelineSendEventWorkCommon
+import com.energeek.android.sdk.internal.worker.SessionSafeCoroutineWorker
+import com.energeek.android.sdk.internal.worker.SessionWorkerParams
+import com.energeek.android.sdk.internal.worker.WorkerParamsFactory
+import com.energeek.android.sdk.internal.worker.startChain
 import timber.log.Timber
 import javax.inject.Inject
 

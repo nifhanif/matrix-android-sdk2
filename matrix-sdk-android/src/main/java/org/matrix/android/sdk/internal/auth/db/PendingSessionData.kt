@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.auth.db
+package com.energeek.android.sdk.internal.auth.db
 
-import org.matrix.android.sdk.api.auth.data.HomeServerConnectionConfig
-import org.matrix.android.sdk.internal.auth.login.ResetPasswordData
-import org.matrix.android.sdk.internal.auth.registration.ThreePidData
+import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.energeek.android.sdk.internal.auth.login.ResetPasswordData
+import com.energeek.android.sdk.internal.auth.registration.ThreePidData
 import java.util.UUID
 
 /**

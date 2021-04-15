@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.keysbackup
+package com.energeek.android.sdk.internal.crypto.keysbackup
 
 import android.os.Handler
-import org.matrix.android.sdk.api.session.crypto.keysbackup.KeysBackupState
-import org.matrix.android.sdk.api.session.crypto.keysbackup.KeysBackupStateListener
+import com.energeek.android.sdk.api.session.crypto.keysbackup.KeysBackupState
+import com.energeek.android.sdk.api.session.crypto.keysbackup.KeysBackupStateListener
 import timber.log.Timber
 
 internal class KeysBackupStateManager(private val uiHandler: Handler) {

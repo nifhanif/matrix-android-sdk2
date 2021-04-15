@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.profile
+package com.energeek.android.sdk.internal.session.profile
 
-import org.matrix.android.sdk.api.session.identity.IdentityServiceError
-import org.matrix.android.sdk.api.session.identity.ThreePid
-import org.matrix.android.sdk.internal.di.AuthenticatedIdentity
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.network.token.AccessTokenProvider
-import org.matrix.android.sdk.internal.session.identity.data.IdentityStore
-import org.matrix.android.sdk.internal.session.identity.data.getIdentityServerUrlWithoutProtocol
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.session.identity.IdentityServiceError
+import com.energeek.android.sdk.api.session.identity.ThreePid
+import com.energeek.android.sdk.internal.di.AuthenticatedIdentity
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.network.token.AccessTokenProvider
+import com.energeek.android.sdk.internal.session.identity.data.IdentityStore
+import com.energeek.android.sdk.internal.session.identity.data.getIdentityServerUrlWithoutProtocol
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal abstract class BindThreePidsTask : Task<BindThreePidsTask.Params, Unit> {

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.di
+package com.energeek.android.sdk.internal.di
 
 import dagger.Module
 import dagger.Provides
-import org.matrix.android.sdk.internal.session.MockHttpInterceptor
-import org.matrix.android.sdk.internal.session.TestInterceptor
+import com.energeek.android.sdk.internal.session.MockHttpInterceptor
+import com.energeek.android.sdk.internal.session.TestInterceptor
 
 @Module
 internal object NoOpTestModule {

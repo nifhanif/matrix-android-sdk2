@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.widgets
+package com.energeek.android.sdk.internal.session.widgets
 
-import org.matrix.android.sdk.api.MatrixConfiguration
-import org.matrix.android.sdk.api.session.integrationmanager.IntegrationManagerConfig
-import org.matrix.android.sdk.api.session.integrationmanager.IntegrationManagerService
-import org.matrix.android.sdk.api.session.widgets.WidgetURLFormatter
-import org.matrix.android.sdk.api.util.appendParamToUrl
-import org.matrix.android.sdk.api.util.appendParamsToUrl
-import org.matrix.android.sdk.internal.session.SessionLifecycleObserver
-import org.matrix.android.sdk.internal.session.SessionScope
-import org.matrix.android.sdk.internal.session.integrationmanager.IntegrationManager
-import org.matrix.android.sdk.internal.session.widgets.token.GetScalarTokenTask
+import com.energeek.android.sdk.api.MatrixConfiguration
+import com.energeek.android.sdk.api.session.integrationmanager.IntegrationManagerConfig
+import com.energeek.android.sdk.api.session.integrationmanager.IntegrationManagerService
+import com.energeek.android.sdk.api.session.widgets.WidgetURLFormatter
+import com.energeek.android.sdk.api.util.appendParamToUrl
+import com.energeek.android.sdk.api.util.appendParamsToUrl
+import com.energeek.android.sdk.internal.session.SessionLifecycleObserver
+import com.energeek.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.session.integrationmanager.IntegrationManager
+import com.energeek.android.sdk.internal.session.widgets.token.GetScalarTokenTask
 import javax.inject.Inject
 
 @SessionScope

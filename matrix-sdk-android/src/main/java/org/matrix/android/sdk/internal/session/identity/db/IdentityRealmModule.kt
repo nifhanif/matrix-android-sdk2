@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.identity.db
+package com.energeek.android.sdk.internal.session.identity.db
 
 import io.realm.annotations.RealmModule
 

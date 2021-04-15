@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.homeserver
+package com.energeek.android.sdk.internal.session.homeserver
 
-import org.matrix.android.sdk.internal.auth.version.Versions
-import org.matrix.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.internal.auth.version.Versions
+import com.energeek.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.GET
 
 internal interface CapabilitiesAPI {

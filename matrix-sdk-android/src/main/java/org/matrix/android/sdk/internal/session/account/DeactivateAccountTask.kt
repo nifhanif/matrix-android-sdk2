@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.account
+package com.energeek.android.sdk.internal.session.account
 
-import org.matrix.android.sdk.api.auth.UIABaseAuth
-import org.matrix.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import org.matrix.android.sdk.internal.auth.registration.handleUIA
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.cleanup.CleanupSession
-import org.matrix.android.sdk.internal.session.identity.IdentityDisconnectTask
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.auth.UIABaseAuth
+import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.energeek.android.sdk.internal.auth.registration.handleUIA
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.cleanup.CleanupSession
+import com.energeek.android.sdk.internal.session.identity.IdentityDisconnectTask
+import com.energeek.android.sdk.internal.task.Task
 import timber.log.Timber
 import javax.inject.Inject
 

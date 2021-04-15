@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.di
+package com.energeek.android.sdk.internal.di
 
 import android.content.Context
 import android.content.res.Resources
@@ -22,20 +22,20 @@ import com.squareup.moshi.Moshi
 import dagger.BindsInstance
 import dagger.Component
 import okhttp3.OkHttpClient
-import org.matrix.android.sdk.api.Matrix
-import org.matrix.android.sdk.api.MatrixConfiguration
-import org.matrix.android.sdk.api.auth.AuthenticationService
-import org.matrix.android.sdk.api.auth.HomeServerHistoryService
-import org.matrix.android.sdk.api.raw.RawService
-import org.matrix.android.sdk.internal.SessionManager
-import org.matrix.android.sdk.internal.auth.AuthModule
-import org.matrix.android.sdk.internal.auth.SessionParamsStore
-import org.matrix.android.sdk.internal.raw.RawModule
-import org.matrix.android.sdk.internal.session.MockHttpInterceptor
-import org.matrix.android.sdk.internal.session.TestInterceptor
-import org.matrix.android.sdk.internal.task.TaskExecutor
-import org.matrix.android.sdk.internal.util.BackgroundDetectionObserver
-import org.matrix.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.energeek.android.sdk.api.Matrix
+import com.energeek.android.sdk.api.MatrixConfiguration
+import com.energeek.android.sdk.api.auth.AuthenticationService
+import com.energeek.android.sdk.api.auth.HomeServerHistoryService
+import com.energeek.android.sdk.api.raw.RawService
+import com.energeek.android.sdk.internal.SessionManager
+import com.energeek.android.sdk.internal.auth.AuthModule
+import com.energeek.android.sdk.internal.auth.SessionParamsStore
+import com.energeek.android.sdk.internal.raw.RawModule
+import com.energeek.android.sdk.internal.session.MockHttpInterceptor
+import com.energeek.android.sdk.internal.session.TestInterceptor
+import com.energeek.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.internal.util.BackgroundDetectionObserver
+import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
 import org.matrix.olm.OlmManager
 import java.io.File
 

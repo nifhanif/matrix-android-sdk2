@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.mapper
+package com.energeek.android.sdk.internal.database.mapper
 
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.room.sender.SenderInfo
-import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
-import org.matrix.android.sdk.internal.database.model.TimelineEventEntity
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.room.sender.SenderInfo
+import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
+import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
 import javax.inject.Inject
 
 internal class TimelineEventMapper @Inject constructor(private val readReceiptsSummaryMapper: ReadReceiptsSummaryMapper) {

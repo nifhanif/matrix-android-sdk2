@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.api.session.room.model.relation
+package com.energeek.android.sdk.api.session.room.model.relation
 
 import androidx.lifecycle.LiveData
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.room.model.EventAnnotationsSummary
-import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
-import org.matrix.android.sdk.api.util.Cancelable
-import org.matrix.android.sdk.api.util.Optional
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.room.model.EventAnnotationsSummary
+import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
+import com.energeek.android.sdk.api.util.Cancelable
+import com.energeek.android.sdk.api.util.Optional
 
 /**
  * In some cases, events may wish to reference other events.

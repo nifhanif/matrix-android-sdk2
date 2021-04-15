@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.signout
+package com.energeek.android.sdk.internal.session.signout
 
-import org.matrix.android.sdk.api.auth.data.Credentials
-import org.matrix.android.sdk.internal.auth.data.PasswordLoginParams
-import org.matrix.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.api.auth.data.Credentials
+import com.energeek.android.sdk.internal.auth.data.PasswordLoginParams
+import com.energeek.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.Body
 import retrofit2.http.Headers
 import retrofit2.http.POST

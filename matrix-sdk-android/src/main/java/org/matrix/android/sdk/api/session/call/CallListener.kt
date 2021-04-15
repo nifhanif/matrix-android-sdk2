@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.call
+package com.energeek.android.sdk.api.session.call
 
-import org.matrix.android.sdk.api.session.room.model.call.CallAnswerContent
-import org.matrix.android.sdk.api.session.room.model.call.CallCandidatesContent
-import org.matrix.android.sdk.api.session.room.model.call.CallHangupContent
-import org.matrix.android.sdk.api.session.room.model.call.CallInviteContent
-import org.matrix.android.sdk.api.session.room.model.call.CallNegotiateContent
-import org.matrix.android.sdk.api.session.room.model.call.CallRejectContent
-import org.matrix.android.sdk.api.session.room.model.call.CallSelectAnswerContent
+import com.energeek.android.sdk.api.session.room.model.call.CallAnswerContent
+import com.energeek.android.sdk.api.session.room.model.call.CallCandidatesContent
+import com.energeek.android.sdk.api.session.room.model.call.CallHangupContent
+import com.energeek.android.sdk.api.session.room.model.call.CallInviteContent
+import com.energeek.android.sdk.api.session.room.model.call.CallNegotiateContent
+import com.energeek.android.sdk.api.session.room.model.call.CallRejectContent
+import com.energeek.android.sdk.api.session.room.model.call.CallSelectAnswerContent
 
 interface CallListener {
     /**

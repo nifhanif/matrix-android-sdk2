@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.terms
+package com.energeek.android.sdk.internal.session.terms
 
-import org.matrix.android.sdk.internal.network.HttpHeaders
+import com.energeek.android.sdk.internal.network.HttpHeaders
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.Header

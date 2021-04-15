@@ -13,27 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.verification
+package com.energeek.android.sdk.internal.crypto.verification
 
-import org.matrix.android.sdk.api.session.crypto.MXCryptoError
-import org.matrix.android.sdk.api.session.crypto.verification.VerificationService
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.LocalEcho
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.model.message.MessageContent
-import org.matrix.android.sdk.api.session.room.model.message.MessageRelationContent
-import org.matrix.android.sdk.api.session.room.model.message.MessageType
-import org.matrix.android.sdk.api.session.room.model.message.MessageVerificationReadyContent
-import org.matrix.android.sdk.api.session.room.model.message.MessageVerificationRequestContent
-import org.matrix.android.sdk.api.session.room.model.message.MessageVerificationStartContent
-import org.matrix.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
-import org.matrix.android.sdk.internal.database.model.EventInsertType
-import org.matrix.android.sdk.internal.di.DeviceId
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.session.EventInsertLiveProcessor
+import com.energeek.android.sdk.api.session.crypto.MXCryptoError
+import com.energeek.android.sdk.api.session.crypto.verification.VerificationService
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.LocalEcho
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.model.message.MessageContent
+import com.energeek.android.sdk.api.session.room.model.message.MessageRelationContent
+import com.energeek.android.sdk.api.session.room.model.message.MessageType
+import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationReadyContent
+import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationRequestContent
+import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationStartContent
+import com.energeek.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
+import com.energeek.android.sdk.internal.database.model.EventInsertType
+import com.energeek.android.sdk.internal.di.DeviceId
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.session.EventInsertLiveProcessor
 import io.realm.Realm
-import org.matrix.android.sdk.internal.crypto.EventDecryptor
+import com.energeek.android.sdk.internal.crypto.EventDecryptor
 import timber.log.Timber
 import java.util.ArrayList
 import javax.inject.Inject

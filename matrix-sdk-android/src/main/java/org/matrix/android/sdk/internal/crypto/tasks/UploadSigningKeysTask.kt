@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.tasks
+package com.energeek.android.sdk.internal.crypto.tasks
 
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.internal.crypto.api.CryptoApi
-import org.matrix.android.sdk.internal.crypto.model.CryptoCrossSigningKey
-import org.matrix.android.sdk.api.auth.UIABaseAuth
-import org.matrix.android.sdk.internal.crypto.model.rest.UploadSigningKeysBody
-import org.matrix.android.sdk.internal.crypto.model.toRest
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.internal.crypto.api.CryptoApi
+import com.energeek.android.sdk.internal.crypto.model.CryptoCrossSigningKey
+import com.energeek.android.sdk.api.auth.UIABaseAuth
+import com.energeek.android.sdk.internal.crypto.model.rest.UploadSigningKeysBody
+import com.energeek.android.sdk.internal.crypto.model.toRest
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface UploadSigningKeysTask : Task<UploadSigningKeysTask.Params, Unit> {

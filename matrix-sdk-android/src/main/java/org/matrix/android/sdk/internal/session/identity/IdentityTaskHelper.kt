@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.identity
+package com.energeek.android.sdk.internal.session.identity
 
-import org.matrix.android.sdk.api.session.identity.IdentityServiceError
-import org.matrix.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.api.session.identity.IdentityServiceError
+import com.energeek.android.sdk.internal.network.executeRequest
 
 internal suspend fun getIdentityApiAndEnsureTerms(identityApiProvider: IdentityApiProvider, userId: String): IdentityAPI {
     val identityAPI = identityApiProvider.identityApi ?: throw IdentityServiceError.NoIdentityServerConfigured

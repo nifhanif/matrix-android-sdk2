@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.session.pushers
+package com.energeek.android.sdk.internal.session.pushers
 
-import org.matrix.android.sdk.api.pushrules.ConditionResolver
-import org.matrix.android.sdk.api.pushrules.ContainsDisplayNameCondition
-import org.matrix.android.sdk.api.pushrules.EventMatchCondition
-import org.matrix.android.sdk.api.pushrules.RoomMemberCountCondition
-import org.matrix.android.sdk.api.pushrules.SenderNotificationPermissionCondition
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.model.PowerLevelsContent
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.session.room.RoomGetter
+import com.energeek.android.sdk.api.pushrules.ConditionResolver
+import com.energeek.android.sdk.api.pushrules.ContainsDisplayNameCondition
+import com.energeek.android.sdk.api.pushrules.EventMatchCondition
+import com.energeek.android.sdk.api.pushrules.RoomMemberCountCondition
+import com.energeek.android.sdk.api.pushrules.SenderNotificationPermissionCondition
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.model.PowerLevelsContent
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.session.room.RoomGetter
 import javax.inject.Inject
 
 internal class DefaultConditionResolver @Inject constructor(

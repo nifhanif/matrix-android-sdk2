@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.store.db.model
+package com.energeek.android.sdk.internal.crypto.store.db.model
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
-import org.matrix.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import org.matrix.android.sdk.internal.crypto.model.rest.UnsignedDeviceInfo
-import org.matrix.android.sdk.internal.di.SerializeNulls
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
+import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.energeek.android.sdk.internal.crypto.model.rest.UnsignedDeviceInfo
+import com.energeek.android.sdk.internal.di.SerializeNulls
 import timber.log.Timber
 
 object CryptoMapper {

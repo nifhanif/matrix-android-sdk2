@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.attachments
+package com.energeek.android.sdk.internal.crypto.attachments
 
 import android.os.Parcelable
-import org.matrix.android.sdk.internal.crypto.model.rest.EncryptedFileInfo
+import com.energeek.android.sdk.internal.crypto.model.rest.EncryptedFileInfo
 import kotlinx.parcelize.Parcelize
 
 fun EncryptedFileInfo.toElementToDecrypt(): ElementToDecrypt? {

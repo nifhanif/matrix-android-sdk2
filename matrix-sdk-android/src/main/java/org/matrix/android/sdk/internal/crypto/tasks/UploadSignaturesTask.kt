@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.tasks
+package com.energeek.android.sdk.internal.crypto.tasks
 
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.internal.crypto.api.CryptoApi
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.internal.crypto.api.CryptoApi
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface UploadSignaturesTask : Task<UploadSignaturesTask.Params, Unit> {

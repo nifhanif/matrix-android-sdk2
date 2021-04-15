@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.util
+package com.energeek.android.sdk.internal.util
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.OnLifecycleEvent
-import org.matrix.android.sdk.internal.di.MatrixScope
+import com.energeek.android.sdk.internal.di.MatrixScope
 import timber.log.Timber
 import javax.inject.Inject
 

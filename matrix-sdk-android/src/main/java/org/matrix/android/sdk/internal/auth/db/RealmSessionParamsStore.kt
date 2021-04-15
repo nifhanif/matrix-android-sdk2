@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.auth.db
+package com.energeek.android.sdk.internal.auth.db
 
-import org.matrix.android.sdk.api.auth.data.Credentials
-import org.matrix.android.sdk.api.auth.data.SessionParams
-import org.matrix.android.sdk.api.auth.data.sessionId
-import org.matrix.android.sdk.internal.auth.SessionParamsStore
-import org.matrix.android.sdk.internal.database.awaitTransaction
-import org.matrix.android.sdk.internal.di.AuthDatabase
+import com.energeek.android.sdk.api.auth.data.Credentials
+import com.energeek.android.sdk.api.auth.data.SessionParams
+import com.energeek.android.sdk.api.auth.data.sessionId
+import com.energeek.android.sdk.internal.auth.SessionParamsStore
+import com.energeek.android.sdk.internal.database.awaitTransaction
+import com.energeek.android.sdk.internal.di.AuthDatabase
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import io.realm.exceptions.RealmPrimaryKeyConstraintException

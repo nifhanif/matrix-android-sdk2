@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.mapper
+package com.energeek.android.sdk.internal.database.mapper
 
-import org.matrix.android.sdk.api.session.room.model.ReadReceipt
-import org.matrix.android.sdk.internal.database.RealmSessionProvider
-import org.matrix.android.sdk.internal.database.model.ReadReceiptsSummaryEntity
-import org.matrix.android.sdk.internal.database.model.UserEntity
-import org.matrix.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.api.session.room.model.ReadReceipt
+import com.energeek.android.sdk.internal.database.RealmSessionProvider
+import com.energeek.android.sdk.internal.database.model.ReadReceiptsSummaryEntity
+import com.energeek.android.sdk.internal.database.model.UserEntity
+import com.energeek.android.sdk.internal.database.query.where
 import javax.inject.Inject
 
 internal class ReadReceiptsSummaryMapper @Inject constructor(private val realmSessionProvider: RealmSessionProvider) {

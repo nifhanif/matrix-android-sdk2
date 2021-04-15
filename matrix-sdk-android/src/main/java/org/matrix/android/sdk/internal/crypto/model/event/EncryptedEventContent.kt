@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.model.event
+package com.energeek.android.sdk.internal.crypto.model.event
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.session.room.model.relation.RelationDefaultContent
+import com.energeek.android.sdk.api.session.room.model.relation.RelationDefaultContent
 
 /**
  * Class representing an encrypted event content

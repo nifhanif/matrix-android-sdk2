@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.alias
+package com.energeek.android.sdk.internal.session.room.alias
 
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.session.room.alias.RoomAliasError
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.directory.DirectoryAPI
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.session.room.alias.RoomAliasError
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.directory.DirectoryAPI
 import javax.inject.Inject
 
 internal class RoomAliasAvailabilityChecker @Inject constructor(

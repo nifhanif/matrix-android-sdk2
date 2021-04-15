@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.send.pills
+package com.energeek.android.sdk.internal.session.room.send.pills
 
-import org.matrix.android.sdk.api.session.room.send.MatrixItemSpan
+import com.energeek.android.sdk.api.session.room.send.MatrixItemSpan
 
 internal data class MentionLinkSpec(
         val span: MatrixItemSpan,

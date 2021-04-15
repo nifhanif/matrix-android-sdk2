@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.account
+package com.energeek.android.sdk.internal.session.account
 
-import org.matrix.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import org.matrix.android.sdk.api.session.account.AccountService
+import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.energeek.android.sdk.api.session.account.AccountService
 import javax.inject.Inject
 
 internal class DefaultAccountService @Inject constructor(private val changePasswordTask: ChangePasswordTask,

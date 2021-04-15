@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.util
+package com.energeek.android.sdk.api.util
 
-import org.matrix.android.sdk.api.extensions.orFalse
+import com.energeek.android.sdk.api.extensions.orFalse
 
 // The Android SDK does not provide constant for mime type, add some of them here
 object MimeTypes {

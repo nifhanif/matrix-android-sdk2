@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.create
+package com.energeek.android.sdk.internal.session.room.create
 
-import org.matrix.android.sdk.api.extensions.tryOrNull
-import org.matrix.android.sdk.api.session.crypto.crosssigning.CrossSigningService
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.identity.IdentityServiceError
-import org.matrix.android.sdk.api.session.identity.toMedium
-import org.matrix.android.sdk.api.session.room.model.create.CreateRoomParams
-import org.matrix.android.sdk.api.util.MimeTypes
-import org.matrix.android.sdk.internal.crypto.DeviceListManager
-import org.matrix.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
-import org.matrix.android.sdk.internal.di.AuthenticatedIdentity
-import org.matrix.android.sdk.internal.network.token.AccessTokenProvider
-import org.matrix.android.sdk.internal.session.content.FileUploader
-import org.matrix.android.sdk.internal.session.identity.EnsureIdentityTokenTask
-import org.matrix.android.sdk.internal.session.identity.data.IdentityStore
-import org.matrix.android.sdk.internal.session.identity.data.getIdentityServerUrlWithoutProtocol
-import org.matrix.android.sdk.internal.session.room.membership.threepid.ThreePidInviteBody
+import com.energeek.android.sdk.api.extensions.tryOrNull
+import com.energeek.android.sdk.api.session.crypto.crosssigning.CrossSigningService
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.identity.IdentityServiceError
+import com.energeek.android.sdk.api.session.identity.toMedium
+import com.energeek.android.sdk.api.session.room.model.create.CreateRoomParams
+import com.energeek.android.sdk.api.util.MimeTypes
+import com.energeek.android.sdk.internal.crypto.DeviceListManager
+import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
+import com.energeek.android.sdk.internal.di.AuthenticatedIdentity
+import com.energeek.android.sdk.internal.network.token.AccessTokenProvider
+import com.energeek.android.sdk.internal.session.content.FileUploader
+import com.energeek.android.sdk.internal.session.identity.EnsureIdentityTokenTask
+import com.energeek.android.sdk.internal.session.identity.data.IdentityStore
+import com.energeek.android.sdk.internal.session.identity.data.getIdentityServerUrlWithoutProtocol
+import com.energeek.android.sdk.internal.session.room.membership.threepid.ThreePidInviteBody
 import java.security.InvalidParameterException
 import java.util.UUID
 import javax.inject.Inject

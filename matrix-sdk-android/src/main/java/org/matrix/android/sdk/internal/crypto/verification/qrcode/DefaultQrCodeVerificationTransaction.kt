@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.verification.qrcode
+package com.energeek.android.sdk.internal.crypto.verification.qrcode
 
-import org.matrix.android.sdk.api.session.crypto.crosssigning.CrossSigningService
-import org.matrix.android.sdk.api.session.crypto.verification.CancelCode
-import org.matrix.android.sdk.api.session.crypto.verification.QrCodeVerificationTransaction
-import org.matrix.android.sdk.api.session.crypto.verification.VerificationTxState
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.internal.crypto.IncomingGossipingRequestManager
-import org.matrix.android.sdk.internal.crypto.OutgoingGossipingRequestManager
-import org.matrix.android.sdk.internal.crypto.actions.SetDeviceVerificationAction
-import org.matrix.android.sdk.internal.crypto.crosssigning.fromBase64
-import org.matrix.android.sdk.internal.crypto.crosssigning.fromBase64Safe
-import org.matrix.android.sdk.internal.crypto.store.IMXCryptoStore
-import org.matrix.android.sdk.internal.crypto.verification.DefaultVerificationTransaction
-import org.matrix.android.sdk.internal.crypto.verification.ValidVerificationInfoStart
-import org.matrix.android.sdk.internal.util.exhaustive
+import com.energeek.android.sdk.api.session.crypto.crosssigning.CrossSigningService
+import com.energeek.android.sdk.api.session.crypto.verification.CancelCode
+import com.energeek.android.sdk.api.session.crypto.verification.QrCodeVerificationTransaction
+import com.energeek.android.sdk.api.session.crypto.verification.VerificationTxState
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.internal.crypto.IncomingGossipingRequestManager
+import com.energeek.android.sdk.internal.crypto.OutgoingGossipingRequestManager
+import com.energeek.android.sdk.internal.crypto.actions.SetDeviceVerificationAction
+import com.energeek.android.sdk.internal.crypto.crosssigning.fromBase64
+import com.energeek.android.sdk.internal.crypto.crosssigning.fromBase64Safe
+import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.energeek.android.sdk.internal.crypto.verification.DefaultVerificationTransaction
+import com.energeek.android.sdk.internal.crypto.verification.ValidVerificationInfoStart
+import com.energeek.android.sdk.internal.util.exhaustive
 import timber.log.Timber
 
 internal class DefaultQrCodeVerificationTransaction(

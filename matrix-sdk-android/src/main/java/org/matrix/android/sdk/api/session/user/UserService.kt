@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.user
+package com.energeek.android.sdk.api.session.user
 
 import androidx.lifecycle.LiveData
 import androidx.paging.PagedList
-import org.matrix.android.sdk.api.session.user.model.User
-import org.matrix.android.sdk.api.util.Optional
+import com.energeek.android.sdk.api.session.user.model.User
+import com.energeek.android.sdk.api.util.Optional
 
 /**
  * This interface defines methods to get users. It's implemented at the session level.

@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.widgets.helper
+package com.energeek.android.sdk.internal.session.widgets.helper
 
-import org.matrix.android.sdk.api.session.content.ContentUrlResolver
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.sender.SenderInfo
-import org.matrix.android.sdk.api.session.widgets.model.Widget
-import org.matrix.android.sdk.api.session.widgets.model.WidgetContent
-import org.matrix.android.sdk.api.session.widgets.model.WidgetType
-import org.matrix.android.sdk.internal.database.RealmSessionProvider
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.session.room.membership.RoomMemberHelper
-import org.matrix.android.sdk.internal.session.user.UserDataSource
+import com.energeek.android.sdk.api.session.content.ContentUrlResolver
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.sender.SenderInfo
+import com.energeek.android.sdk.api.session.widgets.model.Widget
+import com.energeek.android.sdk.api.session.widgets.model.WidgetContent
+import com.energeek.android.sdk.api.session.widgets.model.WidgetType
+import com.energeek.android.sdk.internal.database.RealmSessionProvider
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.session.room.membership.RoomMemberHelper
+import com.energeek.android.sdk.internal.session.user.UserDataSource
 import java.net.URLEncoder
 import javax.inject.Inject
 

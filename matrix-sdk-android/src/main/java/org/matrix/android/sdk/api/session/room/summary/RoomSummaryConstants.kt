@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.summary
+package com.energeek.android.sdk.api.session.room.summary
 
-import org.matrix.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.EventType
 
 object RoomSummaryConstants {
 

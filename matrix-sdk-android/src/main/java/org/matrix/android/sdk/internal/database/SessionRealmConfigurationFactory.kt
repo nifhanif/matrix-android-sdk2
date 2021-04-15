@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database
+package com.energeek.android.sdk.internal.database
 
 import android.content.Context
 import androidx.core.content.edit
 import io.realm.Realm
 import io.realm.RealmConfiguration
-import org.matrix.android.sdk.BuildConfig
-import org.matrix.android.sdk.internal.database.model.SessionRealmModule
-import org.matrix.android.sdk.internal.di.SessionFilesDirectory
-import org.matrix.android.sdk.internal.di.SessionId
-import org.matrix.android.sdk.internal.di.UserMd5
-import org.matrix.android.sdk.internal.session.SessionModule
+import com.energeek.android.sdk.BuildConfig
+import com.energeek.android.sdk.internal.database.model.SessionRealmModule
+import com.energeek.android.sdk.internal.di.SessionFilesDirectory
+import com.energeek.android.sdk.internal.di.SessionId
+import com.energeek.android.sdk.internal.di.UserMd5
+import com.energeek.android.sdk.internal.session.SessionModule
 import timber.log.Timber
 import java.io.File
 import javax.inject.Inject

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.auth.registration
+package com.energeek.android.sdk.api.auth.registration
 
 sealed class RegisterThreePid {
     data class Email(val email: String) : RegisterThreePid()

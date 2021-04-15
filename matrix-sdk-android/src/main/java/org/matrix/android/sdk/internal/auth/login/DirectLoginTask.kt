@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.auth.login
+package com.energeek.android.sdk.internal.auth.login
 
 import dagger.Lazy
-import org.matrix.android.sdk.api.auth.data.HomeServerConnectionConfig
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.session.Session
-import org.matrix.android.sdk.internal.auth.AuthAPI
-import org.matrix.android.sdk.internal.auth.SessionCreator
-import org.matrix.android.sdk.internal.auth.data.PasswordLoginParams
-import org.matrix.android.sdk.internal.di.Unauthenticated
-import org.matrix.android.sdk.internal.network.RetrofitFactory
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.network.httpclient.addSocketFactory
-import org.matrix.android.sdk.internal.network.ssl.UnrecognizedCertificateException
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.session.Session
+import com.energeek.android.sdk.internal.auth.AuthAPI
+import com.energeek.android.sdk.internal.auth.SessionCreator
+import com.energeek.android.sdk.internal.auth.data.PasswordLoginParams
+import com.energeek.android.sdk.internal.di.Unauthenticated
+import com.energeek.android.sdk.internal.network.RetrofitFactory
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.network.httpclient.addSocketFactory
+import com.energeek.android.sdk.internal.network.ssl.UnrecognizedCertificateException
+import com.energeek.android.sdk.internal.task.Task
 import okhttp3.OkHttpClient
 import javax.inject.Inject
 

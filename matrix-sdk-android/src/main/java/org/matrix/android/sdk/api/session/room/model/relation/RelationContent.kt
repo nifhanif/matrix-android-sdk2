@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.model.relation
+package com.energeek.android.sdk.api.session.room.model.relation
 
-import org.matrix.android.sdk.api.session.events.model.RelationType
+import com.energeek.android.sdk.api.session.events.model.RelationType
 
 interface RelationContent {
     /** See [RelationType] for known possible values */

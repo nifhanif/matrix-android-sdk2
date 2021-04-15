@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.homeserver
+package com.energeek.android.sdk.internal.session.homeserver
 
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.task.TaskExecutor
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

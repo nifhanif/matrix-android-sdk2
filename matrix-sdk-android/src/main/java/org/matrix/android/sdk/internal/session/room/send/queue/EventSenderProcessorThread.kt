@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.send.queue
+package com.energeek.android.sdk.internal.session.room.send.queue
 
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
-import org.matrix.android.sdk.api.auth.data.SessionParams
-import org.matrix.android.sdk.api.auth.data.sessionId
-import org.matrix.android.sdk.api.extensions.tryOrNull
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.failure.MatrixError
-import org.matrix.android.sdk.api.failure.isTokenError
-import org.matrix.android.sdk.api.session.crypto.CryptoService
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.sync.SyncState
-import org.matrix.android.sdk.api.util.Cancelable
-import org.matrix.android.sdk.internal.session.SessionScope
-import org.matrix.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.api.auth.data.SessionParams
+import com.energeek.android.sdk.api.auth.data.sessionId
+import com.energeek.android.sdk.api.extensions.tryOrNull
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.failure.MatrixError
+import com.energeek.android.sdk.api.failure.isTokenError
+import com.energeek.android.sdk.api.session.crypto.CryptoService
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.sync.SyncState
+import com.energeek.android.sdk.api.util.Cancelable
+import com.energeek.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.task.TaskExecutor
 import timber.log.Timber
 import java.io.IOException
 import java.util.Timer

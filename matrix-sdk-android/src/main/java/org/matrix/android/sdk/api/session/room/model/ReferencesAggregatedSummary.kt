@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.api.session.room.model
+package com.energeek.android.sdk.api.session.room.model
 
-import org.matrix.android.sdk.api.session.events.model.Content
+import com.energeek.android.sdk.api.session.events.model.Content
 
 /**
  * Events can relates to other events, this object keeps a summary

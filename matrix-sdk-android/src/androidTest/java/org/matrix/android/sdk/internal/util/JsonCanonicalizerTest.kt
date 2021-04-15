@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.util
+package com.energeek.android.sdk.internal.util
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import org.matrix.android.sdk.InstrumentedTest
+import com.energeek.android.sdk.InstrumentedTest
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import org.junit.runner.RunWith

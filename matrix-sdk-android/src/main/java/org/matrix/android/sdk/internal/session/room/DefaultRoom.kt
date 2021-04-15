@@ -14,34 +14,34 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room
+package com.energeek.android.sdk.internal.session.room
 
 import androidx.lifecycle.LiveData
-import org.matrix.android.sdk.api.session.crypto.CryptoService
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.room.Room
-import org.matrix.android.sdk.api.session.room.alias.AliasService
-import org.matrix.android.sdk.api.session.room.call.RoomCallService
-import org.matrix.android.sdk.api.session.room.members.MembershipService
-import org.matrix.android.sdk.api.session.room.model.RoomSummary
-import org.matrix.android.sdk.api.session.room.model.relation.RelationService
-import org.matrix.android.sdk.api.session.room.notification.RoomPushRuleService
-import org.matrix.android.sdk.api.session.room.read.ReadService
-import org.matrix.android.sdk.api.session.room.reporting.ReportingService
-import org.matrix.android.sdk.api.session.room.send.DraftService
-import org.matrix.android.sdk.api.session.room.send.SendService
-import org.matrix.android.sdk.api.session.room.state.StateService
-import org.matrix.android.sdk.api.session.room.tags.TagsService
-import org.matrix.android.sdk.api.session.room.timeline.TimelineService
-import org.matrix.android.sdk.api.session.room.typing.TypingService
-import org.matrix.android.sdk.api.session.room.uploads.UploadsService
-import org.matrix.android.sdk.api.session.search.SearchResult
-import org.matrix.android.sdk.api.util.Optional
-import org.matrix.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
-import org.matrix.android.sdk.internal.session.room.state.SendStateTask
-import org.matrix.android.sdk.internal.session.room.summary.RoomSummaryDataSource
-import org.matrix.android.sdk.internal.session.search.SearchTask
-import org.matrix.android.sdk.internal.util.awaitCallback
+import com.energeek.android.sdk.api.session.crypto.CryptoService
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.room.Room
+import com.energeek.android.sdk.api.session.room.alias.AliasService
+import com.energeek.android.sdk.api.session.room.call.RoomCallService
+import com.energeek.android.sdk.api.session.room.members.MembershipService
+import com.energeek.android.sdk.api.session.room.model.RoomSummary
+import com.energeek.android.sdk.api.session.room.model.relation.RelationService
+import com.energeek.android.sdk.api.session.room.notification.RoomPushRuleService
+import com.energeek.android.sdk.api.session.room.read.ReadService
+import com.energeek.android.sdk.api.session.room.reporting.ReportingService
+import com.energeek.android.sdk.api.session.room.send.DraftService
+import com.energeek.android.sdk.api.session.room.send.SendService
+import com.energeek.android.sdk.api.session.room.state.StateService
+import com.energeek.android.sdk.api.session.room.tags.TagsService
+import com.energeek.android.sdk.api.session.room.timeline.TimelineService
+import com.energeek.android.sdk.api.session.room.typing.TypingService
+import com.energeek.android.sdk.api.session.room.uploads.UploadsService
+import com.energeek.android.sdk.api.session.search.SearchResult
+import com.energeek.android.sdk.api.util.Optional
+import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
+import com.energeek.android.sdk.internal.session.room.state.SendStateTask
+import com.energeek.android.sdk.internal.session.room.summary.RoomSummaryDataSource
+import com.energeek.android.sdk.internal.session.search.SearchTask
+import com.energeek.android.sdk.internal.util.awaitCallback
 import java.security.InvalidParameterException
 import javax.inject.Inject
 

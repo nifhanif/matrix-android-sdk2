@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.typing
+package com.energeek.android.sdk.internal.session.typing
 
-import org.matrix.android.sdk.api.session.room.sender.SenderInfo
-import org.matrix.android.sdk.api.session.typing.TypingUsersTracker
-import org.matrix.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.api.session.room.sender.SenderInfo
+import com.energeek.android.sdk.api.session.typing.TypingUsersTracker
+import com.energeek.android.sdk.internal.session.SessionScope
 import javax.inject.Inject
 
 @SessionScope

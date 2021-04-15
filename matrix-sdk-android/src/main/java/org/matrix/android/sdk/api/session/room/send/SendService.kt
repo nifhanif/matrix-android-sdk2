@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.send
+package com.energeek.android.sdk.api.session.room.send
 
-import org.matrix.android.sdk.api.session.content.ContentAttachmentData
-import org.matrix.android.sdk.api.session.events.model.Content
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.room.model.message.MessageType
-import org.matrix.android.sdk.api.session.room.model.message.OptionItem
-import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
-import org.matrix.android.sdk.api.util.Cancelable
+import com.energeek.android.sdk.api.session.content.ContentAttachmentData
+import com.energeek.android.sdk.api.session.events.model.Content
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.room.model.message.MessageType
+import com.energeek.android.sdk.api.session.room.model.message.OptionItem
+import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
+import com.energeek.android.sdk.api.util.Cancelable
 
 /**
  * This interface defines methods to send events in a room. It's implemented at the room level.

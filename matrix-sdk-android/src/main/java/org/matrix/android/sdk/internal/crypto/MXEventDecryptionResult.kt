@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto
+package com.energeek.android.sdk.internal.crypto
 
-import org.matrix.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.api.util.JsonDict
 
 /**
  * The result of a (successful) call to decryptEvent.

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto
+package com.energeek.android.sdk.internal.crypto
 
-import org.matrix.android.sdk.internal.crypto.algorithms.IMXDecrypting
-import org.matrix.android.sdk.internal.crypto.algorithms.megolm.MXMegolmDecryptionFactory
-import org.matrix.android.sdk.internal.crypto.algorithms.olm.MXOlmDecryptionFactory
-import org.matrix.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.crypto.algorithms.IMXDecrypting
+import com.energeek.android.sdk.internal.crypto.algorithms.megolm.MXMegolmDecryptionFactory
+import com.energeek.android.sdk.internal.crypto.algorithms.olm.MXOlmDecryptionFactory
+import com.energeek.android.sdk.internal.session.SessionScope
 import timber.log.Timber
 import javax.inject.Inject
 

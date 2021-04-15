@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.interfaces
+package com.energeek.android.sdk.api.interfaces
 
 /**
  * Can be implemented by any object containing a timestamp.

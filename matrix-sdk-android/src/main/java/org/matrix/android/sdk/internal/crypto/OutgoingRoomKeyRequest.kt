@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto
+package com.energeek.android.sdk.internal.crypto
 
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
+import com.energeek.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
 
 /**
  * Represents an outgoing room key request

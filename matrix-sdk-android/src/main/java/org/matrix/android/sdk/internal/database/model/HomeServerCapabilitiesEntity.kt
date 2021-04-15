@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.model
+package com.energeek.android.sdk.internal.database.model
 
 import io.realm.RealmObject
-import org.matrix.android.sdk.api.session.homeserver.HomeServerCapabilities
+import com.energeek.android.sdk.api.session.homeserver.HomeServerCapabilities
 
 internal open class HomeServerCapabilitiesEntity(
         var canChangePassword: Boolean = true,

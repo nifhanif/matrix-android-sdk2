@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.di
+package com.energeek.android.sdk.internal.di
 
 import android.content.Context
 import androidx.work.Constraints

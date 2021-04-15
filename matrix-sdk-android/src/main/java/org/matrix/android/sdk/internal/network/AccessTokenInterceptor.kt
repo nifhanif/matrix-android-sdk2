@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.network
+package com.energeek.android.sdk.internal.network
 
-import org.matrix.android.sdk.internal.network.token.AccessTokenProvider
+import com.energeek.android.sdk.internal.network.token.AccessTokenProvider
 import okhttp3.Interceptor
 import okhttp3.Response
 

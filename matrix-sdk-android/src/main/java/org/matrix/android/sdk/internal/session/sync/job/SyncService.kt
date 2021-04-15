@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.session.sync.job
+package com.energeek.android.sdk.internal.session.sync.job
 
 import android.app.Service
 import android.content.Intent
@@ -24,17 +24,17 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancelChildren
 import kotlinx.coroutines.launch
-import org.matrix.android.sdk.api.Matrix
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.failure.isTokenError
-import org.matrix.android.sdk.api.session.Session
-import org.matrix.android.sdk.api.session.sync.SyncState
-import org.matrix.android.sdk.internal.network.NetworkConnectivityChecker
-import org.matrix.android.sdk.internal.session.sync.SyncPresence
-import org.matrix.android.sdk.internal.session.sync.SyncTask
-import org.matrix.android.sdk.internal.task.TaskExecutor
-import org.matrix.android.sdk.internal.util.BackgroundDetectionObserver
-import org.matrix.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.energeek.android.sdk.api.Matrix
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.failure.isTokenError
+import com.energeek.android.sdk.api.session.Session
+import com.energeek.android.sdk.api.session.sync.SyncState
+import com.energeek.android.sdk.internal.network.NetworkConnectivityChecker
+import com.energeek.android.sdk.internal.session.sync.SyncPresence
+import com.energeek.android.sdk.internal.session.sync.SyncTask
+import com.energeek.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.internal.util.BackgroundDetectionObserver
+import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
 import timber.log.Timber
 import java.net.SocketTimeoutException
 import java.util.concurrent.atomic.AtomicBoolean

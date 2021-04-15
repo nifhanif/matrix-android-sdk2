@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync.parsing
+package com.energeek.android.sdk.internal.session.sync.parsing
 
 import com.squareup.moshi.FromJson
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.JsonReader
 import com.squareup.moshi.JsonWriter
 import com.squareup.moshi.ToJson
-import org.matrix.android.sdk.internal.session.sync.InitialSyncStrategy
-import org.matrix.android.sdk.internal.session.sync.RoomSyncEphemeralTemporaryStore
-import org.matrix.android.sdk.internal.session.sync.model.LazyRoomSyncEphemeral
-import org.matrix.android.sdk.internal.session.sync.model.RoomSyncEphemeral
+import com.energeek.android.sdk.internal.session.sync.InitialSyncStrategy
+import com.energeek.android.sdk.internal.session.sync.RoomSyncEphemeralTemporaryStore
+import com.energeek.android.sdk.internal.session.sync.model.LazyRoomSyncEphemeral
+import com.energeek.android.sdk.internal.session.sync.model.RoomSyncEphemeral
 import timber.log.Timber
 
 internal class DefaultLazyRoomSyncEphemeralJsonAdapter {

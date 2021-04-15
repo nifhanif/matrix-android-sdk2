@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.signout
+package com.energeek.android.sdk.internal.session.signout
 
-import org.matrix.android.sdk.api.auth.data.SessionParams
-import org.matrix.android.sdk.internal.auth.SessionParamsStore
-import org.matrix.android.sdk.internal.auth.data.PasswordLoginParams
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.auth.data.SessionParams
+import com.energeek.android.sdk.internal.auth.SessionParamsStore
+import com.energeek.android.sdk.internal.auth.data.PasswordLoginParams
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface SignInAgainTask : Task<SignInAgainTask.Params, Unit> {

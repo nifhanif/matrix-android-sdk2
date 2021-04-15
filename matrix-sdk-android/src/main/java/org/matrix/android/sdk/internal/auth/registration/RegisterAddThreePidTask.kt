@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.auth.registration
+package com.energeek.android.sdk.internal.auth.registration
 
-import org.matrix.android.sdk.api.auth.registration.RegisterThreePid
-import org.matrix.android.sdk.internal.auth.AuthAPI
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.auth.registration.RegisterThreePid
+import com.energeek.android.sdk.internal.auth.AuthAPI
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.task.Task
 
 internal interface RegisterAddThreePidTask : Task<RegisterAddThreePidTask.Params, AddThreePidRegistrationResponse> {
     data class Params(

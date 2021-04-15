@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto
+package com.energeek.android.sdk.internal.crypto
 
-import org.matrix.android.sdk.api.session.crypto.MXCryptoError
-import org.matrix.android.sdk.api.util.JSON_DICT_PARAMETERIZED_TYPE
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.crypto.algorithms.megolm.MXOutboundSessionInfo
-import org.matrix.android.sdk.internal.crypto.algorithms.megolm.SharedWithHelper
-import org.matrix.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
-import org.matrix.android.sdk.internal.crypto.model.OlmInboundGroupSessionWrapper2
-import org.matrix.android.sdk.internal.crypto.model.OlmSessionWrapper
-import org.matrix.android.sdk.internal.crypto.store.IMXCryptoStore
-import org.matrix.android.sdk.internal.di.MoshiProvider
-import org.matrix.android.sdk.internal.session.SessionScope
-import org.matrix.android.sdk.internal.util.JsonCanonicalizer
-import org.matrix.android.sdk.internal.util.convertFromUTF8
-import org.matrix.android.sdk.internal.util.convertToUTF8
+import com.energeek.android.sdk.api.session.crypto.MXCryptoError
+import com.energeek.android.sdk.api.util.JSON_DICT_PARAMETERIZED_TYPE
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.crypto.algorithms.megolm.MXOutboundSessionInfo
+import com.energeek.android.sdk.internal.crypto.algorithms.megolm.SharedWithHelper
+import com.energeek.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
+import com.energeek.android.sdk.internal.crypto.model.OlmInboundGroupSessionWrapper2
+import com.energeek.android.sdk.internal.crypto.model.OlmSessionWrapper
+import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.energeek.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.util.JsonCanonicalizer
+import com.energeek.android.sdk.internal.util.convertFromUTF8
+import com.energeek.android.sdk.internal.util.convertToUTF8
 import org.matrix.olm.OlmAccount
 import org.matrix.olm.OlmException
 import org.matrix.olm.OlmMessage

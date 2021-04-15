@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.repository
+package com.energeek.android.sdk.internal.crypto.repository
 
-import org.matrix.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.session.SessionScope
 import javax.inject.Inject
 
 @SessionScope

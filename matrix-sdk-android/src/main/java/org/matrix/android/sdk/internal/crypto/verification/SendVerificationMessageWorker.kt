@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.verification
+package com.energeek.android.sdk.internal.crypto.verification
 
 import android.content.Context
 import androidx.work.Data
 import androidx.work.WorkerParameters
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.failure.shouldBeRetried
-import org.matrix.android.sdk.internal.crypto.tasks.SendVerificationMessageTask
-import org.matrix.android.sdk.internal.session.SessionComponent
-import org.matrix.android.sdk.internal.session.room.send.CancelSendTracker
-import org.matrix.android.sdk.internal.session.room.send.LocalEchoRepository
-import org.matrix.android.sdk.internal.worker.SessionSafeCoroutineWorker
-import org.matrix.android.sdk.internal.worker.SessionWorkerParams
+import com.energeek.android.sdk.api.failure.shouldBeRetried
+import com.energeek.android.sdk.internal.crypto.tasks.SendVerificationMessageTask
+import com.energeek.android.sdk.internal.session.SessionComponent
+import com.energeek.android.sdk.internal.session.room.send.CancelSendTracker
+import com.energeek.android.sdk.internal.session.room.send.LocalEchoRepository
+import com.energeek.android.sdk.internal.worker.SessionSafeCoroutineWorker
+import com.energeek.android.sdk.internal.worker.SessionWorkerParams
 import timber.log.Timber
 import javax.inject.Inject
 

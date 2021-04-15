@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.content
+package com.energeek.android.sdk.internal.session.content
 
 import dagger.Binds
 import dagger.Module
-import org.matrix.android.sdk.api.session.content.ContentUploadStateTracker
-import org.matrix.android.sdk.api.session.content.ContentUrlResolver
-import org.matrix.android.sdk.api.session.file.ContentDownloadStateTracker
-import org.matrix.android.sdk.internal.session.download.DefaultContentDownloadStateTracker
+import com.energeek.android.sdk.api.session.content.ContentUploadStateTracker
+import com.energeek.android.sdk.api.session.content.ContentUrlResolver
+import com.energeek.android.sdk.api.session.file.ContentDownloadStateTracker
+import com.energeek.android.sdk.internal.session.download.DefaultContentDownloadStateTracker
 
 @Module
 internal abstract class ContentModule {

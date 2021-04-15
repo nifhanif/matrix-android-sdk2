@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.relation
+package com.energeek.android.sdk.internal.session.room.relation
 
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.room.model.message.MessageType
-import org.matrix.android.sdk.api.session.room.send.SendState
-import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
-import org.matrix.android.sdk.api.util.Cancelable
-import org.matrix.android.sdk.api.util.NoOpCancellable
-import org.matrix.android.sdk.internal.crypto.CryptoSessionInfoProvider
-import org.matrix.android.sdk.internal.database.mapper.toEntity
-import org.matrix.android.sdk.internal.session.room.send.LocalEchoEventFactory
-import org.matrix.android.sdk.internal.session.room.send.LocalEchoRepository
-import org.matrix.android.sdk.internal.session.room.send.queue.EventSenderProcessor
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.room.model.message.MessageType
+import com.energeek.android.sdk.api.session.room.send.SendState
+import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
+import com.energeek.android.sdk.api.util.Cancelable
+import com.energeek.android.sdk.api.util.NoOpCancellable
+import com.energeek.android.sdk.internal.crypto.CryptoSessionInfoProvider
+import com.energeek.android.sdk.internal.database.mapper.toEntity
+import com.energeek.android.sdk.internal.session.room.send.LocalEchoEventFactory
+import com.energeek.android.sdk.internal.session.room.send.LocalEchoRepository
+import com.energeek.android.sdk.internal.session.room.send.queue.EventSenderProcessor
 import timber.log.Timber
 import javax.inject.Inject
 

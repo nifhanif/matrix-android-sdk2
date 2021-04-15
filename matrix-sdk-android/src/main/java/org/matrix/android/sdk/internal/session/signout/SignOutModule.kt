@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.signout
+package com.energeek.android.sdk.internal.session.signout
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import org.matrix.android.sdk.api.session.signout.SignOutService
-import org.matrix.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.api.session.signout.SignOutService
+import com.energeek.android.sdk.internal.session.SessionScope
 import retrofit2.Retrofit
 
 @Module

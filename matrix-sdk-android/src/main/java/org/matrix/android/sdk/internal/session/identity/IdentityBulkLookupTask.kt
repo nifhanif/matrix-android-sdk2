@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.identity
+package com.energeek.android.sdk.internal.session.identity
 
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.failure.MatrixError
-import org.matrix.android.sdk.api.session.identity.FoundThreePid
-import org.matrix.android.sdk.api.session.identity.IdentityServiceError
-import org.matrix.android.sdk.api.session.identity.ThreePid
-import org.matrix.android.sdk.api.session.identity.toMedium
-import org.matrix.android.sdk.internal.crypto.tools.withOlmUtility
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.identity.data.IdentityStore
-import org.matrix.android.sdk.internal.session.identity.model.IdentityHashDetailResponse
-import org.matrix.android.sdk.internal.session.identity.model.IdentityLookUpParams
-import org.matrix.android.sdk.internal.session.identity.model.IdentityLookUpResponse
-import org.matrix.android.sdk.internal.task.Task
-import org.matrix.android.sdk.internal.util.base64ToBase64Url
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.failure.MatrixError
+import com.energeek.android.sdk.api.session.identity.FoundThreePid
+import com.energeek.android.sdk.api.session.identity.IdentityServiceError
+import com.energeek.android.sdk.api.session.identity.ThreePid
+import com.energeek.android.sdk.api.session.identity.toMedium
+import com.energeek.android.sdk.internal.crypto.tools.withOlmUtility
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.identity.data.IdentityStore
+import com.energeek.android.sdk.internal.session.identity.model.IdentityHashDetailResponse
+import com.energeek.android.sdk.internal.session.identity.model.IdentityLookUpParams
+import com.energeek.android.sdk.internal.session.identity.model.IdentityLookUpResponse
+import com.energeek.android.sdk.internal.task.Task
+import com.energeek.android.sdk.internal.util.base64ToBase64Url
 import java.util.Locale
 import javax.inject.Inject
 

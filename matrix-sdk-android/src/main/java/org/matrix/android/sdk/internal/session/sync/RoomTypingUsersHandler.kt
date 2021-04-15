@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync
+package com.energeek.android.sdk.internal.session.sync
 
-import org.matrix.android.sdk.api.session.room.sender.SenderInfo
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.session.room.membership.RoomMemberHelper
-import org.matrix.android.sdk.internal.session.typing.DefaultTypingUsersTracker
+import com.energeek.android.sdk.api.session.room.sender.SenderInfo
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.session.room.membership.RoomMemberHelper
+import com.energeek.android.sdk.internal.session.typing.DefaultTypingUsersTracker
 import io.realm.Realm
 import javax.inject.Inject
 

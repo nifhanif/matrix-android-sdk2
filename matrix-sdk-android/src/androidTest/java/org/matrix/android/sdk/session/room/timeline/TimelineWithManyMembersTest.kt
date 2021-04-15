@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.session.room.timeline
+package com.energeek.android.sdk.session.room.timeline
 
 import org.junit.FixMethodOrder
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
 import org.junit.runners.MethodSorters
-import org.matrix.android.sdk.InstrumentedTest
-import org.matrix.android.sdk.api.extensions.orFalse
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.model.message.MessageContent
-import org.matrix.android.sdk.api.session.room.timeline.TimelineSettings
-import org.matrix.android.sdk.common.CommonTestHelper
-import org.matrix.android.sdk.common.CryptoTestHelper
+import com.energeek.android.sdk.InstrumentedTest
+import com.energeek.android.sdk.api.extensions.orFalse
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.model.message.MessageContent
+import com.energeek.android.sdk.api.session.room.timeline.TimelineSettings
+import com.energeek.android.sdk.common.CommonTestHelper
+import com.energeek.android.sdk.common.CryptoTestHelper
 import java.util.concurrent.CountDownLatch
 import kotlin.test.fail
 

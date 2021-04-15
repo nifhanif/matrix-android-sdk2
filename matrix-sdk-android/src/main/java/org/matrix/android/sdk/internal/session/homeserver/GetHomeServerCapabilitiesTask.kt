@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.homeserver
+package com.energeek.android.sdk.internal.session.homeserver
 
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.api.auth.data.HomeServerConnectionConfig
-import org.matrix.android.sdk.api.auth.wellknown.WellknownResult
-import org.matrix.android.sdk.api.session.homeserver.HomeServerCapabilities
-import org.matrix.android.sdk.internal.auth.version.Versions
-import org.matrix.android.sdk.internal.auth.version.isLoginAndRegistrationSupportedBySdk
-import org.matrix.android.sdk.internal.database.model.HomeServerCapabilitiesEntity
-import org.matrix.android.sdk.internal.database.query.getOrCreate
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.integrationmanager.IntegrationManagerConfigExtractor
-import org.matrix.android.sdk.internal.session.media.GetMediaConfigResult
-import org.matrix.android.sdk.internal.session.media.MediaAPI
-import org.matrix.android.sdk.internal.task.Task
-import org.matrix.android.sdk.internal.util.awaitTransaction
-import org.matrix.android.sdk.internal.wellknown.GetWellknownTask
+import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.energeek.android.sdk.api.auth.wellknown.WellknownResult
+import com.energeek.android.sdk.api.session.homeserver.HomeServerCapabilities
+import com.energeek.android.sdk.internal.auth.version.Versions
+import com.energeek.android.sdk.internal.auth.version.isLoginAndRegistrationSupportedBySdk
+import com.energeek.android.sdk.internal.database.model.HomeServerCapabilitiesEntity
+import com.energeek.android.sdk.internal.database.query.getOrCreate
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.integrationmanager.IntegrationManagerConfigExtractor
+import com.energeek.android.sdk.internal.session.media.GetMediaConfigResult
+import com.energeek.android.sdk.internal.session.media.MediaAPI
+import com.energeek.android.sdk.internal.task.Task
+import com.energeek.android.sdk.internal.util.awaitTransaction
+import com.energeek.android.sdk.internal.wellknown.GetWellknownTask
 import timber.log.Timber
 import java.util.Date
 import javax.inject.Inject

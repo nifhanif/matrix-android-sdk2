@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.di
+package com.energeek.android.sdk.internal.di
 
 import android.content.Context
 import android.content.res.Resources
 import dagger.Module
 import dagger.Provides
-import org.matrix.android.sdk.internal.util.MatrixCoroutineDispatchers
-import org.matrix.android.sdk.internal.util.createBackgroundHandler
+import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.energeek.android.sdk.internal.util.createBackgroundHandler
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.android.asCoroutineDispatcher
 import kotlinx.coroutines.asCoroutineDispatcher

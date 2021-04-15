@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.model.call
+package com.energeek.android.sdk.api.session.room.model.call
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.extensions.orFalse
+import com.energeek.android.sdk.api.extensions.orFalse
 
 @JsonClass(generateAdapter = true)
 data class CallCapabilities(

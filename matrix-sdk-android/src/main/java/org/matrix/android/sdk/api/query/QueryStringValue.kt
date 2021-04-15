@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.query
+package com.energeek.android.sdk.api.query
 
 /**
  * Basic query language. All these cases are mutually exclusive.

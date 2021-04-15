@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.common
+package com.energeek.android.sdk.common
 
 import dagger.Binds
 import dagger.Module
-import org.matrix.android.sdk.internal.di.MatrixComponent
+import com.energeek.android.sdk.internal.di.MatrixComponent
 
 @Module
 internal abstract class TestModule {

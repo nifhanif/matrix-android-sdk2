@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.accountdata
+package com.energeek.android.sdk.api.session.accountdata
 
 import androidx.lifecycle.LiveData
-import org.matrix.android.sdk.api.session.events.model.Content
-import org.matrix.android.sdk.api.util.Optional
+import com.energeek.android.sdk.api.session.events.model.Content
+import com.energeek.android.sdk.api.util.Optional
 
 interface AccountDataService {
     /**

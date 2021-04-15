@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.algorithms
+package com.energeek.android.sdk.internal.crypto.algorithms
 
 internal interface IMXGroupEncryption {
 

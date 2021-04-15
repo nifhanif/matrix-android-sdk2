@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.database.mapper
+package com.energeek.android.sdk.internal.database.mapper
 
 import com.squareup.moshi.Types
 import io.realm.RealmList
-import org.matrix.android.sdk.api.pushrules.Kind
-import org.matrix.android.sdk.api.pushrules.rest.PushCondition
-import org.matrix.android.sdk.api.pushrules.rest.PushRule
-import org.matrix.android.sdk.internal.database.model.PushRuleEntity
-import org.matrix.android.sdk.internal.di.MoshiProvider
+import com.energeek.android.sdk.api.pushrules.Kind
+import com.energeek.android.sdk.api.pushrules.rest.PushCondition
+import com.energeek.android.sdk.api.pushrules.rest.PushRule
+import com.energeek.android.sdk.internal.database.model.PushRuleEntity
+import com.energeek.android.sdk.internal.di.MoshiProvider
 import timber.log.Timber
 
 internal object PushRulesMapper {

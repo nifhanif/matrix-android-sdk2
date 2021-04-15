@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.util
+package com.energeek.android.sdk.internal.util
 
 // Trick to ensure that when block is exhaustive
 internal val <T> T.exhaustive: T get() = this

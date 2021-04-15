@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.account
+package com.energeek.android.sdk.internal.session.account
 
-import org.matrix.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.Body
 import retrofit2.http.POST
 

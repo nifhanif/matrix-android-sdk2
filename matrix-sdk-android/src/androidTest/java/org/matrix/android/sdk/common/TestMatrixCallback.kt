@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.common
+package com.energeek.android.sdk.common
 
 import androidx.annotation.CallSuper
-import org.matrix.android.sdk.api.MatrixCallback
+import com.energeek.android.sdk.api.MatrixCallback
 import org.junit.Assert.fail
 import timber.log.Timber
 import java.util.concurrent.CountDownLatch

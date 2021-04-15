@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.openid
+package com.energeek.android.sdk.internal.session.openid
 
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.Body
 import retrofit2.http.POST
 import retrofit2.http.Path

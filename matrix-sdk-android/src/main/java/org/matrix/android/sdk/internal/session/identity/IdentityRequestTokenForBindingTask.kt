@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.identity
+package com.energeek.android.sdk.internal.session.identity
 
-import org.matrix.android.sdk.api.session.identity.IdentityServiceError
-import org.matrix.android.sdk.api.session.identity.ThreePid
-import org.matrix.android.sdk.api.session.identity.getCountryCode
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.identity.data.IdentityPendingBinding
-import org.matrix.android.sdk.internal.session.identity.data.IdentityStore
-import org.matrix.android.sdk.internal.session.identity.model.IdentityRequestTokenForEmailBody
-import org.matrix.android.sdk.internal.session.identity.model.IdentityRequestTokenForMsisdnBody
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.session.identity.IdentityServiceError
+import com.energeek.android.sdk.api.session.identity.ThreePid
+import com.energeek.android.sdk.api.session.identity.getCountryCode
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.identity.data.IdentityPendingBinding
+import com.energeek.android.sdk.internal.session.identity.data.IdentityStore
+import com.energeek.android.sdk.internal.session.identity.model.IdentityRequestTokenForEmailBody
+import com.energeek.android.sdk.internal.session.identity.model.IdentityRequestTokenForMsisdnBody
+import com.energeek.android.sdk.internal.task.Task
 import java.util.UUID
 import javax.inject.Inject
 

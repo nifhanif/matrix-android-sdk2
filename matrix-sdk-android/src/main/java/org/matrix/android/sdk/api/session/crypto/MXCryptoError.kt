@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.crypto
+package com.energeek.android.sdk.api.session.crypto
 
-import org.matrix.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import org.matrix.android.sdk.internal.crypto.model.MXUsersDevicesMap
+import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.energeek.android.sdk.internal.crypto.model.MXUsersDevicesMap
 import org.matrix.olm.OlmException
 
 /**

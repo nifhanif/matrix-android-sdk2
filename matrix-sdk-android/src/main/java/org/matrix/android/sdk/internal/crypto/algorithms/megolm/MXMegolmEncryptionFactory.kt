@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.algorithms.megolm
+package com.energeek.android.sdk.internal.crypto.algorithms.megolm
 
 import kotlinx.coroutines.CoroutineScope
-import org.matrix.android.sdk.internal.crypto.DeviceListManager
-import org.matrix.android.sdk.internal.crypto.MXOlmDevice
-import org.matrix.android.sdk.internal.crypto.actions.EnsureOlmSessionsForDevicesAction
-import org.matrix.android.sdk.internal.crypto.actions.MessageEncrypter
-import org.matrix.android.sdk.internal.crypto.keysbackup.DefaultKeysBackupService
-import org.matrix.android.sdk.internal.crypto.repository.WarnOnUnknownDeviceRepository
-import org.matrix.android.sdk.internal.crypto.store.IMXCryptoStore
-import org.matrix.android.sdk.internal.crypto.tasks.SendToDeviceTask
-import org.matrix.android.sdk.internal.di.DeviceId
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.energeek.android.sdk.internal.crypto.DeviceListManager
+import com.energeek.android.sdk.internal.crypto.MXOlmDevice
+import com.energeek.android.sdk.internal.crypto.actions.EnsureOlmSessionsForDevicesAction
+import com.energeek.android.sdk.internal.crypto.actions.MessageEncrypter
+import com.energeek.android.sdk.internal.crypto.keysbackup.DefaultKeysBackupService
+import com.energeek.android.sdk.internal.crypto.repository.WarnOnUnknownDeviceRepository
+import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.energeek.android.sdk.internal.crypto.tasks.SendToDeviceTask
+import com.energeek.android.sdk.internal.di.DeviceId
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
 import javax.inject.Inject
 
 internal class MXMegolmEncryptionFactory @Inject constructor(

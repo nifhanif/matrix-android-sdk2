@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.task
+package com.energeek.android.sdk.internal.task
 
-import org.matrix.android.sdk.api.MatrixCallback
-import org.matrix.android.sdk.api.util.Cancelable
-import org.matrix.android.sdk.internal.extensions.foldToCallback
-import org.matrix.android.sdk.internal.util.toCancelable
+import com.energeek.android.sdk.api.MatrixCallback
+import com.energeek.android.sdk.api.util.Cancelable
+import com.energeek.android.sdk.internal.extensions.foldToCallback
+import com.energeek.android.sdk.internal.util.toCancelable
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.Dispatchers

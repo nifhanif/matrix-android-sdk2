@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.crypto
+package com.energeek.android.sdk.api.crypto
 
-import org.matrix.android.sdk.api.session.crypto.verification.EmojiRepresentation
-import org.matrix.android.sdk.internal.crypto.verification.getEmojiForCode
+import com.energeek.android.sdk.api.session.crypto.verification.EmojiRepresentation
+import com.energeek.android.sdk.internal.crypto.verification.getEmojiForCode
 
 /**
  * Provide all the emojis used for SAS verification (for debug purpose)

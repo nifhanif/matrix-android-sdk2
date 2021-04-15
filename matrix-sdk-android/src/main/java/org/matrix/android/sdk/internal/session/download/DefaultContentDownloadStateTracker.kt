@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.download
+package com.energeek.android.sdk.internal.session.download
 
 import android.os.Handler
 import android.os.Looper
-import org.matrix.android.sdk.api.extensions.tryOrNull
-import org.matrix.android.sdk.api.session.file.ContentDownloadStateTracker
-import org.matrix.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.api.extensions.tryOrNull
+import com.energeek.android.sdk.api.session.file.ContentDownloadStateTracker
+import com.energeek.android.sdk.internal.session.SessionScope
 import timber.log.Timber
 import javax.inject.Inject
 

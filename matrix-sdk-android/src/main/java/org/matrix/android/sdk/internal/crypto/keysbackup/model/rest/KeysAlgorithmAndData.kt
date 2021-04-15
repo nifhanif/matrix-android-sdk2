@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.keysbackup.model.rest
+package com.energeek.android.sdk.internal.crypto.keysbackup.model.rest
 
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP
-import org.matrix.android.sdk.internal.crypto.keysbackup.model.MegolmBackupAuthData
-import org.matrix.android.sdk.internal.di.MoshiProvider
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP
+import com.energeek.android.sdk.internal.crypto.keysbackup.model.MegolmBackupAuthData
+import com.energeek.android.sdk.internal.di.MoshiProvider
 
 /**
  * <pre>
@@ -46,7 +46,7 @@ internal interface KeysAlgorithmAndData {
     val algorithm: String
 
     /**
-     * algorithm-dependent data, for "m.megolm_backup.v1.curve25519-aes-sha2" see [org.matrix.android.sdk.internal.crypto.keysbackup.MegolmBackupAuthData]
+     * algorithm-dependent data, for "m.megolm_backup.v1.curve25519-aes-sha2" see [com.energeek.android.sdk.internal.crypto.keysbackup.MegolmBackupAuthData]
      */
     val authData: JsonDict
 

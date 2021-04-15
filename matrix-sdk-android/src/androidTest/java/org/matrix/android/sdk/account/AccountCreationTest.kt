@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.account
+package com.energeek.android.sdk.account
 
-import org.matrix.android.sdk.InstrumentedTest
-import org.matrix.android.sdk.common.CommonTestHelper
-import org.matrix.android.sdk.common.CryptoTestHelper
-import org.matrix.android.sdk.common.SessionTestParams
-import org.matrix.android.sdk.common.TestConstants
+import com.energeek.android.sdk.InstrumentedTest
+import com.energeek.android.sdk.common.CommonTestHelper
+import com.energeek.android.sdk.common.CryptoTestHelper
+import com.energeek.android.sdk.common.SessionTestParams
+import com.energeek.android.sdk.common.TestConstants
 import org.junit.FixMethodOrder
 import org.junit.Test
 import org.junit.runner.RunWith

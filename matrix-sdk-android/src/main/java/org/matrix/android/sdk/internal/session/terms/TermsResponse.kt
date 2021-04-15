@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.terms
+package com.energeek.android.sdk.internal.session.terms
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.auth.registration.LocalizedFlowDataLoginTerms
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.auth.registration.LocalizedFlowDataLoginTerms
 
 /**
  * This class represent a localized privacy policy for registration Flow.

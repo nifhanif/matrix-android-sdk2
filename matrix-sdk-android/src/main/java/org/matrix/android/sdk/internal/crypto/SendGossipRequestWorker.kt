@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto
+package com.energeek.android.sdk.internal.crypto
 
 import android.content.Context
 import androidx.work.WorkerParameters
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.auth.data.Credentials
-import org.matrix.android.sdk.api.failure.shouldBeRetried
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.LocalEcho
-import org.matrix.android.sdk.api.session.events.model.toContent
-import org.matrix.android.sdk.internal.crypto.model.MXUsersDevicesMap
-import org.matrix.android.sdk.internal.crypto.model.rest.GossipingToDeviceObject
-import org.matrix.android.sdk.internal.crypto.model.rest.RoomKeyShareRequest
-import org.matrix.android.sdk.internal.crypto.model.rest.SecretShareRequest
-import org.matrix.android.sdk.internal.crypto.store.IMXCryptoStore
-import org.matrix.android.sdk.internal.crypto.tasks.SendToDeviceTask
-import org.matrix.android.sdk.internal.session.SessionComponent
-import org.matrix.android.sdk.internal.worker.SessionSafeCoroutineWorker
-import org.matrix.android.sdk.internal.worker.SessionWorkerParams
+import com.energeek.android.sdk.api.auth.data.Credentials
+import com.energeek.android.sdk.api.failure.shouldBeRetried
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.LocalEcho
+import com.energeek.android.sdk.api.session.events.model.toContent
+import com.energeek.android.sdk.internal.crypto.model.MXUsersDevicesMap
+import com.energeek.android.sdk.internal.crypto.model.rest.GossipingToDeviceObject
+import com.energeek.android.sdk.internal.crypto.model.rest.RoomKeyShareRequest
+import com.energeek.android.sdk.internal.crypto.model.rest.SecretShareRequest
+import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.energeek.android.sdk.internal.crypto.tasks.SendToDeviceTask
+import com.energeek.android.sdk.internal.session.SessionComponent
+import com.energeek.android.sdk.internal.worker.SessionSafeCoroutineWorker
+import com.energeek.android.sdk.internal.worker.SessionWorkerParams
 import timber.log.Timber
 import javax.inject.Inject
 

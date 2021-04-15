@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.session.pushers
+package com.energeek.android.sdk.internal.session.pushers
 
 import androidx.lifecycle.LiveData
 import androidx.work.BackoffPolicy
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.api.session.pushers.Pusher
-import org.matrix.android.sdk.api.session.pushers.PushersService
-import org.matrix.android.sdk.internal.database.mapper.asDomain
-import org.matrix.android.sdk.internal.database.model.PusherEntity
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.di.SessionId
-import org.matrix.android.sdk.internal.di.WorkManagerProvider
-import org.matrix.android.sdk.internal.session.pushers.gateway.PushGatewayNotifyTask
-import org.matrix.android.sdk.internal.task.TaskExecutor
-import org.matrix.android.sdk.internal.task.configureWith
-import org.matrix.android.sdk.internal.worker.WorkerParamsFactory
+import com.energeek.android.sdk.api.session.pushers.Pusher
+import com.energeek.android.sdk.api.session.pushers.PushersService
+import com.energeek.android.sdk.internal.database.mapper.asDomain
+import com.energeek.android.sdk.internal.database.model.PusherEntity
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.di.SessionId
+import com.energeek.android.sdk.internal.di.WorkManagerProvider
+import com.energeek.android.sdk.internal.session.pushers.gateway.PushGatewayNotifyTask
+import com.energeek.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.internal.task.configureWith
+import com.energeek.android.sdk.internal.worker.WorkerParamsFactory
 import java.security.InvalidParameterException
 import java.util.UUID
 import java.util.concurrent.TimeUnit

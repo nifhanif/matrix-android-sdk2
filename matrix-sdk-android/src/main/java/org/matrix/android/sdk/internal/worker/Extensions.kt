@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.worker
+package com.energeek.android.sdk.internal.worker
 
 import androidx.work.OneTimeWorkRequest
-import org.matrix.android.sdk.internal.session.room.send.NoMerger
+import com.energeek.android.sdk.internal.session.room.send.NoMerger
 
 /**
  * If startChain parameter is true, the builder will have a inputMerger set to [NoMerger]

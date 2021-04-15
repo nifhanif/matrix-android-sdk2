@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.alias
+package com.energeek.android.sdk.internal.session.room.alias
 
 import com.zhuinden.monarchy.Monarchy
 import io.realm.Realm
-import org.matrix.android.sdk.api.extensions.tryOrNull
-import org.matrix.android.sdk.api.util.Optional
-import org.matrix.android.sdk.internal.database.model.RoomSummaryEntity
-import org.matrix.android.sdk.internal.database.query.findByAlias
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.directory.DirectoryAPI
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.extensions.tryOrNull
+import com.energeek.android.sdk.api.util.Optional
+import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
+import com.energeek.android.sdk.internal.database.query.findByAlias
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.directory.DirectoryAPI
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface GetRoomIdByAliasTask : Task<GetRoomIdByAliasTask.Params, Optional<RoomAliasDescription>> {

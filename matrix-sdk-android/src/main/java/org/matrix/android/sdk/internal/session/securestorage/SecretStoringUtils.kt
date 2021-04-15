@@ -16,7 +16,7 @@
 
 @file:Suppress("DEPRECATION")
 
-package org.matrix.android.sdk.internal.session.securestorage
+package com.energeek.android.sdk.internal.session.securestorage
 
 import android.content.Context
 import android.os.Build

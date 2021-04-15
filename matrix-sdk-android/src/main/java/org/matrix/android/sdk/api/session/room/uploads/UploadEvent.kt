@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.uploads
+package com.energeek.android.sdk.api.session.room.uploads
 
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.room.model.message.MessageWithAttachmentContent
-import org.matrix.android.sdk.api.session.room.sender.SenderInfo
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.room.model.message.MessageWithAttachmentContent
+import com.energeek.android.sdk.api.session.room.sender.SenderInfo
 
 /**
  * Wrapper around on Event.
- * Similar to [org.matrix.android.sdk.api.session.room.timeline.TimelineEvent], contains an Event with extra useful data
+ * Similar to [com.energeek.android.sdk.api.session.room.timeline.TimelineEvent], contains an Event with extra useful data
  */
 data class UploadEvent(
         val root: Event,

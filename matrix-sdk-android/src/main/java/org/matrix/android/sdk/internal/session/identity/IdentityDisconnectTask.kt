@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.identity
+package com.energeek.android.sdk.internal.session.identity
 
-import org.matrix.android.sdk.api.session.identity.IdentityServiceError
-import org.matrix.android.sdk.internal.di.AuthenticatedIdentity
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.network.token.AccessTokenProvider
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.session.identity.IdentityServiceError
+import com.energeek.android.sdk.internal.di.AuthenticatedIdentity
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.network.token.AccessTokenProvider
+import com.energeek.android.sdk.internal.task.Task
 import timber.log.Timber
 import javax.inject.Inject
 

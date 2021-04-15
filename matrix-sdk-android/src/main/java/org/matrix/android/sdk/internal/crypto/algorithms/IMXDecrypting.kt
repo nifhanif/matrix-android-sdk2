@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.algorithms
+package com.energeek.android.sdk.internal.crypto.algorithms
 
-import org.matrix.android.sdk.api.session.crypto.MXCryptoError
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.internal.crypto.IncomingRoomKeyRequest
-import org.matrix.android.sdk.internal.crypto.IncomingSecretShareRequest
-import org.matrix.android.sdk.internal.crypto.MXEventDecryptionResult
-import org.matrix.android.sdk.internal.crypto.keysbackup.DefaultKeysBackupService
+import com.energeek.android.sdk.api.session.crypto.MXCryptoError
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.internal.crypto.IncomingRoomKeyRequest
+import com.energeek.android.sdk.internal.crypto.IncomingSecretShareRequest
+import com.energeek.android.sdk.internal.crypto.MXEventDecryptionResult
+import com.energeek.android.sdk.internal.crypto.keysbackup.DefaultKeysBackupService
 
 /**
  * An interface for decrypting data

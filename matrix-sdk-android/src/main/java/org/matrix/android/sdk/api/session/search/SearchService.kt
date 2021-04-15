@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.search
+package com.energeek.android.sdk.api.session.search
 
 /**
  * This interface defines methods to search messages in rooms.

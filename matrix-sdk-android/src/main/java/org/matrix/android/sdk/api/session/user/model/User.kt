@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.user.model
+package com.energeek.android.sdk.api.session.user.model
 
 /**
  * Data class which holds information about a user.
- * It can be retrieved with [org.matrix.android.sdk.api.session.user.UserService]
+ * It can be retrieved with [com.energeek.android.sdk.api.session.user.UserService]
  */
 data class User(
         val userId: String,

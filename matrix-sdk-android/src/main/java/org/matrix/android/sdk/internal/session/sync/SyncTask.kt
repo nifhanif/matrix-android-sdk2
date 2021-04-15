@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync
+package com.energeek.android.sdk.internal.session.sync
 
 import okhttp3.ResponseBody
-import org.matrix.android.sdk.api.session.initsync.InitSyncStep
-import org.matrix.android.sdk.internal.di.SessionFilesDirectory
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.TimeOutInterceptor
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.network.toFailure
-import org.matrix.android.sdk.internal.session.filter.FilterRepository
-import org.matrix.android.sdk.internal.session.homeserver.GetHomeServerCapabilitiesTask
-import org.matrix.android.sdk.internal.session.initsync.DefaultInitialSyncProgressService
-import org.matrix.android.sdk.internal.session.initsync.reportSubtask
-import org.matrix.android.sdk.internal.session.sync.model.LazyRoomSyncEphemeral
-import org.matrix.android.sdk.internal.session.sync.parsing.InitialSyncResponseParser
-import org.matrix.android.sdk.internal.session.user.UserStore
-import org.matrix.android.sdk.internal.task.Task
-import org.matrix.android.sdk.internal.util.logDuration
+import com.energeek.android.sdk.api.session.initsync.InitSyncStep
+import com.energeek.android.sdk.internal.di.SessionFilesDirectory
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.TimeOutInterceptor
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.network.toFailure
+import com.energeek.android.sdk.internal.session.filter.FilterRepository
+import com.energeek.android.sdk.internal.session.homeserver.GetHomeServerCapabilitiesTask
+import com.energeek.android.sdk.internal.session.initsync.DefaultInitialSyncProgressService
+import com.energeek.android.sdk.internal.session.initsync.reportSubtask
+import com.energeek.android.sdk.internal.session.sync.model.LazyRoomSyncEphemeral
+import com.energeek.android.sdk.internal.session.sync.parsing.InitialSyncResponseParser
+import com.energeek.android.sdk.internal.session.user.UserStore
+import com.energeek.android.sdk.internal.task.Task
+import com.energeek.android.sdk.internal.util.logDuration
 import retrofit2.Response
 import retrofit2.awaitResponse
 import timber.log.Timber

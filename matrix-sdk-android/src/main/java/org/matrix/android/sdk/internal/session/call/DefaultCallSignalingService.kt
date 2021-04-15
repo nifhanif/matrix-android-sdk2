@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.call
+package com.energeek.android.sdk.internal.session.call
 
-import org.matrix.android.sdk.api.session.call.CallListener
-import org.matrix.android.sdk.api.session.call.CallSignalingService
-import org.matrix.android.sdk.api.session.call.MxCall
-import org.matrix.android.sdk.api.session.call.PSTNProtocolChecker
-import org.matrix.android.sdk.api.session.call.TurnServerResponse
-import org.matrix.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.api.session.call.CallListener
+import com.energeek.android.sdk.api.session.call.CallSignalingService
+import com.energeek.android.sdk.api.session.call.MxCall
+import com.energeek.android.sdk.api.session.call.PSTNProtocolChecker
+import com.energeek.android.sdk.api.session.call.TurnServerResponse
+import com.energeek.android.sdk.internal.session.SessionScope
 import timber.log.Timber
 import javax.inject.Inject
 

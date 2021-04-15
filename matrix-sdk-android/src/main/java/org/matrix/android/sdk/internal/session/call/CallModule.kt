@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.call
+package com.energeek.android.sdk.internal.session.call
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import org.matrix.android.sdk.api.session.call.CallSignalingService
-import org.matrix.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.api.session.call.CallSignalingService
+import com.energeek.android.sdk.internal.session.SessionScope
 import retrofit2.Retrofit
 
 @Module

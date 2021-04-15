@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.auth.registration
+package com.energeek.android.sdk.api.auth.registration
 
-import org.matrix.android.sdk.api.session.Session
+import com.energeek.android.sdk.api.session.Session
 
 // Either a session or an object containing data about registration stages
 sealed class RegistrationResult {

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync
+package com.energeek.android.sdk.internal.session.sync
 
 import io.realm.Realm
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.internal.database.model.ReadReceiptEntity
-import org.matrix.android.sdk.internal.database.model.ReadReceiptsSummaryEntity
-import org.matrix.android.sdk.internal.database.query.createUnmanaged
-import org.matrix.android.sdk.internal.database.query.getOrCreate
-import org.matrix.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.internal.database.model.ReadReceiptEntity
+import com.energeek.android.sdk.internal.database.model.ReadReceiptsSummaryEntity
+import com.energeek.android.sdk.internal.database.query.createUnmanaged
+import com.energeek.android.sdk.internal.database.query.getOrCreate
+import com.energeek.android.sdk.internal.database.query.where
 import timber.log.Timber
 import javax.inject.Inject
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk
+package com.energeek.android.sdk
 
-import org.matrix.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
 import kotlinx.coroutines.Dispatchers.Main
 import kotlinx.coroutines.asCoroutineDispatcher
 import java.util.concurrent.Executors

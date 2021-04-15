@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.extensions
+package com.energeek.android.sdk.api.extensions
 
 fun CharSequence.ensurePrefix(prefix: CharSequence): CharSequence {
     return when {

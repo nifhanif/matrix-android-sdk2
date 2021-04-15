@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.algorithms
+package com.energeek.android.sdk.internal.crypto.algorithms
 
-import org.matrix.android.sdk.internal.crypto.model.event.RoomKeyWithHeldContent
+import com.energeek.android.sdk.internal.crypto.model.event.RoomKeyWithHeldContent
 
 internal interface IMXWithHeldExtension {
     fun onRoomKeyWithHeldEvent(withHeldInfo: RoomKeyWithHeldContent)

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.util
+package com.energeek.android.sdk.api.util
 
 class CancelableBag : Cancelable, MutableList<Cancelable> by ArrayList() {
     override fun cancel() {

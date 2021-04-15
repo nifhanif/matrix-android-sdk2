@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.keysbackup.model
+package com.energeek.android.sdk.internal.crypto.keysbackup.model
 
 /**
  * Data model for response to [KeysBackup.getKeysBackupTrust()].

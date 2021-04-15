@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.send
+package com.energeek.android.sdk.internal.session.room.send
 
 import org.commonmark.parser.Parser
 import org.commonmark.renderer.html.HtmlRenderer
-import org.matrix.android.sdk.internal.session.room.send.pills.TextPillsUtils
+import com.energeek.android.sdk.internal.session.room.send.pills.TextPillsUtils
 import javax.inject.Inject
 
 /**

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.extensions
+package com.energeek.android.sdk.api.extensions
 
-import org.matrix.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import org.matrix.android.sdk.internal.crypto.model.rest.DeviceInfo
+import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.energeek.android.sdk.internal.crypto.model.rest.DeviceInfo
 
 /* ==========================================================================================
  * MXDeviceInfo

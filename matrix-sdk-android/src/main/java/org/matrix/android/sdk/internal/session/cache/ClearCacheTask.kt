@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.cache
+package com.energeek.android.sdk.internal.session.cache
 
-import org.matrix.android.sdk.internal.database.awaitTransaction
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.internal.database.awaitTransaction
+import com.energeek.android.sdk.internal.task.Task
 import io.realm.RealmConfiguration
 import javax.inject.Inject
 

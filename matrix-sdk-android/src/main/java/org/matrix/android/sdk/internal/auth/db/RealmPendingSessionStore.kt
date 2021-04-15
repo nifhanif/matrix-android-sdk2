@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.auth.db
+package com.energeek.android.sdk.internal.auth.db
 
-import org.matrix.android.sdk.internal.auth.PendingSessionStore
-import org.matrix.android.sdk.internal.database.awaitTransaction
-import org.matrix.android.sdk.internal.di.AuthDatabase
+import com.energeek.android.sdk.internal.auth.PendingSessionStore
+import com.energeek.android.sdk.internal.database.awaitTransaction
+import com.energeek.android.sdk.internal.di.AuthDatabase
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import javax.inject.Inject

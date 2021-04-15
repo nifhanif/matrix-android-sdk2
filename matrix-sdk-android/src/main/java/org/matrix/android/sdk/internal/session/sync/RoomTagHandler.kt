@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync
+package com.energeek.android.sdk.internal.session.sync
 
-import org.matrix.android.sdk.api.session.room.model.tag.RoomTagContent
-import org.matrix.android.sdk.internal.database.model.RoomSummaryEntity
-import org.matrix.android.sdk.internal.database.model.RoomTagEntity
+import com.energeek.android.sdk.api.session.room.model.tag.RoomTagContent
+import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
+import com.energeek.android.sdk.internal.database.model.RoomTagEntity
 import io.realm.Realm
-import org.matrix.android.sdk.internal.database.query.getOrCreate
+import com.energeek.android.sdk.internal.database.query.getOrCreate
 import javax.inject.Inject
 
 internal class RoomTagHandler @Inject constructor() {

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.keysbackup
+package com.energeek.android.sdk.internal.crypto.keysbackup
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import org.matrix.android.sdk.InstrumentedTest
-import org.matrix.android.sdk.api.listeners.ProgressListener
-import org.matrix.android.sdk.common.assertByteArrayNotEqual
+import com.energeek.android.sdk.InstrumentedTest
+import com.energeek.android.sdk.api.listeners.ProgressListener
+import com.energeek.android.sdk.common.assertByteArrayNotEqual
 import org.junit.Assert.assertArrayEquals
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue

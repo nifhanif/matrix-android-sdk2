@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.tasks
+package com.energeek.android.sdk.internal.crypto.tasks
 
-import org.matrix.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import org.matrix.android.sdk.internal.auth.registration.handleUIA
-import org.matrix.android.sdk.internal.crypto.api.CryptoApi
-import org.matrix.android.sdk.internal.crypto.model.rest.DeleteDeviceParams
-import org.matrix.android.sdk.api.auth.UIABaseAuth
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.energeek.android.sdk.internal.auth.registration.handleUIA
+import com.energeek.android.sdk.internal.crypto.api.CryptoApi
+import com.energeek.android.sdk.internal.crypto.model.rest.DeleteDeviceParams
+import com.energeek.android.sdk.api.auth.UIABaseAuth
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.task.Task
 import timber.log.Timber
 import javax.inject.Inject
 

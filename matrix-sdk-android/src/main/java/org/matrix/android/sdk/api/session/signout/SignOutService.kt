@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.signout
+package com.energeek.android.sdk.api.session.signout
 
-import org.matrix.android.sdk.api.auth.data.Credentials
+import com.energeek.android.sdk.api.auth.data.Credentials
 
 /**
  * This interface defines a method to sign out, or to renew the token. It's implemented at the session level.

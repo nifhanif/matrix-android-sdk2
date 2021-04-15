@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.reporting
+package com.energeek.android.sdk.api.session.room.reporting
 
 /**
  * This interface defines methods to report content of an event.

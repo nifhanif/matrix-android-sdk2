@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.membership
+package com.energeek.android.sdk.internal.session.room.membership
 
 import io.realm.Realm
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.room.model.RoomMemberContent
-import org.matrix.android.sdk.internal.session.events.getFixedRoomMemberContent
-import org.matrix.android.sdk.internal.session.user.UserEntityFactory
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.room.model.RoomMemberContent
+import com.energeek.android.sdk.internal.session.events.getFixedRoomMemberContent
+import com.energeek.android.sdk.internal.session.user.UserEntityFactory
 import javax.inject.Inject
 
 internal class RoomMemberEventHandler @Inject constructor() {

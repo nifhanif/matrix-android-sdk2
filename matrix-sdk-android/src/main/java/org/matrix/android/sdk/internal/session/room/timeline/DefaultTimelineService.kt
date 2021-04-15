@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.timeline
+package com.energeek.android.sdk.internal.session.room.timeline
 
 import androidx.lifecycle.LiveData
 import com.zhuinden.monarchy.Monarchy
@@ -23,22 +23,22 @@ import dagger.assisted.AssistedFactory
 import dagger.assisted.AssistedInject
 import io.realm.Sort
 import io.realm.kotlin.where
-import org.matrix.android.sdk.api.session.events.model.isImageMessage
-import org.matrix.android.sdk.api.session.events.model.isVideoMessage
-import org.matrix.android.sdk.api.session.room.timeline.Timeline
-import org.matrix.android.sdk.api.session.room.timeline.TimelineEvent
-import org.matrix.android.sdk.api.session.room.timeline.TimelineService
-import org.matrix.android.sdk.api.session.room.timeline.TimelineSettings
-import org.matrix.android.sdk.api.util.Optional
-import org.matrix.android.sdk.internal.database.RealmSessionProvider
-import org.matrix.android.sdk.internal.database.mapper.TimelineEventMapper
-import org.matrix.android.sdk.internal.database.model.TimelineEventEntity
-import org.matrix.android.sdk.internal.database.model.TimelineEventEntityFields
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.session.room.membership.LoadRoomMembersTask
-import org.matrix.android.sdk.internal.session.sync.ReadReceiptHandler
-import org.matrix.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.api.session.events.model.isImageMessage
+import com.energeek.android.sdk.api.session.events.model.isVideoMessage
+import com.energeek.android.sdk.api.session.room.timeline.Timeline
+import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
+import com.energeek.android.sdk.api.session.room.timeline.TimelineService
+import com.energeek.android.sdk.api.session.room.timeline.TimelineSettings
+import com.energeek.android.sdk.api.util.Optional
+import com.energeek.android.sdk.internal.database.RealmSessionProvider
+import com.energeek.android.sdk.internal.database.mapper.TimelineEventMapper
+import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
+import com.energeek.android.sdk.internal.database.model.TimelineEventEntityFields
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.session.room.membership.LoadRoomMembersTask
+import com.energeek.android.sdk.internal.session.sync.ReadReceiptHandler
+import com.energeek.android.sdk.internal.task.TaskExecutor
 
 internal class DefaultTimelineService @AssistedInject constructor(
         @Assisted private val roomId: String,

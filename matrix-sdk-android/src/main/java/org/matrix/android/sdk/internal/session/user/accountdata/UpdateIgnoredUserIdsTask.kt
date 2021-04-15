@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.user.accountdata
+package com.energeek.android.sdk.internal.session.user.accountdata
 
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.api.session.accountdata.UserAccountDataTypes
-import org.matrix.android.sdk.internal.database.model.IgnoredUserEntity
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.sync.model.accountdata.IgnoredUsersContent
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.session.accountdata.UserAccountDataTypes
+import com.energeek.android.sdk.internal.database.model.IgnoredUserEntity
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.sync.model.accountdata.IgnoredUsersContent
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface UpdateIgnoredUserIdsTask : Task<UpdateIgnoredUserIdsTask.Params, Unit> {

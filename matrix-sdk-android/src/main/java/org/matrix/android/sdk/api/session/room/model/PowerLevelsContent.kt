@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.model
+package com.energeek.android.sdk.api.session.room.model
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.session.room.powerlevels.Role
+import com.energeek.android.sdk.api.session.room.powerlevels.Role
 
 /**
  * Class representing the EventType.EVENT_TYPE_STATE_ROOM_POWER_LEVELS state event content.

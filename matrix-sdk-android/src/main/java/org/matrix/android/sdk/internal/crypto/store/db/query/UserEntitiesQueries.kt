@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.store.db.query
+package com.energeek.android.sdk.internal.crypto.store.db.query
 
 import io.realm.Realm
 import io.realm.kotlin.createObject
 import io.realm.kotlin.where
-import org.matrix.android.sdk.internal.crypto.store.db.model.UserEntity
-import org.matrix.android.sdk.internal.crypto.store.db.model.UserEntityFields
-import org.matrix.android.sdk.internal.crypto.store.db.model.deleteOnCascade
+import com.energeek.android.sdk.internal.crypto.store.db.model.UserEntity
+import com.energeek.android.sdk.internal.crypto.store.db.model.UserEntityFields
+import com.energeek.android.sdk.internal.crypto.store.db.model.deleteOnCascade
 
 /**
  * Get or create a user

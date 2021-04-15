@@ -14,34 +14,34 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.call.model
+package com.energeek.android.sdk.internal.session.call.model
 
-import org.matrix.android.sdk.api.MatrixConfiguration
-import org.matrix.android.sdk.api.session.call.CallState
-import org.matrix.android.sdk.api.session.call.MxCall
-import org.matrix.android.sdk.api.session.events.model.Content
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.LocalEcho
-import org.matrix.android.sdk.api.session.events.model.UnsignedData
-import org.matrix.android.sdk.api.session.events.model.toContent
-import org.matrix.android.sdk.api.session.profile.ProfileService
-import org.matrix.android.sdk.api.session.room.model.call.CallAnswerContent
-import org.matrix.android.sdk.api.session.room.model.call.CallCandidate
-import org.matrix.android.sdk.api.session.room.model.call.CallCandidatesContent
-import org.matrix.android.sdk.api.session.room.model.call.CallCapabilities
-import org.matrix.android.sdk.api.session.room.model.call.CallHangupContent
-import org.matrix.android.sdk.api.session.room.model.call.CallInviteContent
-import org.matrix.android.sdk.api.session.room.model.call.CallNegotiateContent
-import org.matrix.android.sdk.api.session.room.model.call.CallRejectContent
-import org.matrix.android.sdk.api.session.room.model.call.CallReplacesContent
-import org.matrix.android.sdk.api.session.room.model.call.CallSelectAnswerContent
-import org.matrix.android.sdk.api.session.room.model.call.SdpType
-import org.matrix.android.sdk.api.util.Optional
-import org.matrix.android.sdk.internal.session.call.DefaultCallSignalingService
-import org.matrix.android.sdk.internal.session.profile.GetProfileInfoTask
-import org.matrix.android.sdk.internal.session.room.send.LocalEchoEventFactory
-import org.matrix.android.sdk.internal.session.room.send.queue.EventSenderProcessor
+import com.energeek.android.sdk.api.MatrixConfiguration
+import com.energeek.android.sdk.api.session.call.CallState
+import com.energeek.android.sdk.api.session.call.MxCall
+import com.energeek.android.sdk.api.session.events.model.Content
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.LocalEcho
+import com.energeek.android.sdk.api.session.events.model.UnsignedData
+import com.energeek.android.sdk.api.session.events.model.toContent
+import com.energeek.android.sdk.api.session.profile.ProfileService
+import com.energeek.android.sdk.api.session.room.model.call.CallAnswerContent
+import com.energeek.android.sdk.api.session.room.model.call.CallCandidate
+import com.energeek.android.sdk.api.session.room.model.call.CallCandidatesContent
+import com.energeek.android.sdk.api.session.room.model.call.CallCapabilities
+import com.energeek.android.sdk.api.session.room.model.call.CallHangupContent
+import com.energeek.android.sdk.api.session.room.model.call.CallInviteContent
+import com.energeek.android.sdk.api.session.room.model.call.CallNegotiateContent
+import com.energeek.android.sdk.api.session.room.model.call.CallRejectContent
+import com.energeek.android.sdk.api.session.room.model.call.CallReplacesContent
+import com.energeek.android.sdk.api.session.room.model.call.CallSelectAnswerContent
+import com.energeek.android.sdk.api.session.room.model.call.SdpType
+import com.energeek.android.sdk.api.util.Optional
+import com.energeek.android.sdk.internal.session.call.DefaultCallSignalingService
+import com.energeek.android.sdk.internal.session.profile.GetProfileInfoTask
+import com.energeek.android.sdk.internal.session.room.send.LocalEchoEventFactory
+import com.energeek.android.sdk.internal.session.room.send.queue.EventSenderProcessor
 import timber.log.Timber
 import java.util.UUID
 

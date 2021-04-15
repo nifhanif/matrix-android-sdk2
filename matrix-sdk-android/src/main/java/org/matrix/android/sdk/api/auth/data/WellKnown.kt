@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.auth.data
+package com.energeek.android.sdk.api.auth.data
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.api.util.JsonDict
 
 /**
  * https://matrix.org/docs/spec/client_server/r0.4.0.html#server-discovery

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.file
+package com.energeek.android.sdk.api.session.file
 
 interface ContentDownloadStateTracker {
     fun track(key: String, updateListener: UpdateListener)

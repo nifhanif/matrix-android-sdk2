@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.auth
+package com.energeek.android.sdk.internal.auth
 
-import org.matrix.android.sdk.internal.auth.db.PendingSessionData
+import com.energeek.android.sdk.internal.auth.db.PendingSessionData
 
 /**
  * Store for elements when doing login or registration

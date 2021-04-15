@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.send
+package com.energeek.android.sdk.api.session.room.send
 
 import androidx.lifecycle.LiveData
-import org.matrix.android.sdk.api.util.Optional
+import com.energeek.android.sdk.api.util.Optional
 
 interface DraftService {
 

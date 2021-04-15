@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.homeserver
+package com.energeek.android.sdk.internal.session.homeserver
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.extensions.orTrue
+import com.energeek.android.sdk.api.extensions.orTrue
 
 /**
  * Ref: https://matrix.org/docs/spec/client_server/latest#get-matrix-client-r0-capabilities

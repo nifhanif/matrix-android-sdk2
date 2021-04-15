@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.task
+package com.energeek.android.sdk.internal.task
 
 internal enum class TaskThread {
     MAIN,

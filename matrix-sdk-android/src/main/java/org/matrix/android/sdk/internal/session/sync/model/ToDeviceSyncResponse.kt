@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync.model
+package com.energeek.android.sdk.internal.session.sync.model
 
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.Event
 
 // ToDeviceSyncResponse represents the data directly sent to one of user's devices.
 @JsonClass(generateAdapter = true)

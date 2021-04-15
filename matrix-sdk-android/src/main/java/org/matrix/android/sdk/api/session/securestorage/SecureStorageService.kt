@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.securestorage
+package com.energeek.android.sdk.api.session.securestorage
 
 import java.io.InputStream
 import java.io.OutputStream

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.network.httpclient
+package com.energeek.android.sdk.internal.network.httpclient
 
-import org.matrix.android.sdk.api.auth.data.HomeServerConnectionConfig
-import org.matrix.android.sdk.internal.network.AccessTokenInterceptor
-import org.matrix.android.sdk.internal.network.interceptors.CurlLoggingInterceptor
-import org.matrix.android.sdk.internal.network.ssl.CertUtil
-import org.matrix.android.sdk.internal.network.token.AccessTokenProvider
+import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.energeek.android.sdk.internal.network.AccessTokenInterceptor
+import com.energeek.android.sdk.internal.network.interceptors.CurlLoggingInterceptor
+import com.energeek.android.sdk.internal.network.ssl.CertUtil
+import com.energeek.android.sdk.internal.network.token.AccessTokenProvider
 import okhttp3.OkHttpClient
 import timber.log.Timber
 

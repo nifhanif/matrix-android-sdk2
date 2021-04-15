@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.state
+package com.energeek.android.sdk.internal.session.room.state
 
 import android.net.Uri
 import androidx.lifecycle.LiveData
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import org.matrix.android.sdk.api.query.QueryStringValue
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.toContent
-import org.matrix.android.sdk.api.session.room.model.GuestAccess
-import org.matrix.android.sdk.api.session.room.model.RoomCanonicalAliasContent
-import org.matrix.android.sdk.api.session.room.model.RoomHistoryVisibility
-import org.matrix.android.sdk.api.session.room.model.RoomJoinRules
-import org.matrix.android.sdk.api.session.room.state.StateService
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.api.util.MimeTypes
-import org.matrix.android.sdk.api.util.Optional
-import org.matrix.android.sdk.internal.session.content.FileUploader
+import com.energeek.android.sdk.api.query.QueryStringValue
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.toContent
+import com.energeek.android.sdk.api.session.room.model.GuestAccess
+import com.energeek.android.sdk.api.session.room.model.RoomCanonicalAliasContent
+import com.energeek.android.sdk.api.session.room.model.RoomHistoryVisibility
+import com.energeek.android.sdk.api.session.room.model.RoomJoinRules
+import com.energeek.android.sdk.api.session.room.state.StateService
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.api.util.MimeTypes
+import com.energeek.android.sdk.api.util.Optional
+import com.energeek.android.sdk.internal.session.content.FileUploader
 
 internal class DefaultStateService @AssistedInject constructor(@Assisted private val roomId: String,
                                                                private val stateEventDataSource: StateEventDataSource,

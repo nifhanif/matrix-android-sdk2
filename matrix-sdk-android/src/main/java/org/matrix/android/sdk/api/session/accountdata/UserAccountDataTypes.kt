@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.accountdata
+package com.energeek.android.sdk.api.session.accountdata
 
 object UserAccountDataTypes {
     const val TYPE_IGNORED_USER_LIST = "m.ignored_user_list"

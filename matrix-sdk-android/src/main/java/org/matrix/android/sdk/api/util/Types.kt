@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.util
+package com.energeek.android.sdk.api.util
 
 import com.squareup.moshi.Types
 import java.lang.reflect.ParameterizedType

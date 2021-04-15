@@ -15,14 +15,14 @@
  *
  */
 
-package org.matrix.android.sdk.api.session.profile
+package com.energeek.android.sdk.api.session.profile
 
 import android.net.Uri
 import androidx.lifecycle.LiveData
-import org.matrix.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import org.matrix.android.sdk.api.session.identity.ThreePid
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.api.util.Optional
+import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.energeek.android.sdk.api.session.identity.ThreePid
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.api.util.Optional
 
 /**
  * This interface defines methods to handling profile information. It's implemented at the session level.

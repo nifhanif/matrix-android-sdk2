@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.api.auth
+package com.energeek.android.sdk.api.auth
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.auth.data.LoginFlowTypes
+import com.energeek.android.sdk.api.auth.data.LoginFlowTypes
 
 /**
  * This class provides the authentication data by using user and password

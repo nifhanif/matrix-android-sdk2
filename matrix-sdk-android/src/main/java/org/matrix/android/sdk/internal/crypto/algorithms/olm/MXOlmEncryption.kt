@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.algorithms.olm
+package com.energeek.android.sdk.internal.crypto.algorithms.olm
 
-import org.matrix.android.sdk.api.session.events.model.Content
-import org.matrix.android.sdk.api.session.events.model.toContent
-import org.matrix.android.sdk.internal.crypto.DeviceListManager
-import org.matrix.android.sdk.internal.crypto.MXOlmDevice
-import org.matrix.android.sdk.internal.crypto.actions.EnsureOlmSessionsForUsersAction
-import org.matrix.android.sdk.internal.crypto.actions.MessageEncrypter
-import org.matrix.android.sdk.internal.crypto.algorithms.IMXEncrypting
-import org.matrix.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import org.matrix.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.energeek.android.sdk.api.session.events.model.Content
+import com.energeek.android.sdk.api.session.events.model.toContent
+import com.energeek.android.sdk.internal.crypto.DeviceListManager
+import com.energeek.android.sdk.internal.crypto.MXOlmDevice
+import com.energeek.android.sdk.internal.crypto.actions.EnsureOlmSessionsForUsersAction
+import com.energeek.android.sdk.internal.crypto.actions.MessageEncrypter
+import com.energeek.android.sdk.internal.crypto.algorithms.IMXEncrypting
+import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
 
 internal class MXOlmEncryption(
         private val roomId: String,

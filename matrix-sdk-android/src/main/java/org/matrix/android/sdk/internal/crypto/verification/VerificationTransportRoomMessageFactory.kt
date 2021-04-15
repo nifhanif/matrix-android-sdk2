@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.verification
+package com.energeek.android.sdk.internal.crypto.verification
 
-import org.matrix.android.sdk.internal.di.DeviceId
-import org.matrix.android.sdk.internal.di.SessionId
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.di.WorkManagerProvider
-import org.matrix.android.sdk.internal.session.room.send.LocalEchoEventFactory
-import org.matrix.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.internal.di.DeviceId
+import com.energeek.android.sdk.internal.di.SessionId
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.di.WorkManagerProvider
+import com.energeek.android.sdk.internal.session.room.send.LocalEchoEventFactory
+import com.energeek.android.sdk.internal.task.TaskExecutor
 import javax.inject.Inject
 
 internal class VerificationTransportRoomMessageFactory @Inject constructor(

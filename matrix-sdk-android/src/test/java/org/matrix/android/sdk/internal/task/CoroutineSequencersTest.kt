@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.task
+package com.energeek.android.sdk.internal.task
 
-import org.matrix.android.sdk.MatrixTest
+import com.energeek.android.sdk.MatrixTest
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.asCoroutineDispatcher
 import kotlinx.coroutines.delay

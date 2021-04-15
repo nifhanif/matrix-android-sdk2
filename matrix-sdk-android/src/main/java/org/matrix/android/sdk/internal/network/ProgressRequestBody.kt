@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.network
+package com.energeek.android.sdk.internal.network
 
 import okhttp3.MediaType
 import okhttp3.RequestBody
@@ -23,7 +23,7 @@ import okio.BufferedSink
 import okio.ForwardingSink
 import okio.Sink
 import okio.buffer
-import org.matrix.android.sdk.api.extensions.tryOrNull
+import com.energeek.android.sdk.api.extensions.tryOrNull
 import java.io.IOException
 
 internal class ProgressRequestBody(private val delegate: RequestBody,

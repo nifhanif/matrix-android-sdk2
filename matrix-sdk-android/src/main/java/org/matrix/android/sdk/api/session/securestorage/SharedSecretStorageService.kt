@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.securestorage
+package com.energeek.android.sdk.api.session.securestorage
 
-import org.matrix.android.sdk.api.listeners.ProgressListener
-import org.matrix.android.sdk.api.session.crypto.crosssigning.KEYBACKUP_SECRET_SSSS_NAME
-import org.matrix.android.sdk.api.session.crypto.crosssigning.MASTER_KEY_SSSS_NAME
-import org.matrix.android.sdk.api.session.crypto.crosssigning.SELF_SIGNING_KEY_SSSS_NAME
-import org.matrix.android.sdk.api.session.crypto.crosssigning.USER_SIGNING_KEY_SSSS_NAME
+import com.energeek.android.sdk.api.listeners.ProgressListener
+import com.energeek.android.sdk.api.session.crypto.crosssigning.KEYBACKUP_SECRET_SSSS_NAME
+import com.energeek.android.sdk.api.session.crypto.crosssigning.MASTER_KEY_SSSS_NAME
+import com.energeek.android.sdk.api.session.crypto.crosssigning.SELF_SIGNING_KEY_SSSS_NAME
+import com.energeek.android.sdk.api.session.crypto.crosssigning.USER_SIGNING_KEY_SSSS_NAME
 
 /**
  * Some features may require clients to store encrypted data on the server so that it can be shared securely between clients.

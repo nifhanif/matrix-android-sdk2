@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.identity
+package com.energeek.android.sdk.internal.session.identity
 
-import org.matrix.android.sdk.internal.network.NetworkConstants
-import org.matrix.android.sdk.internal.session.identity.model.IdentityRegisterResponse
-import org.matrix.android.sdk.internal.session.openid.RequestOpenIdTokenResponse
+import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.internal.session.identity.model.IdentityRegisterResponse
+import com.energeek.android.sdk.internal.session.openid.RequestOpenIdTokenResponse
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST

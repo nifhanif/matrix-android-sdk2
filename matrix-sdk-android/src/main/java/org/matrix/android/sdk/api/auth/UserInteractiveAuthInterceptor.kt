@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.auth
+package com.energeek.android.sdk.api.auth
 
-import org.matrix.android.sdk.api.auth.registration.RegistrationFlowResponse
+import com.energeek.android.sdk.api.auth.registration.RegistrationFlowResponse
 import kotlin.coroutines.Continuation
 
 /**

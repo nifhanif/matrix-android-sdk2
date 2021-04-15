@@ -14,31 +14,31 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.uploads
+package com.energeek.android.sdk.internal.session.room.uploads
 
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.api.session.room.model.message.MessageContent
-import org.matrix.android.sdk.api.session.room.model.message.MessageWithAttachmentContent
-import org.matrix.android.sdk.api.session.room.sender.SenderInfo
-import org.matrix.android.sdk.api.session.room.uploads.GetUploadsResult
-import org.matrix.android.sdk.api.session.room.uploads.UploadEvent
-import org.matrix.android.sdk.internal.database.mapper.asDomain
-import org.matrix.android.sdk.internal.database.model.EventEntity
-import org.matrix.android.sdk.internal.database.model.EventEntityFields
-import org.matrix.android.sdk.internal.database.query.TimelineEventFilter
-import org.matrix.android.sdk.internal.database.query.whereType
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.filter.FilterFactory
-import org.matrix.android.sdk.internal.session.room.RoomAPI
-import org.matrix.android.sdk.internal.session.room.membership.RoomMemberHelper
-import org.matrix.android.sdk.internal.session.room.timeline.PaginationDirection
-import org.matrix.android.sdk.internal.session.sync.SyncTokenStore
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.api.session.room.model.message.MessageContent
+import com.energeek.android.sdk.api.session.room.model.message.MessageWithAttachmentContent
+import com.energeek.android.sdk.api.session.room.sender.SenderInfo
+import com.energeek.android.sdk.api.session.room.uploads.GetUploadsResult
+import com.energeek.android.sdk.api.session.room.uploads.UploadEvent
+import com.energeek.android.sdk.internal.database.mapper.asDomain
+import com.energeek.android.sdk.internal.database.model.EventEntity
+import com.energeek.android.sdk.internal.database.model.EventEntityFields
+import com.energeek.android.sdk.internal.database.query.TimelineEventFilter
+import com.energeek.android.sdk.internal.database.query.whereType
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.filter.FilterFactory
+import com.energeek.android.sdk.internal.session.room.RoomAPI
+import com.energeek.android.sdk.internal.session.room.membership.RoomMemberHelper
+import com.energeek.android.sdk.internal.session.room.timeline.PaginationDirection
+import com.energeek.android.sdk.internal.session.sync.SyncTokenStore
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface GetUploadsTask : Task<GetUploadsTask.Params, GetUploadsResult> {

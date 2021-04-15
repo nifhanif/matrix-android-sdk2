@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.network.token
+package com.energeek.android.sdk.internal.network.token
 
-import org.matrix.android.sdk.internal.auth.SessionParamsStore
-import org.matrix.android.sdk.internal.di.SessionId
+import com.energeek.android.sdk.internal.auth.SessionParamsStore
+import com.energeek.android.sdk.internal.di.SessionId
 import javax.inject.Inject
 
 internal class HomeserverAccessTokenProvider @Inject constructor(

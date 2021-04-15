@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database.model
+package com.energeek.android.sdk.internal.database.model
 
-import org.matrix.android.sdk.api.session.room.model.Membership
+import com.energeek.android.sdk.api.session.room.model.Membership
 import io.realm.RealmList
 import io.realm.RealmObject
 import io.realm.annotations.PrimaryKey

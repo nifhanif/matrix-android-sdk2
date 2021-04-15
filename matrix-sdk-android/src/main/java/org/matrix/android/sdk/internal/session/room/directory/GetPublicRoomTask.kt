@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.directory
+package com.energeek.android.sdk.internal.session.room.directory
 
-import org.matrix.android.sdk.api.session.room.model.roomdirectory.PublicRoomsParams
-import org.matrix.android.sdk.api.session.room.model.roomdirectory.PublicRoomsResponse
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.room.RoomAPI
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.session.room.model.roomdirectory.PublicRoomsParams
+import com.energeek.android.sdk.api.session.room.model.roomdirectory.PublicRoomsResponse
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.room.RoomAPI
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface GetPublicRoomTask : Task<GetPublicRoomTask.Params, PublicRoomsResponse> {

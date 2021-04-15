@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.database
+package com.energeek.android.sdk.internal.database
 
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.internal.database.mapper.asDomain
-import org.matrix.android.sdk.internal.database.model.EventEntity
-import org.matrix.android.sdk.internal.database.model.EventInsertEntity
-import org.matrix.android.sdk.internal.database.model.EventInsertEntityFields
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.session.EventInsertLiveProcessor
+import com.energeek.android.sdk.internal.database.mapper.asDomain
+import com.energeek.android.sdk.internal.database.model.EventEntity
+import com.energeek.android.sdk.internal.database.model.EventInsertEntity
+import com.energeek.android.sdk.internal.database.model.EventInsertEntityFields
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.session.EventInsertLiveProcessor
 import io.realm.RealmConfiguration
 import io.realm.RealmResults
 import kotlinx.coroutines.launch
-import org.matrix.android.sdk.internal.crypto.EventDecryptor
+import com.energeek.android.sdk.internal.crypto.EventDecryptor
 import timber.log.Timber
 import javax.inject.Inject
 

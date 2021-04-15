@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.media
+package com.energeek.android.sdk.internal.session.media
 
-import org.matrix.android.sdk.api.session.media.PreviewUrlData
-import org.matrix.android.sdk.internal.database.model.PreviewUrlCacheEntity
+import com.energeek.android.sdk.api.session.media.PreviewUrlData
+import com.energeek.android.sdk.internal.database.model.PreviewUrlCacheEntity
 
 /**
  * PreviewUrlCacheEntity -> PreviewUrlData

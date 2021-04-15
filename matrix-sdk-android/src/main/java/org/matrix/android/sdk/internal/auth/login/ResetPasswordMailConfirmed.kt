@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.auth.login
+package com.energeek.android.sdk.internal.auth.login
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.internal.auth.registration.AuthParams
+import com.energeek.android.sdk.internal.auth.registration.AuthParams
 
 /**
  * Class to pass parameters to reset the password once a email has been validated.

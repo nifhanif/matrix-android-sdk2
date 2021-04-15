@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync
+package com.energeek.android.sdk.internal.session.sync
 
 import okhttp3.ResponseBody
-import org.matrix.android.sdk.internal.network.NetworkConstants
-import org.matrix.android.sdk.internal.network.TimeOutInterceptor
-import org.matrix.android.sdk.internal.session.sync.model.SyncResponse
+import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.internal.network.TimeOutInterceptor
+import com.energeek.android.sdk.internal.session.sync.model.SyncResponse
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Header

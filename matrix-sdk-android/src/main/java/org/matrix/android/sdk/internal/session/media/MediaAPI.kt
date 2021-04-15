@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.media
+package com.energeek.android.sdk.internal.session.media
 
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.GET
 import retrofit2.http.Query
 

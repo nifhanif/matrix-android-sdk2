@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.verification.qrcode
+package com.energeek.android.sdk.internal.crypto.verification.qrcode
 
-import org.matrix.android.sdk.MatrixTest
+import com.energeek.android.sdk.MatrixTest
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.FixMethodOrder
 import org.junit.Test

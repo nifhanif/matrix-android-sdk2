@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.session.pushers
+package com.energeek.android.sdk.internal.session.pushers
 
-import org.matrix.android.sdk.api.pushrules.rest.GetPushRulesResponse
-import org.matrix.android.sdk.api.pushrules.rest.PushRule
-import org.matrix.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.api.pushrules.rest.GetPushRulesResponse
+import com.energeek.android.sdk.api.pushrules.rest.PushRule
+import com.energeek.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.Body
 import retrofit2.http.DELETE
 import retrofit2.http.GET

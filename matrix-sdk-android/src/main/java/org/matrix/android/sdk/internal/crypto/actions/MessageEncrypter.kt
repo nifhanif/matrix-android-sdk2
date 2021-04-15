@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.actions
+package com.energeek.android.sdk.internal.crypto.actions
 
-import org.matrix.android.sdk.api.session.events.model.Content
-import org.matrix.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_OLM
-import org.matrix.android.sdk.internal.crypto.MXOlmDevice
-import org.matrix.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import org.matrix.android.sdk.internal.crypto.model.rest.EncryptedMessage
-import org.matrix.android.sdk.internal.di.DeviceId
-import org.matrix.android.sdk.internal.di.UserId
-import org.matrix.android.sdk.internal.util.JsonCanonicalizer
-import org.matrix.android.sdk.internal.util.convertToUTF8
+import com.energeek.android.sdk.api.session.events.model.Content
+import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_OLM
+import com.energeek.android.sdk.internal.crypto.MXOlmDevice
+import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.energeek.android.sdk.internal.crypto.model.rest.EncryptedMessage
+import com.energeek.android.sdk.internal.di.DeviceId
+import com.energeek.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.util.JsonCanonicalizer
+import com.energeek.android.sdk.internal.util.convertToUTF8
 import timber.log.Timber
 import javax.inject.Inject
 

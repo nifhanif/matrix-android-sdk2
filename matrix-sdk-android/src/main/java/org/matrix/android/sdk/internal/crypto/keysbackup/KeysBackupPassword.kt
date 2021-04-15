@@ -17,10 +17,10 @@
 /**
  * Utility to compute a backup private key from a password and vice-versa.
  */
-package org.matrix.android.sdk.internal.crypto.keysbackup
+package com.energeek.android.sdk.internal.crypto.keysbackup
 
 import androidx.annotation.WorkerThread
-import org.matrix.android.sdk.api.listeners.ProgressListener
+import com.energeek.android.sdk.api.listeners.ProgressListener
 import timber.log.Timber
 import java.util.UUID
 import javax.crypto.Mac

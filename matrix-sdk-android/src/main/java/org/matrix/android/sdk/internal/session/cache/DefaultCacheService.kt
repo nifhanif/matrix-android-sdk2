@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.cache
+package com.energeek.android.sdk.internal.session.cache
 
-import org.matrix.android.sdk.api.session.cache.CacheService
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.task.TaskExecutor
+import com.energeek.android.sdk.api.session.cache.CacheService
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.task.TaskExecutor
 import javax.inject.Inject
 
 internal class DefaultCacheService @Inject constructor(@SessionDatabase

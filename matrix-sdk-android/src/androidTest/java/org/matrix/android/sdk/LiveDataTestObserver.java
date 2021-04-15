@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk;
+package com.energeek.android.sdk;
 
 import androidx.annotation.Nullable;
 import androidx.lifecycle.LiveData;

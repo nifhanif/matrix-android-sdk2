@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.auth.wellknown
+package com.energeek.android.sdk.api.auth.wellknown
 
-import org.matrix.android.sdk.api.auth.data.WellKnown
+import com.energeek.android.sdk.api.auth.data.WellKnown
 
 /**
  * Ref: https://matrix.org/docs/spec/client_server/latest#well-known-uri

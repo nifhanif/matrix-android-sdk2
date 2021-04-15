@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.identity.data
+package com.energeek.android.sdk.internal.session.identity.data
 
 internal data class IdentityData(
         val identityServerUrl: String?,

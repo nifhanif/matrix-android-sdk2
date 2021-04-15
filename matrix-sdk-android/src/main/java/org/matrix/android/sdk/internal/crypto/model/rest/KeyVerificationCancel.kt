@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.model.rest
+package com.energeek.android.sdk.internal.crypto.model.rest
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.session.crypto.verification.CancelCode
-import org.matrix.android.sdk.internal.crypto.verification.VerificationInfoCancel
+import com.energeek.android.sdk.api.session.crypto.verification.CancelCode
+import com.energeek.android.sdk.internal.crypto.verification.VerificationInfoCancel
 
 /**
  * To device event sent by either party to cancel a key verification.

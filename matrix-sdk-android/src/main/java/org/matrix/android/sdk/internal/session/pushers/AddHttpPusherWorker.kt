@@ -13,24 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.session.pushers
+package com.energeek.android.sdk.internal.session.pushers
 
 import android.content.Context
 import androidx.work.WorkerParameters
 import com.squareup.moshi.JsonClass
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.session.pushers.PusherState
-import org.matrix.android.sdk.internal.database.mapper.toEntity
-import org.matrix.android.sdk.internal.database.model.PusherEntity
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.SessionComponent
-import org.matrix.android.sdk.internal.util.awaitTransaction
-import org.matrix.android.sdk.internal.worker.SessionSafeCoroutineWorker
-import org.matrix.android.sdk.internal.worker.SessionWorkerParams
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.session.pushers.PusherState
+import com.energeek.android.sdk.internal.database.mapper.toEntity
+import com.energeek.android.sdk.internal.database.model.PusherEntity
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.SessionComponent
+import com.energeek.android.sdk.internal.util.awaitTransaction
+import com.energeek.android.sdk.internal.worker.SessionSafeCoroutineWorker
+import com.energeek.android.sdk.internal.worker.SessionWorkerParams
 import javax.inject.Inject
 
 internal class AddHttpPusherWorker(context: Context, params: WorkerParameters)

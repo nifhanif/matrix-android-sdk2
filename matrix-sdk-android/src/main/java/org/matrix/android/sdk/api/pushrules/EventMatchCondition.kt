@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.api.pushrules
+package com.energeek.android.sdk.api.pushrules
 
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.internal.di.MoshiProvider
-import org.matrix.android.sdk.internal.util.caseInsensitiveFind
-import org.matrix.android.sdk.internal.util.hasSpecialGlobChar
-import org.matrix.android.sdk.internal.util.simpleGlobToRegExp
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.energeek.android.sdk.internal.util.caseInsensitiveFind
+import com.energeek.android.sdk.internal.util.hasSpecialGlobChar
+import com.energeek.android.sdk.internal.util.simpleGlobToRegExp
 import timber.log.Timber
 
 class EventMatchCondition(

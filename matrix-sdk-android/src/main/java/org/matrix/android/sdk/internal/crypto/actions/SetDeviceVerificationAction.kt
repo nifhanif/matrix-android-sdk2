@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.actions
+package com.energeek.android.sdk.internal.crypto.actions
 
-import org.matrix.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
-import org.matrix.android.sdk.internal.crypto.keysbackup.DefaultKeysBackupService
-import org.matrix.android.sdk.internal.crypto.store.IMXCryptoStore
-import org.matrix.android.sdk.internal.di.UserId
+import com.energeek.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
+import com.energeek.android.sdk.internal.crypto.keysbackup.DefaultKeysBackupService
+import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.energeek.android.sdk.internal.di.UserId
 import timber.log.Timber
 import javax.inject.Inject
 

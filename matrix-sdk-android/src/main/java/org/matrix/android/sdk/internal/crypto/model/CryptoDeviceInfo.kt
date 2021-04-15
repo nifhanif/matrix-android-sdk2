@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.model
+package com.energeek.android.sdk.internal.crypto.model
 
-import org.matrix.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
-import org.matrix.android.sdk.internal.crypto.model.rest.DeviceKeys
-import org.matrix.android.sdk.internal.crypto.model.rest.UnsignedDeviceInfo
-import org.matrix.android.sdk.internal.crypto.store.db.model.CryptoMapper
-import org.matrix.android.sdk.internal.crypto.store.db.model.DeviceInfoEntity
+import com.energeek.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
+import com.energeek.android.sdk.internal.crypto.model.rest.DeviceKeys
+import com.energeek.android.sdk.internal.crypto.model.rest.UnsignedDeviceInfo
+import com.energeek.android.sdk.internal.crypto.store.db.model.CryptoMapper
+import com.energeek.android.sdk.internal.crypto.store.db.model.DeviceInfoEntity
 
 data class CryptoDeviceInfo(
         val deviceId: String,

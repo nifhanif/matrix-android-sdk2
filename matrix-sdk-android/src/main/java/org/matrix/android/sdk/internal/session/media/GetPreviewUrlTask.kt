@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.media
+package com.energeek.android.sdk.internal.session.media
 
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.api.cache.CacheStrategy
-import org.matrix.android.sdk.api.session.media.PreviewUrlData
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.database.model.PreviewUrlCacheEntity
-import org.matrix.android.sdk.internal.database.query.get
-import org.matrix.android.sdk.internal.database.query.getOrCreate
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.task.Task
-import org.matrix.android.sdk.internal.util.awaitTransaction
-import org.matrix.android.sdk.internal.util.unescapeHtml
+import com.energeek.android.sdk.api.cache.CacheStrategy
+import com.energeek.android.sdk.api.session.media.PreviewUrlData
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.database.model.PreviewUrlCacheEntity
+import com.energeek.android.sdk.internal.database.query.get
+import com.energeek.android.sdk.internal.database.query.getOrCreate
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.task.Task
+import com.energeek.android.sdk.internal.util.awaitTransaction
+import com.energeek.android.sdk.internal.util.unescapeHtml
 import java.util.Date
 import javax.inject.Inject
 

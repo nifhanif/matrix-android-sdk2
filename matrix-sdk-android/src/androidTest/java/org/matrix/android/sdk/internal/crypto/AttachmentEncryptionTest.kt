@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto
+package com.energeek.android.sdk.internal.crypto
 
 import android.os.MemoryFile
 import android.util.Base64
@@ -25,10 +25,10 @@ import org.junit.FixMethodOrder
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.MethodSorters
-import org.matrix.android.sdk.internal.crypto.attachments.MXEncryptedAttachments
-import org.matrix.android.sdk.internal.crypto.model.rest.EncryptedFileInfo
-import org.matrix.android.sdk.internal.crypto.model.rest.EncryptedFileKey
-import org.matrix.android.sdk.internal.crypto.attachments.toElementToDecrypt
+import com.energeek.android.sdk.internal.crypto.attachments.MXEncryptedAttachments
+import com.energeek.android.sdk.internal.crypto.model.rest.EncryptedFileInfo
+import com.energeek.android.sdk.internal.crypto.model.rest.EncryptedFileKey
+import com.energeek.android.sdk.internal.crypto.attachments.toElementToDecrypt
 import java.io.ByteArrayOutputStream
 import java.io.InputStream
 

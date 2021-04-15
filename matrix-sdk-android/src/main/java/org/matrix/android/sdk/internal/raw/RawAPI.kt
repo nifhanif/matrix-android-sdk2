@@ -15,7 +15,7 @@
  *
  */
 
-package org.matrix.android.sdk.internal.raw
+package com.energeek.android.sdk.internal.raw
 
 import okhttp3.ResponseBody
 import retrofit2.http.GET

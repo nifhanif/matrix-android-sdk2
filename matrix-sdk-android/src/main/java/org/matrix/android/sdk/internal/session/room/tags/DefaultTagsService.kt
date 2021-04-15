@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.tags
+package com.energeek.android.sdk.internal.session.room.tags
 
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import org.matrix.android.sdk.api.session.room.tags.TagsService
+import com.energeek.android.sdk.api.session.room.tags.TagsService
 
 internal class DefaultTagsService @AssistedInject constructor(
         @Assisted private val roomId: String,

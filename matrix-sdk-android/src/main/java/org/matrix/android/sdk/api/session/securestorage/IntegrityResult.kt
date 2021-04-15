@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.securestorage
+package com.energeek.android.sdk.api.session.securestorage
 
 sealed class IntegrityResult {
     data class Success(val passphraseBased: Boolean) : IntegrityResult()

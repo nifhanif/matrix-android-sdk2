@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.model.relation
+package com.energeek.android.sdk.api.session.room.model.relation
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass

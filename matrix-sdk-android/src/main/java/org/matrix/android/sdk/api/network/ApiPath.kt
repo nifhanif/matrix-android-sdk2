@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.network
+package com.energeek.android.sdk.api.network
 
-import org.matrix.android.sdk.internal.network.NetworkConstants
+import com.energeek.android.sdk.internal.network.NetworkConstants
 
 enum class ApiPath(val path: String, val method: String) {
     // AuthApi

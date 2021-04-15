@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.group
+package com.energeek.android.sdk.api.session.group
 
-import org.matrix.android.sdk.api.query.QueryStringValue
-import org.matrix.android.sdk.api.session.room.model.Membership
+import com.energeek.android.sdk.api.query.QueryStringValue
+import com.energeek.android.sdk.api.session.room.model.Membership
 
 fun groupSummaryQueryParams(init: (GroupSummaryQueryParams.Builder.() -> Unit) = {}): GroupSummaryQueryParams {
     return GroupSummaryQueryParams.Builder().apply(init).build()

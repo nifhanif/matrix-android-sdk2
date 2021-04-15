@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.auth.registration
+package com.energeek.android.sdk.internal.auth.registration
 
-import org.matrix.android.sdk.api.auth.UIABaseAuth
-import org.matrix.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.failure.toRegistrationFlowResponse
+import com.energeek.android.sdk.api.auth.UIABaseAuth
+import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.failure.toRegistrationFlowResponse
 import timber.log.Timber
 import kotlin.coroutines.suspendCoroutine
 

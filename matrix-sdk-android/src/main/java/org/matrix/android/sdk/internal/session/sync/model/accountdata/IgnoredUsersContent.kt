@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.sync.model.accountdata
+package com.energeek.android.sdk.internal.session.sync.model.accountdata
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.util.emptyJsonDict
+import com.energeek.android.sdk.api.util.emptyJsonDict
 
 @JsonClass(generateAdapter = true)
 internal data class IgnoredUsersContent(

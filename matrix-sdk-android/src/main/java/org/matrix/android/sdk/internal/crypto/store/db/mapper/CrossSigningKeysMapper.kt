@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.store.db.mapper
+package com.energeek.android.sdk.internal.crypto.store.db.mapper
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
-import org.matrix.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
-import org.matrix.android.sdk.internal.crypto.model.CryptoCrossSigningKey
-import org.matrix.android.sdk.internal.crypto.store.db.model.KeyInfoEntity
+import com.energeek.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
+import com.energeek.android.sdk.internal.crypto.model.CryptoCrossSigningKey
+import com.energeek.android.sdk.internal.crypto.store.db.model.KeyInfoEntity
 import io.realm.RealmList
 import timber.log.Timber
 import javax.inject.Inject

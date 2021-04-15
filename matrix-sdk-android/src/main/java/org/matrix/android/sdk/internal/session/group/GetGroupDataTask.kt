@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.group
+package com.energeek.android.sdk.internal.session.group
 
 import com.zhuinden.monarchy.Monarchy
-import org.matrix.android.sdk.api.session.room.model.Membership
-import org.matrix.android.sdk.internal.database.model.GroupEntity
-import org.matrix.android.sdk.internal.database.model.GroupSummaryEntity
-import org.matrix.android.sdk.internal.database.query.getOrCreate
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.SessionDatabase
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.group.model.GroupRooms
-import org.matrix.android.sdk.internal.session.group.model.GroupSummaryResponse
-import org.matrix.android.sdk.internal.session.group.model.GroupUsers
-import org.matrix.android.sdk.internal.task.Task
-import org.matrix.android.sdk.internal.util.awaitTransaction
+import com.energeek.android.sdk.api.session.room.model.Membership
+import com.energeek.android.sdk.internal.database.model.GroupEntity
+import com.energeek.android.sdk.internal.database.model.GroupSummaryEntity
+import com.energeek.android.sdk.internal.database.query.getOrCreate
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.group.model.GroupRooms
+import com.energeek.android.sdk.internal.session.group.model.GroupSummaryResponse
+import com.energeek.android.sdk.internal.session.group.model.GroupUsers
+import com.energeek.android.sdk.internal.task.Task
+import com.energeek.android.sdk.internal.util.awaitTransaction
 import timber.log.Timber
 import javax.inject.Inject
 

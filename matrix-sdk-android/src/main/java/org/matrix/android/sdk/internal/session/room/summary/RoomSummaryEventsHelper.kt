@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.summary
+package com.energeek.android.sdk.internal.session.room.summary
 
 import io.realm.Realm
-import org.matrix.android.sdk.api.session.room.summary.RoomSummaryConstants
-import org.matrix.android.sdk.api.session.room.timeline.EventTypeFilter
-import org.matrix.android.sdk.api.session.room.timeline.TimelineEventFilters
-import org.matrix.android.sdk.internal.database.model.TimelineEventEntity
-import org.matrix.android.sdk.internal.database.query.latestEvent
+import com.energeek.android.sdk.api.session.room.summary.RoomSummaryConstants
+import com.energeek.android.sdk.api.session.room.timeline.EventTypeFilter
+import com.energeek.android.sdk.api.session.room.timeline.TimelineEventFilters
+import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
+import com.energeek.android.sdk.internal.database.query.latestEvent
 
 internal object RoomSummaryEventsHelper {
 

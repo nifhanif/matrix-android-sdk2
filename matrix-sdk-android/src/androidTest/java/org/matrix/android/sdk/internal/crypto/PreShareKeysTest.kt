@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto
+package com.energeek.android.sdk.internal.crypto
 
 import android.util.Log
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -22,13 +22,13 @@ import org.junit.FixMethodOrder
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.MethodSorters
-import org.matrix.android.sdk.InstrumentedTest
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.toModel
-import org.matrix.android.sdk.common.CommonTestHelper
-import org.matrix.android.sdk.common.CryptoTestHelper
-import org.matrix.android.sdk.internal.crypto.model.event.EncryptedEventContent
-import org.matrix.android.sdk.internal.crypto.model.event.RoomKeyContent
+import com.energeek.android.sdk.InstrumentedTest
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.toModel
+import com.energeek.android.sdk.common.CommonTestHelper
+import com.energeek.android.sdk.common.CryptoTestHelper
+import com.energeek.android.sdk.internal.crypto.model.event.EncryptedEventContent
+import com.energeek.android.sdk.internal.crypto.model.event.RoomKeyContent
 import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
 

@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.prune
+package com.energeek.android.sdk.internal.session.room.prune
 
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.events.model.LocalEcho
-import org.matrix.android.sdk.api.session.events.model.UnsignedData
-import org.matrix.android.sdk.internal.database.mapper.ContentMapper
-import org.matrix.android.sdk.internal.database.mapper.EventMapper
-import org.matrix.android.sdk.internal.database.model.EventEntity
-import org.matrix.android.sdk.internal.database.model.EventInsertType
-import org.matrix.android.sdk.internal.database.model.TimelineEventEntity
-import org.matrix.android.sdk.internal.database.query.findWithSenderMembershipEvent
-import org.matrix.android.sdk.internal.database.query.where
-import org.matrix.android.sdk.internal.di.MoshiProvider
-import org.matrix.android.sdk.internal.session.EventInsertLiveProcessor
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.events.model.LocalEcho
+import com.energeek.android.sdk.api.session.events.model.UnsignedData
+import com.energeek.android.sdk.internal.database.mapper.ContentMapper
+import com.energeek.android.sdk.internal.database.mapper.EventMapper
+import com.energeek.android.sdk.internal.database.model.EventEntity
+import com.energeek.android.sdk.internal.database.model.EventInsertType
+import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
+import com.energeek.android.sdk.internal.database.query.findWithSenderMembershipEvent
+import com.energeek.android.sdk.internal.database.query.where
+import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.energeek.android.sdk.internal.session.EventInsertLiveProcessor
 import io.realm.Realm
 import timber.log.Timber
 import javax.inject.Inject

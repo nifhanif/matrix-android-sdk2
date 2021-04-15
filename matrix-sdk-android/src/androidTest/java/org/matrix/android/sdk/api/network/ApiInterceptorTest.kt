@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.network
+package com.energeek.android.sdk.api.network
 
 import org.amshove.kluent.shouldBeEqualTo
 import org.junit.FixMethodOrder
@@ -22,10 +22,10 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
 import org.junit.runners.MethodSorters
-import org.matrix.android.sdk.InstrumentedTest
-import org.matrix.android.sdk.common.CommonTestHelper
-import org.matrix.android.sdk.common.SessionTestParams
-import org.matrix.android.sdk.common.TestConstants
+import com.energeek.android.sdk.InstrumentedTest
+import com.energeek.android.sdk.common.CommonTestHelper
+import com.energeek.android.sdk.common.SessionTestParams
+import com.energeek.android.sdk.common.TestConstants
 import timber.log.Timber
 
 @RunWith(JUnit4::class)

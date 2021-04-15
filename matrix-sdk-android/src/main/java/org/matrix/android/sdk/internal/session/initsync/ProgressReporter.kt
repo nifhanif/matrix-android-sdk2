@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.initsync
+package com.energeek.android.sdk.internal.session.initsync
 
-import org.matrix.android.sdk.api.session.initsync.InitSyncStep
+import com.energeek.android.sdk.api.session.initsync.InitSyncStep
 
 internal interface ProgressReporter {
     fun startTask(initSyncStep: InitSyncStep,

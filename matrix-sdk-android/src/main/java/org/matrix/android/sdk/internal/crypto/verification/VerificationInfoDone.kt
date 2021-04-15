@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.crypto.verification
+package com.energeek.android.sdk.internal.crypto.verification
 
-import org.matrix.android.sdk.api.session.room.model.message.ValidVerificationDone
+import com.energeek.android.sdk.api.session.room.model.message.ValidVerificationDone
 
 internal interface VerificationInfoDone : VerificationInfo<ValidVerificationDone> {
 

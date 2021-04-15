@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.failure
+package com.energeek.android.sdk.api.session.room.failure
 
-import org.matrix.android.sdk.api.failure.Failure
-import org.matrix.android.sdk.api.failure.MatrixError
-import org.matrix.android.sdk.api.session.room.alias.RoomAliasError
+import com.energeek.android.sdk.api.failure.Failure
+import com.energeek.android.sdk.api.failure.MatrixError
+import com.energeek.android.sdk.api.session.room.alias.RoomAliasError
 
 sealed class CreateRoomFailure : Failure.FeatureFailure() {
     object CreatedWithTimeout : CreateRoomFailure()

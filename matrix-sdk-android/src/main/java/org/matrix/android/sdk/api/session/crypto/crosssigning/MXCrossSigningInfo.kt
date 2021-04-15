@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.crypto.crosssigning
+package com.energeek.android.sdk.api.session.crypto.crosssigning
 
-import org.matrix.android.sdk.internal.crypto.model.CryptoCrossSigningKey
-import org.matrix.android.sdk.internal.crypto.model.KeyUsage
+import com.energeek.android.sdk.internal.crypto.model.CryptoCrossSigningKey
+import com.energeek.android.sdk.internal.crypto.model.KeyUsage
 
 data class MXCrossSigningInfo(
         val userId: String,

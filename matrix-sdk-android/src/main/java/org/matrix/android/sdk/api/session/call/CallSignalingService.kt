@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.call
+package com.energeek.android.sdk.api.session.call
 
 interface CallSignalingService {
 

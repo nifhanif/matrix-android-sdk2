@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.widgets.model
+package com.energeek.android.sdk.api.session.widgets.model
 
 private val DEFINED_TYPES by lazy {
     listOf(

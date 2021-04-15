@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.filter
+package com.energeek.android.sdk.internal.session.filter
 
 internal interface FilterRepository {
 

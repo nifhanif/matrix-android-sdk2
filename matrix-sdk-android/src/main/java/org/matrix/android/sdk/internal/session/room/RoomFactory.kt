@@ -14,28 +14,28 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room
+package com.energeek.android.sdk.internal.session.room
 
-import org.matrix.android.sdk.api.session.crypto.CryptoService
-import org.matrix.android.sdk.api.session.room.Room
-import org.matrix.android.sdk.internal.session.SessionScope
-import org.matrix.android.sdk.internal.session.room.alias.DefaultAliasService
-import org.matrix.android.sdk.internal.session.room.call.DefaultRoomCallService
-import org.matrix.android.sdk.internal.session.room.draft.DefaultDraftService
-import org.matrix.android.sdk.internal.session.room.membership.DefaultMembershipService
-import org.matrix.android.sdk.internal.session.room.notification.DefaultRoomPushRuleService
-import org.matrix.android.sdk.internal.session.room.read.DefaultReadService
-import org.matrix.android.sdk.internal.session.room.relation.DefaultRelationService
-import org.matrix.android.sdk.internal.session.room.reporting.DefaultReportingService
-import org.matrix.android.sdk.internal.session.room.send.DefaultSendService
-import org.matrix.android.sdk.internal.session.room.state.DefaultStateService
-import org.matrix.android.sdk.internal.session.room.state.SendStateTask
-import org.matrix.android.sdk.internal.session.room.summary.RoomSummaryDataSource
-import org.matrix.android.sdk.internal.session.room.tags.DefaultTagsService
-import org.matrix.android.sdk.internal.session.room.timeline.DefaultTimelineService
-import org.matrix.android.sdk.internal.session.room.typing.DefaultTypingService
-import org.matrix.android.sdk.internal.session.room.uploads.DefaultUploadsService
-import org.matrix.android.sdk.internal.session.search.SearchTask
+import com.energeek.android.sdk.api.session.crypto.CryptoService
+import com.energeek.android.sdk.api.session.room.Room
+import com.energeek.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.session.room.alias.DefaultAliasService
+import com.energeek.android.sdk.internal.session.room.call.DefaultRoomCallService
+import com.energeek.android.sdk.internal.session.room.draft.DefaultDraftService
+import com.energeek.android.sdk.internal.session.room.membership.DefaultMembershipService
+import com.energeek.android.sdk.internal.session.room.notification.DefaultRoomPushRuleService
+import com.energeek.android.sdk.internal.session.room.read.DefaultReadService
+import com.energeek.android.sdk.internal.session.room.relation.DefaultRelationService
+import com.energeek.android.sdk.internal.session.room.reporting.DefaultReportingService
+import com.energeek.android.sdk.internal.session.room.send.DefaultSendService
+import com.energeek.android.sdk.internal.session.room.state.DefaultStateService
+import com.energeek.android.sdk.internal.session.room.state.SendStateTask
+import com.energeek.android.sdk.internal.session.room.summary.RoomSummaryDataSource
+import com.energeek.android.sdk.internal.session.room.tags.DefaultTagsService
+import com.energeek.android.sdk.internal.session.room.timeline.DefaultTimelineService
+import com.energeek.android.sdk.internal.session.room.typing.DefaultTypingService
+import com.energeek.android.sdk.internal.session.room.uploads.DefaultUploadsService
+import com.energeek.android.sdk.internal.session.search.SearchTask
 import javax.inject.Inject
 
 internal interface RoomFactory {

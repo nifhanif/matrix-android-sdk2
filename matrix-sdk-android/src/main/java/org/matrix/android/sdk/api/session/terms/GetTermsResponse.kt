@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.terms
+package com.energeek.android.sdk.api.session.terms
 
-import org.matrix.android.sdk.internal.session.terms.TermsResponse
+import com.energeek.android.sdk.internal.session.terms.TermsResponse
 
 data class GetTermsResponse(
         val serverResponse: TermsResponse,

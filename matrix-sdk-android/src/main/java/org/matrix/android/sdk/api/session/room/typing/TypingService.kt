@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.session.room.typing
+package com.energeek.android.sdk.api.session.room.typing
 
 /**
  * This interface defines methods to handle typing data. It's implemented at the room level.

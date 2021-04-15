@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.pushrules.rest
+package com.energeek.android.sdk.api.pushrules.rest
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.pushrules.Action
-import org.matrix.android.sdk.api.pushrules.getActions
-import org.matrix.android.sdk.api.pushrules.toJson
+import com.energeek.android.sdk.api.pushrules.Action
+import com.energeek.android.sdk.api.pushrules.getActions
+import com.energeek.android.sdk.api.pushrules.toJson
 
 /**
  * Ref: https://matrix.org/docs/spec/client_server/latest#get-matrix-client-r0-pushrules

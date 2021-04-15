@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.identity.db
+package com.energeek.android.sdk.internal.session.identity.db
 
-import org.matrix.android.sdk.internal.session.identity.data.IdentityData
-import org.matrix.android.sdk.internal.session.identity.data.IdentityPendingBinding
+import com.energeek.android.sdk.internal.session.identity.data.IdentityData
+import com.energeek.android.sdk.internal.session.identity.data.IdentityPendingBinding
 
 internal object IdentityMapper {
 

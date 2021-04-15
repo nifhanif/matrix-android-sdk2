@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto
+package com.energeek.android.sdk.internal.crypto
 
-import org.matrix.android.sdk.internal.crypto.model.MXKey
-import org.matrix.android.sdk.internal.crypto.model.rest.KeysUploadResponse
-import org.matrix.android.sdk.internal.crypto.tasks.UploadKeysTask
-import org.matrix.android.sdk.internal.session.SessionScope
-import org.matrix.android.sdk.internal.util.JsonCanonicalizer
+import com.energeek.android.sdk.internal.crypto.model.MXKey
+import com.energeek.android.sdk.internal.crypto.model.rest.KeysUploadResponse
+import com.energeek.android.sdk.internal.crypto.tasks.UploadKeysTask
+import com.energeek.android.sdk.internal.session.SessionScope
+import com.energeek.android.sdk.internal.util.JsonCanonicalizer
 import org.matrix.olm.OlmAccount
 import timber.log.Timber
 import javax.inject.Inject

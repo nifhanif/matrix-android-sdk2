@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.failure
+package com.energeek.android.sdk.api.failure
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import org.matrix.android.sdk.api.util.JsonDict
-import org.matrix.android.sdk.internal.auth.data.InteractiveAuthenticationFlow
+import com.energeek.android.sdk.api.util.JsonDict
+import com.energeek.android.sdk.internal.auth.data.InteractiveAuthenticationFlow
 
 /**
  * This data class holds the error defined by the matrix specifications.

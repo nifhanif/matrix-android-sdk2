@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.crypto.keysbackup.model
+package com.energeek.android.sdk.internal.crypto.keysbackup.model
 
-import org.matrix.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
 
 /**
  * A signature in a `KeysBackupVersionTrust` object.

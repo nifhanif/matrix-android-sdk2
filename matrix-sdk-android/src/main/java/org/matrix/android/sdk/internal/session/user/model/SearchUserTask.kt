@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.user.model
+package com.energeek.android.sdk.internal.session.user.model
 
-import org.matrix.android.sdk.api.session.user.model.User
-import org.matrix.android.sdk.internal.network.GlobalErrorReceiver
-import org.matrix.android.sdk.internal.network.executeRequest
-import org.matrix.android.sdk.internal.session.user.SearchUserAPI
-import org.matrix.android.sdk.internal.task.Task
+import com.energeek.android.sdk.api.session.user.model.User
+import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.energeek.android.sdk.internal.network.executeRequest
+import com.energeek.android.sdk.internal.session.user.SearchUserAPI
+import com.energeek.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface SearchUserTask : Task<SearchUserTask.Params, List<User>> {

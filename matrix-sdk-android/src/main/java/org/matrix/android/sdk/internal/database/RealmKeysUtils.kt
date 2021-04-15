@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.matrix.android.sdk.internal.database
+package com.energeek.android.sdk.internal.database
 
 import android.content.Context
 import android.util.Base64
 import androidx.core.content.edit
 import io.realm.Realm
-import org.matrix.android.sdk.BuildConfig
-import org.matrix.android.sdk.internal.session.securestorage.SecretStoringUtils
+import com.energeek.android.sdk.BuildConfig
+import com.energeek.android.sdk.internal.session.securestorage.SecretStoringUtils
 import io.realm.RealmConfiguration
 import timber.log.Timber
 import java.security.SecureRandom

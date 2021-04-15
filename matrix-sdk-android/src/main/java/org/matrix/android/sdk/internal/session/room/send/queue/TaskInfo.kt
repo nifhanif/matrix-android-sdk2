@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.send.queue
+package com.energeek.android.sdk.internal.session.room.send.queue
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 import com.squareup.moshi.Moshi
-import org.matrix.android.sdk.api.extensions.tryOrNull
-import org.matrix.android.sdk.internal.di.SerializeNulls
-import org.matrix.android.sdk.internal.network.parsing.RuntimeJsonAdapterFactory
+import com.energeek.android.sdk.api.extensions.tryOrNull
+import com.energeek.android.sdk.internal.di.SerializeNulls
+import com.energeek.android.sdk.internal.network.parsing.RuntimeJsonAdapterFactory
 
 /**
  * Info that need to be persisted by the sender thread

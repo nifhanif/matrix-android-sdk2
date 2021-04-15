@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.api.federation
+package com.energeek.android.sdk.api.federation
 
 /**
  * Ref: https://matrix.org/docs/spec/server_server/latest#get-matrix-federation-v1-version

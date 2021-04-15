@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.matrix.android.sdk.internal.session.room.send.queue
+package com.energeek.android.sdk.internal.session.room.send.queue
 
-import org.matrix.android.sdk.api.session.crypto.CryptoService
-import org.matrix.android.sdk.api.session.events.model.Event
-import org.matrix.android.sdk.api.session.events.model.EventType
-import org.matrix.android.sdk.api.session.room.send.SendState
-import org.matrix.android.sdk.internal.crypto.tasks.SendEventTask
-import org.matrix.android.sdk.internal.session.room.send.CancelSendTracker
-import org.matrix.android.sdk.internal.session.room.send.LocalEchoRepository
+import com.energeek.android.sdk.api.session.crypto.CryptoService
+import com.energeek.android.sdk.api.session.events.model.Event
+import com.energeek.android.sdk.api.session.events.model.EventType
+import com.energeek.android.sdk.api.session.room.send.SendState
+import com.energeek.android.sdk.internal.crypto.tasks.SendEventTask
+import com.energeek.android.sdk.internal.session.room.send.CancelSendTracker
+import com.energeek.android.sdk.internal.session.room.send.LocalEchoRepository
 
 internal class SendEventQueuedTask(
         val event: Event,
