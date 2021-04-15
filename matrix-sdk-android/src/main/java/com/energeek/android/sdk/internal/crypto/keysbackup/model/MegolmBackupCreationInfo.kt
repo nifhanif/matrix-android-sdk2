@@ -21,7 +21,7 @@ package com.energeek.android.sdk.internal.crypto.keysbackup.model
  */
 data class MegolmBackupCreationInfo(
         /**
-         * The algorithm used for storing backups [org.matrix.androidsdk.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP].
+         * The algorithm used for storing backups [com.energeek.androidsdk.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP].
          */
         val algorithm: String,
 

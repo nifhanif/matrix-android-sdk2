@@ -45,10 +45,10 @@ import io.realm.DynamicRealm
 import io.realm.RealmMigration
 import io.realm.RealmObjectSchema
 import com.energeek.android.sdk.internal.crypto.store.db.model.OutboundGroupSessionInfoEntityFields
-import org.matrix.androidsdk.crypto.data.MXOlmInboundGroupSession2
+import com.energeek.androidsdk.crypto.data.MXOlmInboundGroupSession2
 import timber.log.Timber
 import javax.inject.Inject
-import org.matrix.androidsdk.crypto.data.MXDeviceInfo as LegacyMXDeviceInfo
+import com.energeek.androidsdk.crypto.data.MXDeviceInfo as LegacyMXDeviceInfo
 
 internal class RealmCryptoStoreMigration @Inject constructor(private val crossSigningKeysMapper: CrossSigningKeysMapper) : RealmMigration {
 

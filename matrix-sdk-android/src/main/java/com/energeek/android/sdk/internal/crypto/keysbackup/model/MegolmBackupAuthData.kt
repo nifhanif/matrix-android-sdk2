@@ -22,8 +22,8 @@ import com.energeek.android.sdk.api.util.JsonDict
 import com.energeek.android.sdk.internal.di.MoshiProvider
 
 /**
- * Data model for [org.matrix.androidsdk.rest.model.keys.KeysAlgorithmAndData.authData] in case
- * of [org.matrix.androidsdk.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP].
+ * Data model for [com.energeek.androidsdk.rest.model.keys.KeysAlgorithmAndData.authData] in case
+ * of [com.energeek.androidsdk.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP].
  */
 @JsonClass(generateAdapter = true)
 data class MegolmBackupAuthData(
