@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.keysbackup.util
+package com.nusaraya.android.sdk.internal.crypto.keysbackup.util
 
 import java.math.BigInteger
 

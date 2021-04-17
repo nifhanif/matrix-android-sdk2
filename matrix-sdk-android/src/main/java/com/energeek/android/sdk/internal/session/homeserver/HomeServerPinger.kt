@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.homeserver
+package com.nusaraya.android.sdk.internal.session.homeserver
 
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.TaskExecutor
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.TaskExecutor
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

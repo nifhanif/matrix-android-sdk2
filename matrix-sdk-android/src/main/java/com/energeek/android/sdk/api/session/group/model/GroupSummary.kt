@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.group.model
+package com.nusaraya.android.sdk.api.session.group.model
 
-import com.energeek.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.api.session.room.model.Membership
 
 /**
  * This class holds some data of a group.
- * It can be retrieved through [com.energeek.android.sdk.api.session.group.GroupService]
+ * It can be retrieved through [com.nusaraya.android.sdk.api.session.group.GroupService]
  */
 data class GroupSummary(
         val groupId: String,

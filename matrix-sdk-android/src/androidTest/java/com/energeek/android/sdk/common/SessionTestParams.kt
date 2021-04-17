@@ -14,6 +14,6 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.common
+package com.nusaraya.android.sdk.common
 
 data class SessionTestParams @JvmOverloads constructor(val withInitialSync: Boolean = false)

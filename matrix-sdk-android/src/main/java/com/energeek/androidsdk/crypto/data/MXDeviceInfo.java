@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.androidsdk.crypto.data;
+package com.nusaraya.androidsdk.crypto.data;
 
 import java.io.Serializable;
 import java.util.List;

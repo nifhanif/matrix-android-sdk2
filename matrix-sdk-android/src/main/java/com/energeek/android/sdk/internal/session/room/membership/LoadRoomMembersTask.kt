@@ -14,34 +14,34 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.membership
+package com.nusaraya.android.sdk.internal.session.room.membership
 
 import com.zhuinden.monarchy.Monarchy
 import io.realm.Realm
 import io.realm.kotlin.createObject
 import kotlinx.coroutines.TimeoutCancellationException
-import com.energeek.android.sdk.api.session.room.model.Membership
-import com.energeek.android.sdk.api.session.room.send.SendState
-import com.energeek.android.sdk.internal.crypto.CryptoSessionInfoProvider
-import com.energeek.android.sdk.internal.crypto.DeviceListManager
-import com.energeek.android.sdk.internal.database.awaitNotEmptyResult
-import com.energeek.android.sdk.internal.database.mapper.toEntity
-import com.energeek.android.sdk.internal.database.model.CurrentStateEventEntity
-import com.energeek.android.sdk.internal.database.model.EventInsertType
-import com.energeek.android.sdk.internal.database.model.RoomEntity
-import com.energeek.android.sdk.internal.database.model.RoomEntityFields
-import com.energeek.android.sdk.internal.database.model.RoomMembersLoadStatusType
-import com.energeek.android.sdk.internal.database.query.copyToRealmOrIgnore
-import com.energeek.android.sdk.internal.database.query.getOrCreate
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.room.RoomAPI
-import com.energeek.android.sdk.internal.session.room.summary.RoomSummaryUpdater
-import com.energeek.android.sdk.internal.session.sync.SyncTokenStore
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.awaitTransaction
+import com.nusaraya.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.api.session.room.send.SendState
+import com.nusaraya.android.sdk.internal.crypto.CryptoSessionInfoProvider
+import com.nusaraya.android.sdk.internal.crypto.DeviceListManager
+import com.nusaraya.android.sdk.internal.database.awaitNotEmptyResult
+import com.nusaraya.android.sdk.internal.database.mapper.toEntity
+import com.nusaraya.android.sdk.internal.database.model.CurrentStateEventEntity
+import com.nusaraya.android.sdk.internal.database.model.EventInsertType
+import com.nusaraya.android.sdk.internal.database.model.RoomEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomEntityFields
+import com.nusaraya.android.sdk.internal.database.model.RoomMembersLoadStatusType
+import com.nusaraya.android.sdk.internal.database.query.copyToRealmOrIgnore
+import com.nusaraya.android.sdk.internal.database.query.getOrCreate
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.room.RoomAPI
+import com.nusaraya.android.sdk.internal.session.room.summary.RoomSummaryUpdater
+import com.nusaraya.android.sdk.internal.session.sync.SyncTokenStore
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.awaitTransaction
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 

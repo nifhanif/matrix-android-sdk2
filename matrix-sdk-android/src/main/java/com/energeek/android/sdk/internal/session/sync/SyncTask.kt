@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync
+package com.nusaraya.android.sdk.internal.session.sync
 
 import okhttp3.ResponseBody
-import com.energeek.android.sdk.api.session.initsync.InitSyncStep
-import com.energeek.android.sdk.internal.di.SessionFilesDirectory
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.TimeOutInterceptor
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.network.toFailure
-import com.energeek.android.sdk.internal.session.filter.FilterRepository
-import com.energeek.android.sdk.internal.session.homeserver.GetHomeServerCapabilitiesTask
-import com.energeek.android.sdk.internal.session.initsync.DefaultInitialSyncProgressService
-import com.energeek.android.sdk.internal.session.initsync.reportSubtask
-import com.energeek.android.sdk.internal.session.sync.model.LazyRoomSyncEphemeral
-import com.energeek.android.sdk.internal.session.sync.parsing.InitialSyncResponseParser
-import com.energeek.android.sdk.internal.session.user.UserStore
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.logDuration
+import com.nusaraya.android.sdk.api.session.initsync.InitSyncStep
+import com.nusaraya.android.sdk.internal.di.SessionFilesDirectory
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.TimeOutInterceptor
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.network.toFailure
+import com.nusaraya.android.sdk.internal.session.filter.FilterRepository
+import com.nusaraya.android.sdk.internal.session.homeserver.GetHomeServerCapabilitiesTask
+import com.nusaraya.android.sdk.internal.session.initsync.DefaultInitialSyncProgressService
+import com.nusaraya.android.sdk.internal.session.initsync.reportSubtask
+import com.nusaraya.android.sdk.internal.session.sync.model.LazyRoomSyncEphemeral
+import com.nusaraya.android.sdk.internal.session.sync.parsing.InitialSyncResponseParser
+import com.nusaraya.android.sdk.internal.session.user.UserStore
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.logDuration
 import retrofit2.Response
 import retrofit2.awaitResponse
 import timber.log.Timber

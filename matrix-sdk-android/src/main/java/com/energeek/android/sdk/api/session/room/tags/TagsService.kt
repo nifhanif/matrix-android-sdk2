@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.tags
+package com.nusaraya.android.sdk.api.session.room.tags
 
 /**
  * This interface defines methods to handle tags of a room. It's implemented at the room level.

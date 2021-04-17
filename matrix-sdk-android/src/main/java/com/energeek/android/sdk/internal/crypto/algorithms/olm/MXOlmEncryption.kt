@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.algorithms.olm
+package com.nusaraya.android.sdk.internal.crypto.algorithms.olm
 
-import com.energeek.android.sdk.api.session.events.model.Content
-import com.energeek.android.sdk.api.session.events.model.toContent
-import com.energeek.android.sdk.internal.crypto.DeviceListManager
-import com.energeek.android.sdk.internal.crypto.MXOlmDevice
-import com.energeek.android.sdk.internal.crypto.actions.EnsureOlmSessionsForUsersAction
-import com.energeek.android.sdk.internal.crypto.actions.MessageEncrypter
-import com.energeek.android.sdk.internal.crypto.algorithms.IMXEncrypting
-import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.nusaraya.android.sdk.api.session.events.model.Content
+import com.nusaraya.android.sdk.api.session.events.model.toContent
+import com.nusaraya.android.sdk.internal.crypto.DeviceListManager
+import com.nusaraya.android.sdk.internal.crypto.MXOlmDevice
+import com.nusaraya.android.sdk.internal.crypto.actions.EnsureOlmSessionsForUsersAction
+import com.nusaraya.android.sdk.internal.crypto.actions.MessageEncrypter
+import com.nusaraya.android.sdk.internal.crypto.algorithms.IMXEncrypting
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.store.IMXCryptoStore
 
 internal class MXOlmEncryption(
         private val roomId: String,

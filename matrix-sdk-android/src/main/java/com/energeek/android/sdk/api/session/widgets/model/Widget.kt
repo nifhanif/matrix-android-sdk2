@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.widgets.model
+package com.nusaraya.android.sdk.api.session.widgets.model
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.room.sender.SenderInfo
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.room.sender.SenderInfo
 
 data class Widget(
         val widgetContent: WidgetContent,

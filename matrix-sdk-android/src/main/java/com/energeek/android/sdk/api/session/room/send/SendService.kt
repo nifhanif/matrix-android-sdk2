@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.send
+package com.nusaraya.android.sdk.api.session.room.send
 
-import com.energeek.android.sdk.api.session.content.ContentAttachmentData
-import com.energeek.android.sdk.api.session.events.model.Content
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.room.model.message.MessageType
-import com.energeek.android.sdk.api.session.room.model.message.OptionItem
-import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
-import com.energeek.android.sdk.api.util.Cancelable
+import com.nusaraya.android.sdk.api.session.content.ContentAttachmentData
+import com.nusaraya.android.sdk.api.session.events.model.Content
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageType
+import com.nusaraya.android.sdk.api.session.room.model.message.OptionItem
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineEvent
+import com.nusaraya.android.sdk.api.util.Cancelable
 
 /**
  * This interface defines methods to send events in a room. It's implemented at the room level.

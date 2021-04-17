@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.prune
+package com.nusaraya.android.sdk.internal.session.room.prune
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.LocalEcho
-import com.energeek.android.sdk.api.session.events.model.UnsignedData
-import com.energeek.android.sdk.internal.database.mapper.ContentMapper
-import com.energeek.android.sdk.internal.database.mapper.EventMapper
-import com.energeek.android.sdk.internal.database.model.EventEntity
-import com.energeek.android.sdk.internal.database.model.EventInsertType
-import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
-import com.energeek.android.sdk.internal.database.query.findWithSenderMembershipEvent
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.di.MoshiProvider
-import com.energeek.android.sdk.internal.session.EventInsertLiveProcessor
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.LocalEcho
+import com.nusaraya.android.sdk.api.session.events.model.UnsignedData
+import com.nusaraya.android.sdk.internal.database.mapper.ContentMapper
+import com.nusaraya.android.sdk.internal.database.mapper.EventMapper
+import com.nusaraya.android.sdk.internal.database.model.EventEntity
+import com.nusaraya.android.sdk.internal.database.model.EventInsertType
+import com.nusaraya.android.sdk.internal.database.model.TimelineEventEntity
+import com.nusaraya.android.sdk.internal.database.query.findWithSenderMembershipEvent
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.di.MoshiProvider
+import com.nusaraya.android.sdk.internal.session.EventInsertLiveProcessor
 import io.realm.Realm
 import timber.log.Timber
 import javax.inject.Inject

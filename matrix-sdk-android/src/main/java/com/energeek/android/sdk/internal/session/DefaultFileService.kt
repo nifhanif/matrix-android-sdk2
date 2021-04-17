@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session
+package com.nusaraya.android.sdk.internal.session
 
 import android.content.Context
 import android.net.Uri
@@ -25,16 +25,16 @@ import kotlinx.coroutines.completeWith
 import kotlinx.coroutines.withContext
 import okhttp3.OkHttpClient
 import okhttp3.Request
-import com.energeek.android.sdk.api.session.content.ContentUrlResolver
-import com.energeek.android.sdk.api.session.file.FileService
-import com.energeek.android.sdk.internal.crypto.attachments.ElementToDecrypt
-import com.energeek.android.sdk.internal.crypto.attachments.MXEncryptedAttachments
-import com.energeek.android.sdk.internal.di.SessionDownloadsDirectory
-import com.energeek.android.sdk.internal.di.UnauthenticatedWithCertificateWithProgress
-import com.energeek.android.sdk.internal.session.download.DownloadProgressInterceptor.Companion.DOWNLOAD_PROGRESS_INTERCEPTOR_HEADER
-import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
-import com.energeek.android.sdk.internal.util.md5
-import com.energeek.android.sdk.internal.util.writeToFile
+import com.nusaraya.android.sdk.api.session.content.ContentUrlResolver
+import com.nusaraya.android.sdk.api.session.file.FileService
+import com.nusaraya.android.sdk.internal.crypto.attachments.ElementToDecrypt
+import com.nusaraya.android.sdk.internal.crypto.attachments.MXEncryptedAttachments
+import com.nusaraya.android.sdk.internal.di.SessionDownloadsDirectory
+import com.nusaraya.android.sdk.internal.di.UnauthenticatedWithCertificateWithProgress
+import com.nusaraya.android.sdk.internal.session.download.DownloadProgressInterceptor.Companion.DOWNLOAD_PROGRESS_INTERCEPTOR_HEADER
+import com.nusaraya.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.nusaraya.android.sdk.internal.util.md5
+import com.nusaraya.android.sdk.internal.util.writeToFile
 import timber.log.Timber
 import java.io.File
 import java.io.IOException

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.file
+package com.nusaraya.android.sdk.api.session.file
 
 import android.net.Uri
-import com.energeek.android.sdk.api.session.room.model.message.MessageWithAttachmentContent
-import com.energeek.android.sdk.api.session.room.model.message.getFileName
-import com.energeek.android.sdk.api.session.room.model.message.getFileUrl
-import com.energeek.android.sdk.internal.crypto.attachments.ElementToDecrypt
-import com.energeek.android.sdk.internal.crypto.attachments.toElementToDecrypt
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageWithAttachmentContent
+import com.nusaraya.android.sdk.api.session.room.model.message.getFileName
+import com.nusaraya.android.sdk.api.session.room.model.message.getFileUrl
+import com.nusaraya.android.sdk.internal.crypto.attachments.ElementToDecrypt
+import com.nusaraya.android.sdk.internal.crypto.attachments.toElementToDecrypt
 import java.io.File
 
 /**

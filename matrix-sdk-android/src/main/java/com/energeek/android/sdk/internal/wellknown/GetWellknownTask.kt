@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.wellknown
+package com.nusaraya.android.sdk.internal.wellknown
 
 import android.util.MalformedJsonException
 import dagger.Lazy
-import com.energeek.android.sdk.api.MatrixPatterns
-import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
-import com.energeek.android.sdk.api.auth.data.WellKnown
-import com.energeek.android.sdk.api.auth.wellknown.WellknownResult
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.internal.di.Unauthenticated
-import com.energeek.android.sdk.internal.network.RetrofitFactory
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.network.httpclient.addSocketFactory
-import com.energeek.android.sdk.internal.network.ssl.UnrecognizedCertificateException
-import com.energeek.android.sdk.internal.session.homeserver.CapabilitiesAPI
-import com.energeek.android.sdk.internal.session.identity.IdentityAuthAPI
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.isValidUrl
+import com.nusaraya.android.sdk.api.MatrixPatterns
+import com.nusaraya.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.nusaraya.android.sdk.api.auth.data.WellKnown
+import com.nusaraya.android.sdk.api.auth.wellknown.WellknownResult
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.internal.di.Unauthenticated
+import com.nusaraya.android.sdk.internal.network.RetrofitFactory
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.network.httpclient.addSocketFactory
+import com.nusaraya.android.sdk.internal.network.ssl.UnrecognizedCertificateException
+import com.nusaraya.android.sdk.internal.session.homeserver.CapabilitiesAPI
+import com.nusaraya.android.sdk.internal.session.identity.IdentityAuthAPI
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.isValidUrl
 import okhttp3.OkHttpClient
 import java.io.EOFException
 import javax.inject.Inject

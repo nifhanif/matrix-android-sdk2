@@ -14,30 +14,30 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.membership
+package com.nusaraya.android.sdk.internal.session.room.membership
 
 import androidx.lifecycle.LiveData
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.session.identity.ThreePid
-import com.energeek.android.sdk.api.session.room.members.MembershipService
-import com.energeek.android.sdk.api.session.room.members.RoomMemberQueryParams
-import com.energeek.android.sdk.api.session.room.model.Membership
-import com.energeek.android.sdk.api.session.room.model.RoomMemberSummary
-import com.energeek.android.sdk.internal.database.mapper.asDomain
-import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntity
-import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.query.process
-import com.energeek.android.sdk.internal.session.room.membership.admin.MembershipAdminTask
-import com.energeek.android.sdk.internal.session.room.membership.joining.InviteTask
-import com.energeek.android.sdk.internal.session.room.membership.joining.JoinRoomTask
-import com.energeek.android.sdk.internal.session.room.membership.leaving.LeaveRoomTask
-import com.energeek.android.sdk.internal.session.room.membership.threepid.InviteThreePidTask
-import com.energeek.android.sdk.internal.util.fetchCopied
+import com.nusaraya.android.sdk.api.session.identity.ThreePid
+import com.nusaraya.android.sdk.api.session.room.members.MembershipService
+import com.nusaraya.android.sdk.api.session.room.members.RoomMemberQueryParams
+import com.nusaraya.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.api.session.room.model.RoomMemberSummary
+import com.nusaraya.android.sdk.internal.database.mapper.asDomain
+import com.nusaraya.android.sdk.internal.database.model.RoomMemberSummaryEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.query.process
+import com.nusaraya.android.sdk.internal.session.room.membership.admin.MembershipAdminTask
+import com.nusaraya.android.sdk.internal.session.room.membership.joining.InviteTask
+import com.nusaraya.android.sdk.internal.session.room.membership.joining.JoinRoomTask
+import com.nusaraya.android.sdk.internal.session.room.membership.leaving.LeaveRoomTask
+import com.nusaraya.android.sdk.internal.session.room.membership.threepid.InviteThreePidTask
+import com.nusaraya.android.sdk.internal.util.fetchCopied
 import io.realm.Realm
 import io.realm.RealmQuery
 

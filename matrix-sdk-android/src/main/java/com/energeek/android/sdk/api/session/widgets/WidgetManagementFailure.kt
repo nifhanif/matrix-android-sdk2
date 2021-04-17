@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.widgets
+package com.nusaraya.android.sdk.api.session.widgets
 
-import com.energeek.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.failure.Failure
 
 sealed class WidgetManagementFailure : Failure.FeatureFailure() {
     object NotEnoughPower : WidgetManagementFailure()

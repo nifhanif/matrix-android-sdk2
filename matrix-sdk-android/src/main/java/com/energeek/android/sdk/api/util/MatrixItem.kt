@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.util
+package com.nusaraya.android.sdk.api.util
 
-import com.energeek.android.sdk.BuildConfig
-import com.energeek.android.sdk.api.session.group.model.GroupSummary
-import com.energeek.android.sdk.api.session.room.model.RoomMemberSummary
-import com.energeek.android.sdk.api.session.room.model.RoomSummary
-import com.energeek.android.sdk.api.session.room.model.roomdirectory.PublicRoom
-import com.energeek.android.sdk.api.session.room.sender.SenderInfo
-import com.energeek.android.sdk.api.session.user.model.User
+import com.nusaraya.android.sdk.BuildConfig
+import com.nusaraya.android.sdk.api.session.group.model.GroupSummary
+import com.nusaraya.android.sdk.api.session.room.model.RoomMemberSummary
+import com.nusaraya.android.sdk.api.session.room.model.RoomSummary
+import com.nusaraya.android.sdk.api.session.room.model.roomdirectory.PublicRoom
+import com.nusaraya.android.sdk.api.session.room.sender.SenderInfo
+import com.nusaraya.android.sdk.api.session.user.model.User
 import java.util.Locale
 
 sealed class MatrixItem(

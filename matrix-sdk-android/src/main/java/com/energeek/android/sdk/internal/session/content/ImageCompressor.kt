@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.content
+package com.nusaraya.android.sdk.internal.session.content
 
 import android.content.Context
 import android.graphics.Bitmap

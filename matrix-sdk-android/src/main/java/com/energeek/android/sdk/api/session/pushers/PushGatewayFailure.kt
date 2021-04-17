@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.pushers
+package com.nusaraya.android.sdk.api.session.pushers
 
-import com.energeek.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.failure.Failure
 
 sealed class PushGatewayFailure : Failure.FeatureFailure() {
     object PusherRejected : PushGatewayFailure()

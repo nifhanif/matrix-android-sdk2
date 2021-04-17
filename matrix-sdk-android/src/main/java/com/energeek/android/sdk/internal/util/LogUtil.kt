@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.util
+package com.nusaraya.android.sdk.internal.util
 
-import com.energeek.android.sdk.BuildConfig
+import com.nusaraya.android.sdk.BuildConfig
 import timber.log.Timber
 
 internal fun <T> Collection<T>.logLimit(maxQuantity: Int = 5): String {

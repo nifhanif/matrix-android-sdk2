@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database
+package com.nusaraya.android.sdk.internal.database
 
 import android.content.Context
 import androidx.core.content.edit
 import io.realm.Realm
 import io.realm.RealmConfiguration
-import com.energeek.android.sdk.BuildConfig
-import com.energeek.android.sdk.internal.database.model.SessionRealmModule
-import com.energeek.android.sdk.internal.di.SessionFilesDirectory
-import com.energeek.android.sdk.internal.di.SessionId
-import com.energeek.android.sdk.internal.di.UserMd5
-import com.energeek.android.sdk.internal.session.SessionModule
+import com.nusaraya.android.sdk.BuildConfig
+import com.nusaraya.android.sdk.internal.database.model.SessionRealmModule
+import com.nusaraya.android.sdk.internal.di.SessionFilesDirectory
+import com.nusaraya.android.sdk.internal.di.SessionId
+import com.nusaraya.android.sdk.internal.di.UserMd5
+import com.nusaraya.android.sdk.internal.session.SessionModule
 import timber.log.Timber
 import java.io.File
 import javax.inject.Inject

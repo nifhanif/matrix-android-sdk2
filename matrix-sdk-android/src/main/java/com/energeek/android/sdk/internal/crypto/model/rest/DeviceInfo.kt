@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.model.rest
+package com.nusaraya.android.sdk.internal.crypto.model.rest
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.interfaces.DatedObject
+import com.nusaraya.android.sdk.api.interfaces.DatedObject
 
 /**
  * This class describes the device information

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.initsync
+package com.nusaraya.android.sdk.internal.session.initsync
 
-import com.energeek.android.sdk.api.session.initsync.InitSyncStep
+import com.nusaraya.android.sdk.api.session.initsync.InitSyncStep
 
 internal interface ProgressReporter {
     fun startTask(initSyncStep: InitSyncStep,

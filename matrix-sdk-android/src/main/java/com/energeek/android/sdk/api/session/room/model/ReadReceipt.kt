@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.model
+package com.nusaraya.android.sdk.api.session.room.model
 
-import com.energeek.android.sdk.api.session.user.model.User
+import com.nusaraya.android.sdk.api.session.user.model.User
 
 data class ReadReceipt(
         val user: User,

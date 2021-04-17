@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.send.queue
+package com.nusaraya.android.sdk.internal.session.room.send.queue
 
-import com.energeek.android.sdk.api.auth.data.SessionParams
+import com.nusaraya.android.sdk.api.auth.data.SessionParams
 import timber.log.Timber
 import java.io.IOException
 import java.net.InetAddress

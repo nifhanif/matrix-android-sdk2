@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.crypto.verification
+package com.nusaraya.android.sdk.api.session.crypto.verification
 
 enum class CancelCode(val value: String, val humanReadable: String) {
     User("m.user", "the user cancelled the verification"),

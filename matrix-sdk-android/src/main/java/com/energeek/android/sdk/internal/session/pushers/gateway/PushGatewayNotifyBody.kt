@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.pushers.gateway
+package com.nusaraya.android.sdk.internal.session.pushers.gateway
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass

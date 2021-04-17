@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.terms
+package com.nusaraya.android.sdk.internal.session.terms
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.util.JsonDict
-import com.energeek.android.sdk.internal.auth.registration.LocalizedFlowDataLoginTerms
+import com.nusaraya.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.internal.auth.registration.LocalizedFlowDataLoginTerms
 
 /**
  * This class represent a localized privacy policy for registration Flow.

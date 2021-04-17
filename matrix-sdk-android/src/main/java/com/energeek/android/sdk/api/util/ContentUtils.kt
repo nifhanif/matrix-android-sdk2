@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.api.util
+package com.nusaraya.android.sdk.api.util
 
 object ContentUtils {
     fun extractUsefulTextFromReply(repliedBody: String): String {

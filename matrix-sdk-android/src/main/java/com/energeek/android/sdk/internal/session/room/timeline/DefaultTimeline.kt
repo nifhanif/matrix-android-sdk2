@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.timeline
+package com.nusaraya.android.sdk.internal.session.room.timeline
 
 import io.realm.OrderedCollectionChangeSet
 import io.realm.OrderedRealmCollectionChangeListener
@@ -23,32 +23,32 @@ import io.realm.RealmConfiguration
 import io.realm.RealmQuery
 import io.realm.RealmResults
 import io.realm.Sort
-import com.energeek.android.sdk.api.MatrixCallback
-import com.energeek.android.sdk.api.NoOpMatrixCallback
-import com.energeek.android.sdk.api.extensions.orFalse
-import com.energeek.android.sdk.api.extensions.tryOrNull
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.room.send.SendState
-import com.energeek.android.sdk.api.session.room.timeline.Timeline
-import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
-import com.energeek.android.sdk.api.session.room.timeline.TimelineSettings
-import com.energeek.android.sdk.api.util.CancelableBag
-import com.energeek.android.sdk.internal.database.RealmSessionProvider
-import com.energeek.android.sdk.internal.database.mapper.TimelineEventMapper
-import com.energeek.android.sdk.internal.database.model.ChunkEntity
-import com.energeek.android.sdk.internal.database.model.RoomEntity
-import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
-import com.energeek.android.sdk.internal.database.model.TimelineEventEntityFields
-import com.energeek.android.sdk.internal.database.query.findAllInRoomWithSendStates
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.database.query.whereRoomId
-import com.energeek.android.sdk.internal.session.room.membership.LoadRoomMembersTask
-import com.energeek.android.sdk.internal.session.sync.ReadReceiptHandler
-import com.energeek.android.sdk.internal.task.TaskExecutor
-import com.energeek.android.sdk.internal.task.configureWith
-import com.energeek.android.sdk.internal.util.Debouncer
-import com.energeek.android.sdk.internal.util.createBackgroundHandler
-import com.energeek.android.sdk.internal.util.createUIHandler
+import com.nusaraya.android.sdk.api.MatrixCallback
+import com.nusaraya.android.sdk.api.NoOpMatrixCallback
+import com.nusaraya.android.sdk.api.extensions.orFalse
+import com.nusaraya.android.sdk.api.extensions.tryOrNull
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.room.send.SendState
+import com.nusaraya.android.sdk.api.session.room.timeline.Timeline
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineEvent
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineSettings
+import com.nusaraya.android.sdk.api.util.CancelableBag
+import com.nusaraya.android.sdk.internal.database.RealmSessionProvider
+import com.nusaraya.android.sdk.internal.database.mapper.TimelineEventMapper
+import com.nusaraya.android.sdk.internal.database.model.ChunkEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomEntity
+import com.nusaraya.android.sdk.internal.database.model.TimelineEventEntity
+import com.nusaraya.android.sdk.internal.database.model.TimelineEventEntityFields
+import com.nusaraya.android.sdk.internal.database.query.findAllInRoomWithSendStates
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.database.query.whereRoomId
+import com.nusaraya.android.sdk.internal.session.room.membership.LoadRoomMembersTask
+import com.nusaraya.android.sdk.internal.session.sync.ReadReceiptHandler
+import com.nusaraya.android.sdk.internal.task.TaskExecutor
+import com.nusaraya.android.sdk.internal.task.configureWith
+import com.nusaraya.android.sdk.internal.util.Debouncer
+import com.nusaraya.android.sdk.internal.util.createBackgroundHandler
+import com.nusaraya.android.sdk.internal.util.createUIHandler
 import timber.log.Timber
 import java.util.Collections
 import java.util.UUID

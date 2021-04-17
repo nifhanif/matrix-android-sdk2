@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.widgets
+package com.nusaraya.android.sdk.api.session.widgets
 
 import android.webkit.WebView
-import com.energeek.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.api.util.JsonDict
 import java.lang.reflect.Type
 
 interface WidgetPostAPIMediator {

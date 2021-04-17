@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync
+package com.nusaraya.android.sdk.internal.session.sync
 
 import io.realm.Realm
-import com.energeek.android.sdk.api.session.initsync.InitSyncStep
-import com.energeek.android.sdk.api.session.room.model.Membership
-import com.energeek.android.sdk.internal.database.model.GroupEntity
-import com.energeek.android.sdk.internal.database.model.GroupSummaryEntity
-import com.energeek.android.sdk.internal.database.query.getOrCreate
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.session.initsync.ProgressReporter
-import com.energeek.android.sdk.internal.session.initsync.mapWithProgress
-import com.energeek.android.sdk.internal.session.sync.model.GroupsSyncResponse
-import com.energeek.android.sdk.internal.session.sync.model.InvitedGroupSync
+import com.nusaraya.android.sdk.api.session.initsync.InitSyncStep
+import com.nusaraya.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.internal.database.model.GroupEntity
+import com.nusaraya.android.sdk.internal.database.model.GroupSummaryEntity
+import com.nusaraya.android.sdk.internal.database.query.getOrCreate
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.session.initsync.ProgressReporter
+import com.nusaraya.android.sdk.internal.session.initsync.mapWithProgress
+import com.nusaraya.android.sdk.internal.session.sync.model.GroupsSyncResponse
+import com.nusaraya.android.sdk.internal.session.sync.model.InvitedGroupSync
 import javax.inject.Inject
 
 internal class GroupSyncHandler @Inject constructor() {

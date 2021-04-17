@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.send.queue
+package com.nusaraya.android.sdk.internal.session.room.send.queue
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.util.Cancelable
-import com.energeek.android.sdk.internal.session.SessionLifecycleObserver
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.util.Cancelable
+import com.nusaraya.android.sdk.internal.session.SessionLifecycleObserver
 
 internal interface EventSenderProcessor: SessionLifecycleObserver {
 

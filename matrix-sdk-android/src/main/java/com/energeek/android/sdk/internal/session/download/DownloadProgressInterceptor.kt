@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.download
+package com.nusaraya.android.sdk.internal.session.download
 
 import okhttp3.Interceptor
 import okhttp3.Response

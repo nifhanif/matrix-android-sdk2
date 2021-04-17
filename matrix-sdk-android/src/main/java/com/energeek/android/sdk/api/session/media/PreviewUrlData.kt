@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.media
+package com.nusaraya.android.sdk.api.session.media
 
 /**
  * Facility data class to get the common field of a PreviewUrl response form the server

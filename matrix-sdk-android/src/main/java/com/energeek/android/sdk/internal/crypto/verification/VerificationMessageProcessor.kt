@@ -13,27 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.verification
+package com.nusaraya.android.sdk.internal.crypto.verification
 
-import com.energeek.android.sdk.api.session.crypto.MXCryptoError
-import com.energeek.android.sdk.api.session.crypto.verification.VerificationService
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.LocalEcho
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.api.session.room.model.message.MessageContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageRelationContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageType
-import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationReadyContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationRequestContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationStartContent
-import com.energeek.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
-import com.energeek.android.sdk.internal.database.model.EventInsertType
-import com.energeek.android.sdk.internal.di.DeviceId
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.session.EventInsertLiveProcessor
+import com.nusaraya.android.sdk.api.session.crypto.MXCryptoError
+import com.nusaraya.android.sdk.api.session.crypto.verification.VerificationService
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.LocalEcho
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageRelationContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageType
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageVerificationReadyContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageVerificationRequestContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageVerificationStartContent
+import com.nusaraya.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
+import com.nusaraya.android.sdk.internal.database.model.EventInsertType
+import com.nusaraya.android.sdk.internal.di.DeviceId
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.session.EventInsertLiveProcessor
 import io.realm.Realm
-import com.energeek.android.sdk.internal.crypto.EventDecryptor
+import com.nusaraya.android.sdk.internal.crypto.EventDecryptor
 import timber.log.Timber
 import java.util.ArrayList
 import javax.inject.Inject

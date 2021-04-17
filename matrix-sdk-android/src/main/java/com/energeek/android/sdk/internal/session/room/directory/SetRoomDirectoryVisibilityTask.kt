@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.directory
+package com.nusaraya.android.sdk.internal.session.room.directory
 
-import com.energeek.android.sdk.api.session.room.model.RoomDirectoryVisibility
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.directory.DirectoryAPI
-import com.energeek.android.sdk.internal.session.directory.RoomDirectoryVisibilityJson
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.session.room.model.RoomDirectoryVisibility
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.directory.DirectoryAPI
+import com.nusaraya.android.sdk.internal.session.directory.RoomDirectoryVisibilityJson
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface SetRoomDirectoryVisibilityTask : Task<SetRoomDirectoryVisibilityTask.Params, Unit> {

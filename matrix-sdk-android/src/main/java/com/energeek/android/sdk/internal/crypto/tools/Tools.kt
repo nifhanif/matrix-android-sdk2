@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.tools
+package com.nusaraya.android.sdk.internal.crypto.tools
 
 import org.matrix.olm.OlmPkDecryption
 import org.matrix.olm.OlmPkEncryption

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync.model
+package com.nusaraya.android.sdk.internal.session.sync.model
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.Event
 
 // RoomSyncTimeline represents the timeline of messages and state changes for a room during server sync v2.
 @JsonClass(generateAdapter = true)

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.model.rest
+package com.nusaraya.android.sdk.internal.crypto.model.rest
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.internal.crypto.verification.VerificationInfoAccept
-import com.energeek.android.sdk.internal.crypto.verification.VerificationInfoAcceptFactory
+import com.nusaraya.android.sdk.internal.crypto.verification.VerificationInfoAccept
+import com.nusaraya.android.sdk.internal.crypto.verification.VerificationInfoAcceptFactory
 
 /**
  * Sent by Bob to accept a verification from a previously sent m.key.verification.start message.

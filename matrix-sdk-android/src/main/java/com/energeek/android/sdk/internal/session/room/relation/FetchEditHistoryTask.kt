@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.session.room.relation
+package com.nusaraya.android.sdk.internal.session.room.relation
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.RelationType
-import com.energeek.android.sdk.internal.crypto.CryptoSessionInfoProvider
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.room.RoomAPI
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.RelationType
+import com.nusaraya.android.sdk.internal.crypto.CryptoSessionInfoProvider
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.room.RoomAPI
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface FetchEditHistoryTask : Task<FetchEditHistoryTask.Params, List<Event>> {

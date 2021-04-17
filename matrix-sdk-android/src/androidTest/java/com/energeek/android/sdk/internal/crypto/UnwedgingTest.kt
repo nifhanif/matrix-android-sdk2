@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.amshove.kluent.shouldBe
@@ -24,25 +24,25 @@ import org.junit.FixMethodOrder
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.MethodSorters
-import com.energeek.android.sdk.InstrumentedTest
-import com.energeek.android.sdk.api.auth.UIABaseAuth
-import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import com.energeek.android.sdk.api.auth.UserPasswordAuth
-import com.energeek.android.sdk.api.auth.registration.RegistrationFlowResponse
-import com.energeek.android.sdk.api.extensions.tryOrNull
-import com.energeek.android.sdk.api.session.crypto.MXCryptoError
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.api.session.room.timeline.Timeline
-import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
-import com.energeek.android.sdk.api.session.room.timeline.TimelineSettings
-import com.energeek.android.sdk.common.CommonTestHelper
-import com.energeek.android.sdk.common.CryptoTestHelper
-import com.energeek.android.sdk.common.TestConstants
-import com.energeek.android.sdk.internal.crypto.model.OlmSessionWrapper
-import com.energeek.android.sdk.internal.crypto.model.event.EncryptedEventContent
-import com.energeek.android.sdk.internal.crypto.store.db.deserializeFromRealm
-import com.energeek.android.sdk.internal.crypto.store.db.serializeForRealm
+import com.nusaraya.android.sdk.InstrumentedTest
+import com.nusaraya.android.sdk.api.auth.UIABaseAuth
+import com.nusaraya.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.nusaraya.android.sdk.api.auth.UserPasswordAuth
+import com.nusaraya.android.sdk.api.auth.registration.RegistrationFlowResponse
+import com.nusaraya.android.sdk.api.extensions.tryOrNull
+import com.nusaraya.android.sdk.api.session.crypto.MXCryptoError
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.api.session.room.timeline.Timeline
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineEvent
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineSettings
+import com.nusaraya.android.sdk.common.CommonTestHelper
+import com.nusaraya.android.sdk.common.CryptoTestHelper
+import com.nusaraya.android.sdk.common.TestConstants
+import com.nusaraya.android.sdk.internal.crypto.model.OlmSessionWrapper
+import com.nusaraya.android.sdk.internal.crypto.model.event.EncryptedEventContent
+import com.nusaraya.android.sdk.internal.crypto.store.db.deserializeFromRealm
+import com.nusaraya.android.sdk.internal.crypto.store.db.serializeForRealm
 import org.matrix.olm.OlmSession
 import timber.log.Timber
 import java.util.concurrent.CountDownLatch

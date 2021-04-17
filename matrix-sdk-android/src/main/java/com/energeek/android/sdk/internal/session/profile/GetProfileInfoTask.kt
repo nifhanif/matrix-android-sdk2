@@ -15,12 +15,12 @@
  *
  */
 
-package com.energeek.android.sdk.internal.session.profile
+package com.nusaraya.android.sdk.internal.session.profile
 
-import com.energeek.android.sdk.api.util.JsonDict
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal abstract class GetProfileInfoTask : Task<GetProfileInfoTask.Params, JsonDict> {

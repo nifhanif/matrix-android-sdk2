@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.session.room.send.pills
+package com.nusaraya.android.sdk.internal.session.room.send.pills
 
 import android.text.SpannableString
-import com.energeek.android.sdk.api.session.room.send.MatrixItemSpan
+import com.nusaraya.android.sdk.api.session.room.send.MatrixItemSpan
 import java.util.Collections
 import javax.inject.Inject
 

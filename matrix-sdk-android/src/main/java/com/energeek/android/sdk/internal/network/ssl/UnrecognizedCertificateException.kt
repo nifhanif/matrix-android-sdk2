@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.network.ssl
+package com.nusaraya.android.sdk.internal.network.ssl
 
 import java.security.cert.CertificateException
 import java.security.cert.X509Certificate

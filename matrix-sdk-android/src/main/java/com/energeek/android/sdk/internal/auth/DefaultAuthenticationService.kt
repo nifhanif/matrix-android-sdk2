@@ -14,37 +14,37 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth
+package com.nusaraya.android.sdk.internal.auth
 
 import android.net.Uri
 import dagger.Lazy
 import okhttp3.OkHttpClient
-import com.energeek.android.sdk.api.auth.AuthenticationService
-import com.energeek.android.sdk.api.auth.data.Credentials
-import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
-import com.energeek.android.sdk.api.auth.data.LoginFlowResult
-import com.energeek.android.sdk.api.auth.data.LoginFlowTypes
-import com.energeek.android.sdk.api.auth.login.LoginWizard
-import com.energeek.android.sdk.api.auth.registration.RegistrationWizard
-import com.energeek.android.sdk.api.auth.wellknown.WellknownResult
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.api.session.Session
-import com.energeek.android.sdk.api.util.appendParamToUrl
-import com.energeek.android.sdk.internal.SessionManager
-import com.energeek.android.sdk.internal.auth.data.RiotConfig
-import com.energeek.android.sdk.internal.auth.db.PendingSessionData
-import com.energeek.android.sdk.internal.auth.login.DefaultLoginWizard
-import com.energeek.android.sdk.internal.auth.login.DirectLoginTask
-import com.energeek.android.sdk.internal.auth.registration.DefaultRegistrationWizard
-import com.energeek.android.sdk.internal.auth.version.Versions
-import com.energeek.android.sdk.internal.auth.version.isLoginAndRegistrationSupportedBySdk
-import com.energeek.android.sdk.internal.auth.version.isSupportedBySdk
-import com.energeek.android.sdk.internal.di.Unauthenticated
-import com.energeek.android.sdk.internal.network.RetrofitFactory
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.network.httpclient.addSocketFactory
-import com.energeek.android.sdk.internal.network.ssl.UnrecognizedCertificateException
-import com.energeek.android.sdk.internal.wellknown.GetWellknownTask
+import com.nusaraya.android.sdk.api.auth.AuthenticationService
+import com.nusaraya.android.sdk.api.auth.data.Credentials
+import com.nusaraya.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.nusaraya.android.sdk.api.auth.data.LoginFlowResult
+import com.nusaraya.android.sdk.api.auth.data.LoginFlowTypes
+import com.nusaraya.android.sdk.api.auth.login.LoginWizard
+import com.nusaraya.android.sdk.api.auth.registration.RegistrationWizard
+import com.nusaraya.android.sdk.api.auth.wellknown.WellknownResult
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.session.Session
+import com.nusaraya.android.sdk.api.util.appendParamToUrl
+import com.nusaraya.android.sdk.internal.SessionManager
+import com.nusaraya.android.sdk.internal.auth.data.RiotConfig
+import com.nusaraya.android.sdk.internal.auth.db.PendingSessionData
+import com.nusaraya.android.sdk.internal.auth.login.DefaultLoginWizard
+import com.nusaraya.android.sdk.internal.auth.login.DirectLoginTask
+import com.nusaraya.android.sdk.internal.auth.registration.DefaultRegistrationWizard
+import com.nusaraya.android.sdk.internal.auth.version.Versions
+import com.nusaraya.android.sdk.internal.auth.version.isLoginAndRegistrationSupportedBySdk
+import com.nusaraya.android.sdk.internal.auth.version.isSupportedBySdk
+import com.nusaraya.android.sdk.internal.di.Unauthenticated
+import com.nusaraya.android.sdk.internal.network.RetrofitFactory
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.network.httpclient.addSocketFactory
+import com.nusaraya.android.sdk.internal.network.ssl.UnrecognizedCertificateException
+import com.nusaraya.android.sdk.internal.wellknown.GetWellknownTask
 import javax.inject.Inject
 import javax.net.ssl.HttpsURLConnection
 

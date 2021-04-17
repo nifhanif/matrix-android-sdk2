@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.session.room.timeline
+package com.nusaraya.android.sdk.session.room.timeline
 
-import com.energeek.android.sdk.internal.session.room.timeline.PaginationTask
-import com.energeek.android.sdk.internal.session.room.timeline.TokenChunkEventPersistor
+import com.nusaraya.android.sdk.internal.session.room.timeline.PaginationTask
+import com.nusaraya.android.sdk.internal.session.room.timeline.TokenChunkEventPersistor
 import javax.inject.Inject
 import kotlin.random.Random
 

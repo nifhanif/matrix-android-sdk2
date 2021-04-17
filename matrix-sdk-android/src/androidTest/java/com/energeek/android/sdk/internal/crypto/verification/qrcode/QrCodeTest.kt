@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.verification.qrcode
+package com.nusaraya.android.sdk.internal.crypto.verification.qrcode
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.amshove.kluent.shouldBeEqualTo
@@ -24,7 +24,7 @@ import org.junit.FixMethodOrder
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.MethodSorters
-import com.energeek.android.sdk.InstrumentedTest
+import com.nusaraya.android.sdk.InstrumentedTest
 
 @RunWith(AndroidJUnit4::class)
 @FixMethodOrder(MethodSorters.JVM)

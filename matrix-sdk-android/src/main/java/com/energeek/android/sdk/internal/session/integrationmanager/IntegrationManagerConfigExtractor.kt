@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.integrationmanager
+package com.nusaraya.android.sdk.internal.session.integrationmanager
 
-import com.energeek.android.sdk.api.auth.data.WellKnown
-import com.energeek.android.sdk.internal.database.model.WellknownIntegrationManagerConfigEntity
+import com.nusaraya.android.sdk.api.auth.data.WellKnown
+import com.nusaraya.android.sdk.internal.database.model.WellknownIntegrationManagerConfigEntity
 import javax.inject.Inject
 
 internal class IntegrationManagerConfigExtractor @Inject constructor() {

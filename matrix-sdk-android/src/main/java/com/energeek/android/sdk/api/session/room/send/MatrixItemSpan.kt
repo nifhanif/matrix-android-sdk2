@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.send
+package com.nusaraya.android.sdk.api.session.room.send
 
-import com.energeek.android.sdk.api.util.MatrixItem
+import com.nusaraya.android.sdk.api.util.MatrixItem
 
 /**
  * Tag class for spans that should mention a matrix item.

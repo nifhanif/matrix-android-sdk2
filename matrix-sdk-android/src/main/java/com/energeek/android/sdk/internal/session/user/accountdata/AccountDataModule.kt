@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.user.accountdata
+package com.nusaraya.android.sdk.internal.session.user.accountdata
 
 import dagger.Binds
 import dagger.Module

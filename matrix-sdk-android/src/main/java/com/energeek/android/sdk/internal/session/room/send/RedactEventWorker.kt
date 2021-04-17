@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.session.room.send
+package com.nusaraya.android.sdk.internal.session.room.send
 
 import android.content.Context
 import androidx.work.WorkerParameters
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.SessionComponent
-import com.energeek.android.sdk.internal.session.room.RoomAPI
-import com.energeek.android.sdk.internal.worker.SessionSafeCoroutineWorker
-import com.energeek.android.sdk.internal.worker.SessionWorkerParams
-import com.energeek.android.sdk.internal.worker.WorkerParamsFactory
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.SessionComponent
+import com.nusaraya.android.sdk.internal.session.room.RoomAPI
+import com.nusaraya.android.sdk.internal.worker.SessionSafeCoroutineWorker
+import com.nusaraya.android.sdk.internal.worker.SessionWorkerParams
+import com.nusaraya.android.sdk.internal.worker.WorkerParamsFactory
 import javax.inject.Inject
 
 /**

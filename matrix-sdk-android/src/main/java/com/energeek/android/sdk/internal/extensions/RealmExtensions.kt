@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.extensions
+package com.nusaraya.android.sdk.internal.extensions
 
 import io.realm.RealmList
 import io.realm.RealmObject

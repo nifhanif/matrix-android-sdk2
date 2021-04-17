@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.api.pushrules.rest
+package com.nusaraya.android.sdk.api.pushrules.rest
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.pushrules.Condition
-import com.energeek.android.sdk.api.pushrules.ContainsDisplayNameCondition
-import com.energeek.android.sdk.api.pushrules.EventMatchCondition
-import com.energeek.android.sdk.api.pushrules.Kind
-import com.energeek.android.sdk.api.pushrules.RoomMemberCountCondition
-import com.energeek.android.sdk.api.pushrules.RuleIds
-import com.energeek.android.sdk.api.pushrules.SenderNotificationPermissionCondition
+import com.nusaraya.android.sdk.api.pushrules.Condition
+import com.nusaraya.android.sdk.api.pushrules.ContainsDisplayNameCondition
+import com.nusaraya.android.sdk.api.pushrules.EventMatchCondition
+import com.nusaraya.android.sdk.api.pushrules.Kind
+import com.nusaraya.android.sdk.api.pushrules.RoomMemberCountCondition
+import com.nusaraya.android.sdk.api.pushrules.RuleIds
+import com.nusaraya.android.sdk.api.pushrules.SenderNotificationPermissionCondition
 import timber.log.Timber
 
 /**

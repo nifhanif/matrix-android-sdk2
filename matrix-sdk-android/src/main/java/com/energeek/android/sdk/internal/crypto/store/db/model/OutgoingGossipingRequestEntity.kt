@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.store.db.model
+package com.nusaraya.android.sdk.internal.crypto.store.db.model
 
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.Types
-import com.energeek.android.sdk.api.extensions.tryOrNull
-import com.energeek.android.sdk.internal.crypto.GossipRequestType
-import com.energeek.android.sdk.internal.crypto.OutgoingGossipingRequest
-import com.energeek.android.sdk.internal.crypto.OutgoingGossipingRequestState
-import com.energeek.android.sdk.internal.crypto.OutgoingRoomKeyRequest
-import com.energeek.android.sdk.internal.crypto.OutgoingSecretRequest
-import com.energeek.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
-import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.nusaraya.android.sdk.api.extensions.tryOrNull
+import com.nusaraya.android.sdk.internal.crypto.GossipRequestType
+import com.nusaraya.android.sdk.internal.crypto.OutgoingGossipingRequest
+import com.nusaraya.android.sdk.internal.crypto.OutgoingGossipingRequestState
+import com.nusaraya.android.sdk.internal.crypto.OutgoingRoomKeyRequest
+import com.nusaraya.android.sdk.internal.crypto.OutgoingSecretRequest
+import com.nusaraya.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
+import com.nusaraya.android.sdk.internal.di.MoshiProvider
 import io.realm.RealmObject
 import io.realm.annotations.Index
 

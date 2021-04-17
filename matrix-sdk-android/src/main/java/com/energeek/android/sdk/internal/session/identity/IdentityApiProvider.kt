@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity
+package com.nusaraya.android.sdk.internal.session.identity
 
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import javax.inject.Inject
 
 @SessionScope

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.network.ssl
+package com.nusaraya.android.sdk.internal.network.ssl
 
 import okhttp3.TlsVersion
 import timber.log.Timber

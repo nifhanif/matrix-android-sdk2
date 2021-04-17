@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.call
+package com.nusaraya.android.sdk.api.session.call
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import com.energeek.android.sdk.api.extensions.tryOrNull
-import com.energeek.android.sdk.api.session.room.model.thirdparty.ThirdPartyProtocol
-import com.energeek.android.sdk.internal.session.SessionScope
-import com.energeek.android.sdk.internal.session.thirdparty.GetThirdPartyProtocolsTask
-import com.energeek.android.sdk.internal.task.TaskExecutor
+import com.nusaraya.android.sdk.api.extensions.tryOrNull
+import com.nusaraya.android.sdk.api.session.room.model.thirdparty.ThirdPartyProtocol
+import com.nusaraya.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.internal.session.thirdparty.GetThirdPartyProtocolsTask
+import com.nusaraya.android.sdk.internal.task.TaskExecutor
 import timber.log.Timber
 import java.util.concurrent.atomic.AtomicBoolean
 import javax.inject.Inject

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity
+package com.nusaraya.android.sdk.internal.session.identity
 
-import com.energeek.android.sdk.api.session.identity.IdentityServiceError
-import com.energeek.android.sdk.api.session.identity.ThreePid
-import com.energeek.android.sdk.api.session.identity.toMedium
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.identity.data.IdentityStore
-import com.energeek.android.sdk.internal.session.identity.model.IdentityRequestOwnershipParams
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.session.identity.IdentityServiceError
+import com.nusaraya.android.sdk.api.session.identity.ThreePid
+import com.nusaraya.android.sdk.api.session.identity.toMedium
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.identity.data.IdentityStore
+import com.nusaraya.android.sdk.internal.session.identity.model.IdentityRequestOwnershipParams
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface IdentitySubmitTokenForBindingTask : Task<IdentitySubmitTokenForBindingTask.Params, Unit> {

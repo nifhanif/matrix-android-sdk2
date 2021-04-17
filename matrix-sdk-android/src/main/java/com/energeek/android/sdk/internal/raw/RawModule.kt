@@ -15,7 +15,7 @@
  *
  */
 
-package com.energeek.android.sdk.internal.raw
+package com.nusaraya.android.sdk.internal.raw
 
 import com.zhuinden.monarchy.Monarchy
 import dagger.Binds
@@ -24,12 +24,12 @@ import dagger.Module
 import dagger.Provides
 import io.realm.RealmConfiguration
 import okhttp3.OkHttpClient
-import com.energeek.android.sdk.api.raw.RawService
-import com.energeek.android.sdk.internal.database.RealmKeysUtils
-import com.energeek.android.sdk.internal.di.GlobalDatabase
-import com.energeek.android.sdk.internal.di.MatrixScope
-import com.energeek.android.sdk.internal.di.Unauthenticated
-import com.energeek.android.sdk.internal.network.RetrofitFactory
+import com.nusaraya.android.sdk.api.raw.RawService
+import com.nusaraya.android.sdk.internal.database.RealmKeysUtils
+import com.nusaraya.android.sdk.internal.di.GlobalDatabase
+import com.nusaraya.android.sdk.internal.di.MatrixScope
+import com.nusaraya.android.sdk.internal.di.Unauthenticated
+import com.nusaraya.android.sdk.internal.network.RetrofitFactory
 
 @Module
 internal abstract class RawModule {

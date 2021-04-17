@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.model
+package com.nusaraya.android.sdk.api.session.room.model
 
 /**
  * Class representing a simplified version of EventType.STATE_ROOM_MEMBER state event content

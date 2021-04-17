@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session
+package com.nusaraya.android.sdk.internal.session
 
-import com.energeek.android.sdk.api.failure.GlobalError
-import com.energeek.android.sdk.api.session.Session
+import com.nusaraya.android.sdk.api.failure.GlobalError
+import com.nusaraya.android.sdk.api.session.Session
 import javax.inject.Inject
 
 internal class SessionListeners @Inject constructor() {

@@ -14,47 +14,47 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session
+package com.nusaraya.android.sdk.api.session
 
 import androidx.annotation.MainThread
 import androidx.lifecycle.LiveData
 import okhttp3.OkHttpClient
-import com.energeek.android.sdk.api.auth.data.SessionParams
-import com.energeek.android.sdk.api.failure.GlobalError
-import com.energeek.android.sdk.api.federation.FederationService
-import com.energeek.android.sdk.api.pushrules.PushRuleService
-import com.energeek.android.sdk.api.session.account.AccountService
-import com.energeek.android.sdk.api.session.accountdata.AccountDataService
-import com.energeek.android.sdk.api.session.cache.CacheService
-import com.energeek.android.sdk.api.session.call.CallSignalingService
-import com.energeek.android.sdk.api.session.content.ContentUploadStateTracker
-import com.energeek.android.sdk.api.session.content.ContentUrlResolver
-import com.energeek.android.sdk.api.session.crypto.CryptoService
-import com.energeek.android.sdk.api.session.events.EventService
-import com.energeek.android.sdk.api.session.file.ContentDownloadStateTracker
-import com.energeek.android.sdk.api.session.file.FileService
-import com.energeek.android.sdk.api.session.group.GroupService
-import com.energeek.android.sdk.api.session.homeserver.HomeServerCapabilitiesService
-import com.energeek.android.sdk.api.session.identity.IdentityService
-import com.energeek.android.sdk.api.session.initsync.InitialSyncProgressService
-import com.energeek.android.sdk.api.session.integrationmanager.IntegrationManagerService
-import com.energeek.android.sdk.api.session.media.MediaService
-import com.energeek.android.sdk.api.session.permalinks.PermalinkService
-import com.energeek.android.sdk.api.session.profile.ProfileService
-import com.energeek.android.sdk.api.session.pushers.PushersService
-import com.energeek.android.sdk.api.session.room.RoomDirectoryService
-import com.energeek.android.sdk.api.session.room.RoomService
-import com.energeek.android.sdk.api.session.search.SearchService
-import com.energeek.android.sdk.api.session.securestorage.SecureStorageService
-import com.energeek.android.sdk.api.session.securestorage.SharedSecretStorageService
-import com.energeek.android.sdk.api.session.signout.SignOutService
-import com.energeek.android.sdk.api.session.sync.FilterService
-import com.energeek.android.sdk.api.session.sync.SyncState
-import com.energeek.android.sdk.api.session.terms.TermsService
-import com.energeek.android.sdk.api.session.thirdparty.ThirdPartyService
-import com.energeek.android.sdk.api.session.typing.TypingUsersTracker
-import com.energeek.android.sdk.api.session.user.UserService
-import com.energeek.android.sdk.api.session.widgets.WidgetService
+import com.nusaraya.android.sdk.api.auth.data.SessionParams
+import com.nusaraya.android.sdk.api.failure.GlobalError
+import com.nusaraya.android.sdk.api.federation.FederationService
+import com.nusaraya.android.sdk.api.pushrules.PushRuleService
+import com.nusaraya.android.sdk.api.session.account.AccountService
+import com.nusaraya.android.sdk.api.session.accountdata.AccountDataService
+import com.nusaraya.android.sdk.api.session.cache.CacheService
+import com.nusaraya.android.sdk.api.session.call.CallSignalingService
+import com.nusaraya.android.sdk.api.session.content.ContentUploadStateTracker
+import com.nusaraya.android.sdk.api.session.content.ContentUrlResolver
+import com.nusaraya.android.sdk.api.session.crypto.CryptoService
+import com.nusaraya.android.sdk.api.session.events.EventService
+import com.nusaraya.android.sdk.api.session.file.ContentDownloadStateTracker
+import com.nusaraya.android.sdk.api.session.file.FileService
+import com.nusaraya.android.sdk.api.session.group.GroupService
+import com.nusaraya.android.sdk.api.session.homeserver.HomeServerCapabilitiesService
+import com.nusaraya.android.sdk.api.session.identity.IdentityService
+import com.nusaraya.android.sdk.api.session.initsync.InitialSyncProgressService
+import com.nusaraya.android.sdk.api.session.integrationmanager.IntegrationManagerService
+import com.nusaraya.android.sdk.api.session.media.MediaService
+import com.nusaraya.android.sdk.api.session.permalinks.PermalinkService
+import com.nusaraya.android.sdk.api.session.profile.ProfileService
+import com.nusaraya.android.sdk.api.session.pushers.PushersService
+import com.nusaraya.android.sdk.api.session.room.RoomDirectoryService
+import com.nusaraya.android.sdk.api.session.room.RoomService
+import com.nusaraya.android.sdk.api.session.search.SearchService
+import com.nusaraya.android.sdk.api.session.securestorage.SecureStorageService
+import com.nusaraya.android.sdk.api.session.securestorage.SharedSecretStorageService
+import com.nusaraya.android.sdk.api.session.signout.SignOutService
+import com.nusaraya.android.sdk.api.session.sync.FilterService
+import com.nusaraya.android.sdk.api.session.sync.SyncState
+import com.nusaraya.android.sdk.api.session.terms.TermsService
+import com.nusaraya.android.sdk.api.session.thirdparty.ThirdPartyService
+import com.nusaraya.android.sdk.api.session.typing.TypingUsersTracker
+import com.nusaraya.android.sdk.api.session.user.UserService
+import com.nusaraya.android.sdk.api.session.widgets.WidgetService
 
 /**
  * This interface defines interactions with a session.

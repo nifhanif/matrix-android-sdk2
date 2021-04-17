@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.tasks
+package com.nusaraya.android.sdk.internal.crypto.tasks
 
-import com.energeek.android.sdk.api.session.crypto.CryptoService
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.toContent
-import com.energeek.android.sdk.api.session.room.send.SendState
-import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
-import com.energeek.android.sdk.internal.crypto.MXEventDecryptionResult
-import com.energeek.android.sdk.internal.crypto.model.MXEncryptEventContentResult
-import com.energeek.android.sdk.internal.database.mapper.ContentMapper
-import com.energeek.android.sdk.internal.session.room.send.LocalEchoRepository
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.awaitCallback
+import com.nusaraya.android.sdk.api.session.crypto.CryptoService
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.toContent
+import com.nusaraya.android.sdk.api.session.room.send.SendState
+import com.nusaraya.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
+import com.nusaraya.android.sdk.internal.crypto.MXEventDecryptionResult
+import com.nusaraya.android.sdk.internal.crypto.model.MXEncryptEventContentResult
+import com.nusaraya.android.sdk.internal.database.mapper.ContentMapper
+import com.nusaraya.android.sdk.internal.session.room.send.LocalEchoRepository
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.awaitCallback
 import javax.inject.Inject
 
 internal interface EncryptEventTask : Task<EncryptEventTask.Params, Event> {

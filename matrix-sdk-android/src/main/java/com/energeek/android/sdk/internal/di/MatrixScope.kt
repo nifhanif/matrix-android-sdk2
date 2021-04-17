@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.di
+package com.nusaraya.android.sdk.internal.di
 
 import javax.inject.Scope
 

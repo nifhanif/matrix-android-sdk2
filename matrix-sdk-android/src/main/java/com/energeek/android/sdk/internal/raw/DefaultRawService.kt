@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.raw
+package com.nusaraya.android.sdk.internal.raw
 
-import com.energeek.android.sdk.api.cache.CacheStrategy
-import com.energeek.android.sdk.api.raw.RawService
+import com.nusaraya.android.sdk.api.cache.CacheStrategy
+import com.nusaraya.android.sdk.api.raw.RawService
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.auth.data
+package com.nusaraya.android.sdk.api.auth.data
 
 /**
  * This data class holds necessary data to open a session.

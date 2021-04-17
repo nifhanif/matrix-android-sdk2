@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.auth.registration
+package com.nusaraya.android.sdk.api.auth.registration
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.auth.data.LoginFlowTypes
-import com.energeek.android.sdk.api.util.JsonDict
-import com.energeek.android.sdk.internal.auth.data.InteractiveAuthenticationFlow
+import com.nusaraya.android.sdk.api.auth.data.LoginFlowTypes
+import com.nusaraya.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.internal.auth.data.InteractiveAuthenticationFlow
 
 @JsonClass(generateAdapter = true)
 data class RegistrationFlowResponse(

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.registration
+package com.nusaraya.android.sdk.internal.auth.registration
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

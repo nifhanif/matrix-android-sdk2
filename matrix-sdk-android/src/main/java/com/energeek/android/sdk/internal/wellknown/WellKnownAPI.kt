@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.wellknown
+package com.nusaraya.android.sdk.internal.wellknown
 
-import com.energeek.android.sdk.api.auth.data.WellKnown
+import com.nusaraya.android.sdk.api.auth.data.WellKnown
 import retrofit2.http.GET
 import retrofit2.http.Path
 

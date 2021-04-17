@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.store.db.query
+package com.nusaraya.android.sdk.internal.crypto.store.db.query
 
-import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
-import com.energeek.android.sdk.internal.crypto.store.db.model.WithHeldSessionEntity
-import com.energeek.android.sdk.internal.crypto.store.db.model.WithHeldSessionEntityFields
+import com.nusaraya.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.WithHeldSessionEntity
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.WithHeldSessionEntityFields
 import io.realm.Realm
 import io.realm.kotlin.createObject
 import io.realm.kotlin.where

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.query
+package com.nusaraya.android.sdk.internal.database.query
 
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntityFields
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntityFields
 import io.realm.Realm
 import io.realm.RealmQuery
 import io.realm.RealmResults

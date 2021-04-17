@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.session.pushers.gateway
+package com.nusaraya.android.sdk.internal.session.pushers.gateway
 
 import okhttp3.OkHttpClient
-import com.energeek.android.sdk.api.session.pushers.PushGatewayFailure
-import com.energeek.android.sdk.internal.di.Unauthenticated
-import com.energeek.android.sdk.internal.network.NetworkConstants
-import com.energeek.android.sdk.internal.network.RetrofitFactory
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.session.pushers.PushGatewayFailure
+import com.nusaraya.android.sdk.internal.di.Unauthenticated
+import com.nusaraya.android.sdk.internal.network.NetworkConstants
+import com.nusaraya.android.sdk.internal.network.RetrofitFactory
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface PushGatewayNotifyTask : Task<PushGatewayNotifyTask.Params, Unit> {

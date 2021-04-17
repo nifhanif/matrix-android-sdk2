@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.mapper
+package com.nusaraya.android.sdk.internal.database.mapper
 
-import com.energeek.android.sdk.api.session.events.model.toContent
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.api.session.room.model.PollResponseAggregatedSummary
-import com.energeek.android.sdk.internal.database.model.PollResponseAggregatedSummaryEntity
+import com.nusaraya.android.sdk.api.session.events.model.toContent
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.api.session.room.model.PollResponseAggregatedSummary
+import com.nusaraya.android.sdk.internal.database.model.PollResponseAggregatedSummaryEntity
 import io.realm.RealmList
 
 internal object PollResponseAggregatedSummaryEntityMapper {

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
-import com.energeek.android.sdk.api.auth.data.Credentials
-import com.energeek.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
-import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.api.auth.data.Credentials
+import com.nusaraya.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import javax.inject.Inject
 
 @SessionScope

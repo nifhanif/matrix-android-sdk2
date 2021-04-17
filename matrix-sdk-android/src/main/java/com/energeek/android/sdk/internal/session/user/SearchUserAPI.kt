@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.user
+package com.nusaraya.android.sdk.internal.session.user
 
-import com.energeek.android.sdk.internal.network.NetworkConstants
-import com.energeek.android.sdk.internal.session.user.model.SearchUsersParams
-import com.energeek.android.sdk.internal.session.user.model.SearchUsersResponse
+import com.nusaraya.android.sdk.internal.network.NetworkConstants
+import com.nusaraya.android.sdk.internal.session.user.model.SearchUsersParams
+import com.nusaraya.android.sdk.internal.session.user.model.SearchUsersResponse
 import retrofit2.http.Body
 import retrofit2.http.POST
 

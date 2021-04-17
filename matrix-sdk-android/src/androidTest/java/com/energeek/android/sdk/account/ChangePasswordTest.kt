@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.account
+package com.nusaraya.android.sdk.account
 
-import com.energeek.android.sdk.InstrumentedTest
-import com.energeek.android.sdk.api.failure.isInvalidPassword
-import com.energeek.android.sdk.common.CommonTestHelper
-import com.energeek.android.sdk.common.SessionTestParams
-import com.energeek.android.sdk.common.TestConstants
+import com.nusaraya.android.sdk.InstrumentedTest
+import com.nusaraya.android.sdk.api.failure.isInvalidPassword
+import com.nusaraya.android.sdk.common.CommonTestHelper
+import com.nusaraya.android.sdk.common.SessionTestParams
+import com.nusaraya.android.sdk.common.TestConstants
 import org.amshove.kluent.shouldBeTrue
 import org.junit.FixMethodOrder
 import org.junit.Test

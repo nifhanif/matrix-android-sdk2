@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
 interface NewSessionListener {
     fun onNewSession(roomId: String?, senderKey: String, sessionId: String)

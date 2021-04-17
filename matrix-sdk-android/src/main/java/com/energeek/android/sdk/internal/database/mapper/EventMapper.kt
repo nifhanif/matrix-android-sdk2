@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.mapper
+package com.nusaraya.android.sdk.internal.database.mapper
 
 import com.squareup.moshi.JsonDataException
-import com.energeek.android.sdk.api.session.crypto.MXCryptoError
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.UnsignedData
-import com.energeek.android.sdk.api.session.room.send.SendState
-import com.energeek.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
-import com.energeek.android.sdk.internal.database.model.EventEntity
-import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.nusaraya.android.sdk.api.session.crypto.MXCryptoError
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.UnsignedData
+import com.nusaraya.android.sdk.api.session.room.send.SendState
+import com.nusaraya.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
+import com.nusaraya.android.sdk.internal.database.model.EventEntity
+import com.nusaraya.android.sdk.internal.di.MoshiProvider
 import timber.log.Timber
 
 internal object EventMapper {

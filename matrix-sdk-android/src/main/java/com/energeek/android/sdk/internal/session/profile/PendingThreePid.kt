@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.profile
+package com.nusaraya.android.sdk.internal.session.profile
 
-import com.energeek.android.sdk.api.session.identity.ThreePid
+import com.nusaraya.android.sdk.api.session.identity.ThreePid
 
 internal data class PendingThreePid(
         val threePid: ThreePid,

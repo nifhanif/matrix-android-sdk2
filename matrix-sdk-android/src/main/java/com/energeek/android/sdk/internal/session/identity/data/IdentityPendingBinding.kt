@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity.data
+package com.nusaraya.android.sdk.internal.session.identity.data
 
 internal data class IdentityPendingBinding(
         /* Managed by Riot */

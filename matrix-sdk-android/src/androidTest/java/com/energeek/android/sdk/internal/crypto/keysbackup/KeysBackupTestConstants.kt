@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.keysbackup
+package com.nusaraya.android.sdk.internal.crypto.keysbackup
 
-import com.energeek.android.sdk.common.SessionTestParams
+import com.nusaraya.android.sdk.common.SessionTestParams
 
 object KeysBackupTestConstants {
     val defaultSessionParams = SessionTestParams(withInitialSync = false)

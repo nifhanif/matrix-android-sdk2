@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.internal.database.model.EventEntity
-import com.energeek.android.sdk.internal.database.model.EventEntityFields
-import com.energeek.android.sdk.internal.database.query.whereType
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.session.room.membership.RoomMemberHelper
-import com.energeek.android.sdk.internal.util.fetchCopied
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.internal.database.model.EventEntity
+import com.nusaraya.android.sdk.internal.database.model.EventEntityFields
+import com.nusaraya.android.sdk.internal.database.query.whereType
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.session.room.membership.RoomMemberHelper
+import com.nusaraya.android.sdk.internal.util.fetchCopied
 import javax.inject.Inject
 
 /**

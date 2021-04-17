@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.model.rest
+package com.nusaraya.android.sdk.internal.crypto.model.rest
 
-import com.energeek.android.sdk.api.session.crypto.verification.VerificationMethod
+import com.nusaraya.android.sdk.api.session.crypto.verification.VerificationMethod
 
 internal const val VERIFICATION_METHOD_SAS = "m.sas.v1"
 

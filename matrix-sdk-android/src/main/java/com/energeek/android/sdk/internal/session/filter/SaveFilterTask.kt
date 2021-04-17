@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.filter
+package com.nusaraya.android.sdk.internal.session.filter
 
-import com.energeek.android.sdk.api.session.sync.FilterService
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.session.sync.FilterService
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 /**

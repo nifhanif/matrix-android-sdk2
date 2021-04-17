@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.extensions
+package com.nusaraya.android.sdk.api.extensions
 
-import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import com.energeek.android.sdk.internal.crypto.model.rest.DeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.model.rest.DeviceInfo
 
 /* ==========================================================================================
  * MXDeviceInfo

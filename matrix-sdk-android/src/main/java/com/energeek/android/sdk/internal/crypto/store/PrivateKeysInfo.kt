@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.store
+package com.nusaraya.android.sdk.internal.crypto.store
 
 data class PrivateKeysInfo(
         val master: String? = null,

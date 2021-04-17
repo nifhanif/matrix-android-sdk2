@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.db
+package com.nusaraya.android.sdk.internal.auth.db
 
-import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
-import com.energeek.android.sdk.internal.auth.login.ResetPasswordData
-import com.energeek.android.sdk.internal.auth.registration.ThreePidData
+import com.nusaraya.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.nusaraya.android.sdk.internal.auth.login.ResetPasswordData
+import com.nusaraya.android.sdk.internal.auth.registration.ThreePidData
 import java.util.UUID
 
 /**

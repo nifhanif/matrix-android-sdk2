@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.auth.registration
+package com.nusaraya.android.sdk.api.auth.registration
 
 interface RegistrationWizard {
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.permalinks
+package com.nusaraya.android.sdk.internal.session.permalinks
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.permalinks.PermalinkService
-import com.energeek.android.sdk.api.session.permalinks.PermalinkService.Companion.MATRIX_TO_URL_BASE
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.permalinks.PermalinkService
+import com.nusaraya.android.sdk.api.session.permalinks.PermalinkService.Companion.MATRIX_TO_URL_BASE
 import javax.inject.Inject
 
 internal class DefaultPermalinkService @Inject constructor(

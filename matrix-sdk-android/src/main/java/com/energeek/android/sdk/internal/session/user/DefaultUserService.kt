@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.user
+package com.nusaraya.android.sdk.internal.session.user
 
 import androidx.lifecycle.LiveData
 import androidx.paging.PagedList
-import com.energeek.android.sdk.api.session.profile.ProfileService
-import com.energeek.android.sdk.api.session.user.UserService
-import com.energeek.android.sdk.api.session.user.model.User
-import com.energeek.android.sdk.api.util.Optional
-import com.energeek.android.sdk.internal.session.profile.GetProfileInfoTask
-import com.energeek.android.sdk.internal.session.user.accountdata.UpdateIgnoredUserIdsTask
-import com.energeek.android.sdk.internal.session.user.model.SearchUserTask
+import com.nusaraya.android.sdk.api.session.profile.ProfileService
+import com.nusaraya.android.sdk.api.session.user.UserService
+import com.nusaraya.android.sdk.api.session.user.model.User
+import com.nusaraya.android.sdk.api.util.Optional
+import com.nusaraya.android.sdk.internal.session.profile.GetProfileInfoTask
+import com.nusaraya.android.sdk.internal.session.user.accountdata.UpdateIgnoredUserIdsTask
+import com.nusaraya.android.sdk.internal.session.user.model.SearchUserTask
 import javax.inject.Inject
 
 internal class DefaultUserService @Inject constructor(private val userDataSource: UserDataSource,

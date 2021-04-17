@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.algorithms.olm
+package com.nusaraya.android.sdk.internal.crypto.algorithms.olm
 
-import com.energeek.android.sdk.internal.crypto.DeviceListManager
-import com.energeek.android.sdk.internal.crypto.MXOlmDevice
-import com.energeek.android.sdk.internal.crypto.actions.EnsureOlmSessionsForUsersAction
-import com.energeek.android.sdk.internal.crypto.actions.MessageEncrypter
-import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
-import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.nusaraya.android.sdk.internal.crypto.DeviceListManager
+import com.nusaraya.android.sdk.internal.crypto.MXOlmDevice
+import com.nusaraya.android.sdk.internal.crypto.actions.EnsureOlmSessionsForUsersAction
+import com.nusaraya.android.sdk.internal.crypto.actions.MessageEncrypter
+import com.nusaraya.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.nusaraya.android.sdk.internal.util.MatrixCoroutineDispatchers
 import javax.inject.Inject
 
 internal class MXOlmEncryptionFactory @Inject constructor(private val olmDevice: MXOlmDevice,

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session
+package com.nusaraya.android.sdk.internal.session
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.internal.database.model.EventInsertType
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.internal.database.model.EventInsertType
 import io.realm.Realm
 
 internal interface EventInsertLiveProcessor {

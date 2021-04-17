@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.verification
+package com.nusaraya.android.sdk.internal.crypto.verification
 
-import com.energeek.android.sdk.api.crypto.VerificationState
-import com.energeek.android.sdk.api.crypto.isCanceled
+import com.nusaraya.android.sdk.api.crypto.VerificationState
+import com.nusaraya.android.sdk.api.crypto.isCanceled
 
 // State transition with control
 internal fun VerificationState?.toState(newState: VerificationState): VerificationState {

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room
+package com.nusaraya.android.sdk.internal.session.room
 
-import com.energeek.android.sdk.api.session.room.RoomDirectoryService
-import com.energeek.android.sdk.api.session.room.model.RoomDirectoryVisibility
-import com.energeek.android.sdk.api.session.room.model.roomdirectory.PublicRoomsParams
-import com.energeek.android.sdk.api.session.room.model.roomdirectory.PublicRoomsResponse
-import com.energeek.android.sdk.internal.session.room.directory.GetPublicRoomTask
-import com.energeek.android.sdk.internal.session.room.directory.GetRoomDirectoryVisibilityTask
-import com.energeek.android.sdk.internal.session.room.directory.SetRoomDirectoryVisibilityTask
+import com.nusaraya.android.sdk.api.session.room.RoomDirectoryService
+import com.nusaraya.android.sdk.api.session.room.model.RoomDirectoryVisibility
+import com.nusaraya.android.sdk.api.session.room.model.roomdirectory.PublicRoomsParams
+import com.nusaraya.android.sdk.api.session.room.model.roomdirectory.PublicRoomsResponse
+import com.nusaraya.android.sdk.internal.session.room.directory.GetPublicRoomTask
+import com.nusaraya.android.sdk.internal.session.room.directory.GetRoomDirectoryVisibilityTask
+import com.nusaraya.android.sdk.internal.session.room.directory.SetRoomDirectoryVisibilityTask
 import javax.inject.Inject
 
 internal class DefaultRoomDirectoryService @Inject constructor(

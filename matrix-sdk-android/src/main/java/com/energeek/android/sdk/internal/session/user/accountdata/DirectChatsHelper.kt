@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.user.accountdata
+package com.nusaraya.android.sdk.internal.session.user.accountdata
 
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
-import com.energeek.android.sdk.internal.database.query.getDirectRooms
-import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntity
+import com.nusaraya.android.sdk.internal.database.query.getDirectRooms
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import javax.inject.Inject

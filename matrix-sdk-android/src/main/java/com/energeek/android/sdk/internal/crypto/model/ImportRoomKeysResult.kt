@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.model
+package com.nusaraya.android.sdk.internal.crypto.model
 
 data class ImportRoomKeysResult(val totalNumberOfKeys: Int,
                                 val successfullyNumberOfImportedKeys: Int)

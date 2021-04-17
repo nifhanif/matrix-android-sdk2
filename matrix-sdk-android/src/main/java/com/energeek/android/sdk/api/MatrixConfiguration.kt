@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api
+package com.nusaraya.android.sdk.api
 
-import com.energeek.android.sdk.api.crypto.MXCryptoConfig
+import com.nusaraya.android.sdk.api.crypto.MXCryptoConfig
 import java.net.Proxy
 
 data class MatrixConfiguration(

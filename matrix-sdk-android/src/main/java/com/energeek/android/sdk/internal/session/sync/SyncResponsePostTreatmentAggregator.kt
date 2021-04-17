@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync
+package com.nusaraya.android.sdk.internal.session.sync
 
 internal class SyncResponsePostTreatmentAggregator {
     // List of RoomId

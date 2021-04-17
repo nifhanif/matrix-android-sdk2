@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk
+package com.nusaraya.android.sdk
 
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
-import com.energeek.android.sdk.test.shared.createTimberTestRule
+import com.nusaraya.android.sdk.test.shared.createTimberTestRule
 import org.junit.Rule
 
 interface InstrumentedTest {

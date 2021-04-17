@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.query
+package com.nusaraya.android.sdk.internal.database.query
 
 import io.realm.Realm
 import io.realm.kotlin.createObject
 import io.realm.kotlin.where
-import com.energeek.android.sdk.internal.database.model.PreviewUrlCacheEntity
-import com.energeek.android.sdk.internal.database.model.PreviewUrlCacheEntityFields
+import com.nusaraya.android.sdk.internal.database.model.PreviewUrlCacheEntity
+import com.nusaraya.android.sdk.internal.database.model.PreviewUrlCacheEntityFields
 
 /**
  * Get the current PreviewUrlCacheEntity, return null if it does not exist

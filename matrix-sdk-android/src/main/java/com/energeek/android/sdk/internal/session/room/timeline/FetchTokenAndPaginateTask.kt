@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.timeline
+package com.nusaraya.android.sdk.internal.session.room.timeline
 
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.internal.database.model.ChunkEntity
-import com.energeek.android.sdk.internal.database.query.findIncludingEvent
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.filter.FilterRepository
-import com.energeek.android.sdk.internal.session.room.RoomAPI
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.awaitTransaction
+import com.nusaraya.android.sdk.internal.database.model.ChunkEntity
+import com.nusaraya.android.sdk.internal.database.query.findIncludingEvent
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.filter.FilterRepository
+import com.nusaraya.android.sdk.internal.session.room.RoomAPI
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.awaitTransaction
 import javax.inject.Inject
 
 internal interface FetchTokenAndPaginateTask : Task<FetchTokenAndPaginateTask.Params, TokenChunkEventPersistor.Result> {

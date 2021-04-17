@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.keysbackup.model.rest
+package com.nusaraya.android.sdk.internal.crypto.keysbackup.model.rest
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.util.JsonDict
-import com.energeek.android.sdk.internal.network.parsing.ForceToBoolean
+import com.nusaraya.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.internal.network.parsing.ForceToBoolean
 
 /**
  * Backup data for one key.

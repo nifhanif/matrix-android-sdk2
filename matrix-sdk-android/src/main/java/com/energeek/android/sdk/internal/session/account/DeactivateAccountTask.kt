@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.account
+package com.nusaraya.android.sdk.internal.session.account
 
-import com.energeek.android.sdk.api.auth.UIABaseAuth
-import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import com.energeek.android.sdk.internal.auth.registration.handleUIA
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.cleanup.CleanupSession
-import com.energeek.android.sdk.internal.session.identity.IdentityDisconnectTask
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.auth.UIABaseAuth
+import com.nusaraya.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.nusaraya.android.sdk.internal.auth.registration.handleUIA
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.cleanup.CleanupSession
+import com.nusaraya.android.sdk.internal.session.identity.IdentityDisconnectTask
+import com.nusaraya.android.sdk.internal.task.Task
 import timber.log.Timber
 import javax.inject.Inject
 

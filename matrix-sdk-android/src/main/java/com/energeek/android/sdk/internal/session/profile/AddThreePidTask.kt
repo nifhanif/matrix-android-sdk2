@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.profile
+package com.nusaraya.android.sdk.internal.session.profile
 
 import com.google.i18n.phonenumbers.PhoneNumberUtil
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.session.identity.ThreePid
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.awaitTransaction
+import com.nusaraya.android.sdk.api.session.identity.ThreePid
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.awaitTransaction
 import java.util.UUID
 import javax.inject.Inject
 

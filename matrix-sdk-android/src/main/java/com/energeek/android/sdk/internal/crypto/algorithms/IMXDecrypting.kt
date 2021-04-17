@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.algorithms
+package com.nusaraya.android.sdk.internal.crypto.algorithms
 
-import com.energeek.android.sdk.api.session.crypto.MXCryptoError
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.internal.crypto.IncomingRoomKeyRequest
-import com.energeek.android.sdk.internal.crypto.IncomingSecretShareRequest
-import com.energeek.android.sdk.internal.crypto.MXEventDecryptionResult
-import com.energeek.android.sdk.internal.crypto.keysbackup.DefaultKeysBackupService
+import com.nusaraya.android.sdk.api.session.crypto.MXCryptoError
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.internal.crypto.IncomingRoomKeyRequest
+import com.nusaraya.android.sdk.internal.crypto.IncomingSecretShareRequest
+import com.nusaraya.android.sdk.internal.crypto.MXEventDecryptionResult
+import com.nusaraya.android.sdk.internal.crypto.keysbackup.DefaultKeysBackupService
 
 /**
  * An interface for decrypting data

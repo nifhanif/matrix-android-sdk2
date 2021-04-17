@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import com.energeek.android.sdk.api.MatrixCallback
-import com.energeek.android.sdk.api.session.crypto.MXCryptoError
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.internal.crypto.actions.EnsureOlmSessionsForDevicesAction
-import com.energeek.android.sdk.internal.crypto.actions.MessageEncrypter
-import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import com.energeek.android.sdk.internal.crypto.model.MXUsersDevicesMap
-import com.energeek.android.sdk.internal.crypto.model.event.OlmEventContent
-import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
-import com.energeek.android.sdk.internal.crypto.tasks.SendToDeviceTask
-import com.energeek.android.sdk.internal.extensions.foldToCallback
-import com.energeek.android.sdk.internal.session.SessionScope
-import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.nusaraya.android.sdk.api.MatrixCallback
+import com.nusaraya.android.sdk.api.session.crypto.MXCryptoError
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.internal.crypto.actions.EnsureOlmSessionsForDevicesAction
+import com.nusaraya.android.sdk.internal.crypto.actions.MessageEncrypter
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.model.MXUsersDevicesMap
+import com.nusaraya.android.sdk.internal.crypto.model.event.OlmEventContent
+import com.nusaraya.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.nusaraya.android.sdk.internal.crypto.tasks.SendToDeviceTask
+import com.nusaraya.android.sdk.internal.extensions.foldToCallback
+import com.nusaraya.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.internal.util.MatrixCoroutineDispatchers
 import timber.log.Timber
 import javax.inject.Inject
 import kotlin.jvm.Throws

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.database.model
+package com.nusaraya.android.sdk.internal.database.model
 
-import com.energeek.android.sdk.api.pushrules.RuleKind
+import com.nusaraya.android.sdk.api.pushrules.RuleKind
 import io.realm.RealmList
 import io.realm.RealmObject
-import com.energeek.android.sdk.internal.extensions.clearWith
+import com.nusaraya.android.sdk.internal.extensions.clearWith
 
 internal open class PushRulesEntity(
         var scope: String = "",

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.query
+package com.nusaraya.android.sdk.internal.database.query
 
-import com.energeek.android.sdk.internal.database.model.FilterEntity
-import com.energeek.android.sdk.internal.session.filter.FilterFactory
+import com.nusaraya.android.sdk.internal.database.model.FilterEntity
+import com.nusaraya.android.sdk.internal.session.filter.FilterFactory
 import io.realm.Realm
 import io.realm.kotlin.createObject
 import io.realm.kotlin.where

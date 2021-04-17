@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.model.rest
+package com.nusaraya.android.sdk.internal.crypto.model.rest
 
-import com.energeek.android.sdk.internal.crypto.model.CryptoCrossSigningKey
-import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import com.energeek.android.sdk.internal.crypto.model.toRest
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoCrossSigningKey
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.model.toRest
 
 /**
  * Helper class to build CryptoApi#uploadSignatures params

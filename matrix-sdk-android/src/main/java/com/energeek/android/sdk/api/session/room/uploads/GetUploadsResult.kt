@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.uploads
+package com.nusaraya.android.sdk.api.session.room.uploads
 
 data class GetUploadsResult(
         // List of fetched Events, most recent first

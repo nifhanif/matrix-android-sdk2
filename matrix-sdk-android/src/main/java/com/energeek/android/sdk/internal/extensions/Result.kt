@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.extensions
+package com.nusaraya.android.sdk.internal.extensions
 
-import com.energeek.android.sdk.api.MatrixCallback
+import com.nusaraya.android.sdk.api.MatrixCallback
 
 fun <A> Result<A>.foldToCallback(callback: MatrixCallback<A>): Unit = fold(
         { callback.onSuccess(it) },

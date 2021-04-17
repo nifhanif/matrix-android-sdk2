@@ -15,7 +15,7 @@
  *
  */
 
-package com.energeek.android.sdk.api.session.room.model.message
+package com.nusaraya.android.sdk.api.session.room.model.message
 
 /**
  * A content with image information

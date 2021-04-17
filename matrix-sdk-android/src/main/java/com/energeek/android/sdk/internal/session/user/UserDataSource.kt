@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.user
+package com.nusaraya.android.sdk.internal.session.user
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
@@ -23,17 +23,17 @@ import androidx.paging.LivePagedListBuilder
 import androidx.paging.PagedList
 import com.zhuinden.monarchy.Monarchy
 import io.realm.Case
-import com.energeek.android.sdk.api.session.user.model.User
-import com.energeek.android.sdk.api.util.Optional
-import com.energeek.android.sdk.api.util.toOptional
-import com.energeek.android.sdk.internal.database.RealmSessionProvider
-import com.energeek.android.sdk.internal.database.mapper.asDomain
-import com.energeek.android.sdk.internal.database.model.IgnoredUserEntity
-import com.energeek.android.sdk.internal.database.model.IgnoredUserEntityFields
-import com.energeek.android.sdk.internal.database.model.UserEntity
-import com.energeek.android.sdk.internal.database.model.UserEntityFields
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.api.session.user.model.User
+import com.nusaraya.android.sdk.api.util.Optional
+import com.nusaraya.android.sdk.api.util.toOptional
+import com.nusaraya.android.sdk.internal.database.RealmSessionProvider
+import com.nusaraya.android.sdk.internal.database.mapper.asDomain
+import com.nusaraya.android.sdk.internal.database.model.IgnoredUserEntity
+import com.nusaraya.android.sdk.internal.database.model.IgnoredUserEntityFields
+import com.nusaraya.android.sdk.internal.database.model.UserEntity
+import com.nusaraya.android.sdk.internal.database.model.UserEntityFields
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
 import javax.inject.Inject
 
 internal class UserDataSource @Inject constructor(@SessionDatabase private val monarchy: Monarchy,

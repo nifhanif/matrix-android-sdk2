@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.timeline
+package com.nusaraya.android.sdk.internal.session.room.timeline
 
-import com.energeek.android.sdk.api.session.room.send.SendState
-import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.api.session.room.send.SendState
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineEvent
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import javax.inject.Inject
 
 @SessionScope

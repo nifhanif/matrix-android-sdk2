@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.read
+package com.nusaraya.android.sdk.internal.session.room.read
 
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.session.events.model.LocalEcho
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
-import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
-import com.energeek.android.sdk.internal.database.query.isEventRead
-import com.energeek.android.sdk.internal.database.query.isReadMarkerMoreRecent
-import com.energeek.android.sdk.internal.database.query.latestEvent
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.room.RoomAPI
-import com.energeek.android.sdk.internal.session.sync.ReadReceiptHandler
-import com.energeek.android.sdk.internal.session.sync.RoomFullyReadHandler
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.awaitTransaction
+import com.nusaraya.android.sdk.api.session.events.model.LocalEcho
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntity
+import com.nusaraya.android.sdk.internal.database.model.TimelineEventEntity
+import com.nusaraya.android.sdk.internal.database.query.isEventRead
+import com.nusaraya.android.sdk.internal.database.query.isReadMarkerMoreRecent
+import com.nusaraya.android.sdk.internal.database.query.latestEvent
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.room.RoomAPI
+import com.nusaraya.android.sdk.internal.session.sync.ReadReceiptHandler
+import com.nusaraya.android.sdk.internal.session.sync.RoomFullyReadHandler
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.awaitTransaction
 import io.realm.Realm
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
 import timber.log.Timber
 import javax.inject.Inject
 import kotlin.collections.set

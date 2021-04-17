@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.api.pushrules
+package com.nusaraya.android.sdk.api.pushrules
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.room.model.PowerLevelsContent
-import com.energeek.android.sdk.api.session.room.powerlevels.PowerLevelsHelper
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.room.model.PowerLevelsContent
+import com.nusaraya.android.sdk.api.session.room.powerlevels.PowerLevelsHelper
 
 class SenderNotificationPermissionCondition(
         /**

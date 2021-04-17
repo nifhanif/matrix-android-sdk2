@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.events.model
+package com.nusaraya.android.sdk.api.session.events.model
 
 /**
  * Constants defining known event types from Matrix specifications.
  */
 object EventType {
     // Used when the type is missing, which should not happen
-    const val MISSING_TYPE = "com.energeek.android.sdk.missing_type"
+    const val MISSING_TYPE = "com.nusaraya.android.sdk.missing_type"
 
     const val PRESENCE = "m.presence"
     const val MESSAGE = "m.room.message"

@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.crosssigning
+package com.nusaraya.android.sdk.internal.crypto.crosssigning
 
-import com.energeek.android.sdk.api.crypto.RoomEncryptionTrustLevel
-import com.energeek.android.sdk.api.extensions.orFalse
-import com.energeek.android.sdk.api.session.crypto.crosssigning.MXCrossSigningInfo
-import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.nusaraya.android.sdk.api.crypto.RoomEncryptionTrustLevel
+import com.nusaraya.android.sdk.api.extensions.orFalse
+import com.nusaraya.android.sdk.api.session.crypto.crosssigning.MXCrossSigningInfo
+import com.nusaraya.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.MatrixCoroutineDispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
 

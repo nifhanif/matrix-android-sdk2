@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.timeline
+package com.nusaraya.android.sdk.internal.session.room.timeline
 
-import com.energeek.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.Event
 
 internal interface TokenChunkEvent {
     val start: String?

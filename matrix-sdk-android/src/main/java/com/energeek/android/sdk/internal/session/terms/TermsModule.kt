@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.terms
+package com.nusaraya.android.sdk.internal.session.terms
 
 import dagger.Binds
 import dagger.Lazy
 import dagger.Module
 import dagger.Provides
-import com.energeek.android.sdk.api.session.terms.TermsService
-import com.energeek.android.sdk.internal.di.UnauthenticatedWithCertificate
-import com.energeek.android.sdk.internal.network.RetrofitFactory
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.api.session.terms.TermsService
+import com.nusaraya.android.sdk.internal.di.UnauthenticatedWithCertificate
+import com.nusaraya.android.sdk.internal.network.RetrofitFactory
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import okhttp3.OkHttpClient
 
 @Module

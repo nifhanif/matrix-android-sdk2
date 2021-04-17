@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.network
+package com.nusaraya.android.sdk.internal.network
 
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.delay
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.api.failure.MatrixError
-import com.energeek.android.sdk.api.failure.getRetryDelay
-import com.energeek.android.sdk.api.failure.shouldBeRetried
-import com.energeek.android.sdk.internal.network.ssl.CertUtil
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.failure.MatrixError
+import com.nusaraya.android.sdk.api.failure.getRetryDelay
+import com.nusaraya.android.sdk.api.failure.shouldBeRetried
+import com.nusaraya.android.sdk.internal.network.ssl.CertUtil
 import retrofit2.HttpException
 import timber.log.Timber
 import java.io.IOException

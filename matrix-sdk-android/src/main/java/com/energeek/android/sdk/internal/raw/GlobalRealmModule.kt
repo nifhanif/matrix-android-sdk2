@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.raw
+package com.nusaraya.android.sdk.internal.raw
 
 import io.realm.annotations.RealmModule
-import com.energeek.android.sdk.internal.database.model.KnownServerUrlEntity
-import com.energeek.android.sdk.internal.database.model.RawCacheEntity
+import com.nusaraya.android.sdk.internal.database.model.KnownServerUrlEntity
+import com.nusaraya.android.sdk.internal.database.model.RawCacheEntity
 
 /**
  * Realm module for global classes

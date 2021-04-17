@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.di
+package com.nusaraya.android.sdk.internal.di
 
 import android.content.Context
 import android.content.res.Resources
@@ -22,20 +22,20 @@ import com.squareup.moshi.Moshi
 import dagger.BindsInstance
 import dagger.Component
 import okhttp3.OkHttpClient
-import com.energeek.android.sdk.api.Matrix
-import com.energeek.android.sdk.api.MatrixConfiguration
-import com.energeek.android.sdk.api.auth.AuthenticationService
-import com.energeek.android.sdk.api.auth.HomeServerHistoryService
-import com.energeek.android.sdk.api.raw.RawService
-import com.energeek.android.sdk.internal.SessionManager
-import com.energeek.android.sdk.internal.auth.AuthModule
-import com.energeek.android.sdk.internal.auth.SessionParamsStore
-import com.energeek.android.sdk.internal.raw.RawModule
-import com.energeek.android.sdk.internal.session.MockHttpInterceptor
-import com.energeek.android.sdk.internal.session.TestInterceptor
-import com.energeek.android.sdk.internal.task.TaskExecutor
-import com.energeek.android.sdk.internal.util.BackgroundDetectionObserver
-import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.nusaraya.android.sdk.api.Matrix
+import com.nusaraya.android.sdk.api.MatrixConfiguration
+import com.nusaraya.android.sdk.api.auth.AuthenticationService
+import com.nusaraya.android.sdk.api.auth.HomeServerHistoryService
+import com.nusaraya.android.sdk.api.raw.RawService
+import com.nusaraya.android.sdk.internal.SessionManager
+import com.nusaraya.android.sdk.internal.auth.AuthModule
+import com.nusaraya.android.sdk.internal.auth.SessionParamsStore
+import com.nusaraya.android.sdk.internal.raw.RawModule
+import com.nusaraya.android.sdk.internal.session.MockHttpInterceptor
+import com.nusaraya.android.sdk.internal.session.TestInterceptor
+import com.nusaraya.android.sdk.internal.task.TaskExecutor
+import com.nusaraya.android.sdk.internal.util.BackgroundDetectionObserver
+import com.nusaraya.android.sdk.internal.util.MatrixCoroutineDispatchers
 import org.matrix.olm.OlmManager
 import java.io.File
 

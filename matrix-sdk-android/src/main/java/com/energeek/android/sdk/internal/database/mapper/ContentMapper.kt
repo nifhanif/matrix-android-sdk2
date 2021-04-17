@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.mapper
+package com.nusaraya.android.sdk.internal.database.mapper
 
-import com.energeek.android.sdk.api.session.events.model.Content
-import com.energeek.android.sdk.api.util.JSON_DICT_PARAMETERIZED_TYPE
-import com.energeek.android.sdk.internal.di.MoshiProvider
-import com.energeek.android.sdk.internal.network.parsing.CheckNumberType
+import com.nusaraya.android.sdk.api.session.events.model.Content
+import com.nusaraya.android.sdk.api.util.JSON_DICT_PARAMETERIZED_TYPE
+import com.nusaraya.android.sdk.internal.di.MoshiProvider
+import com.nusaraya.android.sdk.internal.network.parsing.CheckNumberType
 
 internal object ContentMapper {
 

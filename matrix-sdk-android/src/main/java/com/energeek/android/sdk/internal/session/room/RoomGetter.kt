@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room
+package com.nusaraya.android.sdk.internal.session.room
 
 import io.realm.Realm
-import com.energeek.android.sdk.api.session.room.Room
-import com.energeek.android.sdk.api.session.room.model.Membership
-import com.energeek.android.sdk.internal.database.RealmSessionProvider
-import com.energeek.android.sdk.internal.database.model.RoomEntity
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntityFields
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.api.session.room.Room
+import com.nusaraya.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.internal.database.RealmSessionProvider
+import com.nusaraya.android.sdk.internal.database.model.RoomEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntityFields
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import javax.inject.Inject
 
 internal interface RoomGetter {

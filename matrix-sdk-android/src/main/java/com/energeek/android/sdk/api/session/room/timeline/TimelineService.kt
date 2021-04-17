@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.timeline
+package com.nusaraya.android.sdk.api.session.room.timeline
 
 import androidx.lifecycle.LiveData
-import com.energeek.android.sdk.api.util.Optional
+import com.nusaraya.android.sdk.api.util.Optional
 
 /**
  * This interface defines methods to interact with the timeline. It's implemented at the room level.

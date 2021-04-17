@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.media
+package com.nusaraya.android.sdk.internal.session.media
 
-import com.energeek.android.sdk.api.session.media.PreviewUrlData
-import com.energeek.android.sdk.internal.database.model.PreviewUrlCacheEntity
+import com.nusaraya.android.sdk.api.session.media.PreviewUrlData
+import com.nusaraya.android.sdk.internal.database.model.PreviewUrlCacheEntity
 
 /**
  * PreviewUrlCacheEntity -> PreviewUrlData

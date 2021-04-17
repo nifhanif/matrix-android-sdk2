@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.profile
+package com.nusaraya.android.sdk.internal.session.profile
 
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.api.session.identity.ThreePid
-import com.energeek.android.sdk.internal.auth.registration.ValidationCodeBody
-import com.energeek.android.sdk.internal.database.model.PendingThreePidEntity
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.session.identity.ThreePid
+import com.nusaraya.android.sdk.internal.auth.registration.ValidationCodeBody
+import com.nusaraya.android.sdk.internal.database.model.PendingThreePidEntity
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface ValidateSmsCodeTask : Task<ValidateSmsCodeTask.Params, Unit> {

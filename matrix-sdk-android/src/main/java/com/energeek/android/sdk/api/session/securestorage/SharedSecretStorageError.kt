@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.securestorage
+package com.nusaraya.android.sdk.api.session.securestorage
 
 sealed class SharedSecretStorageError(message: String?) : Throwable(message) {
     data class UnknownSecret(val secretName: String) : SharedSecretStorageError("Unknown Secret $secretName")

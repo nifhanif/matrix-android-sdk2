@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.network
+package com.nusaraya.android.sdk.internal.network
 
-import com.energeek.android.sdk.api.failure.GlobalError
-import com.energeek.android.sdk.internal.auth.SessionParamsStore
-import com.energeek.android.sdk.internal.di.SessionId
-import com.energeek.android.sdk.internal.session.SessionScope
-import com.energeek.android.sdk.internal.task.TaskExecutor
+import com.nusaraya.android.sdk.api.failure.GlobalError
+import com.nusaraya.android.sdk.internal.auth.SessionParamsStore
+import com.nusaraya.android.sdk.internal.di.SessionId
+import com.nusaraya.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.internal.task.TaskExecutor
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import timber.log.Timber

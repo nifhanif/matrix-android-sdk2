@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.extensions
+package com.nusaraya.android.sdk.api.extensions
 
 import timber.log.Timber
 

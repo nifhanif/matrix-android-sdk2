@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.registration
+package com.nusaraya.android.sdk.internal.auth.registration
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.extensions.orFalse
+import com.nusaraya.android.sdk.api.extensions.orFalse
 
 @JsonClass(generateAdapter = true)
 data class SuccessResult(

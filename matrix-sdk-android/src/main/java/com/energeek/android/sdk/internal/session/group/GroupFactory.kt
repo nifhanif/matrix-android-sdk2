@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.group
+package com.nusaraya.android.sdk.internal.session.group
 
-import com.energeek.android.sdk.api.session.group.Group
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.api.session.group.Group
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import javax.inject.Inject
 
 internal interface GroupFactory {

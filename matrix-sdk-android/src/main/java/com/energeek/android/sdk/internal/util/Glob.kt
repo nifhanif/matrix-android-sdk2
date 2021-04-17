@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.util
+package com.nusaraya.android.sdk.internal.util
 
 internal fun String.hasSpecialGlobChar(): Boolean {
     return contains("*") || contains("?")

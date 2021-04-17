@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.network.parsing
+package com.nusaraya.android.sdk.internal.network.parsing
 
 import android.net.Uri
 import com.squareup.moshi.FromJson

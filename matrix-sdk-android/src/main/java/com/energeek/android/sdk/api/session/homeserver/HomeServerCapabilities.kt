@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.homeserver
+package com.nusaraya.android.sdk.api.session.homeserver
 
 data class HomeServerCapabilities(
         /**

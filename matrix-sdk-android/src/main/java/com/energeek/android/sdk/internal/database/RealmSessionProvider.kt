@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database
+package com.nusaraya.android.sdk.internal.database
 
 import android.os.Looper
 import androidx.annotation.MainThread
 import com.zhuinden.monarchy.Monarchy
 import io.realm.Realm
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.session.SessionLifecycleObserver
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.session.SessionLifecycleObserver
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import javax.inject.Inject
 import kotlin.concurrent.getOrSet
 

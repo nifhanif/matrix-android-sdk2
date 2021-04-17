@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.homeserver
+package com.nusaraya.android.sdk.internal.session.homeserver
 
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
-import com.energeek.android.sdk.api.auth.wellknown.WellknownResult
-import com.energeek.android.sdk.api.session.homeserver.HomeServerCapabilities
-import com.energeek.android.sdk.internal.auth.version.Versions
-import com.energeek.android.sdk.internal.auth.version.isLoginAndRegistrationSupportedBySdk
-import com.energeek.android.sdk.internal.database.model.HomeServerCapabilitiesEntity
-import com.energeek.android.sdk.internal.database.query.getOrCreate
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.integrationmanager.IntegrationManagerConfigExtractor
-import com.energeek.android.sdk.internal.session.media.GetMediaConfigResult
-import com.energeek.android.sdk.internal.session.media.MediaAPI
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.awaitTransaction
-import com.energeek.android.sdk.internal.wellknown.GetWellknownTask
+import com.nusaraya.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.nusaraya.android.sdk.api.auth.wellknown.WellknownResult
+import com.nusaraya.android.sdk.api.session.homeserver.HomeServerCapabilities
+import com.nusaraya.android.sdk.internal.auth.version.Versions
+import com.nusaraya.android.sdk.internal.auth.version.isLoginAndRegistrationSupportedBySdk
+import com.nusaraya.android.sdk.internal.database.model.HomeServerCapabilitiesEntity
+import com.nusaraya.android.sdk.internal.database.query.getOrCreate
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.integrationmanager.IntegrationManagerConfigExtractor
+import com.nusaraya.android.sdk.internal.session.media.GetMediaConfigResult
+import com.nusaraya.android.sdk.internal.session.media.MediaAPI
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.awaitTransaction
+import com.nusaraya.android.sdk.internal.wellknown.GetWellknownTask
 import timber.log.Timber
 import java.util.Date
 import javax.inject.Inject

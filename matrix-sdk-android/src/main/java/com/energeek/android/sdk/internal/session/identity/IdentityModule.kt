@@ -14,27 +14,27 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity
+package com.nusaraya.android.sdk.internal.session.identity
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import com.energeek.android.sdk.internal.database.RealmKeysUtils
-import com.energeek.android.sdk.internal.di.AuthenticatedIdentity
-import com.energeek.android.sdk.internal.di.IdentityDatabase
-import com.energeek.android.sdk.internal.di.SessionFilesDirectory
-import com.energeek.android.sdk.internal.di.UnauthenticatedWithCertificate
-import com.energeek.android.sdk.internal.di.UserMd5
-import com.energeek.android.sdk.internal.network.httpclient.addAccessTokenInterceptor
-import com.energeek.android.sdk.internal.network.token.AccessTokenProvider
-import com.energeek.android.sdk.internal.session.SessionModule
-import com.energeek.android.sdk.internal.session.SessionScope
-import com.energeek.android.sdk.internal.session.identity.data.IdentityStore
-import com.energeek.android.sdk.internal.session.identity.db.IdentityRealmModule
-import com.energeek.android.sdk.internal.session.identity.db.RealmIdentityStore
+import com.nusaraya.android.sdk.internal.database.RealmKeysUtils
+import com.nusaraya.android.sdk.internal.di.AuthenticatedIdentity
+import com.nusaraya.android.sdk.internal.di.IdentityDatabase
+import com.nusaraya.android.sdk.internal.di.SessionFilesDirectory
+import com.nusaraya.android.sdk.internal.di.UnauthenticatedWithCertificate
+import com.nusaraya.android.sdk.internal.di.UserMd5
+import com.nusaraya.android.sdk.internal.network.httpclient.addAccessTokenInterceptor
+import com.nusaraya.android.sdk.internal.network.token.AccessTokenProvider
+import com.nusaraya.android.sdk.internal.session.SessionModule
+import com.nusaraya.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.internal.session.identity.data.IdentityStore
+import com.nusaraya.android.sdk.internal.session.identity.db.IdentityRealmModule
+import com.nusaraya.android.sdk.internal.session.identity.db.RealmIdentityStore
 import io.realm.RealmConfiguration
 import okhttp3.OkHttpClient
-import com.energeek.android.sdk.internal.session.identity.db.RealmIdentityStoreMigration
+import com.nusaraya.android.sdk.internal.session.identity.db.RealmIdentityStoreMigration
 import java.io.File
 
 @Module

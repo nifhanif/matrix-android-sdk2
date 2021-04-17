@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.model.message
+package com.nusaraya.android.sdk.api.session.room.model.message
 
-import com.energeek.android.sdk.api.session.events.model.Content
-import com.energeek.android.sdk.api.session.room.model.relation.RelationDefaultContent
+import com.nusaraya.android.sdk.api.session.events.model.Content
+import com.nusaraya.android.sdk.api.session.room.model.relation.RelationDefaultContent
 
 interface MessageContent {
     val msgType: String

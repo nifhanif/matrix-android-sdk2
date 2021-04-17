@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.failure
+package com.nusaraya.android.sdk.api.failure
 
-import com.energeek.android.sdk.api.auth.registration.RegistrationFlowResponse
-import com.energeek.android.sdk.api.session.crypto.MXCryptoError
-import com.energeek.android.sdk.internal.network.ssl.Fingerprint
+import com.nusaraya.android.sdk.api.auth.registration.RegistrationFlowResponse
+import com.nusaraya.android.sdk.api.session.crypto.MXCryptoError
+import com.nusaraya.android.sdk.internal.network.ssl.Fingerprint
 import java.io.IOException
 
 /**

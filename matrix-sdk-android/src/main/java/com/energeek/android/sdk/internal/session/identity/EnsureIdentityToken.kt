@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity
+package com.nusaraya.android.sdk.internal.session.identity
 
 import dagger.Lazy
-import com.energeek.android.sdk.api.session.identity.IdentityServiceError
-import com.energeek.android.sdk.internal.di.UnauthenticatedWithCertificate
-import com.energeek.android.sdk.internal.network.RetrofitFactory
-import com.energeek.android.sdk.internal.session.identity.data.IdentityStore
-import com.energeek.android.sdk.internal.session.openid.GetOpenIdTokenTask
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.session.identity.IdentityServiceError
+import com.nusaraya.android.sdk.internal.di.UnauthenticatedWithCertificate
+import com.nusaraya.android.sdk.internal.network.RetrofitFactory
+import com.nusaraya.android.sdk.internal.session.identity.data.IdentityStore
+import com.nusaraya.android.sdk.internal.session.openid.GetOpenIdTokenTask
+import com.nusaraya.android.sdk.internal.task.Task
 import okhttp3.OkHttpClient
 import javax.inject.Inject
 

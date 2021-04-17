@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth
+package com.nusaraya.android.sdk.internal.auth
 
-import com.energeek.android.sdk.api.auth.data.Credentials
-import com.energeek.android.sdk.api.auth.data.SessionParams
+import com.nusaraya.android.sdk.api.auth.data.Credentials
+import com.nusaraya.android.sdk.api.auth.data.SessionParams
 
 internal interface SessionParamsStore {
 

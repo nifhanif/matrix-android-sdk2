@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.timeline
+package com.nusaraya.android.sdk.internal.session.room.timeline
 
-import com.energeek.android.sdk.api.extensions.tryOrNull
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.internal.crypto.EventDecryptor
-import com.energeek.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.room.RoomAPI
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.extensions.tryOrNull
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.internal.crypto.EventDecryptor
+import com.nusaraya.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.room.RoomAPI
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface GetEventTask : Task<GetEventTask.Params, Event> {

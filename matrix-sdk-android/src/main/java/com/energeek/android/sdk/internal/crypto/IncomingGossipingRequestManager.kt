@@ -14,31 +14,31 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
-import com.energeek.android.sdk.api.auth.data.Credentials
-import com.energeek.android.sdk.api.crypto.MXCryptoConfig
-import com.energeek.android.sdk.api.session.crypto.crosssigning.KEYBACKUP_SECRET_SSSS_NAME
-import com.energeek.android.sdk.api.session.crypto.crosssigning.MASTER_KEY_SSSS_NAME
-import com.energeek.android.sdk.api.session.crypto.crosssigning.SELF_SIGNING_KEY_SSSS_NAME
-import com.energeek.android.sdk.api.session.crypto.crosssigning.USER_SIGNING_KEY_SSSS_NAME
-import com.energeek.android.sdk.api.session.crypto.keyshare.GossipingRequestListener
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.internal.crypto.algorithms.IMXGroupEncryption
-import com.energeek.android.sdk.internal.crypto.crosssigning.toBase64NoPadding
-import com.energeek.android.sdk.internal.crypto.keysbackup.util.extractCurveKeyFromRecoveryKey
-import com.energeek.android.sdk.internal.crypto.model.rest.GossipingDefaultContent
-import com.energeek.android.sdk.internal.crypto.model.rest.GossipingToDeviceObject
-import com.energeek.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
-import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
-import com.energeek.android.sdk.internal.di.SessionId
-import com.energeek.android.sdk.internal.session.SessionScope
-import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
-import com.energeek.android.sdk.internal.worker.WorkerParamsFactory
+import com.nusaraya.android.sdk.api.auth.data.Credentials
+import com.nusaraya.android.sdk.api.crypto.MXCryptoConfig
+import com.nusaraya.android.sdk.api.session.crypto.crosssigning.KEYBACKUP_SECRET_SSSS_NAME
+import com.nusaraya.android.sdk.api.session.crypto.crosssigning.MASTER_KEY_SSSS_NAME
+import com.nusaraya.android.sdk.api.session.crypto.crosssigning.SELF_SIGNING_KEY_SSSS_NAME
+import com.nusaraya.android.sdk.api.session.crypto.crosssigning.USER_SIGNING_KEY_SSSS_NAME
+import com.nusaraya.android.sdk.api.session.crypto.keyshare.GossipingRequestListener
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.internal.crypto.algorithms.IMXGroupEncryption
+import com.nusaraya.android.sdk.internal.crypto.crosssigning.toBase64NoPadding
+import com.nusaraya.android.sdk.internal.crypto.keysbackup.util.extractCurveKeyFromRecoveryKey
+import com.nusaraya.android.sdk.internal.crypto.model.rest.GossipingDefaultContent
+import com.nusaraya.android.sdk.internal.crypto.model.rest.GossipingToDeviceObject
+import com.nusaraya.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
+import com.nusaraya.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.nusaraya.android.sdk.internal.di.SessionId
+import com.nusaraya.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.nusaraya.android.sdk.internal.worker.WorkerParamsFactory
 import timber.log.Timber
 import java.util.concurrent.Executors
 import javax.inject.Inject

@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.membership
+package com.nusaraya.android.sdk.internal.session.room.membership
 
 import io.realm.Realm
 import io.realm.RealmQuery
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.room.model.Membership
-import com.energeek.android.sdk.internal.database.model.CurrentStateEventEntity
-import com.energeek.android.sdk.internal.database.model.EventEntity
-import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntity
-import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
-import com.energeek.android.sdk.internal.database.query.getOrNull
-import com.energeek.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.internal.database.model.CurrentStateEventEntity
+import com.nusaraya.android.sdk.internal.database.model.EventEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomMemberSummaryEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntity
+import com.nusaraya.android.sdk.internal.database.query.getOrNull
+import com.nusaraya.android.sdk.internal.database.query.where
 
 /**
  * This class is an helper around STATE_ROOM_MEMBER events.

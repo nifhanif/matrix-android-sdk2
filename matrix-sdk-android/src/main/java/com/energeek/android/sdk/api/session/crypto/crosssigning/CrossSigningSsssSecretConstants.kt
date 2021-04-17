@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.crypto.crosssigning
+package com.nusaraya.android.sdk.api.session.crypto.crosssigning
 
 const val MASTER_KEY_SSSS_NAME = "m.cross_signing.master"
 

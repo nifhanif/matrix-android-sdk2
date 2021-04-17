@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync.parsing
+package com.nusaraya.android.sdk.internal.session.sync.parsing
 
 import com.squareup.moshi.Moshi
 import okio.buffer
 import okio.source
-import com.energeek.android.sdk.internal.session.sync.InitialSyncStrategy
-import com.energeek.android.sdk.internal.session.sync.RoomSyncEphemeralTemporaryStore
-import com.energeek.android.sdk.internal.session.sync.model.SyncResponse
+import com.nusaraya.android.sdk.internal.session.sync.InitialSyncStrategy
+import com.nusaraya.android.sdk.internal.session.sync.RoomSyncEphemeralTemporaryStore
+import com.nusaraya.android.sdk.internal.session.sync.model.SyncResponse
 import timber.log.Timber
 import java.io.File
 import javax.inject.Inject

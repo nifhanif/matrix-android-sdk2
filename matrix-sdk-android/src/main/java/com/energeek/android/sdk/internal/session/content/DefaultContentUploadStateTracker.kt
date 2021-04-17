@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.content
+package com.nusaraya.android.sdk.internal.session.content
 
 import android.os.Handler
 import android.os.Looper
-import com.energeek.android.sdk.api.session.content.ContentUploadStateTracker
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.api.session.content.ContentUploadStateTracker
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import timber.log.Timber
 import javax.inject.Inject
 

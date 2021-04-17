@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.mapper
+package com.nusaraya.android.sdk.internal.database.mapper
 
-import com.energeek.android.sdk.api.pushrules.rest.PushCondition
-import com.energeek.android.sdk.internal.database.model.PushConditionEntity
+import com.nusaraya.android.sdk.api.pushrules.rest.PushCondition
+import com.nusaraya.android.sdk.internal.database.model.PushConditionEntity
 
 internal object PushConditionMapper {
 

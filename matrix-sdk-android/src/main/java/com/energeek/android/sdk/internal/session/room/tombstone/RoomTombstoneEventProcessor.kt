@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.tombstone
+package com.nusaraya.android.sdk.internal.session.room.tombstone
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.api.session.room.model.VersioningState
-import com.energeek.android.sdk.api.session.room.model.tombstone.RoomTombstoneContent
-import com.energeek.android.sdk.internal.database.model.EventInsertType
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.session.EventInsertLiveProcessor
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.api.session.room.model.VersioningState
+import com.nusaraya.android.sdk.api.session.room.model.tombstone.RoomTombstoneContent
+import com.nusaraya.android.sdk.internal.database.model.EventInsertType
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntity
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.session.EventInsertLiveProcessor
 import io.realm.Realm
 import javax.inject.Inject
 

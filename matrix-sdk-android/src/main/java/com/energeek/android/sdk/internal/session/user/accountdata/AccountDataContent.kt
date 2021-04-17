@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.user.accountdata
+package com.nusaraya.android.sdk.internal.session.user.accountdata
 
 /**
  * Tag class to identify every account data content

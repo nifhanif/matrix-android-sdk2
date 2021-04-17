@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.federation
+package com.nusaraya.android.sdk.internal.federation
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass

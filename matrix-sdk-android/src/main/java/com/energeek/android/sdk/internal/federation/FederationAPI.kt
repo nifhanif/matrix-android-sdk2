@@ -15,9 +15,9 @@
  *
  */
 
-package com.energeek.android.sdk.internal.federation
+package com.nusaraya.android.sdk.internal.federation
 
-import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.nusaraya.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.GET
 
 internal interface FederationAPI {

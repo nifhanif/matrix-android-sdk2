@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.session.room.timeline
+package com.nusaraya.android.sdk.session.room.timeline
 
-import com.energeek.android.sdk.internal.session.room.timeline.GetContextOfEventTask
-import com.energeek.android.sdk.internal.session.room.timeline.PaginationDirection
-import com.energeek.android.sdk.internal.session.room.timeline.TokenChunkEventPersistor
+import com.nusaraya.android.sdk.internal.session.room.timeline.GetContextOfEventTask
+import com.nusaraya.android.sdk.internal.session.room.timeline.PaginationDirection
+import com.nusaraya.android.sdk.internal.session.room.timeline.TokenChunkEventPersistor
 import kotlin.random.Random
 
 internal class FakeGetContextOfEventTask constructor(private val tokenChunkEventPersistor: TokenChunkEventPersistor) : GetContextOfEventTask {

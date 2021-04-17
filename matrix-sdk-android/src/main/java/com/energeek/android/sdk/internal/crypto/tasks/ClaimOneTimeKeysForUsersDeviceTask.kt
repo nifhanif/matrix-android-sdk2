@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.tasks
+package com.nusaraya.android.sdk.internal.crypto.tasks
 
-import com.energeek.android.sdk.internal.crypto.api.CryptoApi
-import com.energeek.android.sdk.internal.crypto.model.MXKey
-import com.energeek.android.sdk.internal.crypto.model.MXUsersDevicesMap
-import com.energeek.android.sdk.internal.crypto.model.rest.KeysClaimBody
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.crypto.api.CryptoApi
+import com.nusaraya.android.sdk.internal.crypto.model.MXKey
+import com.nusaraya.android.sdk.internal.crypto.model.MXUsersDevicesMap
+import com.nusaraya.android.sdk.internal.crypto.model.rest.KeysClaimBody
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.Task
 import timber.log.Timber
 import javax.inject.Inject
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.verification.qrcode
+package com.nusaraya.android.sdk.internal.crypto.verification.qrcode
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.amshove.kluent.shouldBe
@@ -22,17 +22,17 @@ import org.junit.FixMethodOrder
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.MethodSorters
-import com.energeek.android.sdk.InstrumentedTest
-import com.energeek.android.sdk.api.auth.UIABaseAuth
-import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import com.energeek.android.sdk.api.auth.UserPasswordAuth
-import com.energeek.android.sdk.api.auth.registration.RegistrationFlowResponse
-import com.energeek.android.sdk.api.session.crypto.verification.PendingVerificationRequest
-import com.energeek.android.sdk.api.session.crypto.verification.VerificationMethod
-import com.energeek.android.sdk.api.session.crypto.verification.VerificationService
-import com.energeek.android.sdk.common.CommonTestHelper
-import com.energeek.android.sdk.common.CryptoTestHelper
-import com.energeek.android.sdk.common.TestConstants
+import com.nusaraya.android.sdk.InstrumentedTest
+import com.nusaraya.android.sdk.api.auth.UIABaseAuth
+import com.nusaraya.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.nusaraya.android.sdk.api.auth.UserPasswordAuth
+import com.nusaraya.android.sdk.api.auth.registration.RegistrationFlowResponse
+import com.nusaraya.android.sdk.api.session.crypto.verification.PendingVerificationRequest
+import com.nusaraya.android.sdk.api.session.crypto.verification.VerificationMethod
+import com.nusaraya.android.sdk.api.session.crypto.verification.VerificationService
+import com.nusaraya.android.sdk.common.CommonTestHelper
+import com.nusaraya.android.sdk.common.CryptoTestHelper
+import com.nusaraya.android.sdk.common.TestConstants
 import java.util.concurrent.CountDownLatch
 import kotlin.coroutines.Continuation
 import kotlin.coroutines.resume

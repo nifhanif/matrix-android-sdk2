@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.store.db.model
+package com.nusaraya.android.sdk.internal.crypto.store.db.model
 
-import com.energeek.android.sdk.internal.crypto.model.OlmInboundGroupSessionWrapper2
-import com.energeek.android.sdk.internal.crypto.store.db.deserializeFromRealm
-import com.energeek.android.sdk.internal.crypto.store.db.serializeForRealm
+import com.nusaraya.android.sdk.internal.crypto.model.OlmInboundGroupSessionWrapper2
+import com.nusaraya.android.sdk.internal.crypto.store.db.deserializeFromRealm
+import com.nusaraya.android.sdk.internal.crypto.store.db.serializeForRealm
 import io.realm.RealmObject
 import io.realm.annotations.PrimaryKey
 import timber.log.Timber

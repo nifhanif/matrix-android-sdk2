@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.sync
+package com.nusaraya.android.sdk.api.session.sync
 
 sealed class SyncState {
     object Idle : SyncState()

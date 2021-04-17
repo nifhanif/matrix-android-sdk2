@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.crypto.crosssigning
+package com.nusaraya.android.sdk.api.session.crypto.crosssigning
 
 import androidx.lifecycle.LiveData
-import com.energeek.android.sdk.api.MatrixCallback
-import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import com.energeek.android.sdk.api.util.Optional
-import com.energeek.android.sdk.internal.crypto.crosssigning.DeviceTrustResult
-import com.energeek.android.sdk.internal.crypto.crosssigning.UserTrustResult
-import com.energeek.android.sdk.internal.crypto.store.PrivateKeysInfo
+import com.nusaraya.android.sdk.api.MatrixCallback
+import com.nusaraya.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.nusaraya.android.sdk.api.util.Optional
+import com.nusaraya.android.sdk.internal.crypto.crosssigning.DeviceTrustResult
+import com.nusaraya.android.sdk.internal.crypto.crosssigning.UserTrustResult
+import com.nusaraya.android.sdk.internal.crypto.store.PrivateKeysInfo
 
 interface CrossSigningService {
 

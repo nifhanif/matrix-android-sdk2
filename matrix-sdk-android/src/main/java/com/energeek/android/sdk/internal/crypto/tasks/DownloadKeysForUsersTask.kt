@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.tasks
+package com.nusaraya.android.sdk.internal.crypto.tasks
 
 import kotlinx.coroutines.async
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.joinAll
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import com.energeek.android.sdk.internal.crypto.api.CryptoApi
-import com.energeek.android.sdk.internal.crypto.model.rest.DeviceKeysWithUnsigned
-import com.energeek.android.sdk.internal.crypto.model.rest.KeysQueryBody
-import com.energeek.android.sdk.internal.crypto.model.rest.KeysQueryResponse
-import com.energeek.android.sdk.internal.crypto.model.rest.RestKeyInfo
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.computeBestChunkSize
+import com.nusaraya.android.sdk.internal.crypto.api.CryptoApi
+import com.nusaraya.android.sdk.internal.crypto.model.rest.DeviceKeysWithUnsigned
+import com.nusaraya.android.sdk.internal.crypto.model.rest.KeysQueryBody
+import com.nusaraya.android.sdk.internal.crypto.model.rest.KeysQueryResponse
+import com.nusaraya.android.sdk.internal.crypto.model.rest.RestKeyInfo
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.computeBestChunkSize
 import javax.inject.Inject
 
 internal interface DownloadKeysForUsersTask : Task<DownloadKeysForUsersTask.Params, KeysQueryResponse> {

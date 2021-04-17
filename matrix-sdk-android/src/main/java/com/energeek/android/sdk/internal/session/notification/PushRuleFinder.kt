@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.notification
+package com.nusaraya.android.sdk.internal.session.notification
 
-import com.energeek.android.sdk.api.pushrules.ConditionResolver
-import com.energeek.android.sdk.api.pushrules.rest.PushRule
-import com.energeek.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.pushrules.ConditionResolver
+import com.nusaraya.android.sdk.api.pushrules.rest.PushRule
+import com.nusaraya.android.sdk.api.session.events.model.Event
 import javax.inject.Inject
 
 internal class PushRuleFinder @Inject constructor(

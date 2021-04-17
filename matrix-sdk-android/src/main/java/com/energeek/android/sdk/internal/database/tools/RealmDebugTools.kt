@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.tools
+package com.nusaraya.android.sdk.internal.database.tools
 
 import io.realm.Realm
 import io.realm.RealmConfiguration
-import com.energeek.android.sdk.BuildConfig
+import com.nusaraya.android.sdk.BuildConfig
 import timber.log.Timber
 
 internal class RealmDebugTools(

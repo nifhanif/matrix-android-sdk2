@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.model
+package com.nusaraya.android.sdk.api.session.room.model
 
-import com.energeek.android.sdk.api.crypto.RoomEncryptionTrustLevel
-import com.energeek.android.sdk.api.session.room.model.tag.RoomTag
-import com.energeek.android.sdk.api.session.room.send.UserDraft
-import com.energeek.android.sdk.api.session.room.sender.SenderInfo
-import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
+import com.nusaraya.android.sdk.api.crypto.RoomEncryptionTrustLevel
+import com.nusaraya.android.sdk.api.session.room.model.tag.RoomTag
+import com.nusaraya.android.sdk.api.session.room.send.UserDraft
+import com.nusaraya.android.sdk.api.session.room.sender.SenderInfo
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineEvent
 
 /**
  * This class holds some data of a room.
- * It can be retrieved by [com.energeek.android.sdk.api.session.room.Room] and [com.energeek.android.sdk.api.session.room.RoomService]
+ * It can be retrieved by [com.nusaraya.android.sdk.api.session.room.Room] and [com.nusaraya.android.sdk.api.session.room.RoomService]
  */
 data class RoomSummary constructor(
         val roomId: String,

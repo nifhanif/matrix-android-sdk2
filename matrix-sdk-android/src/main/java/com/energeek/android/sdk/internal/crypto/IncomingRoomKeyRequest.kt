@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
-import com.energeek.android.sdk.internal.crypto.model.rest.RoomKeyShareRequest
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
+import com.nusaraya.android.sdk.internal.crypto.model.rest.RoomKeyShareRequest
 
 /**
  * IncomingRoomKeyRequest class defines the incoming room keys request.

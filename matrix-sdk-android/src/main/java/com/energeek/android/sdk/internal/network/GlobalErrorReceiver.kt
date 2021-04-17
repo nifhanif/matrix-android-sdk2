@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.network
+package com.nusaraya.android.sdk.internal.network
 
-import com.energeek.android.sdk.api.failure.GlobalError
+import com.nusaraya.android.sdk.api.failure.GlobalError
 
 internal interface GlobalErrorReceiver {
     fun handleGlobalError(globalError: GlobalError)

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.initsync
+package com.nusaraya.android.sdk.api.session.initsync
 
 enum class InitSyncStep {
     ServerComputing,

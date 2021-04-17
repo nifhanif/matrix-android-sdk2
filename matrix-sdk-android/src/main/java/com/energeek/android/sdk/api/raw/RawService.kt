@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.raw
+package com.nusaraya.android.sdk.api.raw
 
-import com.energeek.android.sdk.api.cache.CacheStrategy
+import com.nusaraya.android.sdk.api.cache.CacheStrategy
 
 /**
  * Useful methods to fetch raw data from the server. The access token will not be used to fetched the data

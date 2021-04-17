@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth
+package com.nusaraya.android.sdk.internal.auth
 
-import com.energeek.android.sdk.internal.auth.db.PendingSessionData
+import com.nusaraya.android.sdk.internal.auth.db.PendingSessionData
 
 /**
  * Store for elements when doing login or registration

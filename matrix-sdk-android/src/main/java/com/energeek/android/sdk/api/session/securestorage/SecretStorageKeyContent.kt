@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.securestorage
+package com.nusaraya.android.sdk.api.session.securestorage
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.internal.di.MoshiProvider
-import com.energeek.android.sdk.internal.util.JsonCanonicalizer
+import com.nusaraya.android.sdk.internal.di.MoshiProvider
+import com.nusaraya.android.sdk.internal.util.JsonCanonicalizer
 
 /**
  *

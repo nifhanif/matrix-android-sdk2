@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.verification
+package com.nusaraya.android.sdk.internal.crypto.verification
 
-import com.energeek.android.sdk.R
-import com.energeek.android.sdk.api.session.crypto.verification.EmojiRepresentation
+import com.nusaraya.android.sdk.R
+import com.nusaraya.android.sdk.api.session.crypto.verification.EmojiRepresentation
 
 internal fun getEmojiForCode(code: Int): EmojiRepresentation {
     return when (code % 64) {

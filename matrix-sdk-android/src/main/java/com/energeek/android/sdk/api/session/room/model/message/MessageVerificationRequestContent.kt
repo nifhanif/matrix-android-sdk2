@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.api.session.room.model.message
+package com.nusaraya.android.sdk.api.session.room.model.message
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.session.events.model.Content
-import com.energeek.android.sdk.api.session.events.model.toContent
-import com.energeek.android.sdk.api.session.room.model.relation.RelationDefaultContent
-import com.energeek.android.sdk.internal.crypto.verification.VerificationInfoRequest
+import com.nusaraya.android.sdk.api.session.events.model.Content
+import com.nusaraya.android.sdk.api.session.events.model.toContent
+import com.nusaraya.android.sdk.api.session.room.model.relation.RelationDefaultContent
+import com.nusaraya.android.sdk.internal.crypto.verification.VerificationInfoRequest
 
 @JsonClass(generateAdapter = true)
 data class MessageVerificationRequestContent(

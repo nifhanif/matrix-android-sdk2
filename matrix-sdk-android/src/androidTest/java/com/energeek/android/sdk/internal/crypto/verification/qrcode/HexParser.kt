@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.verification.qrcode
+package com.nusaraya.android.sdk.internal.crypto.verification.qrcode
 
 fun hexToByteArray(hex: String): ByteArray {
     // Remove all spaces

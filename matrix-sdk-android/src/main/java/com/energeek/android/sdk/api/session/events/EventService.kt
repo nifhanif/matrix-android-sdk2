@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.events
+package com.nusaraya.android.sdk.api.session.events
 
-import com.energeek.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.Event
 
 interface EventService {
 

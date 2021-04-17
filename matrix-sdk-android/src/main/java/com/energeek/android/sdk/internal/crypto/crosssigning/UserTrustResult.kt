@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.crosssigning
+package com.nusaraya.android.sdk.internal.crypto.crosssigning
 
-import com.energeek.android.sdk.api.session.crypto.crosssigning.MXCrossSigningInfo
-import com.energeek.android.sdk.internal.crypto.model.CryptoCrossSigningKey
+import com.nusaraya.android.sdk.api.session.crypto.crosssigning.MXCrossSigningInfo
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoCrossSigningKey
 
 sealed class UserTrustResult {
     object Success : UserTrustResult()

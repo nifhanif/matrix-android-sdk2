@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.user
+package com.nusaraya.android.sdk.internal.session.user
 
-import com.energeek.android.sdk.api.session.room.model.RoomMemberContent
-import com.energeek.android.sdk.internal.database.model.UserEntity
+import com.nusaraya.android.sdk.api.session.room.model.RoomMemberContent
+import com.nusaraya.android.sdk.internal.database.model.UserEntity
 
 internal object UserEntityFactory {
 

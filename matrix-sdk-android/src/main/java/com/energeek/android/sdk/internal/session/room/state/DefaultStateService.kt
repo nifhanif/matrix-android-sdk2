@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.state
+package com.nusaraya.android.sdk.internal.session.room.state
 
 import android.net.Uri
 import androidx.lifecycle.LiveData
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import com.energeek.android.sdk.api.query.QueryStringValue
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.toContent
-import com.energeek.android.sdk.api.session.room.model.GuestAccess
-import com.energeek.android.sdk.api.session.room.model.RoomCanonicalAliasContent
-import com.energeek.android.sdk.api.session.room.model.RoomHistoryVisibility
-import com.energeek.android.sdk.api.session.room.model.RoomJoinRules
-import com.energeek.android.sdk.api.session.room.state.StateService
-import com.energeek.android.sdk.api.util.JsonDict
-import com.energeek.android.sdk.api.util.MimeTypes
-import com.energeek.android.sdk.api.util.Optional
-import com.energeek.android.sdk.internal.session.content.FileUploader
+import com.nusaraya.android.sdk.api.query.QueryStringValue
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.toContent
+import com.nusaraya.android.sdk.api.session.room.model.GuestAccess
+import com.nusaraya.android.sdk.api.session.room.model.RoomCanonicalAliasContent
+import com.nusaraya.android.sdk.api.session.room.model.RoomHistoryVisibility
+import com.nusaraya.android.sdk.api.session.room.model.RoomJoinRules
+import com.nusaraya.android.sdk.api.session.room.state.StateService
+import com.nusaraya.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.api.util.MimeTypes
+import com.nusaraya.android.sdk.api.util.Optional
+import com.nusaraya.android.sdk.internal.session.content.FileUploader
 
 internal class DefaultStateService @AssistedInject constructor(@Assisted private val roomId: String,
                                                                private val stateEventDataSource: StateEventDataSource,

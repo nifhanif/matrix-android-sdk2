@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.model
+package com.nusaraya.android.sdk.internal.crypto.model
 
-import com.energeek.android.sdk.internal.crypto.model.rest.DeviceKeys
-import com.energeek.android.sdk.internal.crypto.model.rest.DeviceKeysWithUnsigned
-import com.energeek.android.sdk.internal.crypto.model.rest.RestKeyInfo
+import com.nusaraya.android.sdk.internal.crypto.model.rest.DeviceKeys
+import com.nusaraya.android.sdk.internal.crypto.model.rest.DeviceKeysWithUnsigned
+import com.nusaraya.android.sdk.internal.crypto.model.rest.RestKeyInfo
 
 internal object CryptoInfoMapper {
 

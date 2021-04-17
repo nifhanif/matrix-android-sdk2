@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.group
+package com.nusaraya.android.sdk.internal.session.group
 
 import android.content.Context
 import androidx.work.WorkerParameters
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.internal.session.SessionComponent
-import com.energeek.android.sdk.internal.worker.SessionSafeCoroutineWorker
-import com.energeek.android.sdk.internal.worker.SessionWorkerParams
+import com.nusaraya.android.sdk.internal.session.SessionComponent
+import com.nusaraya.android.sdk.internal.worker.SessionSafeCoroutineWorker
+import com.nusaraya.android.sdk.internal.worker.SessionWorkerParams
 import javax.inject.Inject
 
 /**

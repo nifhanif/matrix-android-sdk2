@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
-import com.energeek.android.sdk.internal.crypto.algorithms.IMXEncrypting
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.internal.crypto.algorithms.IMXEncrypting
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import javax.inject.Inject
 
 @SessionScope

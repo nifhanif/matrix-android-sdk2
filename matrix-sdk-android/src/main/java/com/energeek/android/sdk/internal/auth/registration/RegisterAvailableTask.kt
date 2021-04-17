@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.registration
+package com.nusaraya.android.sdk.internal.auth.registration
 
-import com.energeek.android.sdk.api.auth.registration.RegistrationAvailability
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.api.failure.isRegistrationAvailabilityError
-import com.energeek.android.sdk.internal.auth.AuthAPI
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.auth.registration.RegistrationAvailability
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.failure.isRegistrationAvailabilityError
+import com.nusaraya.android.sdk.internal.auth.AuthAPI
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.Task
 
 internal interface RegisterAvailableTask : Task<RegisterAvailableTask.Params, RegistrationAvailability> {
     data class Params(

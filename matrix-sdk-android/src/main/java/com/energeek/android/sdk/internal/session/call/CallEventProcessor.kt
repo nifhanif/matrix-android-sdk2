@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.call
+package com.nusaraya.android.sdk.internal.session.call
 
 import io.realm.Realm
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.internal.database.model.EventInsertType
-import com.energeek.android.sdk.internal.session.EventInsertLiveProcessor
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.internal.database.model.EventInsertType
+import com.nusaraya.android.sdk.internal.session.EventInsertLiveProcessor
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import timber.log.Timber
 import javax.inject.Inject
 

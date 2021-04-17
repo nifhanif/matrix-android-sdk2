@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.actions
+package com.nusaraya.android.sdk.internal.crypto.actions
 
-import com.energeek.android.sdk.internal.crypto.MXOlmDevice
-import com.energeek.android.sdk.internal.crypto.model.MXOlmSessionResult
-import com.energeek.android.sdk.internal.crypto.model.MXUsersDevicesMap
-import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.nusaraya.android.sdk.internal.crypto.MXOlmDevice
+import com.nusaraya.android.sdk.internal.crypto.model.MXOlmSessionResult
+import com.nusaraya.android.sdk.internal.crypto.model.MXUsersDevicesMap
+import com.nusaraya.android.sdk.internal.crypto.store.IMXCryptoStore
 import timber.log.Timber
 import javax.inject.Inject
 

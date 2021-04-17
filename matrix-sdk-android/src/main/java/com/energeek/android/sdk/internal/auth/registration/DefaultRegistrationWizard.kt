@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.registration
+package com.nusaraya.android.sdk.internal.auth.registration
 
 import kotlinx.coroutines.delay
-import com.energeek.android.sdk.api.auth.data.LoginFlowTypes
-import com.energeek.android.sdk.api.auth.registration.RegisterThreePid
-import com.energeek.android.sdk.api.auth.registration.RegistrationAvailability
-import com.energeek.android.sdk.api.auth.registration.RegistrationResult
-import com.energeek.android.sdk.api.auth.registration.RegistrationWizard
-import com.energeek.android.sdk.api.auth.registration.toFlowResult
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.api.failure.Failure.RegistrationFlowError
-import com.energeek.android.sdk.internal.auth.AuthAPI
-import com.energeek.android.sdk.internal.auth.PendingSessionStore
-import com.energeek.android.sdk.internal.auth.SessionCreator
-import com.energeek.android.sdk.internal.auth.db.PendingSessionData
+import com.nusaraya.android.sdk.api.auth.data.LoginFlowTypes
+import com.nusaraya.android.sdk.api.auth.registration.RegisterThreePid
+import com.nusaraya.android.sdk.api.auth.registration.RegistrationAvailability
+import com.nusaraya.android.sdk.api.auth.registration.RegistrationResult
+import com.nusaraya.android.sdk.api.auth.registration.RegistrationWizard
+import com.nusaraya.android.sdk.api.auth.registration.toFlowResult
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.failure.Failure.RegistrationFlowError
+import com.nusaraya.android.sdk.internal.auth.AuthAPI
+import com.nusaraya.android.sdk.internal.auth.PendingSessionStore
+import com.nusaraya.android.sdk.internal.auth.SessionCreator
+import com.nusaraya.android.sdk.internal.auth.db.PendingSessionData
 
 /**
  * This class execute the registration request and is responsible to keep the session of interactive authentication

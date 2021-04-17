@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk
+package com.nusaraya.android.sdk
 
-import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.nusaraya.android.sdk.internal.util.MatrixCoroutineDispatchers
 import kotlinx.coroutines.Dispatchers.Main
 import kotlinx.coroutines.asCoroutineDispatcher
 import java.util.concurrent.Executors

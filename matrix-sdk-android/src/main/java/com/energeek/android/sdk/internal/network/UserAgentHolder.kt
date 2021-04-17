@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.network
+package com.nusaraya.android.sdk.internal.network
 
 import android.content.Context
-import com.energeek.android.sdk.BuildConfig
-import com.energeek.android.sdk.api.MatrixConfiguration
-import com.energeek.android.sdk.internal.di.MatrixScope
+import com.nusaraya.android.sdk.BuildConfig
+import com.nusaraya.android.sdk.api.MatrixConfiguration
+import com.nusaraya.android.sdk.internal.di.MatrixScope
 import timber.log.Timber
 import javax.inject.Inject
 

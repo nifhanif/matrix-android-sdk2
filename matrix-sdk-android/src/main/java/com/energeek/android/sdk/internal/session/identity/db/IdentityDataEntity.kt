@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity.db
+package com.nusaraya.android.sdk.internal.session.identity.db
 
 import io.realm.RealmList
 import io.realm.RealmObject

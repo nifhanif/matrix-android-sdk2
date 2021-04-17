@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.query
+package com.nusaraya.android.sdk.internal.database.query
 
 import io.realm.Realm
 import io.realm.RealmList
@@ -22,12 +22,12 @@ import io.realm.RealmQuery
 import io.realm.RealmResults
 import io.realm.Sort
 import io.realm.kotlin.where
-import com.energeek.android.sdk.api.session.room.send.SendState
-import com.energeek.android.sdk.api.session.room.timeline.TimelineEventFilters
-import com.energeek.android.sdk.internal.database.model.ChunkEntity
-import com.energeek.android.sdk.internal.database.model.RoomEntity
-import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
-import com.energeek.android.sdk.internal.database.model.TimelineEventEntityFields
+import com.nusaraya.android.sdk.api.session.room.send.SendState
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineEventFilters
+import com.nusaraya.android.sdk.internal.database.model.ChunkEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomEntity
+import com.nusaraya.android.sdk.internal.database.model.TimelineEventEntity
+import com.nusaraya.android.sdk.internal.database.model.TimelineEventEntityFields
 
 internal fun TimelineEventEntity.Companion.where(realm: Realm, roomId: String, eventId: String): RealmQuery<TimelineEventEntity> {
     return realm.where<TimelineEventEntity>()

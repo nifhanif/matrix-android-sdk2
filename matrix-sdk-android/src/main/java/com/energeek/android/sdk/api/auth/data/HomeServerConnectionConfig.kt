@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.auth.data
+package com.nusaraya.android.sdk.api.auth.data
 
 import android.net.Uri
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig.Builder
-import com.energeek.android.sdk.internal.network.ssl.Fingerprint
-import com.energeek.android.sdk.internal.util.ensureTrailingSlash
+import com.nusaraya.android.sdk.api.auth.data.HomeServerConnectionConfig.Builder
+import com.nusaraya.android.sdk.internal.network.ssl.Fingerprint
+import com.nusaraya.android.sdk.internal.util.ensureTrailingSlash
 import okhttp3.CipherSuite
 import okhttp3.TlsVersion
 
 /**
  * This data class holds how to connect to a specific Homeserver.
- * It's used with [com.energeek.android.sdk.api.auth.AuthenticationService] class.
+ * It's used with [com.nusaraya.android.sdk.api.auth.AuthenticationService] class.
  * You should use the [Builder] to create one.
  */
 @JsonClass(generateAdapter = true)

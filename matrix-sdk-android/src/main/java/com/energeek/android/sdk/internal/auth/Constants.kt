@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth
+package com.nusaraya.android.sdk.internal.auth
 
 /**
  * Path to use when the client does not supported any or all login flows

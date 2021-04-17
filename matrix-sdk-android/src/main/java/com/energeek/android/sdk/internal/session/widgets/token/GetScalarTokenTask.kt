@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.widgets.token
+package com.nusaraya.android.sdk.internal.session.widgets.token
 
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.api.failure.MatrixError
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.openid.GetOpenIdTokenTask
-import com.energeek.android.sdk.api.session.widgets.WidgetManagementFailure
-import com.energeek.android.sdk.internal.session.widgets.WidgetsAPI
-import com.energeek.android.sdk.internal.session.widgets.WidgetsAPIProvider
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.failure.MatrixError
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.openid.GetOpenIdTokenTask
+import com.nusaraya.android.sdk.api.session.widgets.WidgetManagementFailure
+import com.nusaraya.android.sdk.internal.session.widgets.WidgetsAPI
+import com.nusaraya.android.sdk.internal.session.widgets.WidgetsAPIProvider
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 import javax.net.ssl.HttpsURLConnection
 

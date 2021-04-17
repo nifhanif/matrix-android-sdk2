@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.api.pushrules
+package com.nusaraya.android.sdk.api.pushrules
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.api.session.room.model.message.MessageContent
-import com.energeek.android.sdk.internal.util.caseInsensitiveFind
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageContent
+import com.nusaraya.android.sdk.internal.util.caseInsensitiveFind
 
 class ContainsDisplayNameCondition : Condition {
 

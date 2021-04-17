@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.auth.data
+package com.nusaraya.android.sdk.api.auth.data
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass

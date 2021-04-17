@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.membership
+package com.nusaraya.android.sdk.internal.session.room.membership
 
 import io.realm.Realm
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.room.model.RoomMemberContent
-import com.energeek.android.sdk.internal.session.events.getFixedRoomMemberContent
-import com.energeek.android.sdk.internal.session.user.UserEntityFactory
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.room.model.RoomMemberContent
+import com.nusaraya.android.sdk.internal.session.events.getFixedRoomMemberContent
+import com.nusaraya.android.sdk.internal.session.user.UserEntityFactory
 import javax.inject.Inject
 
 internal class RoomMemberEventHandler @Inject constructor() {

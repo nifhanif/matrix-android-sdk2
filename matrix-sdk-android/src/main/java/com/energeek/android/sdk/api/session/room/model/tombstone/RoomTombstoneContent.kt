@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.api.session.room.model.tombstone
+package com.nusaraya.android.sdk.api.session.room.model.tombstone
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.notification
+package com.nusaraya.android.sdk.internal.session.room.notification
 
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.pushrules.RuleScope
-import com.energeek.android.sdk.api.session.room.notification.RoomNotificationState
-import com.energeek.android.sdk.internal.database.model.PushRuleEntity
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.session.pushers.AddPushRuleTask
-import com.energeek.android.sdk.internal.session.pushers.RemovePushRuleTask
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.pushrules.RuleScope
+import com.nusaraya.android.sdk.api.session.room.notification.RoomNotificationState
+import com.nusaraya.android.sdk.internal.database.model.PushRuleEntity
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.session.pushers.AddPushRuleTask
+import com.nusaraya.android.sdk.internal.session.pushers.RemovePushRuleTask
+import com.nusaraya.android.sdk.internal.task.Task
 import io.realm.Realm
 import javax.inject.Inject
 

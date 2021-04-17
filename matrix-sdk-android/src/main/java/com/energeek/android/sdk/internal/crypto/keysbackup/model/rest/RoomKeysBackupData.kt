@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.keysbackup.model.rest
+package com.nusaraya.android.sdk.internal.crypto.keysbackup.model.rest
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass

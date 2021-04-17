@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.session.room.timeline
+package com.nusaraya.android.sdk.session.room.timeline
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.internal.session.room.timeline.TokenChunkEvent
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.internal.session.room.timeline.TokenChunkEvent
 
 internal data class FakeTokenChunkEvent(override val start: String?,
                                         override val end: String?,

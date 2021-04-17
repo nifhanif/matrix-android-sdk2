@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.util
+package com.nusaraya.android.sdk.internal.util
 
 import androidx.annotation.VisibleForTesting
-import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.nusaraya.android.sdk.internal.di.MoshiProvider
 import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject

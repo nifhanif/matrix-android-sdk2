@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth
+package com.nusaraya.android.sdk.internal.auth
 
 import dagger.Lazy
 import okhttp3.OkHttpClient
-import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.internal.di.Unauthenticated
-import com.energeek.android.sdk.internal.network.RetrofitFactory
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.network.httpclient.addSocketFactory
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.internal.di.Unauthenticated
+import com.nusaraya.android.sdk.internal.network.RetrofitFactory
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.network.httpclient.addSocketFactory
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 import javax.net.ssl.HttpsURLConnection
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.summary
+package com.nusaraya.android.sdk.api.session.room.summary
 
-import com.energeek.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.EventType
 
 object RoomSummaryConstants {
 

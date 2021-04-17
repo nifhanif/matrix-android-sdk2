@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.common
+package com.nusaraya.android.sdk.common
 
 import android.os.SystemClock
 import android.util.Log
@@ -27,27 +27,27 @@ import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
-import com.energeek.android.sdk.api.auth.UIABaseAuth
-import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import com.energeek.android.sdk.api.auth.UserPasswordAuth
-import com.energeek.android.sdk.api.auth.registration.RegistrationFlowResponse
-import com.energeek.android.sdk.api.session.Session
-import com.energeek.android.sdk.api.session.crypto.verification.IncomingSasVerificationTransaction
-import com.energeek.android.sdk.api.session.crypto.verification.OutgoingSasVerificationTransaction
-import com.energeek.android.sdk.api.session.crypto.verification.VerificationMethod
-import com.energeek.android.sdk.api.session.crypto.verification.VerificationTxState
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.toContent
-import com.energeek.android.sdk.api.session.room.Room
-import com.energeek.android.sdk.api.session.room.model.Membership
-import com.energeek.android.sdk.api.session.room.model.RoomSummary
-import com.energeek.android.sdk.api.session.room.model.create.CreateRoomParams
-import com.energeek.android.sdk.api.session.room.roomSummaryQueryParams
-import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
-import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP
-import com.energeek.android.sdk.internal.crypto.keysbackup.model.MegolmBackupAuthData
-import com.energeek.android.sdk.internal.crypto.keysbackup.model.MegolmBackupCreationInfo
+import com.nusaraya.android.sdk.api.auth.UIABaseAuth
+import com.nusaraya.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.nusaraya.android.sdk.api.auth.UserPasswordAuth
+import com.nusaraya.android.sdk.api.auth.registration.RegistrationFlowResponse
+import com.nusaraya.android.sdk.api.session.Session
+import com.nusaraya.android.sdk.api.session.crypto.verification.IncomingSasVerificationTransaction
+import com.nusaraya.android.sdk.api.session.crypto.verification.OutgoingSasVerificationTransaction
+import com.nusaraya.android.sdk.api.session.crypto.verification.VerificationMethod
+import com.nusaraya.android.sdk.api.session.crypto.verification.VerificationTxState
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.toContent
+import com.nusaraya.android.sdk.api.session.room.Room
+import com.nusaraya.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.api.session.room.model.RoomSummary
+import com.nusaraya.android.sdk.api.session.room.model.create.CreateRoomParams
+import com.nusaraya.android.sdk.api.session.room.roomSummaryQueryParams
+import com.nusaraya.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
+import com.nusaraya.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP
+import com.nusaraya.android.sdk.internal.crypto.keysbackup.model.MegolmBackupAuthData
+import com.nusaraya.android.sdk.internal.crypto.keysbackup.model.MegolmBackupCreationInfo
 import java.util.UUID
 import java.util.concurrent.CountDownLatch
 import kotlin.coroutines.Continuation

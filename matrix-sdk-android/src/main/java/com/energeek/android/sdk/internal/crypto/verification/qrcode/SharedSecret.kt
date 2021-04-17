@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.verification.qrcode
+package com.nusaraya.android.sdk.internal.crypto.verification.qrcode
 
-import com.energeek.android.sdk.internal.crypto.crosssigning.toBase64NoPadding
+import com.nusaraya.android.sdk.internal.crypto.crosssigning.toBase64NoPadding
 import java.security.SecureRandom
 
 fun generateSharedSecretV2(): String {

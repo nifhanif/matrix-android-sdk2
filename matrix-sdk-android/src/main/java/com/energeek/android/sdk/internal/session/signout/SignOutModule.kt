@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.signout
+package com.nusaraya.android.sdk.internal.session.signout
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import com.energeek.android.sdk.api.session.signout.SignOutService
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.api.session.signout.SignOutService
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import retrofit2.Retrofit
 
 @Module

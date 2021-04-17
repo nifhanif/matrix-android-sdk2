@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.keysbackup.model
+package com.nusaraya.android.sdk.internal.crypto.keysbackup.model
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.util.JsonDict
-import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.nusaraya.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.internal.di.MoshiProvider
 
 /**
- * Data model for [com.energeek.androidsdk.rest.model.keys.KeysAlgorithmAndData.authData] in case
- * of [com.energeek.androidsdk.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP].
+ * Data model for [com.nusaraya.androidsdk.rest.model.keys.KeysAlgorithmAndData.authData] in case
+ * of [com.nusaraya.androidsdk.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP].
  */
 @JsonClass(generateAdapter = true)
 data class MegolmBackupAuthData(

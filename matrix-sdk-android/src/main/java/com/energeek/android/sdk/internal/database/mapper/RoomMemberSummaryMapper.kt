@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.mapper
+package com.nusaraya.android.sdk.internal.database.mapper
 
-import com.energeek.android.sdk.api.session.room.model.RoomMemberSummary
-import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntity
+import com.nusaraya.android.sdk.api.session.room.model.RoomMemberSummary
+import com.nusaraya.android.sdk.internal.database.model.RoomMemberSummaryEntity
 
 internal object RoomMemberSummaryMapper {
 

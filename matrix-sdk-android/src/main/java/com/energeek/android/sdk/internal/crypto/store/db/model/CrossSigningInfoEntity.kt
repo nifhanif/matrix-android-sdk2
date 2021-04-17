@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.store.db.model
+package com.nusaraya.android.sdk.internal.crypto.store.db.model
 
 import io.realm.RealmList
 import io.realm.RealmObject
 import io.realm.annotations.PrimaryKey
-import com.energeek.android.sdk.internal.crypto.model.KeyUsage
-import com.energeek.android.sdk.internal.extensions.clearWith
+import com.nusaraya.android.sdk.internal.crypto.model.KeyUsage
+import com.nusaraya.android.sdk.internal.extensions.clearWith
 
 internal open class CrossSigningInfoEntity(
         @PrimaryKey

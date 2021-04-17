@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.homeserver
+package com.nusaraya.android.sdk.api.session.homeserver
 
 /**
  * This interface defines a method to retrieve the homeserver capabilities.

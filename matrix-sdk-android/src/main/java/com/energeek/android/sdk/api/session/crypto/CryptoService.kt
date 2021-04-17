@@ -14,34 +14,34 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.crypto
+package com.nusaraya.android.sdk.api.session.crypto
 
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.paging.PagedList
-import com.energeek.android.sdk.api.MatrixCallback
-import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import com.energeek.android.sdk.api.listeners.ProgressListener
-import com.energeek.android.sdk.api.session.crypto.crosssigning.CrossSigningService
-import com.energeek.android.sdk.api.session.crypto.keysbackup.KeysBackupService
-import com.energeek.android.sdk.api.session.crypto.keyshare.GossipingRequestListener
-import com.energeek.android.sdk.api.session.crypto.verification.VerificationService
-import com.energeek.android.sdk.api.session.events.model.Content
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.internal.crypto.IncomingRoomKeyRequest
-import com.energeek.android.sdk.internal.crypto.MXEventDecryptionResult
-import com.energeek.android.sdk.internal.crypto.NewSessionListener
-import com.energeek.android.sdk.internal.crypto.OutgoingRoomKeyRequest
-import com.energeek.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
-import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import com.energeek.android.sdk.internal.crypto.model.ImportRoomKeysResult
-import com.energeek.android.sdk.internal.crypto.model.MXDeviceInfo
-import com.energeek.android.sdk.internal.crypto.model.MXEncryptEventContentResult
-import com.energeek.android.sdk.internal.crypto.model.MXUsersDevicesMap
-import com.energeek.android.sdk.internal.crypto.model.event.RoomKeyWithHeldContent
-import com.energeek.android.sdk.internal.crypto.model.rest.DeviceInfo
-import com.energeek.android.sdk.internal.crypto.model.rest.DevicesListResponse
-import com.energeek.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
+import com.nusaraya.android.sdk.api.MatrixCallback
+import com.nusaraya.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.nusaraya.android.sdk.api.listeners.ProgressListener
+import com.nusaraya.android.sdk.api.session.crypto.crosssigning.CrossSigningService
+import com.nusaraya.android.sdk.api.session.crypto.keysbackup.KeysBackupService
+import com.nusaraya.android.sdk.api.session.crypto.keyshare.GossipingRequestListener
+import com.nusaraya.android.sdk.api.session.crypto.verification.VerificationService
+import com.nusaraya.android.sdk.api.session.events.model.Content
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.internal.crypto.IncomingRoomKeyRequest
+import com.nusaraya.android.sdk.internal.crypto.MXEventDecryptionResult
+import com.nusaraya.android.sdk.internal.crypto.NewSessionListener
+import com.nusaraya.android.sdk.internal.crypto.OutgoingRoomKeyRequest
+import com.nusaraya.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.model.ImportRoomKeysResult
+import com.nusaraya.android.sdk.internal.crypto.model.MXDeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.model.MXEncryptEventContentResult
+import com.nusaraya.android.sdk.internal.crypto.model.MXUsersDevicesMap
+import com.nusaraya.android.sdk.internal.crypto.model.event.RoomKeyWithHeldContent
+import com.nusaraya.android.sdk.internal.crypto.model.rest.DeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.model.rest.DevicesListResponse
+import com.nusaraya.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
 import kotlin.jvm.Throws
 
 interface CryptoService {

@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database
+package com.nusaraya.android.sdk.internal.database
 
 import io.realm.DynamicRealm
 import io.realm.FieldAttribute
 import io.realm.RealmMigration
-import com.energeek.android.sdk.api.session.room.model.tag.RoomTag
-import com.energeek.android.sdk.internal.database.model.EditAggregatedSummaryEntityFields
-import com.energeek.android.sdk.internal.database.model.EditionOfEventFields
-import com.energeek.android.sdk.internal.database.model.EventEntityFields
-import com.energeek.android.sdk.internal.database.model.HomeServerCapabilitiesEntityFields
-import com.energeek.android.sdk.internal.database.model.PendingThreePidEntityFields
-import com.energeek.android.sdk.internal.database.model.PreviewUrlCacheEntityFields
-import com.energeek.android.sdk.internal.database.model.RoomEntityFields
-import com.energeek.android.sdk.internal.database.model.RoomMembersLoadStatusType
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntityFields
-import com.energeek.android.sdk.internal.database.model.RoomTagEntityFields
-import com.energeek.android.sdk.internal.database.model.TimelineEventEntityFields
+import com.nusaraya.android.sdk.api.session.room.model.tag.RoomTag
+import com.nusaraya.android.sdk.internal.database.model.EditAggregatedSummaryEntityFields
+import com.nusaraya.android.sdk.internal.database.model.EditionOfEventFields
+import com.nusaraya.android.sdk.internal.database.model.EventEntityFields
+import com.nusaraya.android.sdk.internal.database.model.HomeServerCapabilitiesEntityFields
+import com.nusaraya.android.sdk.internal.database.model.PendingThreePidEntityFields
+import com.nusaraya.android.sdk.internal.database.model.PreviewUrlCacheEntityFields
+import com.nusaraya.android.sdk.internal.database.model.RoomEntityFields
+import com.nusaraya.android.sdk.internal.database.model.RoomMembersLoadStatusType
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntityFields
+import com.nusaraya.android.sdk.internal.database.model.RoomTagEntityFields
+import com.nusaraya.android.sdk.internal.database.model.TimelineEventEntityFields
 import timber.log.Timber
 import javax.inject.Inject
 

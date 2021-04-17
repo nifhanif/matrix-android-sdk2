@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.call
+package com.nusaraya.android.sdk.internal.session.call
 
-import com.energeek.android.sdk.api.session.call.CallListener
-import com.energeek.android.sdk.api.session.call.CallState
-import com.energeek.android.sdk.api.session.call.MxCall
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.api.session.room.model.call.CallAnswerContent
-import com.energeek.android.sdk.api.session.room.model.call.CallCandidatesContent
-import com.energeek.android.sdk.api.session.room.model.call.CallCapabilities
-import com.energeek.android.sdk.api.session.room.model.call.CallHangupContent
-import com.energeek.android.sdk.api.session.room.model.call.CallInviteContent
-import com.energeek.android.sdk.api.session.room.model.call.CallNegotiateContent
-import com.energeek.android.sdk.api.session.room.model.call.CallRejectContent
-import com.energeek.android.sdk.api.session.room.model.call.CallSelectAnswerContent
-import com.energeek.android.sdk.api.session.room.model.call.CallSignallingContent
-import com.energeek.android.sdk.api.util.Optional
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.api.session.call.CallListener
+import com.nusaraya.android.sdk.api.session.call.CallState
+import com.nusaraya.android.sdk.api.session.call.MxCall
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.api.session.room.model.call.CallAnswerContent
+import com.nusaraya.android.sdk.api.session.room.model.call.CallCandidatesContent
+import com.nusaraya.android.sdk.api.session.room.model.call.CallCapabilities
+import com.nusaraya.android.sdk.api.session.room.model.call.CallHangupContent
+import com.nusaraya.android.sdk.api.session.room.model.call.CallInviteContent
+import com.nusaraya.android.sdk.api.session.room.model.call.CallNegotiateContent
+import com.nusaraya.android.sdk.api.session.room.model.call.CallRejectContent
+import com.nusaraya.android.sdk.api.session.room.model.call.CallSelectAnswerContent
+import com.nusaraya.android.sdk.api.session.room.model.call.CallSignallingContent
+import com.nusaraya.android.sdk.api.util.Optional
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import timber.log.Timber
 import java.math.BigDecimal
 import javax.inject.Inject

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.store.db.model
+package com.nusaraya.android.sdk.internal.crypto.store.db.model
 
 import com.squareup.moshi.JsonDataException
-import com.energeek.android.sdk.api.session.crypto.MXCryptoError
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.room.send.SendState
-import com.energeek.android.sdk.internal.crypto.MXEventDecryptionResult
-import com.energeek.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
-import com.energeek.android.sdk.internal.database.mapper.ContentMapper
-import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.nusaraya.android.sdk.api.session.crypto.MXCryptoError
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.room.send.SendState
+import com.nusaraya.android.sdk.internal.crypto.MXEventDecryptionResult
+import com.nusaraya.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
+import com.nusaraya.android.sdk.internal.database.mapper.ContentMapper
+import com.nusaraya.android.sdk.internal.di.MoshiProvider
 import io.realm.RealmObject
 import io.realm.annotations.Index
 import timber.log.Timber

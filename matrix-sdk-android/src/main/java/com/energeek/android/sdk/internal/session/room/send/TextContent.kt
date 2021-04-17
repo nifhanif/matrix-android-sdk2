@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.send
+package com.nusaraya.android.sdk.internal.session.room.send
 
-import com.energeek.android.sdk.api.session.room.model.message.MessageFormat
-import com.energeek.android.sdk.api.session.room.model.message.MessageTextContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageType
-import com.energeek.android.sdk.api.util.ContentUtils.extractUsefulTextFromHtmlReply
-import com.energeek.android.sdk.api.util.ContentUtils.extractUsefulTextFromReply
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageFormat
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageTextContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageType
+import com.nusaraya.android.sdk.api.util.ContentUtils.extractUsefulTextFromHtmlReply
+import com.nusaraya.android.sdk.api.util.ContentUtils.extractUsefulTextFromReply
 
 /**
  * Contains a text and eventually a formatted text

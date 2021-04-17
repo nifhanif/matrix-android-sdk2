@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.model
+package com.nusaraya.android.sdk.internal.database.model
 
 import io.realm.RealmList
 import io.realm.RealmObject
 import io.realm.annotations.Index
 import io.realm.annotations.PrimaryKey
-import com.energeek.android.sdk.api.crypto.RoomEncryptionTrustLevel
-import com.energeek.android.sdk.api.session.room.model.Membership
-import com.energeek.android.sdk.api.session.room.model.RoomSummary
-import com.energeek.android.sdk.api.session.room.model.VersioningState
-import com.energeek.android.sdk.api.session.room.model.tag.RoomTag
+import com.nusaraya.android.sdk.api.crypto.RoomEncryptionTrustLevel
+import com.nusaraya.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.api.session.room.model.RoomSummary
+import com.nusaraya.android.sdk.api.session.room.model.VersioningState
+import com.nusaraya.android.sdk.api.session.room.model.tag.RoomTag
 
 internal open class RoomSummaryEntity(
         @PrimaryKey var roomId: String = ""

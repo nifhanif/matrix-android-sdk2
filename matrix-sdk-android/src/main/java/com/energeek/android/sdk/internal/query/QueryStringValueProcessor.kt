@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.query
+package com.nusaraya.android.sdk.internal.query
 
-import com.energeek.android.sdk.api.query.QueryStringValue
+import com.nusaraya.android.sdk.api.query.QueryStringValue
 import io.realm.Case
 import io.realm.RealmObject
 import io.realm.RealmQuery

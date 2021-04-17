@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.widgets.helper
+package com.nusaraya.android.sdk.internal.session.widgets.helper
 
-import com.energeek.android.sdk.api.session.content.ContentUrlResolver
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.api.session.room.sender.SenderInfo
-import com.energeek.android.sdk.api.session.widgets.model.Widget
-import com.energeek.android.sdk.api.session.widgets.model.WidgetContent
-import com.energeek.android.sdk.api.session.widgets.model.WidgetType
-import com.energeek.android.sdk.internal.database.RealmSessionProvider
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.session.room.membership.RoomMemberHelper
-import com.energeek.android.sdk.internal.session.user.UserDataSource
+import com.nusaraya.android.sdk.api.session.content.ContentUrlResolver
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.api.session.room.sender.SenderInfo
+import com.nusaraya.android.sdk.api.session.widgets.model.Widget
+import com.nusaraya.android.sdk.api.session.widgets.model.WidgetContent
+import com.nusaraya.android.sdk.api.session.widgets.model.WidgetType
+import com.nusaraya.android.sdk.internal.database.RealmSessionProvider
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.session.room.membership.RoomMemberHelper
+import com.nusaraya.android.sdk.internal.session.user.UserDataSource
 import java.net.URLEncoder
 import javax.inject.Inject
 

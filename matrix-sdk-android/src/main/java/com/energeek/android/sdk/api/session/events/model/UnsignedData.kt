@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.events.model
+package com.nusaraya.android.sdk.api.session.events.model
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass

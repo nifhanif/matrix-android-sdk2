@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.keysbackup
+package com.nusaraya.android.sdk.internal.crypto.keysbackup
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.energeek.android.sdk.InstrumentedTest
-import com.energeek.android.sdk.api.listeners.ProgressListener
-import com.energeek.android.sdk.common.assertByteArrayNotEqual
+import com.nusaraya.android.sdk.InstrumentedTest
+import com.nusaraya.android.sdk.api.listeners.ProgressListener
+import com.nusaraya.android.sdk.common.assertByteArrayNotEqual
 import org.junit.Assert.assertArrayEquals
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue

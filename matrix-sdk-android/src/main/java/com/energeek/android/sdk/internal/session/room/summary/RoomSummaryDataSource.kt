@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.summary
+package com.nusaraya.android.sdk.internal.session.room.summary
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
@@ -24,22 +24,22 @@ import com.zhuinden.monarchy.Monarchy
 import io.realm.Realm
 import io.realm.RealmQuery
 import io.realm.Sort
-import com.energeek.android.sdk.api.query.RoomCategoryFilter
-import com.energeek.android.sdk.api.session.room.RoomSummaryQueryParams
-import com.energeek.android.sdk.api.session.room.UpdatableFilterLivePageResult
-import com.energeek.android.sdk.api.session.room.model.RoomSummary
-import com.energeek.android.sdk.api.session.room.model.VersioningState
-import com.energeek.android.sdk.api.session.room.summary.RoomAggregateNotificationCount
-import com.energeek.android.sdk.api.util.Optional
-import com.energeek.android.sdk.api.util.toOptional
-import com.energeek.android.sdk.internal.database.mapper.RoomSummaryMapper
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntityFields
-import com.energeek.android.sdk.internal.database.query.findByAlias
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.query.process
-import com.energeek.android.sdk.internal.util.fetchCopyMap
+import com.nusaraya.android.sdk.api.query.RoomCategoryFilter
+import com.nusaraya.android.sdk.api.session.room.RoomSummaryQueryParams
+import com.nusaraya.android.sdk.api.session.room.UpdatableFilterLivePageResult
+import com.nusaraya.android.sdk.api.session.room.model.RoomSummary
+import com.nusaraya.android.sdk.api.session.room.model.VersioningState
+import com.nusaraya.android.sdk.api.session.room.summary.RoomAggregateNotificationCount
+import com.nusaraya.android.sdk.api.util.Optional
+import com.nusaraya.android.sdk.api.util.toOptional
+import com.nusaraya.android.sdk.internal.database.mapper.RoomSummaryMapper
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntityFields
+import com.nusaraya.android.sdk.internal.database.query.findByAlias
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.query.process
+import com.nusaraya.android.sdk.internal.util.fetchCopyMap
 import javax.inject.Inject
 
 internal class RoomSummaryDataSource @Inject constructor(@SessionDatabase private val monarchy: Monarchy,

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.util
+package com.nusaraya.android.sdk.api.util
 
 import java.net.URLEncoder
 

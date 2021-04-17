@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.crypto.verification
+package com.nusaraya.android.sdk.api.session.crypto.verification
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.LocalEcho
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.LocalEcho
 
 /**
  * https://matrix.org/docs/spec/client_server/r0.5.0#key-verification-framework

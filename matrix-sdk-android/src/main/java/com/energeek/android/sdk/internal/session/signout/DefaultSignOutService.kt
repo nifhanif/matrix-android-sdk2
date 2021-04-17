@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.signout
+package com.nusaraya.android.sdk.internal.session.signout
 
-import com.energeek.android.sdk.api.auth.data.Credentials
-import com.energeek.android.sdk.api.session.signout.SignOutService
-import com.energeek.android.sdk.internal.auth.SessionParamsStore
+import com.nusaraya.android.sdk.api.auth.data.Credentials
+import com.nusaraya.android.sdk.api.session.signout.SignOutService
+import com.nusaraya.android.sdk.internal.auth.SessionParamsStore
 import javax.inject.Inject
 
 internal class DefaultSignOutService @Inject constructor(private val signOutTask: SignOutTask,

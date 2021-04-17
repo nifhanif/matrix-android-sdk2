@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.network.interceptors
+package com.nusaraya.android.sdk.internal.network.interceptors
 
 import okhttp3.Interceptor
 import okhttp3.Response
-import com.energeek.android.sdk.internal.di.MatrixScope
+import com.nusaraya.android.sdk.internal.di.MatrixScope
 import java.io.IOException
 import javax.inject.Inject
 

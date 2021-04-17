@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.send
+package com.nusaraya.android.sdk.api.session.room.send
 
 enum class SendState {
     UNKNOWN,

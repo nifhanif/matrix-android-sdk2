@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.model
+package com.nusaraya.android.sdk.internal.database.model
 
 internal enum class RoomMembersLoadStatusType {
     NONE,

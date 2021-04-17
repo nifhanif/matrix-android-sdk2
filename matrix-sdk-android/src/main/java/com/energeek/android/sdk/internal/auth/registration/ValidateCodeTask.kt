@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.registration
+package com.nusaraya.android.sdk.internal.auth.registration
 
-import com.energeek.android.sdk.internal.auth.AuthAPI
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.auth.AuthAPI
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.Task
 
 internal interface ValidateCodeTask : Task<ValidateCodeTask.Params, SuccessResult> {
     data class Params(

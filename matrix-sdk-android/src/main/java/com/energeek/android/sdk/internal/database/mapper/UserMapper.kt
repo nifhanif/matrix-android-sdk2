@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.mapper
+package com.nusaraya.android.sdk.internal.database.mapper
 
-import com.energeek.android.sdk.api.session.user.model.User
-import com.energeek.android.sdk.internal.database.model.UserEntity
+import com.nusaraya.android.sdk.api.session.user.model.User
+import com.nusaraya.android.sdk.internal.database.model.UserEntity
 
 internal object UserMapper {
 

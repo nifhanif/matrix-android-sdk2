@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.auth.login
+package com.nusaraya.android.sdk.api.auth.login
 
-import com.energeek.android.sdk.api.session.Session
-import com.energeek.android.sdk.api.util.Cancelable
+import com.nusaraya.android.sdk.api.session.Session
+import com.nusaraya.android.sdk.api.util.Cancelable
 
 interface LoginWizard {
 

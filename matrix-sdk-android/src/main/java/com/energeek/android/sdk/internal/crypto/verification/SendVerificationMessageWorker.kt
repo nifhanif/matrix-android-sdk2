@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.verification
+package com.nusaraya.android.sdk.internal.crypto.verification
 
 import android.content.Context
 import androidx.work.Data
 import androidx.work.WorkerParameters
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.failure.shouldBeRetried
-import com.energeek.android.sdk.internal.crypto.tasks.SendVerificationMessageTask
-import com.energeek.android.sdk.internal.session.SessionComponent
-import com.energeek.android.sdk.internal.session.room.send.CancelSendTracker
-import com.energeek.android.sdk.internal.session.room.send.LocalEchoRepository
-import com.energeek.android.sdk.internal.worker.SessionSafeCoroutineWorker
-import com.energeek.android.sdk.internal.worker.SessionWorkerParams
+import com.nusaraya.android.sdk.api.failure.shouldBeRetried
+import com.nusaraya.android.sdk.internal.crypto.tasks.SendVerificationMessageTask
+import com.nusaraya.android.sdk.internal.session.SessionComponent
+import com.nusaraya.android.sdk.internal.session.room.send.CancelSendTracker
+import com.nusaraya.android.sdk.internal.session.room.send.LocalEchoRepository
+import com.nusaraya.android.sdk.internal.worker.SessionSafeCoroutineWorker
+import com.nusaraya.android.sdk.internal.worker.SessionWorkerParams
 import timber.log.Timber
 import javax.inject.Inject
 

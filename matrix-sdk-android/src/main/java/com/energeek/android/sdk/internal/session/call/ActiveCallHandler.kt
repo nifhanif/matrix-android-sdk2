@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.call
+package com.nusaraya.android.sdk.internal.session.call
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.energeek.android.sdk.api.session.call.MxCall
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.api.session.call.MxCall
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import javax.inject.Inject
 
 @SessionScope

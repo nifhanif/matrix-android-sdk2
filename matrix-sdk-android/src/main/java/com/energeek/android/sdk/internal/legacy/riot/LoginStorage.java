@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.legacy.riot;
+package com.nusaraya.android.sdk.internal.legacy.riot;
 
 import android.content.Context;
 import android.content.SharedPreferences;

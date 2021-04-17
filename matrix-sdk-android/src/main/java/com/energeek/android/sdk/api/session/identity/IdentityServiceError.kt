@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.identity
+package com.nusaraya.android.sdk.api.session.identity
 
-import com.energeek.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.failure.Failure
 
 sealed class IdentityServiceError : Failure.FeatureFailure() {
     object OutdatedIdentityServer : IdentityServiceError()

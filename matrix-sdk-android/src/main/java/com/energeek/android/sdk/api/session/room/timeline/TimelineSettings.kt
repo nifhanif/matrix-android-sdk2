@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.timeline
+package com.nusaraya.android.sdk.api.session.room.timeline
 
 /**
  * Data class holding setting values for a [Timeline] instance.

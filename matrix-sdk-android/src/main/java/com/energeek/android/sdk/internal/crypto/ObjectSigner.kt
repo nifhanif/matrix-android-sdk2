@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
-import com.energeek.android.sdk.api.auth.data.Credentials
+import com.nusaraya.android.sdk.api.auth.data.Credentials
 import javax.inject.Inject
 
 internal class ObjectSigner @Inject constructor(private val credentials: Credentials,

@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.gossiping
+package com.nusaraya.android.sdk.internal.crypto.gossiping
 
 import android.util.Log
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.energeek.android.sdk.InstrumentedTest
-import com.energeek.android.sdk.api.NoOpMatrixCallback
-import com.energeek.android.sdk.api.extensions.tryOrNull
-import com.energeek.android.sdk.api.session.crypto.MXCryptoError
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.common.CommonTestHelper
-import com.energeek.android.sdk.common.CryptoTestHelper
-import com.energeek.android.sdk.common.MockOkHttpInterceptor
-import com.energeek.android.sdk.common.SessionTestParams
-import com.energeek.android.sdk.common.TestConstants
-import com.energeek.android.sdk.internal.crypto.model.event.EncryptedEventContent
-import com.energeek.android.sdk.internal.crypto.model.event.WithHeldCode
+import com.nusaraya.android.sdk.InstrumentedTest
+import com.nusaraya.android.sdk.api.NoOpMatrixCallback
+import com.nusaraya.android.sdk.api.extensions.tryOrNull
+import com.nusaraya.android.sdk.api.session.crypto.MXCryptoError
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.common.CommonTestHelper
+import com.nusaraya.android.sdk.common.CryptoTestHelper
+import com.nusaraya.android.sdk.common.MockOkHttpInterceptor
+import com.nusaraya.android.sdk.common.SessionTestParams
+import com.nusaraya.android.sdk.common.TestConstants
+import com.nusaraya.android.sdk.internal.crypto.model.event.EncryptedEventContent
+import com.nusaraya.android.sdk.internal.crypto.model.event.WithHeldCode
 import org.junit.Assert
 import org.junit.FixMethodOrder
 import org.junit.Test

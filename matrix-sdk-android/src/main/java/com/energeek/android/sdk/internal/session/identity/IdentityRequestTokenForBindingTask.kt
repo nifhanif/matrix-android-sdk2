@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity
+package com.nusaraya.android.sdk.internal.session.identity
 
-import com.energeek.android.sdk.api.session.identity.IdentityServiceError
-import com.energeek.android.sdk.api.session.identity.ThreePid
-import com.energeek.android.sdk.api.session.identity.getCountryCode
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.identity.data.IdentityPendingBinding
-import com.energeek.android.sdk.internal.session.identity.data.IdentityStore
-import com.energeek.android.sdk.internal.session.identity.model.IdentityRequestTokenForEmailBody
-import com.energeek.android.sdk.internal.session.identity.model.IdentityRequestTokenForMsisdnBody
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.session.identity.IdentityServiceError
+import com.nusaraya.android.sdk.api.session.identity.ThreePid
+import com.nusaraya.android.sdk.api.session.identity.getCountryCode
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.identity.data.IdentityPendingBinding
+import com.nusaraya.android.sdk.internal.session.identity.data.IdentityStore
+import com.nusaraya.android.sdk.internal.session.identity.model.IdentityRequestTokenForEmailBody
+import com.nusaraya.android.sdk.internal.session.identity.model.IdentityRequestTokenForMsisdnBody
+import com.nusaraya.android.sdk.internal.task.Task
 import java.util.UUID
 import javax.inject.Inject
 

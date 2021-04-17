@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.registration
+package com.nusaraya.android.sdk.internal.auth.registration
 
-import com.energeek.android.sdk.api.auth.UIABaseAuth
-import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.api.failure.toRegistrationFlowResponse
+import com.nusaraya.android.sdk.api.auth.UIABaseAuth
+import com.nusaraya.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.failure.toRegistrationFlowResponse
 import timber.log.Timber
 import kotlin.coroutines.suspendCoroutine
 

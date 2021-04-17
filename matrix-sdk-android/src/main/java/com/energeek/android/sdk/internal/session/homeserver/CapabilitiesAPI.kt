@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.homeserver
+package com.nusaraya.android.sdk.internal.session.homeserver
 
-import com.energeek.android.sdk.internal.auth.version.Versions
-import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.nusaraya.android.sdk.internal.auth.version.Versions
+import com.nusaraya.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.GET
 
 internal interface CapabilitiesAPI {

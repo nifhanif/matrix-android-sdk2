@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.internal.crypto.model.rest.ShareRequestCancellation
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.internal.crypto.model.rest.ShareRequestCancellation
 
 /**
  * IncomingRequestCancellation describes the incoming room key cancellation.

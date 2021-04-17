@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk;
+package com.nusaraya.android.sdk;
 
 import android.os.Handler;
 import android.os.Looper;

@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.login
+package com.nusaraya.android.sdk.internal.auth.login
 
 import android.util.Patterns
-import com.energeek.android.sdk.api.auth.login.LoginWizard
-import com.energeek.android.sdk.api.auth.registration.RegisterThreePid
-import com.energeek.android.sdk.api.session.Session
-import com.energeek.android.sdk.internal.auth.AuthAPI
-import com.energeek.android.sdk.internal.auth.PendingSessionStore
-import com.energeek.android.sdk.internal.auth.SessionCreator
-import com.energeek.android.sdk.internal.auth.data.PasswordLoginParams
-import com.energeek.android.sdk.internal.auth.data.ThreePidMedium
-import com.energeek.android.sdk.internal.auth.data.TokenLoginParams
-import com.energeek.android.sdk.internal.auth.db.PendingSessionData
-import com.energeek.android.sdk.internal.auth.registration.AddThreePidRegistrationParams
-import com.energeek.android.sdk.internal.auth.registration.RegisterAddThreePidTask
-import com.energeek.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.api.auth.login.LoginWizard
+import com.nusaraya.android.sdk.api.auth.registration.RegisterThreePid
+import com.nusaraya.android.sdk.api.session.Session
+import com.nusaraya.android.sdk.internal.auth.AuthAPI
+import com.nusaraya.android.sdk.internal.auth.PendingSessionStore
+import com.nusaraya.android.sdk.internal.auth.SessionCreator
+import com.nusaraya.android.sdk.internal.auth.data.PasswordLoginParams
+import com.nusaraya.android.sdk.internal.auth.data.ThreePidMedium
+import com.nusaraya.android.sdk.internal.auth.data.TokenLoginParams
+import com.nusaraya.android.sdk.internal.auth.db.PendingSessionData
+import com.nusaraya.android.sdk.internal.auth.registration.AddThreePidRegistrationParams
+import com.nusaraya.android.sdk.internal.auth.registration.RegisterAddThreePidTask
+import com.nusaraya.android.sdk.internal.network.executeRequest
 
 internal class DefaultLoginWizard(
         private val authAPI: AuthAPI,

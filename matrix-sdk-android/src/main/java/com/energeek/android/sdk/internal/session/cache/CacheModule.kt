@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.cache
+package com.nusaraya.android.sdk.internal.session.cache
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import com.energeek.android.sdk.api.session.cache.CacheService
-import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.api.session.cache.CacheService
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
 import io.realm.RealmConfiguration
 
 @Module

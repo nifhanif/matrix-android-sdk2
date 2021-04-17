@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
 import android.util.Base64
-import com.energeek.android.sdk.internal.extensions.toUnsignedInt
+import com.nusaraya.android.sdk.internal.extensions.toUnsignedInt
 import timber.log.Timber
 import java.io.ByteArrayOutputStream
 import java.nio.charset.Charset

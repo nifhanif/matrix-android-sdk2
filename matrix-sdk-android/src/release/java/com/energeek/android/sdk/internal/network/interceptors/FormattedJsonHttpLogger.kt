@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.network.interceptors
+package com.nusaraya.android.sdk.internal.network.interceptors
 
 import androidx.annotation.NonNull
 import okhttp3.logging.HttpLoggingInterceptor

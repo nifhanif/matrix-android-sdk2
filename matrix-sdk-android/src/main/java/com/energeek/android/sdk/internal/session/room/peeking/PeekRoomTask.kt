@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.peeking
+package com.nusaraya.android.sdk.internal.session.room.peeking
 
-import com.energeek.android.sdk.api.MatrixPatterns
-import com.energeek.android.sdk.api.extensions.tryOrNull
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.api.session.room.model.RoomAvatarContent
-import com.energeek.android.sdk.api.session.room.model.RoomCanonicalAliasContent
-import com.energeek.android.sdk.api.session.room.model.RoomDirectoryVisibility
-import com.energeek.android.sdk.api.session.room.model.RoomNameContent
-import com.energeek.android.sdk.api.session.room.model.RoomTopicContent
-import com.energeek.android.sdk.api.session.room.model.roomdirectory.PublicRoomsFilter
-import com.energeek.android.sdk.api.session.room.model.roomdirectory.PublicRoomsParams
-import com.energeek.android.sdk.api.session.room.peeking.PeekResult
-import com.energeek.android.sdk.internal.session.room.alias.GetRoomIdByAliasTask
-import com.energeek.android.sdk.internal.session.room.directory.GetPublicRoomTask
-import com.energeek.android.sdk.internal.session.room.directory.GetRoomDirectoryVisibilityTask
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.MatrixPatterns
+import com.nusaraya.android.sdk.api.extensions.tryOrNull
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.api.session.room.model.RoomAvatarContent
+import com.nusaraya.android.sdk.api.session.room.model.RoomCanonicalAliasContent
+import com.nusaraya.android.sdk.api.session.room.model.RoomDirectoryVisibility
+import com.nusaraya.android.sdk.api.session.room.model.RoomNameContent
+import com.nusaraya.android.sdk.api.session.room.model.RoomTopicContent
+import com.nusaraya.android.sdk.api.session.room.model.roomdirectory.PublicRoomsFilter
+import com.nusaraya.android.sdk.api.session.room.model.roomdirectory.PublicRoomsParams
+import com.nusaraya.android.sdk.api.session.room.peeking.PeekResult
+import com.nusaraya.android.sdk.internal.session.room.alias.GetRoomIdByAliasTask
+import com.nusaraya.android.sdk.internal.session.room.directory.GetPublicRoomTask
+import com.nusaraya.android.sdk.internal.session.room.directory.GetRoomDirectoryVisibilityTask
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface PeekRoomTask : Task<PeekRoomTask.Params, PeekResult> {

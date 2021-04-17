@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.data
+package com.nusaraya.android.sdk.internal.auth.data
 
 internal object ThreePidMedium {
     const val EMAIL = "email"

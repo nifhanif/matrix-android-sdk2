@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.legacy
+package com.nusaraya.android.sdk.api.legacy
 
 interface LegacySessionImporter {
 

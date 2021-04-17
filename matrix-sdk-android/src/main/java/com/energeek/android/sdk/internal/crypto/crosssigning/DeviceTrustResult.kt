@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.crosssigning
+package com.nusaraya.android.sdk.internal.crypto.crosssigning
 
-import com.energeek.android.sdk.api.session.crypto.crosssigning.MXCrossSigningInfo
+import com.nusaraya.android.sdk.api.session.crypto.crosssigning.MXCrossSigningInfo
 
 sealed class DeviceTrustResult {
     data class Success(val level: DeviceTrustLevel) : DeviceTrustResult()

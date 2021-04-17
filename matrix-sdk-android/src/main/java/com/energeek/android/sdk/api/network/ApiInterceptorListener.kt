@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.network
+package com.nusaraya.android.sdk.api.network
 
 interface ApiInterceptorListener {
     fun onApiResponse(path: ApiPath, response: String)

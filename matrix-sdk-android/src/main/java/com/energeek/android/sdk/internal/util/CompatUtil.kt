@@ -16,7 +16,7 @@
 
 @file:Suppress("DEPRECATION")
 
-package com.energeek.android.sdk.internal.util
+package com.nusaraya.android.sdk.internal.util
 
 import android.content.Context
 import android.content.SharedPreferences

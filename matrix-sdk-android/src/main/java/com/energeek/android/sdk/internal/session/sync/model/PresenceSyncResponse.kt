@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync.model
+package com.nusaraya.android.sdk.internal.session.sync.model
 
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.Event
 
 //  PresenceSyncResponse represents the updates to the presence status of other users during server sync v2.
 @JsonClass(generateAdapter = true)

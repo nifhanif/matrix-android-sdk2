@@ -14,29 +14,29 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.di
+package com.nusaraya.android.sdk.internal.di
 
 import com.squareup.moshi.Moshi
-import com.energeek.android.sdk.api.session.room.model.message.MessageAudioContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageDefaultContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageEmoteContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageFileContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageImageContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageLocationContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageNoticeContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageOptionsContent
-import com.energeek.android.sdk.api.session.room.model.message.MessagePollResponseContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageTextContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageType
-import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationRequestContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageVideoContent
-import com.energeek.android.sdk.internal.network.parsing.CipherSuiteMoshiAdapter
-import com.energeek.android.sdk.internal.network.parsing.ForceToBooleanJsonAdapter
-import com.energeek.android.sdk.internal.network.parsing.RuntimeJsonAdapterFactory
-import com.energeek.android.sdk.internal.network.parsing.TlsVersionMoshiAdapter
-import com.energeek.android.sdk.internal.network.parsing.UriMoshiAdapter
-import com.energeek.android.sdk.internal.session.sync.parsing.DefaultLazyRoomSyncEphemeralJsonAdapter
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageAudioContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageDefaultContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageEmoteContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageFileContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageImageContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageLocationContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageNoticeContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageOptionsContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessagePollResponseContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageTextContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageType
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageVerificationRequestContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageVideoContent
+import com.nusaraya.android.sdk.internal.network.parsing.CipherSuiteMoshiAdapter
+import com.nusaraya.android.sdk.internal.network.parsing.ForceToBooleanJsonAdapter
+import com.nusaraya.android.sdk.internal.network.parsing.RuntimeJsonAdapterFactory
+import com.nusaraya.android.sdk.internal.network.parsing.TlsVersionMoshiAdapter
+import com.nusaraya.android.sdk.internal.network.parsing.UriMoshiAdapter
+import com.nusaraya.android.sdk.internal.session.sync.parsing.DefaultLazyRoomSyncEphemeralJsonAdapter
 
 object MoshiProvider {
 

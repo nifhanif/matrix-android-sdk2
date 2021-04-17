@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.model
+package com.nusaraya.android.sdk.internal.crypto.model
 
-import com.energeek.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
-import com.energeek.android.sdk.internal.crypto.model.rest.RestKeyInfo
+import com.nusaraya.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
+import com.nusaraya.android.sdk.internal.crypto.model.rest.RestKeyInfo
 
 data class CryptoCrossSigningKey(
         override val userId: String,

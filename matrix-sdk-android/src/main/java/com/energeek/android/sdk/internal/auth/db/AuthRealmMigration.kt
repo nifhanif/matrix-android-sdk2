@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.db
+package com.nusaraya.android.sdk.internal.auth.db
 
-import com.energeek.android.sdk.api.auth.data.Credentials
-import com.energeek.android.sdk.api.auth.data.sessionId
-import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.nusaraya.android.sdk.api.auth.data.Credentials
+import com.nusaraya.android.sdk.api.auth.data.sessionId
+import com.nusaraya.android.sdk.internal.di.MoshiProvider
 import io.realm.DynamicRealm
 import io.realm.RealmMigration
 import timber.log.Timber

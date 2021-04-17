@@ -14,30 +14,30 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.legacy
+package com.nusaraya.android.sdk.internal.legacy
 
 import android.content.Context
-import com.energeek.android.sdk.api.auth.data.Credentials
-import com.energeek.android.sdk.api.auth.data.DiscoveryInformation
-import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
-import com.energeek.android.sdk.api.auth.data.SessionParams
-import com.energeek.android.sdk.api.auth.data.WellKnownBaseConfig
-import com.energeek.android.sdk.api.legacy.LegacySessionImporter
-import com.energeek.android.sdk.internal.auth.SessionParamsStore
-import com.energeek.android.sdk.internal.crypto.store.db.RealmCryptoStoreMigration
-import com.energeek.android.sdk.internal.crypto.store.db.RealmCryptoStoreModule
-import com.energeek.android.sdk.internal.database.RealmKeysUtils
-import com.energeek.android.sdk.internal.legacy.riot.LoginStorage
-import com.energeek.android.sdk.internal.network.ssl.Fingerprint
-import com.energeek.android.sdk.internal.util.md5
+import com.nusaraya.android.sdk.api.auth.data.Credentials
+import com.nusaraya.android.sdk.api.auth.data.DiscoveryInformation
+import com.nusaraya.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.nusaraya.android.sdk.api.auth.data.SessionParams
+import com.nusaraya.android.sdk.api.auth.data.WellKnownBaseConfig
+import com.nusaraya.android.sdk.api.legacy.LegacySessionImporter
+import com.nusaraya.android.sdk.internal.auth.SessionParamsStore
+import com.nusaraya.android.sdk.internal.crypto.store.db.RealmCryptoStoreMigration
+import com.nusaraya.android.sdk.internal.crypto.store.db.RealmCryptoStoreModule
+import com.nusaraya.android.sdk.internal.database.RealmKeysUtils
+import com.nusaraya.android.sdk.internal.legacy.riot.LoginStorage
+import com.nusaraya.android.sdk.internal.network.ssl.Fingerprint
+import com.nusaraya.android.sdk.internal.util.md5
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import kotlinx.coroutines.runBlocking
 import timber.log.Timber
 import java.io.File
 import javax.inject.Inject
-import com.energeek.android.sdk.internal.legacy.riot.Fingerprint as LegacyFingerprint
-import com.energeek.android.sdk.internal.legacy.riot.HomeServerConnectionConfig as LegacyHomeServerConnectionConfig
+import com.nusaraya.android.sdk.internal.legacy.riot.Fingerprint as LegacyFingerprint
+import com.nusaraya.android.sdk.internal.legacy.riot.HomeServerConnectionConfig as LegacyHomeServerConnectionConfig
 
 internal class DefaultLegacySessionImporter @Inject constructor(
         private val context: Context,

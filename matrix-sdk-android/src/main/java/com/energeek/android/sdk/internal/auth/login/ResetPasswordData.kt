@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.login
+package com.nusaraya.android.sdk.internal.auth.login
 
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.internal.auth.registration.AddThreePidRegistrationResponse
+import com.nusaraya.android.sdk.internal.auth.registration.AddThreePidRegistrationResponse
 
 /**
  * Container to store the data when a reset password is in the email validation step

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.membership.admin
+package com.nusaraya.android.sdk.internal.session.room.membership.admin
 
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.room.RoomAPI
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.room.RoomAPI
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface MembershipAdminTask : Task<MembershipAdminTask.Params, Unit> {

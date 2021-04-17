@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.user.accountdata
+package com.nusaraya.android.sdk.internal.session.user.accountdata
 
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.internal.database.model.BreadcrumbsEntity
-import com.energeek.android.sdk.internal.database.query.get
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.session.sync.model.accountdata.BreadcrumbsContent
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.fetchCopied
+import com.nusaraya.android.sdk.internal.database.model.BreadcrumbsEntity
+import com.nusaraya.android.sdk.internal.database.query.get
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.session.sync.model.accountdata.BreadcrumbsContent
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.fetchCopied
 import javax.inject.Inject
 
 // Use the same arbitrary value than Riot-Web

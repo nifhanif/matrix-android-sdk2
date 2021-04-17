@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.widgets
+package com.nusaraya.android.sdk.internal.session.widgets
 
 import android.content.Context
 import timber.log.Timber

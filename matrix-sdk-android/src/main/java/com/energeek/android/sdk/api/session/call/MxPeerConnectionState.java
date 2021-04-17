@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.call;
+package com.nusaraya.android.sdk.api.session.call;
 
 /**
  * This is a copy of https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection/connectionState

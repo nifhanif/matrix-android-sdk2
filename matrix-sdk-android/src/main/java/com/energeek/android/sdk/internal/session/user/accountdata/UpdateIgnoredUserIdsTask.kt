@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.user.accountdata
+package com.nusaraya.android.sdk.internal.session.user.accountdata
 
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.session.accountdata.UserAccountDataTypes
-import com.energeek.android.sdk.internal.database.model.IgnoredUserEntity
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.sync.model.accountdata.IgnoredUsersContent
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.session.accountdata.UserAccountDataTypes
+import com.nusaraya.android.sdk.internal.database.model.IgnoredUserEntity
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.sync.model.accountdata.IgnoredUsersContent
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface UpdateIgnoredUserIdsTask : Task<UpdateIgnoredUserIdsTask.Params, Unit> {

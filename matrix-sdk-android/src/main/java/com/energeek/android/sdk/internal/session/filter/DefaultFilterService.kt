@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.filter
+package com.nusaraya.android.sdk.internal.session.filter
 
-import com.energeek.android.sdk.api.session.sync.FilterService
-import com.energeek.android.sdk.internal.task.TaskExecutor
-import com.energeek.android.sdk.internal.task.configureWith
+import com.nusaraya.android.sdk.api.session.sync.FilterService
+import com.nusaraya.android.sdk.internal.task.TaskExecutor
+import com.nusaraya.android.sdk.internal.task.configureWith
 import javax.inject.Inject
 
 internal class DefaultFilterService @Inject constructor(private val saveFilterTask: SaveFilterTask,

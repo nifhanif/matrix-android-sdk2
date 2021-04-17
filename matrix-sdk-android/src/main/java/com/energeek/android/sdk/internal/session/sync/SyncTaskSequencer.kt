@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync
+package com.nusaraya.android.sdk.internal.session.sync
 
-import com.energeek.android.sdk.internal.session.SessionScope
-import com.energeek.android.sdk.internal.task.SemaphoreCoroutineSequencer
+import com.nusaraya.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.internal.task.SemaphoreCoroutineSequencer
 import javax.inject.Inject
 
 @SessionScope

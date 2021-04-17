@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity
+package com.nusaraya.android.sdk.internal.session.identity
 
-import com.energeek.android.sdk.internal.auth.registration.SuccessResult
-import com.energeek.android.sdk.internal.network.NetworkConstants
-import com.energeek.android.sdk.internal.session.identity.model.IdentityAccountResponse
-import com.energeek.android.sdk.internal.session.identity.model.IdentityHashDetailResponse
-import com.energeek.android.sdk.internal.session.identity.model.IdentityLookUpParams
-import com.energeek.android.sdk.internal.session.identity.model.IdentityLookUpResponse
-import com.energeek.android.sdk.internal.session.identity.model.IdentityRequestOwnershipParams
-import com.energeek.android.sdk.internal.session.identity.model.IdentityRequestTokenForEmailBody
-import com.energeek.android.sdk.internal.session.identity.model.IdentityRequestTokenForMsisdnBody
-import com.energeek.android.sdk.internal.session.identity.model.IdentityRequestTokenResponse
+import com.nusaraya.android.sdk.internal.auth.registration.SuccessResult
+import com.nusaraya.android.sdk.internal.network.NetworkConstants
+import com.nusaraya.android.sdk.internal.session.identity.model.IdentityAccountResponse
+import com.nusaraya.android.sdk.internal.session.identity.model.IdentityHashDetailResponse
+import com.nusaraya.android.sdk.internal.session.identity.model.IdentityLookUpParams
+import com.nusaraya.android.sdk.internal.session.identity.model.IdentityLookUpResponse
+import com.nusaraya.android.sdk.internal.session.identity.model.IdentityRequestOwnershipParams
+import com.nusaraya.android.sdk.internal.session.identity.model.IdentityRequestTokenForEmailBody
+import com.nusaraya.android.sdk.internal.session.identity.model.IdentityRequestTokenForMsisdnBody
+import com.nusaraya.android.sdk.internal.session.identity.model.IdentityRequestTokenResponse
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST

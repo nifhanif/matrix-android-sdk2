@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.members
+package com.nusaraya.android.sdk.api.session.room.members
 
 import androidx.lifecycle.LiveData
-import com.energeek.android.sdk.api.session.identity.ThreePid
-import com.energeek.android.sdk.api.session.room.model.RoomMemberSummary
+import com.nusaraya.android.sdk.api.session.identity.ThreePid
+import com.nusaraya.android.sdk.api.session.room.model.RoomMemberSummary
 
 /**
  * This interface defines methods to handling membership. It's implemented at the room level.

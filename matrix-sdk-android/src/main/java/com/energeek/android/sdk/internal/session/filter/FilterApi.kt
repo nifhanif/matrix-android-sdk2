@@ -14,9 +14,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.session.filter
+package com.nusaraya.android.sdk.internal.session.filter
 
-import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.nusaraya.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST

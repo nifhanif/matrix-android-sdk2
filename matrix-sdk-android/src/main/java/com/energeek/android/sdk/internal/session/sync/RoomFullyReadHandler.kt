@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync
+package com.nusaraya.android.sdk.internal.session.sync
 
-import com.energeek.android.sdk.internal.database.model.ReadMarkerEntity
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
-import com.energeek.android.sdk.internal.database.query.getOrCreate
-import com.energeek.android.sdk.internal.session.room.read.FullyReadContent
+import com.nusaraya.android.sdk.internal.database.model.ReadMarkerEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntity
+import com.nusaraya.android.sdk.internal.database.query.getOrCreate
+import com.nusaraya.android.sdk.internal.session.room.read.FullyReadContent
 import io.realm.Realm
 import timber.log.Timber
 import javax.inject.Inject

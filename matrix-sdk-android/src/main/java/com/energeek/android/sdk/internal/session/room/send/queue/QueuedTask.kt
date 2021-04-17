@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.send.queue
+package com.nusaraya.android.sdk.internal.session.room.send.queue
 
-import com.energeek.android.sdk.api.util.Cancelable
+import com.nusaraya.android.sdk.api.util.Cancelable
 import timber.log.Timber
 import java.util.concurrent.atomic.AtomicInteger
 

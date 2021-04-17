@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.signout
+package com.nusaraya.android.sdk.internal.session.signout
 
-import com.energeek.android.sdk.api.auth.data.Credentials
-import com.energeek.android.sdk.internal.auth.data.PasswordLoginParams
-import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.nusaraya.android.sdk.api.auth.data.Credentials
+import com.nusaraya.android.sdk.internal.auth.data.PasswordLoginParams
+import com.nusaraya.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.Body
 import retrofit2.http.Headers
 import retrofit2.http.POST

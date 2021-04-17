@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.user.accountdata
+package com.nusaraya.android.sdk.internal.session.user.accountdata
 
-import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.nusaraya.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.Body
 import retrofit2.http.PUT
 import retrofit2.http.Path

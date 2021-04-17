@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.group
+package com.nusaraya.android.sdk.api.session.group
 
 /**
  * This interface defines methods to interact within a group.

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.algorithms.megolm
+package com.nusaraya.android.sdk.internal.crypto.algorithms.megolm
 
-import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import com.energeek.android.sdk.internal.crypto.model.MXUsersDevicesMap
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.model.MXUsersDevicesMap
 import timber.log.Timber
 
 internal class MXOutboundSessionInfo(

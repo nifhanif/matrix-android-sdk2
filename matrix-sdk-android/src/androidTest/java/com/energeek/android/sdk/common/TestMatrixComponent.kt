@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.common
+package com.nusaraya.android.sdk.common
 
 import android.content.Context
 import dagger.BindsInstance
 import dagger.Component
-import com.energeek.android.sdk.api.MatrixConfiguration
-import com.energeek.android.sdk.internal.auth.AuthModule
-import com.energeek.android.sdk.internal.di.MatrixComponent
-import com.energeek.android.sdk.internal.di.MatrixModule
-import com.energeek.android.sdk.internal.di.MatrixScope
-import com.energeek.android.sdk.internal.di.NetworkModule
-import com.energeek.android.sdk.internal.raw.RawModule
+import com.nusaraya.android.sdk.api.MatrixConfiguration
+import com.nusaraya.android.sdk.internal.auth.AuthModule
+import com.nusaraya.android.sdk.internal.di.MatrixComponent
+import com.nusaraya.android.sdk.internal.di.MatrixModule
+import com.nusaraya.android.sdk.internal.di.MatrixScope
+import com.nusaraya.android.sdk.internal.di.NetworkModule
+import com.nusaraya.android.sdk.internal.raw.RawModule
 
 @Component(modules = [
     TestModule::class,

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
-import com.energeek.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.api.util.JsonDict
 
 /**
  * The result of a (successful) call to decryptEvent.

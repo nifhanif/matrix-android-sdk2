@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.session.filter
+package com.nusaraya.android.sdk.internal.session.filter
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.nusaraya.android.sdk.internal.di.MoshiProvider
 
 /**
  * Represents "RoomEventFilter" as mentioned in the SPEC

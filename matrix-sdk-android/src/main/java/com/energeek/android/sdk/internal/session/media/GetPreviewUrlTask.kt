@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.media
+package com.nusaraya.android.sdk.internal.session.media
 
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.cache.CacheStrategy
-import com.energeek.android.sdk.api.session.media.PreviewUrlData
-import com.energeek.android.sdk.api.util.JsonDict
-import com.energeek.android.sdk.internal.database.model.PreviewUrlCacheEntity
-import com.energeek.android.sdk.internal.database.query.get
-import com.energeek.android.sdk.internal.database.query.getOrCreate
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.awaitTransaction
-import com.energeek.android.sdk.internal.util.unescapeHtml
+import com.nusaraya.android.sdk.api.cache.CacheStrategy
+import com.nusaraya.android.sdk.api.session.media.PreviewUrlData
+import com.nusaraya.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.internal.database.model.PreviewUrlCacheEntity
+import com.nusaraya.android.sdk.internal.database.query.get
+import com.nusaraya.android.sdk.internal.database.query.getOrCreate
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.awaitTransaction
+import com.nusaraya.android.sdk.internal.util.unescapeHtml
 import java.util.Date
 import javax.inject.Inject
 

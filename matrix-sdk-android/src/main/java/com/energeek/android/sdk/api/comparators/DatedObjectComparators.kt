@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.comparators
+package com.nusaraya.android.sdk.api.comparators
 
-import com.energeek.android.sdk.api.interfaces.DatedObject
+import com.nusaraya.android.sdk.api.interfaces.DatedObject
 
 object DatedObjectComparators {
 

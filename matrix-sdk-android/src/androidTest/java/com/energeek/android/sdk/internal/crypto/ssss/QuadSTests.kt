@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.ssss
+package com.nusaraya.android.sdk.internal.crypto.ssss
 
 import androidx.lifecycle.Observer
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.energeek.android.sdk.InstrumentedTest
-import com.energeek.android.sdk.api.session.Session
-import com.energeek.android.sdk.api.session.securestorage.EncryptedSecretContent
-import com.energeek.android.sdk.api.session.securestorage.KeySigner
-import com.energeek.android.sdk.api.session.securestorage.RawBytesKeySpec
-import com.energeek.android.sdk.api.session.securestorage.SecretStorageKeyContent
-import com.energeek.android.sdk.api.session.securestorage.SharedSecretStorageService
-import com.energeek.android.sdk.api.session.securestorage.SsssKeyCreationInfo
-import com.energeek.android.sdk.api.util.Optional
-import com.energeek.android.sdk.common.CommonTestHelper
-import com.energeek.android.sdk.common.SessionTestParams
-import com.energeek.android.sdk.common.TestConstants
-import com.energeek.android.sdk.internal.crypto.SSSS_ALGORITHM_AES_HMAC_SHA2
-import com.energeek.android.sdk.internal.crypto.crosssigning.toBase64NoPadding
-import com.energeek.android.sdk.internal.crypto.secrets.DefaultSharedSecretStorageService
-import com.energeek.android.sdk.api.session.accountdata.UserAccountDataEvent
+import com.nusaraya.android.sdk.InstrumentedTest
+import com.nusaraya.android.sdk.api.session.Session
+import com.nusaraya.android.sdk.api.session.securestorage.EncryptedSecretContent
+import com.nusaraya.android.sdk.api.session.securestorage.KeySigner
+import com.nusaraya.android.sdk.api.session.securestorage.RawBytesKeySpec
+import com.nusaraya.android.sdk.api.session.securestorage.SecretStorageKeyContent
+import com.nusaraya.android.sdk.api.session.securestorage.SharedSecretStorageService
+import com.nusaraya.android.sdk.api.session.securestorage.SsssKeyCreationInfo
+import com.nusaraya.android.sdk.api.util.Optional
+import com.nusaraya.android.sdk.common.CommonTestHelper
+import com.nusaraya.android.sdk.common.SessionTestParams
+import com.nusaraya.android.sdk.common.TestConstants
+import com.nusaraya.android.sdk.internal.crypto.SSSS_ALGORITHM_AES_HMAC_SHA2
+import com.nusaraya.android.sdk.internal.crypto.crosssigning.toBase64NoPadding
+import com.nusaraya.android.sdk.internal.crypto.secrets.DefaultSharedSecretStorageService
+import com.nusaraya.android.sdk.api.session.accountdata.UserAccountDataEvent
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

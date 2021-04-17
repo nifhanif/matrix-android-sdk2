@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.notification
+package com.nusaraya.android.sdk.internal.session.room.notification
 
-import com.energeek.android.sdk.api.pushrules.Action
-import com.energeek.android.sdk.api.pushrules.Kind
-import com.energeek.android.sdk.api.pushrules.RuleSetKey
-import com.energeek.android.sdk.api.pushrules.getActions
-import com.energeek.android.sdk.api.pushrules.rest.PushCondition
-import com.energeek.android.sdk.api.pushrules.rest.PushRule
-import com.energeek.android.sdk.api.pushrules.toJson
-import com.energeek.android.sdk.api.session.room.notification.RoomNotificationState
-import com.energeek.android.sdk.internal.database.mapper.PushRulesMapper
-import com.energeek.android.sdk.internal.database.model.PushRuleEntity
+import com.nusaraya.android.sdk.api.pushrules.Action
+import com.nusaraya.android.sdk.api.pushrules.Kind
+import com.nusaraya.android.sdk.api.pushrules.RuleSetKey
+import com.nusaraya.android.sdk.api.pushrules.getActions
+import com.nusaraya.android.sdk.api.pushrules.rest.PushCondition
+import com.nusaraya.android.sdk.api.pushrules.rest.PushRule
+import com.nusaraya.android.sdk.api.pushrules.toJson
+import com.nusaraya.android.sdk.api.session.room.notification.RoomNotificationState
+import com.nusaraya.android.sdk.internal.database.mapper.PushRulesMapper
+import com.nusaraya.android.sdk.internal.database.model.PushRuleEntity
 
 internal fun PushRuleEntity.toRoomPushRule(): RoomPushRule? {
     val kind = parent?.firstOrNull()?.kind

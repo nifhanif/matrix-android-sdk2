@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.keysbackup
+package com.nusaraya.android.sdk.internal.crypto.keysbackup
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.energeek.android.sdk.InstrumentedTest
-import com.energeek.android.sdk.api.listeners.ProgressListener
-import com.energeek.android.sdk.api.listeners.StepProgressListener
-import com.energeek.android.sdk.api.session.crypto.keysbackup.KeysBackupState
-import com.energeek.android.sdk.api.session.crypto.keysbackup.KeysBackupStateListener
-import com.energeek.android.sdk.common.CommonTestHelper
-import com.energeek.android.sdk.common.CryptoTestHelper
-import com.energeek.android.sdk.common.TestConstants
-import com.energeek.android.sdk.common.TestMatrixCallback
-import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP
-import com.energeek.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
-import com.energeek.android.sdk.internal.crypto.keysbackup.model.KeysBackupVersionTrust
-import com.energeek.android.sdk.internal.crypto.keysbackup.model.MegolmBackupCreationInfo
-import com.energeek.android.sdk.internal.crypto.keysbackup.model.rest.KeysVersion
-import com.energeek.android.sdk.internal.crypto.keysbackup.model.rest.KeysVersionResult
-import com.energeek.android.sdk.internal.crypto.model.ImportRoomKeysResult
+import com.nusaraya.android.sdk.InstrumentedTest
+import com.nusaraya.android.sdk.api.listeners.ProgressListener
+import com.nusaraya.android.sdk.api.listeners.StepProgressListener
+import com.nusaraya.android.sdk.api.session.crypto.keysbackup.KeysBackupState
+import com.nusaraya.android.sdk.api.session.crypto.keysbackup.KeysBackupStateListener
+import com.nusaraya.android.sdk.common.CommonTestHelper
+import com.nusaraya.android.sdk.common.CryptoTestHelper
+import com.nusaraya.android.sdk.common.TestConstants
+import com.nusaraya.android.sdk.common.TestMatrixCallback
+import com.nusaraya.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP
+import com.nusaraya.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
+import com.nusaraya.android.sdk.internal.crypto.keysbackup.model.KeysBackupVersionTrust
+import com.nusaraya.android.sdk.internal.crypto.keysbackup.model.MegolmBackupCreationInfo
+import com.nusaraya.android.sdk.internal.crypto.keysbackup.model.rest.KeysVersion
+import com.nusaraya.android.sdk.internal.crypto.keysbackup.model.rest.KeysVersionResult
+import com.nusaraya.android.sdk.internal.crypto.model.ImportRoomKeysResult
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNotNull

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.tasks
+package com.nusaraya.android.sdk.internal.crypto.tasks
 
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.internal.crypto.api.CryptoApi
-import com.energeek.android.sdk.internal.crypto.model.CryptoCrossSigningKey
-import com.energeek.android.sdk.api.auth.UIABaseAuth
-import com.energeek.android.sdk.internal.crypto.model.rest.UploadSigningKeysBody
-import com.energeek.android.sdk.internal.crypto.model.toRest
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.internal.crypto.api.CryptoApi
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoCrossSigningKey
+import com.nusaraya.android.sdk.api.auth.UIABaseAuth
+import com.nusaraya.android.sdk.internal.crypto.model.rest.UploadSigningKeysBody
+import com.nusaraya.android.sdk.internal.crypto.model.toRest
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface UploadSigningKeysTask : Task<UploadSigningKeysTask.Params, Unit> {

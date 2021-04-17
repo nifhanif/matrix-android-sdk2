@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity.data
+package com.nusaraya.android.sdk.internal.session.identity.data
 
-import com.energeek.android.sdk.api.session.identity.ThreePid
-import com.energeek.android.sdk.internal.session.identity.model.IdentityHashDetailResponse
+import com.nusaraya.android.sdk.api.session.identity.ThreePid
+import com.nusaraya.android.sdk.internal.session.identity.model.IdentityHashDetailResponse
 
 internal interface IdentityStore {
 

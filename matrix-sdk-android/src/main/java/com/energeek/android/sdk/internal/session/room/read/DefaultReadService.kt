@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.read
+package com.nusaraya.android.sdk.internal.session.room.read
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
@@ -22,19 +22,19 @@ import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.session.room.model.ReadReceipt
-import com.energeek.android.sdk.api.session.room.read.ReadService
-import com.energeek.android.sdk.api.util.Optional
-import com.energeek.android.sdk.api.util.toOptional
-import com.energeek.android.sdk.internal.database.mapper.ReadReceiptsSummaryMapper
-import com.energeek.android.sdk.internal.database.model.ReadMarkerEntity
-import com.energeek.android.sdk.internal.database.model.ReadReceiptEntity
-import com.energeek.android.sdk.internal.database.model.ReadReceiptsSummaryEntity
-import com.energeek.android.sdk.internal.database.query.isEventRead
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.task.TaskExecutor
+import com.nusaraya.android.sdk.api.session.room.model.ReadReceipt
+import com.nusaraya.android.sdk.api.session.room.read.ReadService
+import com.nusaraya.android.sdk.api.util.Optional
+import com.nusaraya.android.sdk.api.util.toOptional
+import com.nusaraya.android.sdk.internal.database.mapper.ReadReceiptsSummaryMapper
+import com.nusaraya.android.sdk.internal.database.model.ReadMarkerEntity
+import com.nusaraya.android.sdk.internal.database.model.ReadReceiptEntity
+import com.nusaraya.android.sdk.internal.database.model.ReadReceiptsSummaryEntity
+import com.nusaraya.android.sdk.internal.database.query.isEventRead
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.task.TaskExecutor
 
 internal class DefaultReadService @AssistedInject constructor(
         @Assisted private val roomId: String,

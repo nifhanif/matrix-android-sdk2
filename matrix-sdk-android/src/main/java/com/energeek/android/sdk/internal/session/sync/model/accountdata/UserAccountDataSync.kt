@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync.model.accountdata
+package com.nusaraya.android.sdk.internal.session.sync.model.accountdata
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.session.accountdata.UserAccountDataEvent
+import com.nusaraya.android.sdk.api.session.accountdata.UserAccountDataEvent
 
 @JsonClass(generateAdapter = true)
 internal data class UserAccountDataSync(

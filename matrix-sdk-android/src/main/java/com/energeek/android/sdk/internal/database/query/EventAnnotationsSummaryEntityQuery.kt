@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.query
+package com.nusaraya.android.sdk.internal.database.query
 
-import com.energeek.android.sdk.internal.database.model.EventAnnotationsSummaryEntity
-import com.energeek.android.sdk.internal.database.model.EventAnnotationsSummaryEntityFields
-import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
+import com.nusaraya.android.sdk.internal.database.model.EventAnnotationsSummaryEntity
+import com.nusaraya.android.sdk.internal.database.model.EventAnnotationsSummaryEntityFields
+import com.nusaraya.android.sdk.internal.database.model.TimelineEventEntity
 import io.realm.Realm
 import io.realm.RealmQuery
 import io.realm.kotlin.where

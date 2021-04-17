@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.timeline
+package com.nusaraya.android.sdk.internal.session.room.timeline
 
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.RelationType
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.api.session.room.model.EventAnnotationsSummary
-import com.energeek.android.sdk.api.session.room.model.ReactionAggregatedSummary
-import com.energeek.android.sdk.api.session.room.model.relation.ReactionContent
-import com.energeek.android.sdk.api.session.room.send.SendState
-import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
-import com.energeek.android.sdk.api.session.room.timeline.TimelineSettings
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.RelationType
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.api.session.room.model.EventAnnotationsSummary
+import com.nusaraya.android.sdk.api.session.room.model.ReactionAggregatedSummary
+import com.nusaraya.android.sdk.api.session.room.model.relation.ReactionContent
+import com.nusaraya.android.sdk.api.session.room.send.SendState
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineEvent
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineSettings
 import timber.log.Timber
 import java.util.Collections
 

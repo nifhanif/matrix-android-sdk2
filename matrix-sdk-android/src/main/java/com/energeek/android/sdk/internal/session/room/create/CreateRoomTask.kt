@@ -14,33 +14,33 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.create
+package com.nusaraya.android.sdk.internal.session.room.create
 
 import com.zhuinden.monarchy.Monarchy
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import kotlinx.coroutines.TimeoutCancellationException
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.api.failure.MatrixError
-import com.energeek.android.sdk.api.session.room.alias.RoomAliasError
-import com.energeek.android.sdk.api.session.room.failure.CreateRoomFailure
-import com.energeek.android.sdk.api.session.room.model.Membership
-import com.energeek.android.sdk.api.session.room.model.create.CreateRoomParams
-import com.energeek.android.sdk.api.session.room.model.create.CreateRoomPreset
-import com.energeek.android.sdk.internal.database.awaitNotEmptyResult
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntityFields
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.room.RoomAPI
-import com.energeek.android.sdk.internal.session.room.alias.RoomAliasAvailabilityChecker
-import com.energeek.android.sdk.internal.session.room.read.SetReadMarkersTask
-import com.energeek.android.sdk.internal.session.user.accountdata.DirectChatsHelper
-import com.energeek.android.sdk.internal.session.user.accountdata.UpdateUserAccountDataTask
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.awaitTransaction
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.failure.MatrixError
+import com.nusaraya.android.sdk.api.session.room.alias.RoomAliasError
+import com.nusaraya.android.sdk.api.session.room.failure.CreateRoomFailure
+import com.nusaraya.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.api.session.room.model.create.CreateRoomParams
+import com.nusaraya.android.sdk.api.session.room.model.create.CreateRoomPreset
+import com.nusaraya.android.sdk.internal.database.awaitNotEmptyResult
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntityFields
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.room.RoomAPI
+import com.nusaraya.android.sdk.internal.session.room.alias.RoomAliasAvailabilityChecker
+import com.nusaraya.android.sdk.internal.session.room.read.SetReadMarkersTask
+import com.nusaraya.android.sdk.internal.session.user.accountdata.DirectChatsHelper
+import com.nusaraya.android.sdk.internal.session.user.accountdata.UpdateUserAccountDataTask
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.awaitTransaction
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.user
+package com.nusaraya.android.sdk.internal.session.user
 
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.internal.database.model.UserEntity
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.util.awaitTransaction
+import com.nusaraya.android.sdk.internal.database.model.UserEntity
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.util.awaitTransaction
 import javax.inject.Inject
 
 internal interface UserStore {

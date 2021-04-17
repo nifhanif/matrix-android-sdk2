@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.state
+package com.nusaraya.android.sdk.internal.session.room.state
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.session.events.model.toContent
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.api.session.room.model.PowerLevelsContent
-import com.energeek.android.sdk.api.session.room.powerlevels.Role
-import com.energeek.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.api.session.events.model.toContent
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.api.session.room.model.PowerLevelsContent
+import com.nusaraya.android.sdk.api.session.room.powerlevels.Role
+import com.nusaraya.android.sdk.api.util.JsonDict
 
 @JsonClass(generateAdapter = true)
 internal data class SerializablePowerLevelsContent(

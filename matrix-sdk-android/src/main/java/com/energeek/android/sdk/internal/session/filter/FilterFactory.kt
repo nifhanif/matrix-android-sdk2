@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.filter
+package com.nusaraya.android.sdk.internal.session.filter
 
-import com.energeek.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.EventType
 
 internal object FilterFactory {
 

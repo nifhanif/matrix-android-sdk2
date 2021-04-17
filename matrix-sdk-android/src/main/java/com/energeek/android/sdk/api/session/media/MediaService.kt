@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.media
+package com.nusaraya.android.sdk.api.session.media
 
-import com.energeek.android.sdk.api.cache.CacheStrategy
-import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
-import com.energeek.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.api.cache.CacheStrategy
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineEvent
+import com.nusaraya.android.sdk.api.util.JsonDict
 
 interface MediaService {
     /**

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.account
+package com.nusaraya.android.sdk.internal.session.account
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import com.energeek.android.sdk.api.session.account.AccountService
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.api.session.account.AccountService
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import retrofit2.Retrofit
 
 @Module

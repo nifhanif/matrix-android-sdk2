@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.verification
+package com.nusaraya.android.sdk.internal.crypto.verification
 
-import com.energeek.android.sdk.api.session.events.model.Content
-import com.energeek.android.sdk.internal.crypto.model.rest.SendToDeviceObject
+import com.nusaraya.android.sdk.api.session.events.model.Content
+import com.nusaraya.android.sdk.internal.crypto.model.rest.SendToDeviceObject
 
 interface VerificationInfo<ValidObjectType> {
     fun toEventContent(): Content? = null

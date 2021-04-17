@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.call
+package com.nusaraya.android.sdk.internal.session.call
 
-import com.energeek.android.sdk.api.MatrixConfiguration
-import com.energeek.android.sdk.api.session.call.MxCall
-import com.energeek.android.sdk.api.session.room.model.call.CallCapabilities
-import com.energeek.android.sdk.api.session.room.model.call.CallInviteContent
-import com.energeek.android.sdk.api.util.Optional
-import com.energeek.android.sdk.internal.di.DeviceId
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.session.call.model.MxCallImpl
-import com.energeek.android.sdk.internal.session.profile.GetProfileInfoTask
-import com.energeek.android.sdk.internal.session.room.send.LocalEchoEventFactory
-import com.energeek.android.sdk.internal.session.room.send.queue.EventSenderProcessor
+import com.nusaraya.android.sdk.api.MatrixConfiguration
+import com.nusaraya.android.sdk.api.session.call.MxCall
+import com.nusaraya.android.sdk.api.session.room.model.call.CallCapabilities
+import com.nusaraya.android.sdk.api.session.room.model.call.CallInviteContent
+import com.nusaraya.android.sdk.api.util.Optional
+import com.nusaraya.android.sdk.internal.di.DeviceId
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.session.call.model.MxCallImpl
+import com.nusaraya.android.sdk.internal.session.profile.GetProfileInfoTask
+import com.nusaraya.android.sdk.internal.session.room.send.LocalEchoEventFactory
+import com.nusaraya.android.sdk.internal.session.room.send.queue.EventSenderProcessor
 import java.math.BigDecimal
 import java.util.UUID
 import javax.inject.Inject

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity.db
+package com.nusaraya.android.sdk.internal.session.identity.db
 
-import com.energeek.android.sdk.api.session.identity.ThreePid
+import com.nusaraya.android.sdk.api.session.identity.ThreePid
 import io.realm.Realm
 import io.realm.kotlin.createObject
 import io.realm.kotlin.where

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.attachments
+package com.nusaraya.android.sdk.internal.crypto.attachments
 
-import com.energeek.android.sdk.internal.crypto.model.rest.EncryptedFileInfo
+import com.nusaraya.android.sdk.internal.crypto.model.rest.EncryptedFileInfo
 
 /**
  * Define the result of an encryption file

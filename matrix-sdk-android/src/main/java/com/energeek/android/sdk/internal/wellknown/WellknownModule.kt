@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.wellknown
+package com.nusaraya.android.sdk.internal.wellknown
 
 import dagger.Binds
 import dagger.Module

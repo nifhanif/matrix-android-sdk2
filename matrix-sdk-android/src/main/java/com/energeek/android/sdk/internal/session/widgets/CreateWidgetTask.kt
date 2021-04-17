@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.widgets
+package com.nusaraya.android.sdk.internal.session.widgets
 
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.session.events.model.Content
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.internal.database.awaitNotEmptyResult
-import com.energeek.android.sdk.internal.database.model.CurrentStateEventEntity
-import com.energeek.android.sdk.internal.database.model.CurrentStateEventEntityFields
-import com.energeek.android.sdk.internal.database.query.whereStateKey
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.room.RoomAPI
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.session.events.model.Content
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.internal.database.awaitNotEmptyResult
+import com.nusaraya.android.sdk.internal.database.model.CurrentStateEventEntity
+import com.nusaraya.android.sdk.internal.database.model.CurrentStateEventEntityFields
+import com.nusaraya.android.sdk.internal.database.query.whereStateKey
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.room.RoomAPI
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface CreateWidgetTask : Task<CreateWidgetTask.Params, Unit> {

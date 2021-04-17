@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk
+package com.nusaraya.android.sdk
 
-import com.energeek.android.sdk.test.shared.createTimberTestRule
+import com.nusaraya.android.sdk.test.shared.createTimberTestRule
 import org.junit.Rule
 
 interface MatrixTest {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.notification
+package com.nusaraya.android.sdk.internal.session.room.notification
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
@@ -22,12 +22,12 @@ import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.pushrules.RuleScope
-import com.energeek.android.sdk.api.session.room.notification.RoomNotificationState
-import com.energeek.android.sdk.api.session.room.notification.RoomPushRuleService
-import com.energeek.android.sdk.internal.database.model.PushRuleEntity
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.api.pushrules.RuleScope
+import com.nusaraya.android.sdk.api.session.room.notification.RoomNotificationState
+import com.nusaraya.android.sdk.api.session.room.notification.RoomPushRuleService
+import com.nusaraya.android.sdk.internal.database.model.PushRuleEntity
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
 
 internal class DefaultRoomPushRuleService @AssistedInject constructor(@Assisted private val roomId: String,
                                                                       private val setRoomNotificationStateTask: SetRoomNotificationStateTask,

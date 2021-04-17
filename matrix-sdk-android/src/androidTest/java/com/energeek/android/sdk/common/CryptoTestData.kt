@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.common
+package com.nusaraya.android.sdk.common
 
-import com.energeek.android.sdk.api.session.Session
+import com.nusaraya.android.sdk.api.session.Session
 
 data class CryptoTestData(val roomId: String,
                           val sessions: List<Session>) {

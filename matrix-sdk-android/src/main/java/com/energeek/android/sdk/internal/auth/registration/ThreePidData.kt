@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.registration
+package com.nusaraya.android.sdk.internal.auth.registration
 
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.auth.registration.RegisterThreePid
+import com.nusaraya.android.sdk.api.auth.registration.RegisterThreePid
 
 /**
  * Container to store the data when a three pid is in validation step

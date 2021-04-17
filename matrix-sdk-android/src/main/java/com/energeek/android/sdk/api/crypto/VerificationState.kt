@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.crypto
+package com.nusaraya.android.sdk.api.crypto
 
 enum class VerificationState {
     REQUEST,

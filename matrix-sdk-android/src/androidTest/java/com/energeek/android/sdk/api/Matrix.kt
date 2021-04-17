@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api
+package com.nusaraya.android.sdk.api
 
 import android.content.Context
 import android.os.Handler
@@ -23,18 +23,18 @@ import androidx.lifecycle.ProcessLifecycleOwner
 import androidx.work.Configuration
 import androidx.work.WorkManager
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.BuildConfig
-import com.energeek.android.sdk.api.auth.AuthenticationService
-import com.energeek.android.sdk.api.auth.HomeServerHistoryService
-import com.energeek.android.sdk.api.legacy.LegacySessionImporter
-import com.energeek.android.sdk.api.network.ApiInterceptorListener
-import com.energeek.android.sdk.api.network.ApiPath
-import com.energeek.android.sdk.api.raw.RawService
-import com.energeek.android.sdk.common.DaggerTestMatrixComponent
-import com.energeek.android.sdk.internal.SessionManager
-import com.energeek.android.sdk.internal.network.ApiInterceptor
-import com.energeek.android.sdk.internal.network.UserAgentHolder
-import com.energeek.android.sdk.internal.util.BackgroundDetectionObserver
+import com.nusaraya.android.sdk.BuildConfig
+import com.nusaraya.android.sdk.api.auth.AuthenticationService
+import com.nusaraya.android.sdk.api.auth.HomeServerHistoryService
+import com.nusaraya.android.sdk.api.legacy.LegacySessionImporter
+import com.nusaraya.android.sdk.api.network.ApiInterceptorListener
+import com.nusaraya.android.sdk.api.network.ApiPath
+import com.nusaraya.android.sdk.api.raw.RawService
+import com.nusaraya.android.sdk.common.DaggerTestMatrixComponent
+import com.nusaraya.android.sdk.internal.SessionManager
+import com.nusaraya.android.sdk.internal.network.ApiInterceptor
+import com.nusaraya.android.sdk.internal.network.UserAgentHolder
+import com.nusaraya.android.sdk.internal.util.BackgroundDetectionObserver
 import org.matrix.olm.OlmManager
 import java.util.concurrent.Executors
 import java.util.concurrent.atomic.AtomicBoolean

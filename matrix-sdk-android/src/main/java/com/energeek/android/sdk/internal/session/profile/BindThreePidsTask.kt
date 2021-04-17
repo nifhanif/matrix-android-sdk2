@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.profile
+package com.nusaraya.android.sdk.internal.session.profile
 
-import com.energeek.android.sdk.api.session.identity.IdentityServiceError
-import com.energeek.android.sdk.api.session.identity.ThreePid
-import com.energeek.android.sdk.internal.di.AuthenticatedIdentity
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.network.token.AccessTokenProvider
-import com.energeek.android.sdk.internal.session.identity.data.IdentityStore
-import com.energeek.android.sdk.internal.session.identity.data.getIdentityServerUrlWithoutProtocol
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.session.identity.IdentityServiceError
+import com.nusaraya.android.sdk.api.session.identity.ThreePid
+import com.nusaraya.android.sdk.internal.di.AuthenticatedIdentity
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.network.token.AccessTokenProvider
+import com.nusaraya.android.sdk.internal.session.identity.data.IdentityStore
+import com.nusaraya.android.sdk.internal.session.identity.data.getIdentityServerUrlWithoutProtocol
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal abstract class BindThreePidsTask : Task<BindThreePidsTask.Params, Unit> {

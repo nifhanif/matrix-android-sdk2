@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.model
+package com.nusaraya.android.sdk.internal.crypto.model
 
-import com.energeek.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.api.util.JsonDict
 import timber.log.Timber
 
 data class MXKey(

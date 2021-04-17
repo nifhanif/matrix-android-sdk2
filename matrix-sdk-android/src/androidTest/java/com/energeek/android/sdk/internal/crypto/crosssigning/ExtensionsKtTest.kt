@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.crosssigning
+package com.nusaraya.android.sdk.internal.crypto.crosssigning
 
 import org.amshove.kluent.shouldBeNull
 import org.amshove.kluent.shouldBeTrue

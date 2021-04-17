@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.account
+package com.nusaraya.android.sdk.internal.session.account
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.auth.UIABaseAuth
+import com.nusaraya.android.sdk.api.auth.UIABaseAuth
 
 @JsonClass(generateAdapter = true)
 internal data class DeactivateAccountParams(

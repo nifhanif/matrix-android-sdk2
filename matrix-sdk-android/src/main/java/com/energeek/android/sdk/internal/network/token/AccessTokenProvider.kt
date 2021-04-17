@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.network.token
+package com.nusaraya.android.sdk.internal.network.token
 
 internal interface AccessTokenProvider {
     fun getToken(): String?

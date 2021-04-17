@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.content
+package com.nusaraya.android.sdk.internal.session.content
 
 import android.content.Context
 import android.graphics.Bitmap
 import android.media.MediaMetadataRetriever
-import com.energeek.android.sdk.api.session.content.ContentAttachmentData
-import com.energeek.android.sdk.api.util.MimeTypes
+import com.nusaraya.android.sdk.api.session.content.ContentAttachmentData
+import com.nusaraya.android.sdk.api.util.MimeTypes
 import timber.log.Timber
 import java.io.ByteArrayOutputStream
 

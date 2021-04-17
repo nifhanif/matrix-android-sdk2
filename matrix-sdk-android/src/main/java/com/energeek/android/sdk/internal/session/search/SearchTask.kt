@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.search
+package com.nusaraya.android.sdk.internal.session.search
 
-import com.energeek.android.sdk.api.session.search.EventAndSender
-import com.energeek.android.sdk.api.session.search.SearchResult
-import com.energeek.android.sdk.api.util.MatrixItem
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.search.request.SearchRequestBody
-import com.energeek.android.sdk.internal.session.search.request.SearchRequestCategories
-import com.energeek.android.sdk.internal.session.search.request.SearchRequestEventContext
-import com.energeek.android.sdk.internal.session.search.request.SearchRequestFilter
-import com.energeek.android.sdk.internal.session.search.request.SearchRequestOrder
-import com.energeek.android.sdk.internal.session.search.request.SearchRequestRoomEvents
-import com.energeek.android.sdk.internal.session.search.response.SearchResponse
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.session.search.EventAndSender
+import com.nusaraya.android.sdk.api.session.search.SearchResult
+import com.nusaraya.android.sdk.api.util.MatrixItem
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.search.request.SearchRequestBody
+import com.nusaraya.android.sdk.internal.session.search.request.SearchRequestCategories
+import com.nusaraya.android.sdk.internal.session.search.request.SearchRequestEventContext
+import com.nusaraya.android.sdk.internal.session.search.request.SearchRequestFilter
+import com.nusaraya.android.sdk.internal.session.search.request.SearchRequestOrder
+import com.nusaraya.android.sdk.internal.session.search.request.SearchRequestRoomEvents
+import com.nusaraya.android.sdk.internal.session.search.response.SearchResponse
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface SearchTask : Task<SearchTask.Params, SearchResult> {

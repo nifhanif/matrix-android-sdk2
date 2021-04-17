@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.widgets
+package com.nusaraya.android.sdk.internal.session.widgets
 
 import androidx.lifecycle.LiveData
-import com.energeek.android.sdk.api.query.QueryStringValue
-import com.energeek.android.sdk.api.session.events.model.Content
-import com.energeek.android.sdk.api.session.widgets.WidgetPostAPIMediator
-import com.energeek.android.sdk.api.session.widgets.WidgetService
-import com.energeek.android.sdk.api.session.widgets.WidgetURLFormatter
-import com.energeek.android.sdk.api.session.widgets.model.Widget
+import com.nusaraya.android.sdk.api.query.QueryStringValue
+import com.nusaraya.android.sdk.api.session.events.model.Content
+import com.nusaraya.android.sdk.api.session.widgets.WidgetPostAPIMediator
+import com.nusaraya.android.sdk.api.session.widgets.WidgetService
+import com.nusaraya.android.sdk.api.session.widgets.WidgetURLFormatter
+import com.nusaraya.android.sdk.api.session.widgets.model.Widget
 import javax.inject.Inject
 import javax.inject.Provider
 

@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
 import kotlinx.coroutines.launch
-import com.energeek.android.sdk.api.MatrixPatterns
-import com.energeek.android.sdk.api.auth.data.Credentials
-import com.energeek.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
-import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import com.energeek.android.sdk.internal.crypto.model.CryptoInfoMapper
-import com.energeek.android.sdk.internal.crypto.model.MXUsersDevicesMap
-import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
-import com.energeek.android.sdk.internal.crypto.tasks.DownloadKeysForUsersTask
-import com.energeek.android.sdk.internal.session.SessionScope
-import com.energeek.android.sdk.internal.session.sync.SyncTokenStore
-import com.energeek.android.sdk.internal.task.TaskExecutor
-import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
-import com.energeek.android.sdk.internal.util.logLimit
+import com.nusaraya.android.sdk.api.MatrixPatterns
+import com.nusaraya.android.sdk.api.auth.data.Credentials
+import com.nusaraya.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoInfoMapper
+import com.nusaraya.android.sdk.internal.crypto.model.MXUsersDevicesMap
+import com.nusaraya.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.nusaraya.android.sdk.internal.crypto.tasks.DownloadKeysForUsersTask
+import com.nusaraya.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.internal.session.sync.SyncTokenStore
+import com.nusaraya.android.sdk.internal.task.TaskExecutor
+import com.nusaraya.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.nusaraya.android.sdk.internal.util.logLimit
 import timber.log.Timber
 import javax.inject.Inject
 

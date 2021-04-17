@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.widgets.model
+package com.nusaraya.android.sdk.api.session.widgets.model
 
 import android.annotation.SuppressLint
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.api.util.JsonDict
 
 /**
  * Ref: https://github.com/matrix-org/matrix-doc/issues/1236

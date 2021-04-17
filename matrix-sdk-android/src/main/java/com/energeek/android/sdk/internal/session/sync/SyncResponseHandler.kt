@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync
+package com.nusaraya.android.sdk.internal.session.sync
 
 import androidx.work.ExistingPeriodicWorkPolicy
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.pushrules.PushRuleService
-import com.energeek.android.sdk.api.pushrules.RuleScope
-import com.energeek.android.sdk.api.session.initsync.InitSyncStep
-import com.energeek.android.sdk.internal.crypto.DefaultCryptoService
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.di.SessionId
-import com.energeek.android.sdk.internal.di.WorkManagerProvider
-import com.energeek.android.sdk.internal.session.group.GetGroupDataWorker
-import com.energeek.android.sdk.internal.session.initsync.ProgressReporter
-import com.energeek.android.sdk.internal.session.initsync.reportSubtask
-import com.energeek.android.sdk.internal.session.notification.ProcessEventForPushTask
-import com.energeek.android.sdk.internal.session.sync.model.GroupsSyncResponse
-import com.energeek.android.sdk.internal.session.sync.model.RoomsSyncResponse
-import com.energeek.android.sdk.internal.session.sync.model.SyncResponse
-import com.energeek.android.sdk.internal.util.awaitTransaction
-import com.energeek.android.sdk.internal.worker.WorkerParamsFactory
+import com.nusaraya.android.sdk.api.pushrules.PushRuleService
+import com.nusaraya.android.sdk.api.pushrules.RuleScope
+import com.nusaraya.android.sdk.api.session.initsync.InitSyncStep
+import com.nusaraya.android.sdk.internal.crypto.DefaultCryptoService
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.di.SessionId
+import com.nusaraya.android.sdk.internal.di.WorkManagerProvider
+import com.nusaraya.android.sdk.internal.session.group.GetGroupDataWorker
+import com.nusaraya.android.sdk.internal.session.initsync.ProgressReporter
+import com.nusaraya.android.sdk.internal.session.initsync.reportSubtask
+import com.nusaraya.android.sdk.internal.session.notification.ProcessEventForPushTask
+import com.nusaraya.android.sdk.internal.session.sync.model.GroupsSyncResponse
+import com.nusaraya.android.sdk.internal.session.sync.model.RoomsSyncResponse
+import com.nusaraya.android.sdk.internal.session.sync.model.SyncResponse
+import com.nusaraya.android.sdk.internal.util.awaitTransaction
+import com.nusaraya.android.sdk.internal.worker.WorkerParamsFactory
 import timber.log.Timber
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject

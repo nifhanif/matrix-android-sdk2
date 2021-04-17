@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.model
+package com.nusaraya.android.sdk.internal.crypto.model
 
-import com.energeek.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
-import com.energeek.android.sdk.internal.crypto.model.rest.DeviceKeys
-import com.energeek.android.sdk.internal.crypto.model.rest.UnsignedDeviceInfo
-import com.energeek.android.sdk.internal.crypto.store.db.model.CryptoMapper
-import com.energeek.android.sdk.internal.crypto.store.db.model.DeviceInfoEntity
+import com.nusaraya.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
+import com.nusaraya.android.sdk.internal.crypto.model.rest.DeviceKeys
+import com.nusaraya.android.sdk.internal.crypto.model.rest.UnsignedDeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.CryptoMapper
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.DeviceInfoEntity
 
 data class CryptoDeviceInfo(
         val deviceId: String,

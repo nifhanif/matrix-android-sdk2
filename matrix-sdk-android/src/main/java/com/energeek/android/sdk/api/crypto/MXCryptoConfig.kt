@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.crypto
+package com.nusaraya.android.sdk.api.crypto
 
 /**
  * Class to define the parameters used to customize or configure the end-to-end crypto.

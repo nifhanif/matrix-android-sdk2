@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.events
+package com.nusaraya.android.sdk.internal.session.events
 
-import com.energeek.android.sdk.api.session.events.EventService
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.internal.session.call.CallEventProcessor
-import com.energeek.android.sdk.internal.session.room.timeline.GetEventTask
+import com.nusaraya.android.sdk.api.session.events.EventService
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.internal.session.call.CallEventProcessor
+import com.nusaraya.android.sdk.internal.session.room.timeline.GetEventTask
 import javax.inject.Inject
 
 internal class DefaultEventService @Inject constructor(

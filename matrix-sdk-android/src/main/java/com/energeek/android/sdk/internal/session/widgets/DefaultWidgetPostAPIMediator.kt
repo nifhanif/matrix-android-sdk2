@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.widgets
+package com.nusaraya.android.sdk.internal.session.widgets
 
 import android.webkit.JavascriptInterface
 import android.webkit.WebView
 import com.squareup.moshi.Moshi
-import com.energeek.android.sdk.api.session.widgets.WidgetPostAPIMediator
-import com.energeek.android.sdk.api.util.JSON_DICT_PARAMETERIZED_TYPE
-import com.energeek.android.sdk.api.util.JsonDict
-import com.energeek.android.sdk.internal.util.createUIHandler
+import com.nusaraya.android.sdk.api.session.widgets.WidgetPostAPIMediator
+import com.nusaraya.android.sdk.api.util.JSON_DICT_PARAMETERIZED_TYPE
+import com.nusaraya.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.internal.util.createUIHandler
 import timber.log.Timber
 import java.lang.reflect.Type
 import java.util.HashMap

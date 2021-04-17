@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.model
+package com.nusaraya.android.sdk.internal.database.model
 
-import com.energeek.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.api.session.room.model.Membership
 import io.realm.RealmObject
 import io.realm.annotations.Index
 import io.realm.annotations.PrimaryKey

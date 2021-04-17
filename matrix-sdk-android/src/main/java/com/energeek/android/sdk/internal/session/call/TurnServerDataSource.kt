@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.call
+package com.nusaraya.android.sdk.internal.session.call
 
 import android.os.SystemClock
-import com.energeek.android.sdk.api.session.call.TurnServerResponse
+import com.nusaraya.android.sdk.api.session.call.TurnServerResponse
 import javax.inject.Inject
 
 internal class TurnServerDataSource @Inject constructor(private val turnServerTask: GetTurnServerTask) {

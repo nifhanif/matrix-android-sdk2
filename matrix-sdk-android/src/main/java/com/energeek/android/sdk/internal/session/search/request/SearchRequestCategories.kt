@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.search.request
+package com.nusaraya.android.sdk.internal.session.search.request
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass

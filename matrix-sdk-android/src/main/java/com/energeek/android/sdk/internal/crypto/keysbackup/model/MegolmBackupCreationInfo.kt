@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.keysbackup.model
+package com.nusaraya.android.sdk.internal.crypto.keysbackup.model
 
 /**
  * Data retrieved from Olm library. algorithm and authData will be send to the homeserver, and recoveryKey will be displayed to the user
  */
 data class MegolmBackupCreationInfo(
         /**
-         * The algorithm used for storing backups [com.energeek.androidsdk.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP].
+         * The algorithm used for storing backups [com.nusaraya.androidsdk.crypto.MXCRYPTO_ALGORITHM_MEGOLM_BACKUP].
          */
         val algorithm: String,
 

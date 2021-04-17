@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.model.rest
+package com.nusaraya.android.sdk.internal.crypto.model.rest
 
 /**
  * Class representing the dummy content

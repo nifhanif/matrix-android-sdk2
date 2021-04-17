@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database
+package com.nusaraya.android.sdk.internal.database
 
 internal object DBConstants {
 

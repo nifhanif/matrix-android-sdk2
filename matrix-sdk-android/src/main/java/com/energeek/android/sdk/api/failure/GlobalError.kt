@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.failure
+package com.nusaraya.android.sdk.api.failure
 
-import com.energeek.android.sdk.internal.network.ssl.Fingerprint
+import com.nusaraya.android.sdk.internal.network.ssl.Fingerprint
 
 // This class will be sent to the bus
 sealed class GlobalError {

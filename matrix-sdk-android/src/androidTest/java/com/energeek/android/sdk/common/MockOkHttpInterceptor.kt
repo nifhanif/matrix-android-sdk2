@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.common
+package com.nusaraya.android.sdk.common
 
-import com.energeek.android.sdk.internal.session.TestInterceptor
+import com.nusaraya.android.sdk.internal.session.TestInterceptor
 import okhttp3.Interceptor
 import okhttp3.Protocol
 import okhttp3.Request

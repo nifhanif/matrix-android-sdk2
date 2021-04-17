@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.data
+package com.nusaraya.android.sdk.internal.auth.data
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.auth.data.SsoIdentityProvider
+import com.nusaraya.android.sdk.api.auth.data.SsoIdentityProvider
 
 @JsonClass(generateAdapter = true)
 internal data class LoginFlowResponse(

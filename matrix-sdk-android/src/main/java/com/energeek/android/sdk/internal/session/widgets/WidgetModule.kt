@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.widgets
+package com.nusaraya.android.sdk.internal.session.widgets
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import com.energeek.android.sdk.api.session.widgets.WidgetPostAPIMediator
-import com.energeek.android.sdk.api.session.widgets.WidgetService
-import com.energeek.android.sdk.api.session.widgets.WidgetURLFormatter
-import com.energeek.android.sdk.internal.session.widgets.token.DefaultGetScalarTokenTask
-import com.energeek.android.sdk.internal.session.widgets.token.GetScalarTokenTask
+import com.nusaraya.android.sdk.api.session.widgets.WidgetPostAPIMediator
+import com.nusaraya.android.sdk.api.session.widgets.WidgetService
+import com.nusaraya.android.sdk.api.session.widgets.WidgetURLFormatter
+import com.nusaraya.android.sdk.internal.session.widgets.token.DefaultGetScalarTokenTask
+import com.nusaraya.android.sdk.internal.session.widgets.token.GetScalarTokenTask
 import retrofit2.Retrofit
 
 @Module

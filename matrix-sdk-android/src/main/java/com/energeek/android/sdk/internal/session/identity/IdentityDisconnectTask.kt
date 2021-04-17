@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity
+package com.nusaraya.android.sdk.internal.session.identity
 
-import com.energeek.android.sdk.api.session.identity.IdentityServiceError
-import com.energeek.android.sdk.internal.di.AuthenticatedIdentity
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.network.token.AccessTokenProvider
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.session.identity.IdentityServiceError
+import com.nusaraya.android.sdk.internal.di.AuthenticatedIdentity
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.network.token.AccessTokenProvider
+import com.nusaraya.android.sdk.internal.task.Task
 import timber.log.Timber
 import javax.inject.Inject
 

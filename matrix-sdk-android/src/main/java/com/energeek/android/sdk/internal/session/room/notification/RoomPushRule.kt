@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.notification
+package com.nusaraya.android.sdk.internal.session.room.notification
 
-import com.energeek.android.sdk.api.pushrules.RuleKind
-import com.energeek.android.sdk.api.pushrules.rest.PushRule
+import com.nusaraya.android.sdk.api.pushrules.RuleKind
+import com.nusaraya.android.sdk.api.pushrules.rest.PushRule
 
 internal data class RoomPushRule(
         val kind: RuleKind,

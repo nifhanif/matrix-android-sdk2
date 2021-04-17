@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.crypto
+package com.nusaraya.android.sdk.api.crypto
 
 /**
  * RoomEncryptionTrustLevel represents the trust level in an encrypted room.

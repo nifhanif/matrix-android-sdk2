@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.keysbackup.model
+package com.nusaraya.android.sdk.internal.crypto.keysbackup.model
 
-import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoDeviceInfo
 
 /**
  * A signature in a `KeysBackupVersionTrust` object.

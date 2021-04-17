@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.util
+package com.nusaraya.android.sdk.api.util
 
-import com.energeek.android.sdk.api.extensions.orFalse
+import com.nusaraya.android.sdk.api.extensions.orFalse
 
 // The Android SDK does not provide constant for mime type, add some of them here
 object MimeTypes {

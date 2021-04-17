@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.tools
+package com.nusaraya.android.sdk.internal.crypto.tools
 
 import java.io.ByteArrayOutputStream
 import java.nio.ByteBuffer

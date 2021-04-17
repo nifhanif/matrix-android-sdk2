@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.uploads
+package com.nusaraya.android.sdk.api.session.room.uploads
 
 /**
  * This interface defines methods to get event with uploads (= attachments) sent to a room. It's implemented at the room level.

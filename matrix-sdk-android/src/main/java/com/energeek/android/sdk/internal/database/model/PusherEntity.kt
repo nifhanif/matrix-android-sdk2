@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.database.model
+package com.nusaraya.android.sdk.internal.database.model
 
 import io.realm.RealmObject
-import com.energeek.android.sdk.api.session.pushers.PusherState
+import com.nusaraya.android.sdk.api.session.pushers.PusherState
 
 // TODO
 //        at java.lang.Thread.run(Thread.java:764)
@@ -24,8 +24,8 @@ import com.energeek.android.sdk.api.session.pushers.PusherState
 //        at io.realm.ProxyState.checkValidObject(ProxyState.java:213)
 //        at io.realm.im_vector_matrix_android_internal_database_model_PusherEntityRealmProxy
 //            .realmSet$data(im_vector_matrix_android_internal_database_model_PusherEntityRealmProxy.java:413)
-//        at com.energeek.android.sdk.internal.database.model.PusherEntity.setData(PusherEntity.kt:16)
-//        at com.energeek.android.sdk.internal.session.pushers.AddHttpPusherWorker$doWork$$inlined$fold$lambda$2.execute(AddHttpPusherWorker.kt:70)
+//        at com.nusaraya.android.sdk.internal.database.model.PusherEntity.setData(PusherEntity.kt:16)
+//        at com.nusaraya.android.sdk.internal.session.pushers.AddHttpPusherWorker$doWork$$inlined$fold$lambda$2.execute(AddHttpPusherWorker.kt:70)
 //        at io.realm.Realm.executeTransaction(Realm.java:1493)
 internal open class PusherEntity(
         var pushKey: String = "",

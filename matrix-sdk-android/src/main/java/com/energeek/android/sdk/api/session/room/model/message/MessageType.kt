@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.model.message
+package com.nusaraya.android.sdk.api.session.room.model.message
 
 object MessageType {
     const val MSGTYPE_TEXT = "m.text"
@@ -32,7 +32,7 @@ object MessageType {
 
     // Add, in local, a fake message type in order to StickerMessage can inherit Message class
     // Because sticker isn't a message type but a event type without msgtype field
-    const val MSGTYPE_STICKER_LOCAL = "com.energeek.android.sdk.sticker"
+    const val MSGTYPE_STICKER_LOCAL = "com.nusaraya.android.sdk.sticker"
 
     const val MSGTYPE_CONFETTI = "nic.custom.confetti"
     const val MSGTYPE_SNOW = "io.element.effect.snowfall"

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.alias
+package com.nusaraya.android.sdk.internal.session.room.alias
 
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import com.energeek.android.sdk.api.session.room.alias.AliasService
+import com.nusaraya.android.sdk.api.session.room.alias.AliasService
 
 internal class DefaultAliasService @AssistedInject constructor(
         @Assisted private val roomId: String,

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.test.shared
+package com.nusaraya.android.sdk.test.shared
 
 import net.lachlanmckee.timberjunit.TimberTestRule
 

@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.timeline
+package com.nusaraya.android.sdk.api.session.room.timeline
 
-import com.energeek.android.sdk.BuildConfig
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.RelationType
-import com.energeek.android.sdk.api.session.events.model.getRelationContent
-import com.energeek.android.sdk.api.session.events.model.isReply
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.api.session.room.model.EventAnnotationsSummary
-import com.energeek.android.sdk.api.session.room.model.ReadReceipt
-import com.energeek.android.sdk.api.session.room.model.message.MessageContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageStickerContent
-import com.energeek.android.sdk.api.session.room.model.relation.RelationDefaultContent
-import com.energeek.android.sdk.api.session.room.sender.SenderInfo
-import com.energeek.android.sdk.api.util.ContentUtils.extractUsefulTextFromReply
+import com.nusaraya.android.sdk.BuildConfig
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.RelationType
+import com.nusaraya.android.sdk.api.session.events.model.getRelationContent
+import com.nusaraya.android.sdk.api.session.events.model.isReply
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.api.session.room.model.EventAnnotationsSummary
+import com.nusaraya.android.sdk.api.session.room.model.ReadReceipt
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageStickerContent
+import com.nusaraya.android.sdk.api.session.room.model.relation.RelationDefaultContent
+import com.nusaraya.android.sdk.api.session.room.sender.SenderInfo
+import com.nusaraya.android.sdk.api.util.ContentUtils.extractUsefulTextFromReply
 
 /**
  * This data class is a wrapper around an Event. It allows to get useful data in the context of a timeline.

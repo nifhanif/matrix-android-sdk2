@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.profile
+package com.nusaraya.android.sdk.internal.session.profile
 
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.api.failure.toRegistrationFlowResponse
-import com.energeek.android.sdk.api.session.identity.ThreePid
-import com.energeek.android.sdk.internal.auth.registration.handleUIA
-import com.energeek.android.sdk.api.auth.UIABaseAuth
-import com.energeek.android.sdk.internal.database.model.PendingThreePidEntity
-import com.energeek.android.sdk.internal.database.model.PendingThreePidEntityFields
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.awaitTransaction
+import com.nusaraya.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.failure.toRegistrationFlowResponse
+import com.nusaraya.android.sdk.api.session.identity.ThreePid
+import com.nusaraya.android.sdk.internal.auth.registration.handleUIA
+import com.nusaraya.android.sdk.api.auth.UIABaseAuth
+import com.nusaraya.android.sdk.internal.database.model.PendingThreePidEntity
+import com.nusaraya.android.sdk.internal.database.model.PendingThreePidEntityFields
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.awaitTransaction
 import timber.log.Timber
 import javax.inject.Inject
 

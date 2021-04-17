@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync
+package com.nusaraya.android.sdk.internal.session.sync
 
 import okhttp3.ResponseBody
-import com.energeek.android.sdk.internal.network.NetworkConstants
-import com.energeek.android.sdk.internal.network.TimeOutInterceptor
-import com.energeek.android.sdk.internal.session.sync.model.SyncResponse
+import com.nusaraya.android.sdk.internal.network.NetworkConstants
+import com.nusaraya.android.sdk.internal.network.TimeOutInterceptor
+import com.nusaraya.android.sdk.internal.session.sync.model.SyncResponse
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Header

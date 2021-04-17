@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.store.db.model
+package com.nusaraya.android.sdk.internal.crypto.store.db.model
 
-import com.energeek.android.sdk.api.extensions.tryOrNull
-import com.energeek.android.sdk.internal.crypto.GossipRequestType
-import com.energeek.android.sdk.internal.crypto.GossipingRequestState
-import com.energeek.android.sdk.internal.crypto.IncomingRoomKeyRequest
-import com.energeek.android.sdk.internal.crypto.IncomingSecretShareRequest
-import com.energeek.android.sdk.internal.crypto.IncomingShareRequestCommon
-import com.energeek.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
+import com.nusaraya.android.sdk.api.extensions.tryOrNull
+import com.nusaraya.android.sdk.internal.crypto.GossipRequestType
+import com.nusaraya.android.sdk.internal.crypto.GossipingRequestState
+import com.nusaraya.android.sdk.internal.crypto.IncomingRoomKeyRequest
+import com.nusaraya.android.sdk.internal.crypto.IncomingSecretShareRequest
+import com.nusaraya.android.sdk.internal.crypto.IncomingShareRequestCommon
+import com.nusaraya.android.sdk.internal.crypto.model.rest.RoomKeyRequestBody
 import io.realm.RealmObject
 import io.realm.annotations.Index
 

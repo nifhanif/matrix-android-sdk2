@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.model.create
+package com.nusaraya.android.sdk.api.session.room.model.create
 
 import android.net.Uri
-import com.energeek.android.sdk.api.session.identity.ThreePid
-import com.energeek.android.sdk.api.session.room.model.PowerLevelsContent
-import com.energeek.android.sdk.api.session.room.model.RoomDirectoryVisibility
-import com.energeek.android.sdk.api.session.room.model.RoomHistoryVisibility
-import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
+import com.nusaraya.android.sdk.api.session.identity.ThreePid
+import com.nusaraya.android.sdk.api.session.room.model.PowerLevelsContent
+import com.nusaraya.android.sdk.api.session.room.model.RoomDirectoryVisibility
+import com.nusaraya.android.sdk.api.session.room.model.RoomHistoryVisibility
+import com.nusaraya.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
 
 // TODO Give a way to include other initial states
 class CreateRoomParams {

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.session.sync.model
+package com.nusaraya.android.sdk.internal.session.sync.model
 
 import com.squareup.moshi.JsonClass
 

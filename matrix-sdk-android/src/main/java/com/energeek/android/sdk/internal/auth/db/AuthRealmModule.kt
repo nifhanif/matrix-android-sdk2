@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.db
+package com.nusaraya.android.sdk.internal.auth.db
 
 import io.realm.annotations.RealmModule
 

@@ -14,30 +14,30 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.verification
+package com.nusaraya.android.sdk.internal.crypto.verification
 
 import android.util.Log
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.energeek.android.sdk.InstrumentedTest
-import com.energeek.android.sdk.api.session.Session
-import com.energeek.android.sdk.api.session.crypto.verification.CancelCode
-import com.energeek.android.sdk.api.session.crypto.verification.IncomingSasVerificationTransaction
-import com.energeek.android.sdk.api.session.crypto.verification.OutgoingSasVerificationTransaction
-import com.energeek.android.sdk.api.session.crypto.verification.SasMode
-import com.energeek.android.sdk.api.session.crypto.verification.SasVerificationTransaction
-import com.energeek.android.sdk.api.session.crypto.verification.VerificationMethod
-import com.energeek.android.sdk.api.session.crypto.verification.VerificationService
-import com.energeek.android.sdk.api.session.crypto.verification.VerificationTransaction
-import com.energeek.android.sdk.api.session.crypto.verification.VerificationTxState
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.common.CommonTestHelper
-import com.energeek.android.sdk.common.CryptoTestHelper
-import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import com.energeek.android.sdk.internal.crypto.model.MXUsersDevicesMap
-import com.energeek.android.sdk.internal.crypto.model.rest.KeyVerificationCancel
-import com.energeek.android.sdk.internal.crypto.model.rest.KeyVerificationStart
-import com.energeek.android.sdk.internal.crypto.model.rest.toValue
+import com.nusaraya.android.sdk.InstrumentedTest
+import com.nusaraya.android.sdk.api.session.Session
+import com.nusaraya.android.sdk.api.session.crypto.verification.CancelCode
+import com.nusaraya.android.sdk.api.session.crypto.verification.IncomingSasVerificationTransaction
+import com.nusaraya.android.sdk.api.session.crypto.verification.OutgoingSasVerificationTransaction
+import com.nusaraya.android.sdk.api.session.crypto.verification.SasMode
+import com.nusaraya.android.sdk.api.session.crypto.verification.SasVerificationTransaction
+import com.nusaraya.android.sdk.api.session.crypto.verification.VerificationMethod
+import com.nusaraya.android.sdk.api.session.crypto.verification.VerificationService
+import com.nusaraya.android.sdk.api.session.crypto.verification.VerificationTransaction
+import com.nusaraya.android.sdk.api.session.crypto.verification.VerificationTxState
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.common.CommonTestHelper
+import com.nusaraya.android.sdk.common.CryptoTestHelper
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.model.MXUsersDevicesMap
+import com.nusaraya.android.sdk.internal.crypto.model.rest.KeyVerificationCancel
+import com.nusaraya.android.sdk.internal.crypto.model.rest.KeyVerificationStart
+import com.nusaraya.android.sdk.internal.crypto.model.rest.toValue
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNotNull

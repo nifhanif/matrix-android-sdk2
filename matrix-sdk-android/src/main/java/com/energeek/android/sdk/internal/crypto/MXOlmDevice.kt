@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
-import com.energeek.android.sdk.api.session.crypto.MXCryptoError
-import com.energeek.android.sdk.api.util.JSON_DICT_PARAMETERIZED_TYPE
-import com.energeek.android.sdk.api.util.JsonDict
-import com.energeek.android.sdk.internal.crypto.algorithms.megolm.MXOutboundSessionInfo
-import com.energeek.android.sdk.internal.crypto.algorithms.megolm.SharedWithHelper
-import com.energeek.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
-import com.energeek.android.sdk.internal.crypto.model.OlmInboundGroupSessionWrapper2
-import com.energeek.android.sdk.internal.crypto.model.OlmSessionWrapper
-import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
-import com.energeek.android.sdk.internal.di.MoshiProvider
-import com.energeek.android.sdk.internal.session.SessionScope
-import com.energeek.android.sdk.internal.util.JsonCanonicalizer
-import com.energeek.android.sdk.internal.util.convertFromUTF8
-import com.energeek.android.sdk.internal.util.convertToUTF8
+import com.nusaraya.android.sdk.api.session.crypto.MXCryptoError
+import com.nusaraya.android.sdk.api.util.JSON_DICT_PARAMETERIZED_TYPE
+import com.nusaraya.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.internal.crypto.algorithms.megolm.MXOutboundSessionInfo
+import com.nusaraya.android.sdk.internal.crypto.algorithms.megolm.SharedWithHelper
+import com.nusaraya.android.sdk.internal.crypto.algorithms.olm.OlmDecryptionResult
+import com.nusaraya.android.sdk.internal.crypto.model.OlmInboundGroupSessionWrapper2
+import com.nusaraya.android.sdk.internal.crypto.model.OlmSessionWrapper
+import com.nusaraya.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.nusaraya.android.sdk.internal.di.MoshiProvider
+import com.nusaraya.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.internal.util.JsonCanonicalizer
+import com.nusaraya.android.sdk.internal.util.convertFromUTF8
+import com.nusaraya.android.sdk.internal.util.convertToUTF8
 import org.matrix.olm.OlmAccount
 import org.matrix.olm.OlmException
 import org.matrix.olm.OlmMessage

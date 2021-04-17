@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync
+package com.nusaraya.android.sdk.internal.session.sync
 
-import com.energeek.android.sdk.api.session.room.sender.SenderInfo
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.session.room.membership.RoomMemberHelper
-import com.energeek.android.sdk.internal.session.typing.DefaultTypingUsersTracker
+import com.nusaraya.android.sdk.api.session.room.sender.SenderInfo
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.session.room.membership.RoomMemberHelper
+import com.nusaraya.android.sdk.internal.session.typing.DefaultTypingUsersTracker
 import io.realm.Realm
 import javax.inject.Inject
 

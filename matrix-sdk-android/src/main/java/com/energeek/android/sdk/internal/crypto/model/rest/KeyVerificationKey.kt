@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.model.rest
+package com.nusaraya.android.sdk.internal.crypto.model.rest
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.internal.crypto.verification.VerificationInfoKey
-import com.energeek.android.sdk.internal.crypto.verification.VerificationInfoKeyFactory
+import com.nusaraya.android.sdk.internal.crypto.verification.VerificationInfoKey
+import com.nusaraya.android.sdk.internal.crypto.verification.VerificationInfoKeyFactory
 
 /**
  * Sent by both devices to send their ephemeral Curve25519 public key to the other device.

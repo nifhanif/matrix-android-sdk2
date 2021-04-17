@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync
+package com.nusaraya.android.sdk.internal.session.sync
 
 import com.squareup.moshi.JsonReader
 import com.squareup.moshi.Moshi
 import okio.buffer
 import okio.source
-import com.energeek.android.sdk.internal.di.SessionFilesDirectory
-import com.energeek.android.sdk.internal.session.sync.model.RoomSyncEphemeral
-import com.energeek.android.sdk.internal.util.md5
+import com.nusaraya.android.sdk.internal.di.SessionFilesDirectory
+import com.nusaraya.android.sdk.internal.session.sync.model.RoomSyncEphemeral
+import com.nusaraya.android.sdk.internal.util.md5
 import timber.log.Timber
 import java.io.File
 import javax.inject.Inject

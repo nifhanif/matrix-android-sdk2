@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.auth
+package com.nusaraya.android.sdk.api.auth
 
 /**
  * A simple service to remember homeservers you already connected to.

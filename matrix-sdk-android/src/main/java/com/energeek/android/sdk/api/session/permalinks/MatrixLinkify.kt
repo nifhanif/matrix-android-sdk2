@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.permalinks
+package com.nusaraya.android.sdk.api.session.permalinks
 
 import android.text.Spannable
-import com.energeek.android.sdk.api.MatrixPatterns
+import com.nusaraya.android.sdk.api.MatrixPatterns
 
 /**
  *  MatrixLinkify take a piece of text and turns all of the

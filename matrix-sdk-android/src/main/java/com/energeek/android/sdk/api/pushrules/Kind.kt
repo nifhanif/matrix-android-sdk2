@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.pushrules
+package com.nusaraya.android.sdk.api.pushrules
 
 enum class Kind(val value: String) {
     EventMatch("event_match"),

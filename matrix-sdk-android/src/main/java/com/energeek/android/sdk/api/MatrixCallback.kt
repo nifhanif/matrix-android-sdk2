@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api
+package com.nusaraya.android.sdk.api
 
 /**
  * Generic callback interface for asynchronously.

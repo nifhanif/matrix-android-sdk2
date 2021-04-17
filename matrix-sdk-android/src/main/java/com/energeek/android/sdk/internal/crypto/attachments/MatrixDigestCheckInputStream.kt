@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.attachments
+package com.nusaraya.android.sdk.internal.crypto.attachments
 
 import android.util.Base64
-import com.energeek.android.sdk.internal.util.base64ToUnpaddedBase64
+import com.nusaraya.android.sdk.internal.util.base64ToUnpaddedBase64
 import java.io.FilterInputStream
 import java.io.IOException
 import java.io.InputStream

@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.session.sync.model
+package com.nusaraya.android.sdk.internal.session.sync.model
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.Event
 
 // RoomInviteState represents the state of a room that the user has been invited to.
 @JsonClass(generateAdapter = true)

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.send.queue
+package com.nusaraya.android.sdk.internal.session.room.send.queue
 
 import android.content.Context
-import com.energeek.android.sdk.api.extensions.tryOrNull
-import com.energeek.android.sdk.api.session.crypto.CryptoService
-import com.energeek.android.sdk.api.session.room.send.SendState
-import com.energeek.android.sdk.internal.di.SessionId
-import com.energeek.android.sdk.internal.session.room.send.LocalEchoRepository
+import com.nusaraya.android.sdk.api.extensions.tryOrNull
+import com.nusaraya.android.sdk.api.session.crypto.CryptoService
+import com.nusaraya.android.sdk.api.session.room.send.SendState
+import com.nusaraya.android.sdk.internal.di.SessionId
+import com.nusaraya.android.sdk.internal.session.room.send.LocalEchoRepository
 import timber.log.Timber
 import javax.inject.Inject
 

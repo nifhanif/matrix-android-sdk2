@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.common
+package com.nusaraya.android.sdk.common
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull

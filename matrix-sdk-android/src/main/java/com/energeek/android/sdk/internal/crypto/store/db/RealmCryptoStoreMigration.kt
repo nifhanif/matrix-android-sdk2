@@ -14,41 +14,41 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.store.db
+package com.nusaraya.android.sdk.internal.crypto.store.db
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
-import com.energeek.android.sdk.api.extensions.tryOrNull
-import com.energeek.android.sdk.api.util.JsonDict
-import com.energeek.android.sdk.internal.crypto.model.MXDeviceInfo
-import com.energeek.android.sdk.internal.crypto.model.OlmInboundGroupSessionWrapper
-import com.energeek.android.sdk.internal.crypto.model.OlmInboundGroupSessionWrapper2
-import com.energeek.android.sdk.internal.crypto.store.db.mapper.CrossSigningKeysMapper
-import com.energeek.android.sdk.internal.crypto.store.db.model.CrossSigningInfoEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.CryptoMetadataEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.CryptoRoomEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.DeviceInfoEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.GossipingEventEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.IncomingGossipingRequestEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.KeyInfoEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.KeysBackupDataEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.MyDeviceLastSeenInfoEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.OlmInboundGroupSessionEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.OlmSessionEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.OutgoingGossipingRequestEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.SharedSessionEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.TrustLevelEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.UserEntityFields
-import com.energeek.android.sdk.internal.crypto.store.db.model.WithHeldSessionEntityFields
-import com.energeek.android.sdk.internal.di.SerializeNulls
+import com.nusaraya.android.sdk.api.extensions.tryOrNull
+import com.nusaraya.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.internal.crypto.model.MXDeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.model.OlmInboundGroupSessionWrapper
+import com.nusaraya.android.sdk.internal.crypto.model.OlmInboundGroupSessionWrapper2
+import com.nusaraya.android.sdk.internal.crypto.store.db.mapper.CrossSigningKeysMapper
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.CrossSigningInfoEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.CryptoMetadataEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.CryptoRoomEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.DeviceInfoEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.GossipingEventEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.IncomingGossipingRequestEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.KeyInfoEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.KeysBackupDataEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.MyDeviceLastSeenInfoEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.OlmInboundGroupSessionEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.OlmSessionEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.OutgoingGossipingRequestEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.SharedSessionEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.TrustLevelEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.UserEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.WithHeldSessionEntityFields
+import com.nusaraya.android.sdk.internal.di.SerializeNulls
 import io.realm.DynamicRealm
 import io.realm.RealmMigration
 import io.realm.RealmObjectSchema
-import com.energeek.android.sdk.internal.crypto.store.db.model.OutboundGroupSessionInfoEntityFields
-import com.energeek.androidsdk.crypto.data.MXOlmInboundGroupSession2
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.OutboundGroupSessionInfoEntityFields
+import com.nusaraya.androidsdk.crypto.data.MXOlmInboundGroupSession2
 import timber.log.Timber
 import javax.inject.Inject
-import com.energeek.androidsdk.crypto.data.MXDeviceInfo as LegacyMXDeviceInfo
+import com.nusaraya.androidsdk.crypto.data.MXDeviceInfo as LegacyMXDeviceInfo
 
 internal class RealmCryptoStoreMigration @Inject constructor(private val crossSigningKeysMapper: CrossSigningKeysMapper) : RealmMigration {
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.federation
+package com.nusaraya.android.sdk.internal.federation
 
-import com.energeek.android.sdk.api.federation.FederationVersion
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.federation.FederationVersion
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface GetFederationVersionTask : Task<Unit, FederationVersion>

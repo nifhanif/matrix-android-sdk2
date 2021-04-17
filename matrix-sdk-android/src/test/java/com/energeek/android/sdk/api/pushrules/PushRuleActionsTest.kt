@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.pushrules
+package com.nusaraya.android.sdk.api.pushrules
 
-import com.energeek.android.sdk.MatrixTest
-import com.energeek.android.sdk.api.pushrules.rest.PushRule
-import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.nusaraya.android.sdk.MatrixTest
+import com.nusaraya.android.sdk.api.pushrules.rest.PushRule
+import com.nusaraya.android.sdk.internal.di.MoshiProvider
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Assert.assertTrue

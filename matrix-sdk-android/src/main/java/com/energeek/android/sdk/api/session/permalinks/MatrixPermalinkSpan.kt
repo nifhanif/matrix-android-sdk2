@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.permalinks
+package com.nusaraya.android.sdk.api.session.permalinks
 
 import android.text.style.ClickableSpan
 import android.view.View
-import com.energeek.android.sdk.api.session.permalinks.MatrixPermalinkSpan.Callback
+import com.nusaraya.android.sdk.api.session.permalinks.MatrixPermalinkSpan.Callback
 
 /**
  * This MatrixPermalinkSpan is a clickable span which use a [Callback] to communicate back.

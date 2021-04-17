@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.algorithms.megolm
+package com.nusaraya.android.sdk.internal.crypto.algorithms.megolm
 
-import com.energeek.android.sdk.internal.crypto.DeviceListManager
-import com.energeek.android.sdk.internal.crypto.MXOlmDevice
-import com.energeek.android.sdk.internal.crypto.OutgoingGossipingRequestManager
-import com.energeek.android.sdk.internal.crypto.actions.EnsureOlmSessionsForDevicesAction
-import com.energeek.android.sdk.internal.crypto.actions.MessageEncrypter
-import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
-import com.energeek.android.sdk.internal.crypto.tasks.SendToDeviceTask
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.nusaraya.android.sdk.internal.crypto.DeviceListManager
+import com.nusaraya.android.sdk.internal.crypto.MXOlmDevice
+import com.nusaraya.android.sdk.internal.crypto.OutgoingGossipingRequestManager
+import com.nusaraya.android.sdk.internal.crypto.actions.EnsureOlmSessionsForDevicesAction
+import com.nusaraya.android.sdk.internal.crypto.actions.MessageEncrypter
+import com.nusaraya.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.nusaraya.android.sdk.internal.crypto.tasks.SendToDeviceTask
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.util.MatrixCoroutineDispatchers
 import kotlinx.coroutines.CoroutineScope
 import javax.inject.Inject
 

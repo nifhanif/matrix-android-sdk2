@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.session.pushers
+package com.nusaraya.android.sdk.internal.session.pushers
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.internal.di.SerializeNulls
+import com.nusaraya.android.sdk.internal.di.SerializeNulls
 
 /**
  * Example:

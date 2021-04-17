@@ -14,33 +14,33 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.algorithms.megolm
+package com.nusaraya.android.sdk.internal.crypto.algorithms.megolm
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
-import com.energeek.android.sdk.api.session.crypto.MXCryptoError
-import com.energeek.android.sdk.api.session.events.model.Content
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.internal.crypto.DeviceListManager
-import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
-import com.energeek.android.sdk.internal.crypto.MXOlmDevice
-import com.energeek.android.sdk.internal.crypto.actions.EnsureOlmSessionsForDevicesAction
-import com.energeek.android.sdk.internal.crypto.actions.MessageEncrypter
-import com.energeek.android.sdk.internal.crypto.algorithms.IMXEncrypting
-import com.energeek.android.sdk.internal.crypto.algorithms.IMXGroupEncryption
-import com.energeek.android.sdk.internal.crypto.keysbackup.DefaultKeysBackupService
-import com.energeek.android.sdk.internal.crypto.model.CryptoDeviceInfo
-import com.energeek.android.sdk.internal.crypto.model.MXUsersDevicesMap
-import com.energeek.android.sdk.internal.crypto.model.event.RoomKeyWithHeldContent
-import com.energeek.android.sdk.internal.crypto.model.event.WithHeldCode
-import com.energeek.android.sdk.internal.crypto.model.forEach
-import com.energeek.android.sdk.internal.crypto.repository.WarnOnUnknownDeviceRepository
-import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
-import com.energeek.android.sdk.internal.crypto.tasks.SendToDeviceTask
-import com.energeek.android.sdk.internal.util.JsonCanonicalizer
-import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
-import com.energeek.android.sdk.internal.util.convertToUTF8
+import com.nusaraya.android.sdk.api.session.crypto.MXCryptoError
+import com.nusaraya.android.sdk.api.session.events.model.Content
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.internal.crypto.DeviceListManager
+import com.nusaraya.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
+import com.nusaraya.android.sdk.internal.crypto.MXOlmDevice
+import com.nusaraya.android.sdk.internal.crypto.actions.EnsureOlmSessionsForDevicesAction
+import com.nusaraya.android.sdk.internal.crypto.actions.MessageEncrypter
+import com.nusaraya.android.sdk.internal.crypto.algorithms.IMXEncrypting
+import com.nusaraya.android.sdk.internal.crypto.algorithms.IMXGroupEncryption
+import com.nusaraya.android.sdk.internal.crypto.keysbackup.DefaultKeysBackupService
+import com.nusaraya.android.sdk.internal.crypto.model.CryptoDeviceInfo
+import com.nusaraya.android.sdk.internal.crypto.model.MXUsersDevicesMap
+import com.nusaraya.android.sdk.internal.crypto.model.event.RoomKeyWithHeldContent
+import com.nusaraya.android.sdk.internal.crypto.model.event.WithHeldCode
+import com.nusaraya.android.sdk.internal.crypto.model.forEach
+import com.nusaraya.android.sdk.internal.crypto.repository.WarnOnUnknownDeviceRepository
+import com.nusaraya.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.nusaraya.android.sdk.internal.crypto.tasks.SendToDeviceTask
+import com.nusaraya.android.sdk.internal.util.JsonCanonicalizer
+import com.nusaraya.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.nusaraya.android.sdk.internal.util.convertToUTF8
 import timber.log.Timber
 
 internal class MXMegolmEncryption(

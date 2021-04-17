@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
 import android.util.LruCache
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
-import com.energeek.android.sdk.api.extensions.tryOrNull
-import com.energeek.android.sdk.internal.crypto.model.OlmInboundGroupSessionWrapper2
-import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
-import com.energeek.android.sdk.internal.util.MatrixCoroutineDispatchers
+import com.nusaraya.android.sdk.api.extensions.tryOrNull
+import com.nusaraya.android.sdk.internal.crypto.model.OlmInboundGroupSessionWrapper2
+import com.nusaraya.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.nusaraya.android.sdk.internal.util.MatrixCoroutineDispatchers
 import timber.log.Timber
 import java.util.Timer
 import java.util.TimerTask

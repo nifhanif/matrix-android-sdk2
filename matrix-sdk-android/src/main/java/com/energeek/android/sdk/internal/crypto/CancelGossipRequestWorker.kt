@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto
+package com.nusaraya.android.sdk.internal.crypto
 
 import android.content.Context
 import androidx.work.WorkerParameters
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.auth.data.Credentials
-import com.energeek.android.sdk.api.failure.shouldBeRetried
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.LocalEcho
-import com.energeek.android.sdk.api.session.events.model.toContent
-import com.energeek.android.sdk.internal.crypto.model.MXUsersDevicesMap
-import com.energeek.android.sdk.internal.crypto.model.rest.ShareRequestCancellation
-import com.energeek.android.sdk.internal.crypto.store.IMXCryptoStore
-import com.energeek.android.sdk.internal.crypto.tasks.SendToDeviceTask
-import com.energeek.android.sdk.internal.session.SessionComponent
-import com.energeek.android.sdk.internal.worker.SessionSafeCoroutineWorker
-import com.energeek.android.sdk.internal.worker.SessionWorkerParams
+import com.nusaraya.android.sdk.api.auth.data.Credentials
+import com.nusaraya.android.sdk.api.failure.shouldBeRetried
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.LocalEcho
+import com.nusaraya.android.sdk.api.session.events.model.toContent
+import com.nusaraya.android.sdk.internal.crypto.model.MXUsersDevicesMap
+import com.nusaraya.android.sdk.internal.crypto.model.rest.ShareRequestCancellation
+import com.nusaraya.android.sdk.internal.crypto.store.IMXCryptoStore
+import com.nusaraya.android.sdk.internal.crypto.tasks.SendToDeviceTask
+import com.nusaraya.android.sdk.internal.session.SessionComponent
+import com.nusaraya.android.sdk.internal.worker.SessionSafeCoroutineWorker
+import com.nusaraya.android.sdk.internal.worker.SessionWorkerParams
 import javax.inject.Inject
 
 internal class CancelGossipRequestWorker(context: Context,

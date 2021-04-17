@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity.db
+package com.nusaraya.android.sdk.internal.session.identity.db
 
-import com.energeek.android.sdk.api.session.identity.ThreePid
-import com.energeek.android.sdk.internal.di.IdentityDatabase
-import com.energeek.android.sdk.internal.session.SessionScope
-import com.energeek.android.sdk.internal.session.identity.data.IdentityPendingBinding
-import com.energeek.android.sdk.internal.session.identity.data.IdentityData
-import com.energeek.android.sdk.internal.session.identity.data.IdentityStore
-import com.energeek.android.sdk.internal.session.identity.model.IdentityHashDetailResponse
+import com.nusaraya.android.sdk.api.session.identity.ThreePid
+import com.nusaraya.android.sdk.internal.di.IdentityDatabase
+import com.nusaraya.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.internal.session.identity.data.IdentityPendingBinding
+import com.nusaraya.android.sdk.internal.session.identity.data.IdentityData
+import com.nusaraya.android.sdk.internal.session.identity.data.IdentityStore
+import com.nusaraya.android.sdk.internal.session.identity.model.IdentityHashDetailResponse
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import javax.inject.Inject

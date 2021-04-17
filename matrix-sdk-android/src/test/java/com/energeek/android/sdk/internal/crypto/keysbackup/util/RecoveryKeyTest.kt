@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.keysbackup.util
+package com.nusaraya.android.sdk.internal.crypto.keysbackup.util
 
-import com.energeek.android.sdk.MatrixTest
+import com.nusaraya.android.sdk.MatrixTest
 import org.junit.Assert.assertArrayEquals
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

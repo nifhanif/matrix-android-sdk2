@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session
+package com.nusaraya.android.sdk.internal.session
 
 import androidx.annotation.MainThread
 

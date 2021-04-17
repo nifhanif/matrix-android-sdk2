@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.media
+package com.nusaraya.android.sdk.internal.session.media
 
 import androidx.collection.LruCache
-import com.energeek.android.sdk.api.cache.CacheStrategy
-import com.energeek.android.sdk.api.session.media.MediaService
-import com.energeek.android.sdk.api.session.media.PreviewUrlData
-import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
-import com.energeek.android.sdk.api.session.room.timeline.getLatestEventId
-import com.energeek.android.sdk.api.util.JsonDict
-import com.energeek.android.sdk.internal.util.getOrPut
+import com.nusaraya.android.sdk.api.cache.CacheStrategy
+import com.nusaraya.android.sdk.api.session.media.MediaService
+import com.nusaraya.android.sdk.api.session.media.PreviewUrlData
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineEvent
+import com.nusaraya.android.sdk.api.session.room.timeline.getLatestEventId
+import com.nusaraya.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.internal.util.getOrPut
 import javax.inject.Inject
 
 internal class DefaultMediaService @Inject constructor(

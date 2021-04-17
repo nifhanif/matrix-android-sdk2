@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.verification
+package com.nusaraya.android.sdk.internal.crypto.verification
 
 import androidx.lifecycle.Observer
 import androidx.work.BackoffPolicy
@@ -24,31 +24,31 @@ import androidx.work.WorkInfo
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import com.energeek.android.sdk.api.session.crypto.verification.CancelCode
-import com.energeek.android.sdk.api.session.crypto.verification.ValidVerificationInfoRequest
-import com.energeek.android.sdk.api.session.crypto.verification.VerificationTxState
-import com.energeek.android.sdk.api.session.events.model.Content
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.LocalEcho
-import com.energeek.android.sdk.api.session.events.model.RelationType
-import com.energeek.android.sdk.api.session.events.model.UnsignedData
-import com.energeek.android.sdk.api.session.events.model.toContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationAcceptContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationCancelContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationDoneContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationKeyContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationMacContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationReadyContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationRequestContent
-import com.energeek.android.sdk.api.session.room.model.message.MessageVerificationStartContent
-import com.energeek.android.sdk.api.session.room.model.relation.RelationDefaultContent
-import com.energeek.android.sdk.internal.crypto.model.rest.VERIFICATION_METHOD_RECIPROCATE
-import com.energeek.android.sdk.internal.crypto.model.rest.VERIFICATION_METHOD_SAS
-import com.energeek.android.sdk.internal.di.WorkManagerProvider
-import com.energeek.android.sdk.internal.session.room.send.LocalEchoEventFactory
-import com.energeek.android.sdk.internal.worker.SessionSafeCoroutineWorker
-import com.energeek.android.sdk.internal.worker.WorkerParamsFactory
+import com.nusaraya.android.sdk.api.session.crypto.verification.CancelCode
+import com.nusaraya.android.sdk.api.session.crypto.verification.ValidVerificationInfoRequest
+import com.nusaraya.android.sdk.api.session.crypto.verification.VerificationTxState
+import com.nusaraya.android.sdk.api.session.events.model.Content
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.LocalEcho
+import com.nusaraya.android.sdk.api.session.events.model.RelationType
+import com.nusaraya.android.sdk.api.session.events.model.UnsignedData
+import com.nusaraya.android.sdk.api.session.events.model.toContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageVerificationAcceptContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageVerificationCancelContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageVerificationDoneContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageVerificationKeyContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageVerificationMacContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageVerificationReadyContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageVerificationRequestContent
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageVerificationStartContent
+import com.nusaraya.android.sdk.api.session.room.model.relation.RelationDefaultContent
+import com.nusaraya.android.sdk.internal.crypto.model.rest.VERIFICATION_METHOD_RECIPROCATE
+import com.nusaraya.android.sdk.internal.crypto.model.rest.VERIFICATION_METHOD_SAS
+import com.nusaraya.android.sdk.internal.di.WorkManagerProvider
+import com.nusaraya.android.sdk.internal.session.room.send.LocalEchoEventFactory
+import com.nusaraya.android.sdk.internal.worker.SessionSafeCoroutineWorker
+import com.nusaraya.android.sdk.internal.worker.WorkerParamsFactory
 import timber.log.Timber
 import java.util.UUID
 import java.util.concurrent.TimeUnit

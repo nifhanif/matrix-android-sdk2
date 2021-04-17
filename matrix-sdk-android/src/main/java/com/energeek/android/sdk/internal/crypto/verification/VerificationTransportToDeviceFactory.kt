@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.verification
+package com.nusaraya.android.sdk.internal.crypto.verification
 
-import com.energeek.android.sdk.internal.crypto.tasks.SendToDeviceTask
-import com.energeek.android.sdk.internal.di.DeviceId
-import com.energeek.android.sdk.internal.task.TaskExecutor
+import com.nusaraya.android.sdk.internal.crypto.tasks.SendToDeviceTask
+import com.nusaraya.android.sdk.internal.di.DeviceId
+import com.nusaraya.android.sdk.internal.task.TaskExecutor
 import javax.inject.Inject
 
 internal class VerificationTransportToDeviceFactory @Inject constructor(

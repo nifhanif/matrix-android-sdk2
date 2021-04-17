@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.identity
+package com.nusaraya.android.sdk.api.session.identity
 
 enum class SharedState {
     SHARED,

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.api.pushrules.rest
+package com.nusaraya.android.sdk.api.pushrules.rest
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.pushrules.RuleIds
-import com.energeek.android.sdk.api.pushrules.RuleSetKey
+import com.nusaraya.android.sdk.api.pushrules.RuleIds
+import com.nusaraya.android.sdk.api.pushrules.RuleSetKey
 
 /**
  * Ref: https://matrix.org/docs/spec/client_server/latest#get-matrix-client-r0-pushrules

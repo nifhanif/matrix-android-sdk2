@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.send.queue
+package com.nusaraya.android.sdk.internal.session.room.send.queue
 
-import com.energeek.android.sdk.api.session.room.send.SendState
-import com.energeek.android.sdk.internal.crypto.tasks.RedactEventTask
-import com.energeek.android.sdk.internal.session.room.send.CancelSendTracker
-import com.energeek.android.sdk.internal.session.room.send.LocalEchoRepository
+import com.nusaraya.android.sdk.api.session.room.send.SendState
+import com.nusaraya.android.sdk.internal.crypto.tasks.RedactEventTask
+import com.nusaraya.android.sdk.internal.session.room.send.CancelSendTracker
+import com.nusaraya.android.sdk.internal.session.room.send.LocalEchoRepository
 
 internal class RedactQueuedTask(
         private val toRedactEventId: String,

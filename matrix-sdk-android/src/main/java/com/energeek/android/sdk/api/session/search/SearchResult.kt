@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.search
+package com.nusaraya.android.sdk.api.session.search
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.util.MatrixItem
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.util.MatrixItem
 
 /**
  * Domain class to represent the response of a search request in a room.

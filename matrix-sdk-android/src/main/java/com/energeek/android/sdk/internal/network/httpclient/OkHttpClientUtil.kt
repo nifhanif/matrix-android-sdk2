@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.network.httpclient
+package com.nusaraya.android.sdk.internal.network.httpclient
 
-import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
-import com.energeek.android.sdk.internal.network.AccessTokenInterceptor
-import com.energeek.android.sdk.internal.network.interceptors.CurlLoggingInterceptor
-import com.energeek.android.sdk.internal.network.ssl.CertUtil
-import com.energeek.android.sdk.internal.network.token.AccessTokenProvider
+import com.nusaraya.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.nusaraya.android.sdk.internal.network.AccessTokenInterceptor
+import com.nusaraya.android.sdk.internal.network.interceptors.CurlLoggingInterceptor
+import com.nusaraya.android.sdk.internal.network.ssl.CertUtil
+import com.nusaraya.android.sdk.internal.network.token.AccessTokenProvider
 import okhttp3.OkHttpClient
 import timber.log.Timber
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.call
+package com.nusaraya.android.sdk.api.session.room.call
 
 /**
  * This interface defines methods to handle calls in a room. It's implemented at the room level.

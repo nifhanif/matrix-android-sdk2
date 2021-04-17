@@ -15,10 +15,10 @@
  *
  */
 
-package com.energeek.android.sdk.internal.database.query
+package com.nusaraya.android.sdk.internal.database.query
 
-import com.energeek.android.sdk.internal.database.model.CurrentStateEventEntity
-import com.energeek.android.sdk.internal.database.model.CurrentStateEventEntityFields
+import com.nusaraya.android.sdk.internal.database.model.CurrentStateEventEntity
+import com.nusaraya.android.sdk.internal.database.model.CurrentStateEventEntityFields
 import io.realm.Realm
 import io.realm.RealmQuery
 import io.realm.kotlin.createObject

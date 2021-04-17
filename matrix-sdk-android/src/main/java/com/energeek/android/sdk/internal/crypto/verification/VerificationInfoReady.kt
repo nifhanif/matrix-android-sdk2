@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.verification
+package com.nusaraya.android.sdk.internal.crypto.verification
 
-import com.energeek.android.sdk.api.session.crypto.verification.ValidVerificationInfoReady
+import com.nusaraya.android.sdk.api.session.crypto.verification.ValidVerificationInfoReady
 
 /**
  * A new event type is added to the key verification framework: m.key.verification.ready,

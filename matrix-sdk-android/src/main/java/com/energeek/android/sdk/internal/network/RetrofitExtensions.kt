@@ -16,13 +16,13 @@
  *
  */
 
-package com.energeek.android.sdk.internal.network
+package com.nusaraya.android.sdk.internal.network
 
 import com.squareup.moshi.JsonEncodingException
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.api.failure.GlobalError
-import com.energeek.android.sdk.api.failure.MatrixError
-import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.failure.GlobalError
+import com.nusaraya.android.sdk.api.failure.MatrixError
+import com.nusaraya.android.sdk.internal.di.MoshiProvider
 import kotlinx.coroutines.suspendCancellableCoroutine
 import okhttp3.ResponseBody
 import retrofit2.HttpException

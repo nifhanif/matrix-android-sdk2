@@ -15,7 +15,7 @@
  *
  */
 
-package com.energeek.android.sdk.internal.raw
+package com.nusaraya.android.sdk.internal.raw
 
 import okhttp3.ResponseBody
 import retrofit2.http.GET

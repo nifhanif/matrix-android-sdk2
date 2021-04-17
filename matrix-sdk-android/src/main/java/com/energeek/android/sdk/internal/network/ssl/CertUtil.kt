@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.network.ssl
+package com.nusaraya.android.sdk.internal.network.ssl
 
-import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.nusaraya.android.sdk.api.auth.data.HomeServerConnectionConfig
 import okhttp3.ConnectionSpec
 import okhttp3.internal.tls.OkHostnameVerifier
 import timber.log.Timber

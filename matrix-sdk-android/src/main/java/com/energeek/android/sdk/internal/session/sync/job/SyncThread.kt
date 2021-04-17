@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync.job
+package com.nusaraya.android.sdk.internal.session.sync.job
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import com.squareup.moshi.JsonEncodingException
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.api.failure.isTokenError
-import com.energeek.android.sdk.api.session.sync.SyncState
-import com.energeek.android.sdk.internal.network.NetworkConnectivityChecker
-import com.energeek.android.sdk.internal.session.sync.SyncTask
-import com.energeek.android.sdk.internal.util.BackgroundDetectionObserver
-import com.energeek.android.sdk.internal.util.Debouncer
-import com.energeek.android.sdk.internal.util.createUIHandler
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.failure.isTokenError
+import com.nusaraya.android.sdk.api.session.sync.SyncState
+import com.nusaraya.android.sdk.internal.network.NetworkConnectivityChecker
+import com.nusaraya.android.sdk.internal.session.sync.SyncTask
+import com.nusaraya.android.sdk.internal.util.BackgroundDetectionObserver
+import com.nusaraya.android.sdk.internal.util.Debouncer
+import com.nusaraya.android.sdk.internal.util.createUIHandler
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
@@ -35,9 +35,9 @@ import kotlinx.coroutines.cancelChildren
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
-import com.energeek.android.sdk.api.session.call.MxCall
-import com.energeek.android.sdk.internal.session.call.ActiveCallHandler
-import com.energeek.android.sdk.internal.session.sync.SyncPresence
+import com.nusaraya.android.sdk.api.session.call.MxCall
+import com.nusaraya.android.sdk.internal.session.call.ActiveCallHandler
+import com.nusaraya.android.sdk.internal.session.sync.SyncPresence
 import timber.log.Timber
 import java.net.SocketTimeoutException
 import java.util.Timer

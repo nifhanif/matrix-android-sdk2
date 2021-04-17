@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal
+package com.nusaraya.android.sdk.internal
 
-import com.energeek.android.sdk.api.auth.data.SessionParams
-import com.energeek.android.sdk.api.auth.data.sessionId
-import com.energeek.android.sdk.api.session.Session
-import com.energeek.android.sdk.internal.auth.SessionParamsStore
-import com.energeek.android.sdk.internal.di.MatrixComponent
-import com.energeek.android.sdk.internal.di.MatrixScope
-import com.energeek.android.sdk.internal.session.DaggerSessionComponent
-import com.energeek.android.sdk.internal.session.SessionComponent
+import com.nusaraya.android.sdk.api.auth.data.SessionParams
+import com.nusaraya.android.sdk.api.auth.data.sessionId
+import com.nusaraya.android.sdk.api.session.Session
+import com.nusaraya.android.sdk.internal.auth.SessionParamsStore
+import com.nusaraya.android.sdk.internal.di.MatrixComponent
+import com.nusaraya.android.sdk.internal.di.MatrixScope
+import com.nusaraya.android.sdk.internal.session.DaggerSessionComponent
+import com.nusaraya.android.sdk.internal.session.SessionComponent
 import javax.inject.Inject
 
 @MatrixScope

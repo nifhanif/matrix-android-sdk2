@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.notification
+package com.nusaraya.android.sdk.internal.session.notification
 
-import com.energeek.android.sdk.api.pushrules.rest.PushRule
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.session.sync.model.RoomsSyncResponse
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.pushrules.rest.PushRule
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.session.sync.model.RoomsSyncResponse
+import com.nusaraya.android.sdk.internal.task.Task
 import timber.log.Timber
 import javax.inject.Inject
 

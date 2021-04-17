@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.permalinks
+package com.nusaraya.android.sdk.internal.session.permalinks
 
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.permalinks.PermalinkService.Companion.MATRIX_TO_URL_BASE
-import com.energeek.android.sdk.api.session.room.members.roomMemberQueryParams
-import com.energeek.android.sdk.api.session.room.model.Membership
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.session.room.RoomGetter
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.permalinks.PermalinkService.Companion.MATRIX_TO_URL_BASE
+import com.nusaraya.android.sdk.api.session.room.members.roomMemberQueryParams
+import com.nusaraya.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.session.room.RoomGetter
 import java.net.URLEncoder
 import javax.inject.Inject
 import javax.inject.Provider

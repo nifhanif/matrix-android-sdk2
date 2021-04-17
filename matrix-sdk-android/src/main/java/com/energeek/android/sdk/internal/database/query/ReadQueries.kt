@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.database.query
+package com.nusaraya.android.sdk.internal.database.query
 
-import com.energeek.android.sdk.api.session.events.model.LocalEcho
-import com.energeek.android.sdk.internal.database.model.ChunkEntity
-import com.energeek.android.sdk.internal.database.model.ReadMarkerEntity
-import com.energeek.android.sdk.internal.database.model.ReadReceiptEntity
-import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
+import com.nusaraya.android.sdk.api.session.events.model.LocalEcho
+import com.nusaraya.android.sdk.internal.database.model.ChunkEntity
+import com.nusaraya.android.sdk.internal.database.model.ReadMarkerEntity
+import com.nusaraya.android.sdk.internal.database.model.ReadReceiptEntity
+import com.nusaraya.android.sdk.internal.database.model.TimelineEventEntity
 import io.realm.Realm
 import io.realm.RealmConfiguration
 

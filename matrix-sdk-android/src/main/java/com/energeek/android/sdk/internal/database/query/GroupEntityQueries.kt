@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.query
+package com.nusaraya.android.sdk.internal.database.query
 
-import com.energeek.android.sdk.api.session.room.model.Membership
-import com.energeek.android.sdk.internal.database.model.GroupEntity
-import com.energeek.android.sdk.internal.database.model.GroupEntityFields
-import com.energeek.android.sdk.internal.query.process
+import com.nusaraya.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.internal.database.model.GroupEntity
+import com.nusaraya.android.sdk.internal.database.model.GroupEntityFields
+import com.nusaraya.android.sdk.internal.query.process
 import io.realm.Realm
 import io.realm.RealmQuery
 import io.realm.kotlin.where

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.algorithms.olm
+package com.nusaraya.android.sdk.internal.crypto.algorithms.olm
 
-import com.energeek.android.sdk.internal.crypto.MXOlmDevice
-import com.energeek.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.crypto.MXOlmDevice
+import com.nusaraya.android.sdk.internal.di.UserId
 import javax.inject.Inject
 
 internal class MXOlmDecryptionFactory @Inject constructor(private val olmDevice: MXOlmDevice,

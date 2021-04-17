@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.group
+package com.nusaraya.android.sdk.internal.session.group
 
-import com.energeek.android.sdk.internal.network.NetworkConstants
-import com.energeek.android.sdk.internal.session.group.model.GroupRooms
-import com.energeek.android.sdk.internal.session.group.model.GroupSummaryResponse
-import com.energeek.android.sdk.internal.session.group.model.GroupUsers
+import com.nusaraya.android.sdk.internal.network.NetworkConstants
+import com.nusaraya.android.sdk.internal.session.group.model.GroupRooms
+import com.nusaraya.android.sdk.internal.session.group.model.GroupSummaryResponse
+import com.nusaraya.android.sdk.internal.session.group.model.GroupUsers
 import retrofit2.http.GET
 import retrofit2.http.Path
 

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.registration
+package com.nusaraya.android.sdk.internal.auth.registration
 
-import com.energeek.android.sdk.api.auth.data.Credentials
-import com.energeek.android.sdk.api.failure.Failure
-import com.energeek.android.sdk.api.failure.toRegistrationFlowResponse
-import com.energeek.android.sdk.internal.auth.AuthAPI
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.auth.data.Credentials
+import com.nusaraya.android.sdk.api.failure.Failure
+import com.nusaraya.android.sdk.api.failure.toRegistrationFlowResponse
+import com.nusaraya.android.sdk.internal.auth.AuthAPI
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.task.Task
 
 internal interface RegisterTask : Task<RegisterTask.Params, Credentials> {
     data class Params(

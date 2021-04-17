@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.sync
+package com.nusaraya.android.sdk.internal.session.sync
 
 import com.squareup.moshi.JsonClass
 import okio.buffer
 import okio.source
-import com.energeek.android.sdk.internal.di.MoshiProvider
+import com.nusaraya.android.sdk.internal.di.MoshiProvider
 import timber.log.Timber
 import java.io.File
 

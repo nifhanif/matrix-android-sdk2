@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.algorithms
+package com.nusaraya.android.sdk.internal.crypto.algorithms
 
-import com.energeek.android.sdk.api.session.events.model.Content
+import com.nusaraya.android.sdk.api.session.events.model.Content
 
 /**
  * An interface for encrypting data

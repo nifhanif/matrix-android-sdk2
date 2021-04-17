@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.integrationmanager
+package com.nusaraya.android.sdk.api.session.integrationmanager
 
 /**
  * This is the entry point to manage integration. You can grab an instance of this service through an active session.

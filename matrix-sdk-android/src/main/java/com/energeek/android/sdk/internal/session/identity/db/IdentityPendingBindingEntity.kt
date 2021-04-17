@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity.db
+package com.nusaraya.android.sdk.internal.session.identity.db
 
-import com.energeek.android.sdk.api.session.identity.ThreePid
-import com.energeek.android.sdk.api.session.identity.toMedium
+import com.nusaraya.android.sdk.api.session.identity.ThreePid
+import com.nusaraya.android.sdk.api.session.identity.toMedium
 import io.realm.RealmObject
 import io.realm.annotations.PrimaryKey
 

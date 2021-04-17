@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.session.room.timeline
+package com.nusaraya.android.sdk.session.room.timeline
 
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.InstrumentedTest
+import com.nusaraya.android.sdk.InstrumentedTest
 
 internal class TimelineTest : InstrumentedTest {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.send
+package com.nusaraya.android.sdk.internal.session.room.send
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import org.commonmark.parser.Parser
@@ -24,9 +24,9 @@ import org.junit.FixMethodOrder
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.MethodSorters
-import com.energeek.android.sdk.InstrumentedTest
-import com.energeek.android.sdk.internal.session.room.send.pills.MentionLinkSpecComparator
-import com.energeek.android.sdk.internal.session.room.send.pills.TextPillsUtils
+import com.nusaraya.android.sdk.InstrumentedTest
+import com.nusaraya.android.sdk.internal.session.room.send.pills.MentionLinkSpecComparator
+import com.nusaraya.android.sdk.internal.session.room.send.pills.TextPillsUtils
 
 /**
  * It will not be possible to test all combinations. For the moment I add a few tests, then, depending on the problem discovered in the wild,

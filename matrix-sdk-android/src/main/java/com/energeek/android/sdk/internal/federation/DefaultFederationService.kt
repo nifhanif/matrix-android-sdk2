@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.federation
+package com.nusaraya.android.sdk.internal.federation
 
-import com.energeek.android.sdk.api.federation.FederationService
-import com.energeek.android.sdk.api.federation.FederationVersion
+import com.nusaraya.android.sdk.api.federation.FederationService
+import com.nusaraya.android.sdk.api.federation.FederationVersion
 import javax.inject.Inject
 
 internal class DefaultFederationService @Inject constructor(

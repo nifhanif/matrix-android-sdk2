@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room
+package com.nusaraya.android.sdk.internal.session.room
 
 import io.realm.Realm
-import com.energeek.android.sdk.api.extensions.orFalse
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.api.session.room.model.RoomAvatarContent
-import com.energeek.android.sdk.internal.database.mapper.asDomain
-import com.energeek.android.sdk.internal.database.model.CurrentStateEventEntity
-import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
-import com.energeek.android.sdk.internal.database.query.getOrNull
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.di.UserId
-import com.energeek.android.sdk.internal.session.room.membership.RoomMemberHelper
+import com.nusaraya.android.sdk.api.extensions.orFalse
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.api.session.room.model.RoomAvatarContent
+import com.nusaraya.android.sdk.internal.database.mapper.asDomain
+import com.nusaraya.android.sdk.internal.database.model.CurrentStateEventEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntity
+import com.nusaraya.android.sdk.internal.database.query.getOrNull
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.internal.session.room.membership.RoomMemberHelper
 import javax.inject.Inject
 
 internal class RoomAvatarResolver @Inject constructor(@UserId private val userId: String) {

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.mapper
+package com.nusaraya.android.sdk.internal.database.mapper
 
 import com.squareup.moshi.Moshi
-import com.energeek.android.sdk.api.util.JSON_DICT_PARAMETERIZED_TYPE
-import com.energeek.android.sdk.internal.database.model.UserAccountDataEntity
-import com.energeek.android.sdk.api.session.accountdata.UserAccountDataEvent
+import com.nusaraya.android.sdk.api.util.JSON_DICT_PARAMETERIZED_TYPE
+import com.nusaraya.android.sdk.internal.database.model.UserAccountDataEntity
+import com.nusaraya.android.sdk.api.session.accountdata.UserAccountDataEvent
 import javax.inject.Inject
 
 internal class AccountDataMapper @Inject constructor(moshi: Moshi) {

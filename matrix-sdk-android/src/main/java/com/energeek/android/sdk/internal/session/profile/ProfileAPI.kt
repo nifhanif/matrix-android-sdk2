@@ -15,12 +15,12 @@
  *
  */
 
-package com.energeek.android.sdk.internal.session.profile
+package com.nusaraya.android.sdk.internal.session.profile
 
-import com.energeek.android.sdk.api.util.JsonDict
-import com.energeek.android.sdk.internal.auth.registration.SuccessResult
-import com.energeek.android.sdk.internal.auth.registration.ValidationCodeBody
-import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.nusaraya.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.internal.auth.registration.SuccessResult
+import com.nusaraya.android.sdk.internal.auth.registration.ValidationCodeBody
+import com.nusaraya.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.POST

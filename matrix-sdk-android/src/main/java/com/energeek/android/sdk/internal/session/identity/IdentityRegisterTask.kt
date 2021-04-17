@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity
+package com.nusaraya.android.sdk.internal.session.identity
 
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.identity.model.IdentityRegisterResponse
-import com.energeek.android.sdk.internal.session.openid.RequestOpenIdTokenResponse
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.identity.model.IdentityRegisterResponse
+import com.nusaraya.android.sdk.internal.session.openid.RequestOpenIdTokenResponse
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface IdentityRegisterTask : Task<IdentityRegisterTask.Params, IdentityRegisterResponse> {

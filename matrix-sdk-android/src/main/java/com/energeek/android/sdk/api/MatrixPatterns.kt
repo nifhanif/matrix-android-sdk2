@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api
+package com.nusaraya.android.sdk.api
 
 /**
  * This class contains pattern to match the different Matrix ids

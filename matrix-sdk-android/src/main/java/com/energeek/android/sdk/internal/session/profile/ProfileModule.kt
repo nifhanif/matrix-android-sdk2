@@ -15,13 +15,13 @@
  *
  */
 
-package com.energeek.android.sdk.internal.session.profile
+package com.nusaraya.android.sdk.internal.session.profile
 
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
-import com.energeek.android.sdk.api.session.profile.ProfileService
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.api.session.profile.ProfileService
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import retrofit2.Retrofit
 
 @Module

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.group
+package com.nusaraya.android.sdk.api.session.group
 
 import androidx.lifecycle.LiveData
-import com.energeek.android.sdk.api.session.group.model.GroupSummary
+import com.nusaraya.android.sdk.api.session.group.model.GroupSummary
 
 /**
  * This interface defines methods to get groups. It's implemented at the session level.

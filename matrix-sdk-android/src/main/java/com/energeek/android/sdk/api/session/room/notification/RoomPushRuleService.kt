@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.notification
+package com.nusaraya.android.sdk.api.session.room.notification
 
 import androidx.lifecycle.LiveData
 

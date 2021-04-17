@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.database.query
+package com.nusaraya.android.sdk.internal.database.query
 
-import com.energeek.android.sdk.internal.database.model.ReadReceiptsSummaryEntity
-import com.energeek.android.sdk.internal.database.model.ReadReceiptsSummaryEntityFields
+import com.nusaraya.android.sdk.internal.database.model.ReadReceiptsSummaryEntity
+import com.nusaraya.android.sdk.internal.database.model.ReadReceiptsSummaryEntityFields
 import io.realm.Realm
 import io.realm.RealmQuery
 import io.realm.kotlin.where

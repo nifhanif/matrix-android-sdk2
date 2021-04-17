@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.store.db.query
+package com.nusaraya.android.sdk.internal.crypto.store.db.query
 
-import com.energeek.android.sdk.internal.crypto.store.db.model.CrossSigningInfoEntity
-import com.energeek.android.sdk.internal.crypto.store.db.model.UserEntityFields
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.CrossSigningInfoEntity
+import com.nusaraya.android.sdk.internal.crypto.store.db.model.UserEntityFields
 import io.realm.Realm
 import io.realm.kotlin.createObject
 import io.realm.kotlin.where

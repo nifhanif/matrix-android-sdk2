@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.membership
+package com.nusaraya.android.sdk.internal.session.room.membership
 
 import io.realm.Realm
-import com.energeek.android.sdk.api.MatrixConfiguration
-import com.energeek.android.sdk.api.extensions.orFalse
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.api.session.room.model.Membership
-import com.energeek.android.sdk.api.session.room.model.RoomCanonicalAliasContent
-import com.energeek.android.sdk.api.session.room.model.RoomNameContent
-import com.energeek.android.sdk.internal.database.mapper.ContentMapper
-import com.energeek.android.sdk.internal.database.model.CurrentStateEventEntity
-import com.energeek.android.sdk.internal.database.model.RoomEntity
-import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntity
-import com.energeek.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
-import com.energeek.android.sdk.internal.database.model.RoomSummaryEntity
-import com.energeek.android.sdk.internal.database.query.getOrNull
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.di.UserId
+import com.nusaraya.android.sdk.api.MatrixConfiguration
+import com.nusaraya.android.sdk.api.extensions.orFalse
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.api.session.room.model.RoomCanonicalAliasContent
+import com.nusaraya.android.sdk.api.session.room.model.RoomNameContent
+import com.nusaraya.android.sdk.internal.database.mapper.ContentMapper
+import com.nusaraya.android.sdk.internal.database.model.CurrentStateEventEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomMemberSummaryEntity
+import com.nusaraya.android.sdk.internal.database.model.RoomMemberSummaryEntityFields
+import com.nusaraya.android.sdk.internal.database.model.RoomSummaryEntity
+import com.nusaraya.android.sdk.internal.database.query.getOrNull
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.di.UserId
 import javax.inject.Inject
 
 /**
@@ -152,7 +152,7 @@ internal class RoomDisplayNameResolver @Inject constructor(
         return name ?: roomId
     }
 
-    /** See [com.energeek.android.sdk.api.session.room.sender.SenderInfo.disambiguatedDisplayName] */
+    /** See [com.nusaraya.android.sdk.api.session.room.sender.SenderInfo.disambiguatedDisplayName] */
     private fun resolveRoomMemberName(roomMemberSummary: RoomMemberSummaryEntity,
                                       roomMemberHelper: RoomMemberHelper): String {
         val isUnique = roomMemberHelper.isUniqueDisplayName(roomMemberSummary.displayName)

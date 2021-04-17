@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.keysbackup
+package com.nusaraya.android.sdk.internal.crypto.keysbackup
 
-import com.energeek.android.sdk.internal.crypto.keysbackup.model.MegolmBackupCreationInfo
+import com.nusaraya.android.sdk.internal.crypto.keysbackup.model.MegolmBackupCreationInfo
 
 data class PrepareKeysBackupDataResult(val megolmBackupCreationInfo: MegolmBackupCreationInfo,
                                        val version: String)

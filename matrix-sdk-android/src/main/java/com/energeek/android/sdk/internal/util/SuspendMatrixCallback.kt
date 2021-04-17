@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.util
+package com.nusaraya.android.sdk.internal.util
 
-import com.energeek.android.sdk.api.MatrixCallback
+import com.nusaraya.android.sdk.api.MatrixCallback
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 import kotlin.coroutines.suspendCoroutine

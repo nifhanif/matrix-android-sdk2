@@ -14,26 +14,26 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth
+package com.nusaraya.android.sdk.internal.auth
 
 import android.content.Context
 import dagger.Binds
 import dagger.Module
 import dagger.Provides
 import io.realm.RealmConfiguration
-import com.energeek.android.sdk.api.auth.AuthenticationService
-import com.energeek.android.sdk.api.auth.HomeServerHistoryService
-import com.energeek.android.sdk.api.legacy.LegacySessionImporter
-import com.energeek.android.sdk.internal.auth.db.AuthRealmMigration
-import com.energeek.android.sdk.internal.auth.db.AuthRealmModule
-import com.energeek.android.sdk.internal.auth.db.RealmPendingSessionStore
-import com.energeek.android.sdk.internal.auth.db.RealmSessionParamsStore
-import com.energeek.android.sdk.internal.auth.login.DefaultDirectLoginTask
-import com.energeek.android.sdk.internal.auth.login.DirectLoginTask
-import com.energeek.android.sdk.internal.database.RealmKeysUtils
-import com.energeek.android.sdk.internal.di.AuthDatabase
-import com.energeek.android.sdk.internal.legacy.DefaultLegacySessionImporter
-import com.energeek.android.sdk.internal.wellknown.WellknownModule
+import com.nusaraya.android.sdk.api.auth.AuthenticationService
+import com.nusaraya.android.sdk.api.auth.HomeServerHistoryService
+import com.nusaraya.android.sdk.api.legacy.LegacySessionImporter
+import com.nusaraya.android.sdk.internal.auth.db.AuthRealmMigration
+import com.nusaraya.android.sdk.internal.auth.db.AuthRealmModule
+import com.nusaraya.android.sdk.internal.auth.db.RealmPendingSessionStore
+import com.nusaraya.android.sdk.internal.auth.db.RealmSessionParamsStore
+import com.nusaraya.android.sdk.internal.auth.login.DefaultDirectLoginTask
+import com.nusaraya.android.sdk.internal.auth.login.DirectLoginTask
+import com.nusaraya.android.sdk.internal.database.RealmKeysUtils
+import com.nusaraya.android.sdk.internal.di.AuthDatabase
+import com.nusaraya.android.sdk.internal.legacy.DefaultLegacySessionImporter
+import com.nusaraya.android.sdk.internal.wellknown.WellknownModule
 import java.io.File
 
 @Module(includes = [WellknownModule::class])

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.db
+package com.nusaraya.android.sdk.internal.auth.db
 
-import com.energeek.android.sdk.internal.auth.PendingSessionStore
-import com.energeek.android.sdk.internal.database.awaitTransaction
-import com.energeek.android.sdk.internal.di.AuthDatabase
+import com.nusaraya.android.sdk.internal.auth.PendingSessionStore
+import com.nusaraya.android.sdk.internal.database.awaitTransaction
+import com.nusaraya.android.sdk.internal.di.AuthDatabase
 import io.realm.Realm
 import io.realm.RealmConfiguration
 import javax.inject.Inject

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.legacy.riot
+package com.nusaraya.android.sdk.internal.legacy.riot
 
 /*
  * IMPORTANT: This class is imported from Riot-Android to be able to perform a migration. Do not use it for any other purpose

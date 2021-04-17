@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth
+package com.nusaraya.android.sdk.internal.auth
 
-import com.energeek.android.sdk.api.auth.data.Credentials
-import com.energeek.android.sdk.internal.auth.data.Availability
-import com.energeek.android.sdk.internal.auth.data.LoginFlowResponse
-import com.energeek.android.sdk.internal.auth.data.PasswordLoginParams
-import com.energeek.android.sdk.internal.auth.data.RiotConfig
-import com.energeek.android.sdk.internal.auth.data.TokenLoginParams
-import com.energeek.android.sdk.internal.auth.login.ResetPasswordMailConfirmed
-import com.energeek.android.sdk.internal.auth.registration.AddThreePidRegistrationParams
-import com.energeek.android.sdk.internal.auth.registration.AddThreePidRegistrationResponse
-import com.energeek.android.sdk.internal.auth.registration.RegistrationParams
-import com.energeek.android.sdk.internal.auth.registration.SuccessResult
-import com.energeek.android.sdk.internal.auth.registration.ValidationCodeBody
-import com.energeek.android.sdk.internal.auth.version.Versions
-import com.energeek.android.sdk.internal.network.NetworkConstants
+import com.nusaraya.android.sdk.api.auth.data.Credentials
+import com.nusaraya.android.sdk.internal.auth.data.Availability
+import com.nusaraya.android.sdk.internal.auth.data.LoginFlowResponse
+import com.nusaraya.android.sdk.internal.auth.data.PasswordLoginParams
+import com.nusaraya.android.sdk.internal.auth.data.RiotConfig
+import com.nusaraya.android.sdk.internal.auth.data.TokenLoginParams
+import com.nusaraya.android.sdk.internal.auth.login.ResetPasswordMailConfirmed
+import com.nusaraya.android.sdk.internal.auth.registration.AddThreePidRegistrationParams
+import com.nusaraya.android.sdk.internal.auth.registration.AddThreePidRegistrationResponse
+import com.nusaraya.android.sdk.internal.auth.registration.RegistrationParams
+import com.nusaraya.android.sdk.internal.auth.registration.SuccessResult
+import com.nusaraya.android.sdk.internal.auth.registration.ValidationCodeBody
+import com.nusaraya.android.sdk.internal.auth.version.Versions
+import com.nusaraya.android.sdk.internal.network.NetworkConstants
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.Headers

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.typing
+package com.nusaraya.android.sdk.internal.session.room.typing
 
 import android.os.SystemClock
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import dagger.assisted.AssistedFactory
-import com.energeek.android.sdk.api.MatrixCallback
-import com.energeek.android.sdk.api.session.room.typing.TypingService
-import com.energeek.android.sdk.api.util.Cancelable
-import com.energeek.android.sdk.internal.task.TaskExecutor
-import com.energeek.android.sdk.internal.task.configureWith
+import com.nusaraya.android.sdk.api.MatrixCallback
+import com.nusaraya.android.sdk.api.session.room.typing.TypingService
+import com.nusaraya.android.sdk.api.util.Cancelable
+import com.nusaraya.android.sdk.internal.task.TaskExecutor
+import com.nusaraya.android.sdk.internal.task.configureWith
 import timber.log.Timber
 
 /**

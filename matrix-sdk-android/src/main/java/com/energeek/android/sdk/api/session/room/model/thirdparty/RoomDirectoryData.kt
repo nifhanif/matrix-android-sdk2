@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.model.thirdparty
+package com.nusaraya.android.sdk.api.session.room.model.thirdparty
 
 /**
  * This class describes a rooms directory server.

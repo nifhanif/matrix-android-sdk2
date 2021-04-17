@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.auth.version
+package com.nusaraya.android.sdk.internal.auth.version
 
 /**
  * Values will take the form "rX.Y.Z".

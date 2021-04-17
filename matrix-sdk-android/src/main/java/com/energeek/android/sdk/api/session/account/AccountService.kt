@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.account
+package com.nusaraya.android.sdk.api.session.account
 
-import com.energeek.android.sdk.api.auth.UserInteractiveAuthInterceptor
+import com.nusaraya.android.sdk.api.auth.UserInteractiveAuthInterceptor
 
 /**
  * This interface defines methods to manage the account. It's implemented at the session level.

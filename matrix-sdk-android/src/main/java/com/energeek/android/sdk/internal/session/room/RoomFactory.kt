@@ -14,28 +14,28 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room
+package com.nusaraya.android.sdk.internal.session.room
 
-import com.energeek.android.sdk.api.session.crypto.CryptoService
-import com.energeek.android.sdk.api.session.room.Room
-import com.energeek.android.sdk.internal.session.SessionScope
-import com.energeek.android.sdk.internal.session.room.alias.DefaultAliasService
-import com.energeek.android.sdk.internal.session.room.call.DefaultRoomCallService
-import com.energeek.android.sdk.internal.session.room.draft.DefaultDraftService
-import com.energeek.android.sdk.internal.session.room.membership.DefaultMembershipService
-import com.energeek.android.sdk.internal.session.room.notification.DefaultRoomPushRuleService
-import com.energeek.android.sdk.internal.session.room.read.DefaultReadService
-import com.energeek.android.sdk.internal.session.room.relation.DefaultRelationService
-import com.energeek.android.sdk.internal.session.room.reporting.DefaultReportingService
-import com.energeek.android.sdk.internal.session.room.send.DefaultSendService
-import com.energeek.android.sdk.internal.session.room.state.DefaultStateService
-import com.energeek.android.sdk.internal.session.room.state.SendStateTask
-import com.energeek.android.sdk.internal.session.room.summary.RoomSummaryDataSource
-import com.energeek.android.sdk.internal.session.room.tags.DefaultTagsService
-import com.energeek.android.sdk.internal.session.room.timeline.DefaultTimelineService
-import com.energeek.android.sdk.internal.session.room.typing.DefaultTypingService
-import com.energeek.android.sdk.internal.session.room.uploads.DefaultUploadsService
-import com.energeek.android.sdk.internal.session.search.SearchTask
+import com.nusaraya.android.sdk.api.session.crypto.CryptoService
+import com.nusaraya.android.sdk.api.session.room.Room
+import com.nusaraya.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.internal.session.room.alias.DefaultAliasService
+import com.nusaraya.android.sdk.internal.session.room.call.DefaultRoomCallService
+import com.nusaraya.android.sdk.internal.session.room.draft.DefaultDraftService
+import com.nusaraya.android.sdk.internal.session.room.membership.DefaultMembershipService
+import com.nusaraya.android.sdk.internal.session.room.notification.DefaultRoomPushRuleService
+import com.nusaraya.android.sdk.internal.session.room.read.DefaultReadService
+import com.nusaraya.android.sdk.internal.session.room.relation.DefaultRelationService
+import com.nusaraya.android.sdk.internal.session.room.reporting.DefaultReportingService
+import com.nusaraya.android.sdk.internal.session.room.send.DefaultSendService
+import com.nusaraya.android.sdk.internal.session.room.state.DefaultStateService
+import com.nusaraya.android.sdk.internal.session.room.state.SendStateTask
+import com.nusaraya.android.sdk.internal.session.room.summary.RoomSummaryDataSource
+import com.nusaraya.android.sdk.internal.session.room.tags.DefaultTagsService
+import com.nusaraya.android.sdk.internal.session.room.timeline.DefaultTimelineService
+import com.nusaraya.android.sdk.internal.session.room.typing.DefaultTypingService
+import com.nusaraya.android.sdk.internal.session.room.uploads.DefaultUploadsService
+import com.nusaraya.android.sdk.internal.session.search.SearchTask
 import javax.inject.Inject
 
 internal interface RoomFactory {

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.util
+package com.nusaraya.android.sdk.internal.util
 
 import org.amshove.kluent.shouldBeEqualTo
 import org.amshove.kluent.shouldHaveSize
 import org.junit.FixMethodOrder
 import org.junit.Test
 import org.junit.runners.MethodSorters
-import com.energeek.android.sdk.MatrixTest
+import com.nusaraya.android.sdk.MatrixTest
 
 @FixMethodOrder(MethodSorters.JVM)
 class MathUtilTest : MatrixTest {

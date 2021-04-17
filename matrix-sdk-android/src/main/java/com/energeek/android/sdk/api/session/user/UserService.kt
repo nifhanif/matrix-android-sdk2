@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.user
+package com.nusaraya.android.sdk.api.session.user
 
 import androidx.lifecycle.LiveData
 import androidx.paging.PagedList
-import com.energeek.android.sdk.api.session.user.model.User
-import com.energeek.android.sdk.api.util.Optional
+import com.nusaraya.android.sdk.api.session.user.model.User
+import com.nusaraya.android.sdk.api.util.Optional
 
 /**
  * This interface defines methods to get users. It's implemented at the session level.

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.securestorage
+package com.nusaraya.android.sdk.api.session.securestorage
 
-import com.energeek.android.sdk.api.listeners.ProgressListener
-import com.energeek.android.sdk.internal.crypto.keysbackup.deriveKey
-import com.energeek.android.sdk.internal.crypto.keysbackup.util.extractCurveKeyFromRecoveryKey
+import com.nusaraya.android.sdk.api.listeners.ProgressListener
+import com.nusaraya.android.sdk.internal.crypto.keysbackup.deriveKey
+import com.nusaraya.android.sdk.internal.crypto.keysbackup.util.extractCurveKeyFromRecoveryKey
 
 /** Tag class */
 interface SsssKeySpec

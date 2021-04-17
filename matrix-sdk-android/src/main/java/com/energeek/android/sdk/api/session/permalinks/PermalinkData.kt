@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.permalinks
+package com.nusaraya.android.sdk.api.session.permalinks
 
 import android.net.Uri
 

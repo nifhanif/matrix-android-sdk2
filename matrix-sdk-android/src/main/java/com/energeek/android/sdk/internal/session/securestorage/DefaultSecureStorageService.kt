@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.securestorage
+package com.nusaraya.android.sdk.internal.session.securestorage
 
-import com.energeek.android.sdk.api.session.securestorage.SecureStorageService
+import com.nusaraya.android.sdk.api.session.securestorage.SecureStorageService
 import java.io.InputStream
 import java.io.OutputStream
 import javax.inject.Inject

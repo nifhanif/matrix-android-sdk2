@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.auth.data
+package com.nusaraya.android.sdk.api.auth.data
 
-import com.energeek.android.sdk.internal.auth.version.Versions
-import com.energeek.android.sdk.internal.auth.version.isSupportedBySdk
+import com.nusaraya.android.sdk.internal.auth.version.Versions
+import com.nusaraya.android.sdk.internal.auth.version.isSupportedBySdk
 import org.amshove.kluent.shouldBe
 import org.junit.Test
 

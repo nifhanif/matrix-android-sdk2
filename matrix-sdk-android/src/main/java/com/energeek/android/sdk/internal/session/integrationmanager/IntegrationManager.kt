@@ -14,29 +14,29 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.integrationmanager
+package com.nusaraya.android.sdk.internal.session.integrationmanager
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LifecycleRegistry
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.MatrixConfiguration
-import com.energeek.android.sdk.api.session.events.model.toModel
-import com.energeek.android.sdk.api.session.integrationmanager.IntegrationManagerConfig
-import com.energeek.android.sdk.api.session.integrationmanager.IntegrationManagerService
-import com.energeek.android.sdk.api.session.widgets.model.WidgetContent
-import com.energeek.android.sdk.api.session.widgets.model.WidgetType
-import com.energeek.android.sdk.internal.database.model.WellknownIntegrationManagerConfigEntity
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.extensions.observeNotNull
-import com.energeek.android.sdk.internal.session.SessionLifecycleObserver
-import com.energeek.android.sdk.internal.session.SessionScope
-import com.energeek.android.sdk.api.session.accountdata.UserAccountDataTypes
-import com.energeek.android.sdk.api.session.accountdata.UserAccountDataEvent
-import com.energeek.android.sdk.internal.session.user.accountdata.AccountDataDataSource
-import com.energeek.android.sdk.internal.session.user.accountdata.UpdateUserAccountDataTask
-import com.energeek.android.sdk.internal.session.widgets.helper.WidgetFactory
-import com.energeek.android.sdk.internal.session.widgets.helper.extractWidgetSequence
+import com.nusaraya.android.sdk.api.MatrixConfiguration
+import com.nusaraya.android.sdk.api.session.events.model.toModel
+import com.nusaraya.android.sdk.api.session.integrationmanager.IntegrationManagerConfig
+import com.nusaraya.android.sdk.api.session.integrationmanager.IntegrationManagerService
+import com.nusaraya.android.sdk.api.session.widgets.model.WidgetContent
+import com.nusaraya.android.sdk.api.session.widgets.model.WidgetType
+import com.nusaraya.android.sdk.internal.database.model.WellknownIntegrationManagerConfigEntity
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.extensions.observeNotNull
+import com.nusaraya.android.sdk.internal.session.SessionLifecycleObserver
+import com.nusaraya.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.api.session.accountdata.UserAccountDataTypes
+import com.nusaraya.android.sdk.api.session.accountdata.UserAccountDataEvent
+import com.nusaraya.android.sdk.internal.session.user.accountdata.AccountDataDataSource
+import com.nusaraya.android.sdk.internal.session.user.accountdata.UpdateUserAccountDataTask
+import com.nusaraya.android.sdk.internal.session.widgets.helper.WidgetFactory
+import com.nusaraya.android.sdk.internal.session.widgets.helper.extractWidgetSequence
 import timber.log.Timber
 import javax.inject.Inject
 

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.auth
+package com.nusaraya.android.sdk.api.auth
 
-import com.energeek.android.sdk.api.auth.data.Credentials
-import com.energeek.android.sdk.api.auth.data.HomeServerConnectionConfig
-import com.energeek.android.sdk.api.auth.data.LoginFlowResult
-import com.energeek.android.sdk.api.auth.login.LoginWizard
-import com.energeek.android.sdk.api.auth.registration.RegistrationWizard
-import com.energeek.android.sdk.api.auth.wellknown.WellknownResult
-import com.energeek.android.sdk.api.session.Session
+import com.nusaraya.android.sdk.api.auth.data.Credentials
+import com.nusaraya.android.sdk.api.auth.data.HomeServerConnectionConfig
+import com.nusaraya.android.sdk.api.auth.data.LoginFlowResult
+import com.nusaraya.android.sdk.api.auth.login.LoginWizard
+import com.nusaraya.android.sdk.api.auth.registration.RegistrationWizard
+import com.nusaraya.android.sdk.api.auth.wellknown.WellknownResult
+import com.nusaraya.android.sdk.api.session.Session
 
 /**
  * This interface defines methods to authenticate or to create an account to a matrix server.

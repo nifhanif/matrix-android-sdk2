@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.session.room.timeline
+package com.nusaraya.android.sdk.session.room.timeline
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.zhuinden.monarchy.Monarchy
@@ -26,17 +26,17 @@ import org.amshove.kluent.shouldBeTrue
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
-import com.energeek.android.sdk.InstrumentedTest
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.room.send.SendState
-import com.energeek.android.sdk.internal.database.helper.addTimelineEvent
-import com.energeek.android.sdk.internal.database.helper.merge
-import com.energeek.android.sdk.internal.database.mapper.toEntity
-import com.energeek.android.sdk.internal.database.model.ChunkEntity
-import com.energeek.android.sdk.internal.database.model.SessionRealmModule
-import com.energeek.android.sdk.internal.session.room.timeline.PaginationDirection
-import com.energeek.android.sdk.session.room.timeline.RoomDataHelper.createFakeListOfEvents
-import com.energeek.android.sdk.session.room.timeline.RoomDataHelper.createFakeMessageEvent
+import com.nusaraya.android.sdk.InstrumentedTest
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.room.send.SendState
+import com.nusaraya.android.sdk.internal.database.helper.addTimelineEvent
+import com.nusaraya.android.sdk.internal.database.helper.merge
+import com.nusaraya.android.sdk.internal.database.mapper.toEntity
+import com.nusaraya.android.sdk.internal.database.model.ChunkEntity
+import com.nusaraya.android.sdk.internal.database.model.SessionRealmModule
+import com.nusaraya.android.sdk.internal.session.room.timeline.PaginationDirection
+import com.nusaraya.android.sdk.session.room.timeline.RoomDataHelper.createFakeListOfEvents
+import com.nusaraya.android.sdk.session.room.timeline.RoomDataHelper.createFakeMessageEvent
 
 @RunWith(AndroidJUnit4::class)
 internal class ChunkEntityTest : InstrumentedTest {

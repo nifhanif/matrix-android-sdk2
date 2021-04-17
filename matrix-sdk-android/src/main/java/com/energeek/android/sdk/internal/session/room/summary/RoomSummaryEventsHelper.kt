@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.summary
+package com.nusaraya.android.sdk.internal.session.room.summary
 
 import io.realm.Realm
-import com.energeek.android.sdk.api.session.room.summary.RoomSummaryConstants
-import com.energeek.android.sdk.api.session.room.timeline.EventTypeFilter
-import com.energeek.android.sdk.api.session.room.timeline.TimelineEventFilters
-import com.energeek.android.sdk.internal.database.model.TimelineEventEntity
-import com.energeek.android.sdk.internal.database.query.latestEvent
+import com.nusaraya.android.sdk.api.session.room.summary.RoomSummaryConstants
+import com.nusaraya.android.sdk.api.session.room.timeline.EventTypeFilter
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineEventFilters
+import com.nusaraya.android.sdk.internal.database.model.TimelineEventEntity
+import com.nusaraya.android.sdk.internal.database.query.latestEvent
 
 internal object RoomSummaryEventsHelper {
 

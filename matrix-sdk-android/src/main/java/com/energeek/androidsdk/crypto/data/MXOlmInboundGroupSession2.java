@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.androidsdk.crypto.data;
+package com.nusaraya.androidsdk.crypto.data;
 
 import org.matrix.olm.OlmInboundGroupSession;
 

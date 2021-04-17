@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room.model
+package com.nusaraya.android.sdk.api.session.room.model
 
 enum class VersioningState {
     NONE,

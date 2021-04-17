@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.extensions
+package com.nusaraya.android.sdk.internal.extensions
 
 /**
  * Convert a signed byte to a int value

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.terms
+package com.nusaraya.android.sdk.api.session.terms
 
-import com.energeek.android.sdk.internal.session.terms.TermsResponse
+import com.nusaraya.android.sdk.internal.session.terms.TermsResponse
 
 data class GetTermsResponse(
         val serverResponse: TermsResponse,

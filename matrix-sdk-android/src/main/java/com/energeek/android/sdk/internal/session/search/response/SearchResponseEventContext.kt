@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.search.response
+package com.nusaraya.android.sdk.internal.session.search.response
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.util.JsonDict
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.util.JsonDict
 
 @JsonClass(generateAdapter = true)
 internal data class SearchResponseEventContext(

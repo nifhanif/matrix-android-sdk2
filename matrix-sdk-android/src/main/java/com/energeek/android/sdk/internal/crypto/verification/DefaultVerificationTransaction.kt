@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.crypto.verification
+package com.nusaraya.android.sdk.internal.crypto.verification
 
-import com.energeek.android.sdk.api.MatrixCallback
-import com.energeek.android.sdk.api.session.crypto.crosssigning.CrossSigningService
-import com.energeek.android.sdk.api.session.crypto.verification.VerificationTransaction
-import com.energeek.android.sdk.api.session.crypto.verification.VerificationTxState
-import com.energeek.android.sdk.internal.crypto.IncomingGossipingRequestManager
-import com.energeek.android.sdk.internal.crypto.OutgoingGossipingRequestManager
-import com.energeek.android.sdk.internal.crypto.actions.SetDeviceVerificationAction
-import com.energeek.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
+import com.nusaraya.android.sdk.api.MatrixCallback
+import com.nusaraya.android.sdk.api.session.crypto.crosssigning.CrossSigningService
+import com.nusaraya.android.sdk.api.session.crypto.verification.VerificationTransaction
+import com.nusaraya.android.sdk.api.session.crypto.verification.VerificationTxState
+import com.nusaraya.android.sdk.internal.crypto.IncomingGossipingRequestManager
+import com.nusaraya.android.sdk.internal.crypto.OutgoingGossipingRequestManager
+import com.nusaraya.android.sdk.internal.crypto.actions.SetDeviceVerificationAction
+import com.nusaraya.android.sdk.internal.crypto.crosssigning.DeviceTrustLevel
 import timber.log.Timber
 
 /**

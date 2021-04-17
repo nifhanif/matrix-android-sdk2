@@ -14,25 +14,25 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.create
+package com.nusaraya.android.sdk.internal.session.room.create
 
-import com.energeek.android.sdk.api.extensions.tryOrNull
-import com.energeek.android.sdk.api.session.crypto.crosssigning.CrossSigningService
-import com.energeek.android.sdk.api.session.events.model.Event
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.identity.IdentityServiceError
-import com.energeek.android.sdk.api.session.identity.toMedium
-import com.energeek.android.sdk.api.session.room.model.create.CreateRoomParams
-import com.energeek.android.sdk.api.util.MimeTypes
-import com.energeek.android.sdk.internal.crypto.DeviceListManager
-import com.energeek.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
-import com.energeek.android.sdk.internal.di.AuthenticatedIdentity
-import com.energeek.android.sdk.internal.network.token.AccessTokenProvider
-import com.energeek.android.sdk.internal.session.content.FileUploader
-import com.energeek.android.sdk.internal.session.identity.EnsureIdentityTokenTask
-import com.energeek.android.sdk.internal.session.identity.data.IdentityStore
-import com.energeek.android.sdk.internal.session.identity.data.getIdentityServerUrlWithoutProtocol
-import com.energeek.android.sdk.internal.session.room.membership.threepid.ThreePidInviteBody
+import com.nusaraya.android.sdk.api.extensions.tryOrNull
+import com.nusaraya.android.sdk.api.session.crypto.crosssigning.CrossSigningService
+import com.nusaraya.android.sdk.api.session.events.model.Event
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.identity.IdentityServiceError
+import com.nusaraya.android.sdk.api.session.identity.toMedium
+import com.nusaraya.android.sdk.api.session.room.model.create.CreateRoomParams
+import com.nusaraya.android.sdk.api.util.MimeTypes
+import com.nusaraya.android.sdk.internal.crypto.DeviceListManager
+import com.nusaraya.android.sdk.internal.crypto.MXCRYPTO_ALGORITHM_MEGOLM
+import com.nusaraya.android.sdk.internal.di.AuthenticatedIdentity
+import com.nusaraya.android.sdk.internal.network.token.AccessTokenProvider
+import com.nusaraya.android.sdk.internal.session.content.FileUploader
+import com.nusaraya.android.sdk.internal.session.identity.EnsureIdentityTokenTask
+import com.nusaraya.android.sdk.internal.session.identity.data.IdentityStore
+import com.nusaraya.android.sdk.internal.session.identity.data.getIdentityServerUrlWithoutProtocol
+import com.nusaraya.android.sdk.internal.session.room.membership.threepid.ThreePidInviteBody
 import java.security.InvalidParameterException
 import java.util.UUID
 import javax.inject.Inject

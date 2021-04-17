@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.energeek.android.sdk.internal.database.query
+package com.nusaraya.android.sdk.internal.database.query
 
-import com.energeek.android.sdk.api.pushrules.RuleKind
-import com.energeek.android.sdk.internal.database.model.PushRuleEntity
-import com.energeek.android.sdk.internal.database.model.PushRuleEntityFields
-import com.energeek.android.sdk.internal.database.model.PushRulesEntity
-import com.energeek.android.sdk.internal.database.model.PushRulesEntityFields
-import com.energeek.android.sdk.internal.database.model.PusherEntity
-import com.energeek.android.sdk.internal.database.model.PusherEntityFields
+import com.nusaraya.android.sdk.api.pushrules.RuleKind
+import com.nusaraya.android.sdk.internal.database.model.PushRuleEntity
+import com.nusaraya.android.sdk.internal.database.model.PushRuleEntityFields
+import com.nusaraya.android.sdk.internal.database.model.PushRulesEntity
+import com.nusaraya.android.sdk.internal.database.model.PushRulesEntityFields
+import com.nusaraya.android.sdk.internal.database.model.PusherEntity
+import com.nusaraya.android.sdk.internal.database.model.PusherEntityFields
 import io.realm.Realm
 import io.realm.RealmQuery
 import io.realm.kotlin.where

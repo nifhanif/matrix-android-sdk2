@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.content
+package com.nusaraya.android.sdk.api.session.content
 
 /**
  * This interface defines methods for accessing content from the current session.

@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.group
+package com.nusaraya.android.sdk.internal.session.group
 
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.session.room.model.Membership
-import com.energeek.android.sdk.internal.database.model.GroupEntity
-import com.energeek.android.sdk.internal.database.model.GroupSummaryEntity
-import com.energeek.android.sdk.internal.database.query.getOrCreate
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.group.model.GroupRooms
-import com.energeek.android.sdk.internal.session.group.model.GroupSummaryResponse
-import com.energeek.android.sdk.internal.session.group.model.GroupUsers
-import com.energeek.android.sdk.internal.task.Task
-import com.energeek.android.sdk.internal.util.awaitTransaction
+import com.nusaraya.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.internal.database.model.GroupEntity
+import com.nusaraya.android.sdk.internal.database.model.GroupSummaryEntity
+import com.nusaraya.android.sdk.internal.database.query.getOrCreate
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.group.model.GroupRooms
+import com.nusaraya.android.sdk.internal.session.group.model.GroupSummaryResponse
+import com.nusaraya.android.sdk.internal.session.group.model.GroupUsers
+import com.nusaraya.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.internal.util.awaitTransaction
 import timber.log.Timber
 import javax.inject.Inject
 

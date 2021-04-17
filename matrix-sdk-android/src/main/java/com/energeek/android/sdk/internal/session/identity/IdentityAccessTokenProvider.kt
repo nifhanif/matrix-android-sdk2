@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.identity
+package com.nusaraya.android.sdk.internal.session.identity
 
-import com.energeek.android.sdk.internal.network.token.AccessTokenProvider
-import com.energeek.android.sdk.internal.session.identity.data.IdentityStore
+import com.nusaraya.android.sdk.internal.network.token.AccessTokenProvider
+import com.nusaraya.android.sdk.internal.session.identity.data.IdentityStore
 import javax.inject.Inject
 
 internal class IdentityAccessTokenProvider @Inject constructor(

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.pushrules
+package com.nusaraya.android.sdk.api.pushrules
 
 /**
  * Ref: https://matrix.org/docs/spec/client_server/latest#get-matrix-client-r0-pushrules

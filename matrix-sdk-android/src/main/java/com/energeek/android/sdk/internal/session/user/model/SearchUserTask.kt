@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.user.model
+package com.nusaraya.android.sdk.internal.session.user.model
 
-import com.energeek.android.sdk.api.session.user.model.User
-import com.energeek.android.sdk.internal.network.GlobalErrorReceiver
-import com.energeek.android.sdk.internal.network.executeRequest
-import com.energeek.android.sdk.internal.session.user.SearchUserAPI
-import com.energeek.android.sdk.internal.task.Task
+import com.nusaraya.android.sdk.api.session.user.model.User
+import com.nusaraya.android.sdk.internal.network.GlobalErrorReceiver
+import com.nusaraya.android.sdk.internal.network.executeRequest
+import com.nusaraya.android.sdk.internal.session.user.SearchUserAPI
+import com.nusaraya.android.sdk.internal.task.Task
 import javax.inject.Inject
 
 internal interface SearchUserTask : Task<SearchUserTask.Params, List<User>> {

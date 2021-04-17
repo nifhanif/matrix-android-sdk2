@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.room.membership
+package com.nusaraya.android.sdk.internal.session.room.membership
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.energeek.android.sdk.api.session.room.members.ChangeMembershipState
-import com.energeek.android.sdk.api.session.room.model.Membership
-import com.energeek.android.sdk.internal.session.SessionScope
+import com.nusaraya.android.sdk.api.session.room.members.ChangeMembershipState
+import com.nusaraya.android.sdk.api.session.room.model.Membership
+import com.nusaraya.android.sdk.internal.session.SessionScope
 import javax.inject.Inject
 
 /**

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.integrationmanager
+package com.nusaraya.android.sdk.internal.session.integrationmanager
 
-import com.energeek.android.sdk.api.session.integrationmanager.IntegrationManagerConfig
-import com.energeek.android.sdk.api.session.integrationmanager.IntegrationManagerService
+import com.nusaraya.android.sdk.api.session.integrationmanager.IntegrationManagerConfig
+import com.nusaraya.android.sdk.api.session.integrationmanager.IntegrationManagerService
 import javax.inject.Inject
 
 internal class DefaultIntegrationManagerService @Inject constructor(private val integrationManager: IntegrationManager) : IntegrationManagerService {

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.search
+package com.nusaraya.android.sdk.internal.session.search
 
-import com.energeek.android.sdk.api.session.search.SearchResult
-import com.energeek.android.sdk.api.session.search.SearchService
+import com.nusaraya.android.sdk.api.session.search.SearchResult
+import com.nusaraya.android.sdk.api.session.search.SearchService
 import javax.inject.Inject
 
 internal class DefaultSearchService @Inject constructor(

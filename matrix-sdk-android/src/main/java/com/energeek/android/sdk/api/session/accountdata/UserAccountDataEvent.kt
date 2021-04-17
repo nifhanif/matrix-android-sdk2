@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.accountdata
+package com.nusaraya.android.sdk.api.session.accountdata
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
-import com.energeek.android.sdk.api.session.events.model.Content
+import com.nusaraya.android.sdk.api.session.events.model.Content
 
 /**
  * This is a simplified Event with just a type and a content.

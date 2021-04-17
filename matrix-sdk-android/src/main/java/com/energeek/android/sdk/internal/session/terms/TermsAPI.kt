@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.terms
+package com.nusaraya.android.sdk.internal.session.terms
 
-import com.energeek.android.sdk.internal.network.HttpHeaders
+import com.nusaraya.android.sdk.internal.network.HttpHeaders
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.Header

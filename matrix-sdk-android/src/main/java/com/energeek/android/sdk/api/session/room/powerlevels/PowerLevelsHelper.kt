@@ -15,9 +15,9 @@
  *
  */
 
-package com.energeek.android.sdk.api.session.room.powerlevels
+package com.nusaraya.android.sdk.api.session.room.powerlevels
 
-import com.energeek.android.sdk.api.session.room.model.PowerLevelsContent
+import com.nusaraya.android.sdk.api.session.room.model.PowerLevelsContent
 
 /**
  * This class is an helper around PowerLevelsContent.

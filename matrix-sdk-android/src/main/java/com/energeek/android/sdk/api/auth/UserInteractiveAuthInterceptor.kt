@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.auth
+package com.nusaraya.android.sdk.api.auth
 
-import com.energeek.android.sdk.api.auth.registration.RegistrationFlowResponse
+import com.nusaraya.android.sdk.api.auth.registration.RegistrationFlowResponse
 import kotlin.coroutines.Continuation
 
 /**

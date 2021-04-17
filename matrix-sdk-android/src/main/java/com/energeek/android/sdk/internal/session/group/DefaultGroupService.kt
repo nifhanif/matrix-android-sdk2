@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.group
+package com.nusaraya.android.sdk.internal.session.group
 
 import androidx.lifecycle.LiveData
 import com.zhuinden.monarchy.Monarchy
-import com.energeek.android.sdk.api.session.group.Group
-import com.energeek.android.sdk.api.session.group.GroupService
-import com.energeek.android.sdk.api.session.group.GroupSummaryQueryParams
-import com.energeek.android.sdk.api.session.group.model.GroupSummary
-import com.energeek.android.sdk.internal.database.mapper.asDomain
-import com.energeek.android.sdk.internal.database.model.GroupEntity
-import com.energeek.android.sdk.internal.database.model.GroupSummaryEntity
-import com.energeek.android.sdk.internal.database.model.GroupSummaryEntityFields
-import com.energeek.android.sdk.internal.database.query.where
-import com.energeek.android.sdk.internal.di.SessionDatabase
-import com.energeek.android.sdk.internal.query.process
-import com.energeek.android.sdk.internal.util.fetchCopyMap
+import com.nusaraya.android.sdk.api.session.group.Group
+import com.nusaraya.android.sdk.api.session.group.GroupService
+import com.nusaraya.android.sdk.api.session.group.GroupSummaryQueryParams
+import com.nusaraya.android.sdk.api.session.group.model.GroupSummary
+import com.nusaraya.android.sdk.internal.database.mapper.asDomain
+import com.nusaraya.android.sdk.internal.database.model.GroupEntity
+import com.nusaraya.android.sdk.internal.database.model.GroupSummaryEntity
+import com.nusaraya.android.sdk.internal.database.model.GroupSummaryEntityFields
+import com.nusaraya.android.sdk.internal.database.query.where
+import com.nusaraya.android.sdk.internal.di.SessionDatabase
+import com.nusaraya.android.sdk.internal.query.process
+import com.nusaraya.android.sdk.internal.util.fetchCopyMap
 import io.realm.Realm
 import io.realm.RealmQuery
 import javax.inject.Inject

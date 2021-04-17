@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.crypto.keyshare
+package com.nusaraya.android.sdk.api.session.crypto.keyshare
 
-import com.energeek.android.sdk.internal.crypto.IncomingRoomKeyRequest
-import com.energeek.android.sdk.internal.crypto.IncomingRequestCancellation
-import com.energeek.android.sdk.internal.crypto.IncomingSecretShareRequest
+import com.nusaraya.android.sdk.internal.crypto.IncomingRoomKeyRequest
+import com.nusaraya.android.sdk.internal.crypto.IncomingRequestCancellation
+import com.nusaraya.android.sdk.internal.crypto.IncomingSecretShareRequest
 
 /**
  * Room keys events listener

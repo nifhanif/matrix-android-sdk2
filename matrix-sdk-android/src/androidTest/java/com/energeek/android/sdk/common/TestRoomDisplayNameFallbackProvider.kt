@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.common
+package com.nusaraya.android.sdk.common
 
-import com.energeek.android.sdk.api.RoomDisplayNameFallbackProvider
+import com.nusaraya.android.sdk.api.RoomDisplayNameFallbackProvider
 
 class TestRoomDisplayNameFallbackProvider : RoomDisplayNameFallbackProvider {
 

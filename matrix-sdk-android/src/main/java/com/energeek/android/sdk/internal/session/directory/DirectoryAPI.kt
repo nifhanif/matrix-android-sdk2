@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.directory
+package com.nusaraya.android.sdk.internal.session.directory
 
-import com.energeek.android.sdk.internal.network.NetworkConstants
-import com.energeek.android.sdk.internal.session.room.alias.AddRoomAliasBody
-import com.energeek.android.sdk.internal.session.room.alias.RoomAliasDescription
+import com.nusaraya.android.sdk.internal.network.NetworkConstants
+import com.nusaraya.android.sdk.internal.session.room.alias.AddRoomAliasBody
+import com.nusaraya.android.sdk.internal.session.room.alias.RoomAliasDescription
 import retrofit2.http.Body
 import retrofit2.http.DELETE
 import retrofit2.http.GET

@@ -14,27 +14,27 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.api.session.room
+package com.nusaraya.android.sdk.api.session.room
 
 import androidx.lifecycle.LiveData
-import com.energeek.android.sdk.api.session.room.alias.AliasService
-import com.energeek.android.sdk.api.session.room.call.RoomCallService
-import com.energeek.android.sdk.api.session.room.crypto.RoomCryptoService
-import com.energeek.android.sdk.api.session.room.members.MembershipService
-import com.energeek.android.sdk.api.session.room.model.RoomSummary
-import com.energeek.android.sdk.api.session.room.model.relation.RelationService
-import com.energeek.android.sdk.api.session.room.notification.RoomPushRuleService
-import com.energeek.android.sdk.api.session.room.read.ReadService
-import com.energeek.android.sdk.api.session.room.reporting.ReportingService
-import com.energeek.android.sdk.api.session.room.send.DraftService
-import com.energeek.android.sdk.api.session.room.send.SendService
-import com.energeek.android.sdk.api.session.room.state.StateService
-import com.energeek.android.sdk.api.session.room.tags.TagsService
-import com.energeek.android.sdk.api.session.room.timeline.TimelineService
-import com.energeek.android.sdk.api.session.room.typing.TypingService
-import com.energeek.android.sdk.api.session.room.uploads.UploadsService
-import com.energeek.android.sdk.api.session.search.SearchResult
-import com.energeek.android.sdk.api.util.Optional
+import com.nusaraya.android.sdk.api.session.room.alias.AliasService
+import com.nusaraya.android.sdk.api.session.room.call.RoomCallService
+import com.nusaraya.android.sdk.api.session.room.crypto.RoomCryptoService
+import com.nusaraya.android.sdk.api.session.room.members.MembershipService
+import com.nusaraya.android.sdk.api.session.room.model.RoomSummary
+import com.nusaraya.android.sdk.api.session.room.model.relation.RelationService
+import com.nusaraya.android.sdk.api.session.room.notification.RoomPushRuleService
+import com.nusaraya.android.sdk.api.session.room.read.ReadService
+import com.nusaraya.android.sdk.api.session.room.reporting.ReportingService
+import com.nusaraya.android.sdk.api.session.room.send.DraftService
+import com.nusaraya.android.sdk.api.session.room.send.SendService
+import com.nusaraya.android.sdk.api.session.room.state.StateService
+import com.nusaraya.android.sdk.api.session.room.tags.TagsService
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineService
+import com.nusaraya.android.sdk.api.session.room.typing.TypingService
+import com.nusaraya.android.sdk.api.session.room.uploads.UploadsService
+import com.nusaraya.android.sdk.api.session.search.SearchResult
+import com.nusaraya.android.sdk.api.util.Optional
 
 /**
  * This interface defines methods to interact within a room.

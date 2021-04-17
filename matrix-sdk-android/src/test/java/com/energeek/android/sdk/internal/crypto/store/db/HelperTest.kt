@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.crypto.store.db
+package com.nusaraya.android.sdk.internal.crypto.store.db
 
-import com.energeek.android.sdk.MatrixTest
-import com.energeek.android.sdk.internal.util.md5
+import com.nusaraya.android.sdk.MatrixTest
+import com.nusaraya.android.sdk.internal.util.md5
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

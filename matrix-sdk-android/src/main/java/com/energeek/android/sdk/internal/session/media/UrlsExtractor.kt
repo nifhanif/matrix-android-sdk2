@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.energeek.android.sdk.internal.session.media
+package com.nusaraya.android.sdk.internal.session.media
 
 import android.util.Patterns
-import com.energeek.android.sdk.api.session.events.model.EventType
-import com.energeek.android.sdk.api.session.room.model.message.MessageType
-import com.energeek.android.sdk.api.session.room.timeline.TimelineEvent
-import com.energeek.android.sdk.api.session.room.timeline.getLastMessageContent
-import com.energeek.android.sdk.api.session.room.timeline.isReply
-import com.energeek.android.sdk.api.util.ContentUtils
+import com.nusaraya.android.sdk.api.session.events.model.EventType
+import com.nusaraya.android.sdk.api.session.room.model.message.MessageType
+import com.nusaraya.android.sdk.api.session.room.timeline.TimelineEvent
+import com.nusaraya.android.sdk.api.session.room.timeline.getLastMessageContent
+import com.nusaraya.android.sdk.api.session.room.timeline.isReply
+import com.nusaraya.android.sdk.api.util.ContentUtils
 import javax.inject.Inject
 
 internal class UrlsExtractor @Inject constructor() {
